@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['gg',['GG',['../a00321.html#ad5fa62759b0733d6d20128663afd72f2ab7be4654eba413b154126da530238135',1,'apfel::EvolutionOperatorBasisQCD::GG()'],['../a00325.html#af96109423fe7910c24b1fa6df29e8cdaa35af8ada4696ae66abb6450ebc365129',1,'apfel::MatchEvolOperatorBasisQCD::GG()'],['../a00509.html#a70a9611cc318a4ca953cbf56dae806a5a3dbad6849fbcffb9f8bc8e9727290b69',1,'apfel::MatchingOperatorBasisQCD::GG()']]],
+  ['gluon',['GLUON',['../a00317.html#a0e3bb51b09bf1cfae51916729c1c8169a534d9a14dbdfbf52b606e9d09a9bfec1',1,'apfel::EvolutionBasisQCD::GLUON()'],['../a00325.html#a12e0b1f723c3914f63255149d4ed3399a2d71a98cff0a08292110507cc658f6d6',1,'apfel::MatchEvolOperatorBasisQCD::GLUON()'],['../a00505.html#a662d45066a92fc8f8c6deda77b429831a01390ae55b8aa69fc13de0f31486147b',1,'apfel::MatchingBasisQCD::GLUON()'],['../a00272.html#a44338ff915cc36bc0e9ae1f19cebb7b4abb766fd69f5787e011e1463ffb42b1a3',1,'apfel::GLUON()']]],
+  ['gq',['GQ',['../a00321.html#ad5fa62759b0733d6d20128663afd72f2a3f88c777c21ed8dd9c8531851728be82',1,'apfel::EvolutionOperatorBasisQCD::GQ()'],['../a00325.html#af96109423fe7910c24b1fa6df29e8cdaa9309f4b4c87ec0113f7818d2f8e6fadd',1,'apfel::MatchEvolOperatorBasisQCD::GQ()'],['../a00509.html#a70a9611cc318a4ca953cbf56dae806a5a4b0585fc498eac271b7c3b6e6a221d3b',1,'apfel::MatchingOperatorBasisQCD::GQ()']]],
+  ['green',['green',['../a00272.html#a1836a63557a18c58d2c4869c98007bd3a4a6d7b4e71c4e54ec30cf8dcd980cc7a',1,'apfel']]]
+];

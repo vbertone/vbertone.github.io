@@ -1,0 +1,139 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00329.html" title="The Expression class for the manipulation of the splitting and coeffient functions. " alt="" coords="5,3237,129,3263"/>
+<area shape="rect" id="node2" href="$a00545.html" title="apfel::ANS2qqH_0" alt="" coords="187,5,319,31"/>
+<area shape="rect" id="node3" href="$a00549.html" title="apfel::ANS2qqH_L" alt="" coords="187,55,319,80"/>
+<area shape="rect" id="node4" href="$a00553.html" title="apfel::ANS2qqH_L2" alt="" coords="183,104,322,129"/>
+<area shape="rect" id="node5" href="$a00521.html" title="O(alpha_s^2) matching conditions. " alt="" coords="191,153,315,179"/>
+<area shape="rect" id="node6" href="$a00525.html" title="apfel::APS2Hq_L" alt="" coords="191,203,315,228"/>
+<area shape="rect" id="node7" href="$a00529.html" title="apfel::APS2Hq_L2" alt="" coords="187,252,318,277"/>
+<area shape="rect" id="node8" href="$a00517.html" title="apfel::AS1ggH_L" alt="" coords="192,301,314,327"/>
+<area shape="rect" id="node9" href="$a00513.html" title="O(alpha_s) matching conditions. " alt="" coords="195,351,310,376"/>
+<area shape="rect" id="node10" href="$a00569.html" title="apfel::AS2ggH_0" alt="" coords="192,400,314,425"/>
+<area shape="rect" id="node11" href="$a00573.html" title="apfel::AS2ggH_L" alt="" coords="192,449,314,475"/>
+<area shape="rect" id="node12" href="$a00577.html" title="apfel::AS2ggH_L2" alt="" coords="188,499,318,524"/>
+<area shape="rect" id="node13" href="$a00557.html" title="apfel::AS2gqH_0" alt="" coords="192,548,314,573"/>
+<area shape="rect" id="node14" href="$a00561.html" title="apfel::AS2gqH_L" alt="" coords="192,597,314,623"/>
+<area shape="rect" id="node15" href="$a00565.html" title="apfel::AS2gqH_L2" alt="" coords="188,647,318,672"/>
+<area shape="rect" id="node16" href="$a00533.html" title="apfel::AS2Hg_0" alt="" coords="195,696,310,721"/>
+<area shape="rect" id="node17" href="$a00537.html" title="apfel::AS2Hg_L" alt="" coords="195,745,310,771"/>
+<area shape="rect" id="node18" href="$a00541.html" title="apfel::AS2Hg_L2" alt="" coords="192,795,314,820"/>
+<area shape="rect" id="node19" href="$a00589.html" title="apfel::ATS1ggH_L" alt="" coords="188,844,317,869"/>
+<area shape="rect" id="node20" href="$a00581.html" title="O(alpha_s) matching conditions. " alt="" coords="192,893,314,919"/>
+<area shape="rect" id="node21" href="$a00585.html" title="apfel::ATS1Hg_L" alt="" coords="192,943,314,968"/>
+<area shape="rect" id="node22" href="$a00605.html" title="apfel::C1gg" alt="" coords="208,992,298,1017"/>
+<area shape="rect" id="node23" href="$a00645.html" title="apfel::C1ggff" alt="" coords="204,1041,301,1067"/>
+<area shape="rect" id="node24" href="$a00601.html" title="apfel::C1gq" alt="" coords="208,1091,298,1116"/>
+<area shape="rect" id="node25" href="$a00641.html" title="apfel::C1gqff" alt="" coords="204,1140,301,1165"/>
+<area shape="rect" id="node26" href="$a00593.html" title="The NLO matching function classes for PDFs. " alt="" coords="208,1189,297,1215"/>
+<area shape="rect" id="node27" href="$a00633.html" title="The NLO matching function classes for FFs. " alt="" coords="205,1239,301,1264"/>
+<area shape="rect" id="node28" href="$a00597.html" title="apfel::C1qg" alt="" coords="208,1288,298,1313"/>
+<area shape="rect" id="node29" href="$a00637.html" title="apfel::C1qgff" alt="" coords="204,1337,301,1363"/>
+<area shape="rect" id="node30" href="$a00889.html" title="apfel::C21g" alt="" coords="208,1387,298,1412"/>
+<area shape="rect" id="node31" href="$a00885.html" title="O(as) coefficient function classes for F2. " alt="" coords="205,1436,301,1461"/>
+<area shape="rect" id="node32" href="$a00905.html" title="apfel::C22g" alt="" coords="208,1485,298,1511"/>
+<area shape="rect" id="node33" href="$a00897.html" title="apfel::C22nsm" alt="" coords="199,1535,306,1560"/>
+<area shape="rect" id="node34" href="$a00893.html" title="O(as^2) coefficient function classes for F2 (parametrized) " alt="" coords="201,1584,305,1609"/>
+<area shape="rect" id="node35" href="$a00901.html" title="apfel::C22ps" alt="" coords="205,1633,301,1659"/>
+<area shape="rect" id="node36" href="$a00629.html" title="apfel::C2gg" alt="" coords="208,1683,298,1708"/>
+<area shape="rect" id="node37" href="$a00669.html" title="apfel::C2ggff" alt="" coords="204,1732,301,1757"/>
+<area shape="rect" id="node38" href="$a00625.html" title="apfel::C2gq" alt="" coords="208,1781,298,1807"/>
+<area shape="rect" id="node39" href="$a00665.html" title="apfel::C2gqff" alt="" coords="204,1831,301,1856"/>
+<area shape="rect" id="node40" href="$a00617.html" title="apfel::C2ps" alt="" coords="208,1880,297,1905"/>
+<area shape="rect" id="node41" href="$a00657.html" title="apfel::C2psff" alt="" coords="205,1929,301,1955"/>
+<area shape="rect" id="node42" href="$a00621.html" title="apfel::C2qg" alt="" coords="208,1979,298,2004"/>
+<area shape="rect" id="node43" href="$a00661.html" title="apfel::C2qgff" alt="" coords="204,2028,301,2053"/>
+<area shape="rect" id="node44" href="$a00609.html" title="The NNLO matching function classes. In the implementation of these expressions I used the parameteriz..." alt="" coords="204,2077,302,2103"/>
+<area shape="rect" id="node45" href="$a00613.html" title="apfel::C2Vqqb" alt="" coords="200,2127,306,2152"/>
+<area shape="rect" id="node46" href="$a00653.html" title="apfel::C2Vqqbff" alt="" coords="196,2176,309,2201"/>
+<area shape="rect" id="node47" href="$a00649.html" title="The NNLO matching function classes for FFs. " alt="" coords="200,2225,306,2251"/>
+<area shape="rect" id="node48" href="$a00933.html" title="O(as) coefficient function classes for F3. " alt="" coords="205,2275,301,2300"/>
+<area shape="rect" id="node49" href="$a00941.html" title="apfel::C32nsm" alt="" coords="199,2324,306,2349"/>
+<area shape="rect" id="node50" href="$a00937.html" title="O(as^2) coefficient function classes for F3 (parametrized) " alt="" coords="201,2373,305,2399"/>
+<area shape="rect" id="node51" href="$a00913.html" title="apfel::CL1g" alt="" coords="208,2423,298,2448"/>
+<area shape="rect" id="node52" href="$a00909.html" title="O(as) coefficient function classes for FL. " alt="" coords="205,2472,301,2497"/>
+<area shape="rect" id="node53" href="$a00929.html" title="apfel::CL2g" alt="" coords="208,2521,298,2547"/>
+<area shape="rect" id="node54" href="$a00921.html" title="apfel::CL2nsm" alt="" coords="199,2571,306,2596"/>
+<area shape="rect" id="node55" href="$a00917.html" title="O(as^2) coefficient function classes for FL (parametrized) " alt="" coords="201,2620,305,2645"/>
+<area shape="rect" id="node56" href="$a00925.html" title="apfel::CL2ps" alt="" coords="205,2669,301,2695"/>
+<area shape="rect" id="node57" href="$a00405.html" title="O(as) gluon coefficient function for F2. " alt="" coords="182,2719,324,2744"/>
+<area shape="rect" id="node58" href="$a00409.html" title="apfel::Cm021gNC_l" alt="" coords="184,2768,322,2793"/>
+<area shape="rect" id="node59" href="$a00469.html" title="O(as^2) gluon coefficient function for F2. " alt="" coords="182,2817,324,2843"/>
+<area shape="rect" id="node60" href="$a00481.html" title="apfel::Cm022gNC_f" alt="" coords="184,2867,322,2892"/>
+<area shape="rect" id="node61" href="$a00473.html" title="apfel::Cm022gNC_l" alt="" coords="184,2916,322,2941"/>
+<area shape="rect" id="node62" href="$a00477.html" title="apfel::Cm022gNC_l2" alt="" coords="180,2965,325,2991"/>
+<area shape="rect" id="node63" href="$a00485.html" title="apfel::Cm022gNC_lf" alt="" coords="182,3015,324,3040"/>
+<area shape="rect" id="node64" href="$a00417.html" title="O(as^2) non&#45;singlet coefficient function for F2. " alt="" coords="179,3064,327,3089"/>
+<area shape="rect" id="node65" href="$a00421.html" title="apfel::Cm022nsNC_l" alt="" coords="181,3113,325,3139"/>
+<area shape="rect" id="node66" href="$a00425.html" title="apfel::Cm022nsNC_l2" alt="" coords="177,3163,329,3188"/>
+<area shape="rect" id="node67" href="$a00437.html" title="O(as^2) pure&#45;singlet coefficient function for F2. " alt="" coords="179,3212,327,3237"/>
+<area shape="rect" id="node68" href="$a00449.html" title="apfel::Cm022psNC_f" alt="" coords="180,3261,325,3287"/>
+<area shape="rect" id="node69" href="$a00441.html" title="apfel::Cm022psNC_l" alt="" coords="181,3311,325,3336"/>
+<area shape="rect" id="node70" href="$a00445.html" title="apfel::Cm022psNC_l2" alt="" coords="177,3360,329,3385"/>
+<area shape="rect" id="node71" href="$a00453.html" title="apfel::Cm022psNC_lf" alt="" coords="179,3409,327,3435"/>
+<area shape="rect" id="node72" href="$a00413.html" title="O(as) gluon coefficient function for FL. " alt="" coords="182,3459,324,3484"/>
+<area shape="rect" id="node73" href="$a00489.html" title="O(as^2) gluon coefficient function for FL. " alt="" coords="182,3508,324,3533"/>
+<area shape="rect" id="node74" href="$a00497.html" title="apfel::Cm0L2gNC_f" alt="" coords="184,3557,322,3583"/>
+<area shape="rect" id="node75" href="$a00493.html" title="apfel::Cm0L2gNC_l" alt="" coords="184,3607,322,3632"/>
+<area shape="rect" id="node76" href="$a00429.html" title="O(as^2) non&#45;singlet coefficient function for FL. " alt="" coords="179,3656,327,3681"/>
+<area shape="rect" id="node77" href="$a00433.html" title="apfel::Cm0L2nsNC_l" alt="" coords="181,3705,325,3731"/>
+<area shape="rect" id="node78" href="$a00457.html" title="O(as^2) pure&#45;singlet coefficient function for FL. " alt="" coords="179,3755,327,3780"/>
+<area shape="rect" id="node79" href="$a00465.html" title="apfel::Cm0L2psNC_f" alt="" coords="180,3804,325,3829"/>
+<area shape="rect" id="node80" href="$a00461.html" title="apfel::Cm0L2psNC_l" alt="" coords="181,3853,325,3879"/>
+<area shape="rect" id="node81" href="$a00357.html" title="O(as) gluon coefficient function for F2. See eq. (53) of https://arxiv.org/pdf/1001.2312.pdf. Or it uses the fortran routines in &#39;src/dis/hqcoef.f&#39;. " alt="" coords="193,3903,313,3928"/>
+<area shape="rect" id="node82" href="$a00389.html" title="O(as^2) gluon coefficient function proportional to ln(q2/m2) for F2. Uses the fortran routines in &#39;sr..." alt="" coords="183,3952,322,3977"/>
+<area shape="rect" id="node83" href="$a00397.html" title="O(as^2) pure&#45;singlet coefficient function proportional to ln(q2/m2) for F2. Uses the fortran routines..." alt="" coords="180,4001,326,4027"/>
+<area shape="rect" id="node84" href="$a00373.html" title="O(as^2) gluon coefficient function for F2. Uses the fortran routines in &#39;src/dis/hqcoef.f&#39;. " alt="" coords="193,4051,313,4076"/>
+<area shape="rect" id="node85" href="$a00365.html" title="O(as^2) non&#45;singlet coefficient function for F2. See Appendix A of https://arxiv.org/pdf/hep&#45;ph/96013..." alt="" coords="190,4100,316,4125"/>
+<area shape="rect" id="node86" href="$a00381.html" title="O(as^2) pure&#45;singlet coefficient function for F2. Uses the fortran routines in &#39;src/dis/hqcoef.f&#39;. " alt="" coords="190,4149,316,4175"/>
+<area shape="rect" id="node87" href="$a00361.html" title="O(as) gluon coefficient function for FL. Analytic expression. Or it uses the fortran routines in &#39;src..." alt="" coords="193,4199,313,4224"/>
+<area shape="rect" id="node88" href="$a00393.html" title="O(as^2) gluon coefficient function proportional to ln(q2/m2) for FL. Uses the fortran routines in &#39;sr..." alt="" coords="183,4248,322,4273"/>
+<area shape="rect" id="node89" href="$a00401.html" title="O(as^2) pure&#45;singlet coefficient function proportional to ln(q2/m2) for FL. Uses the fortran routines..." alt="" coords="180,4297,326,4323"/>
+<area shape="rect" id="node90" href="$a00377.html" title="O(as^2) gluon coefficient function for FL. Uses the fortran routines in &#39;src/dis/hqcoef.f&#39;. " alt="" coords="193,4347,313,4372"/>
+<area shape="rect" id="node91" href="$a00369.html" title="O(as^2) non&#45;singlet coefficient function for FL. See Appendix A of https://arxiv.org/pdf/hep&#45;ph/96013..." alt="" coords="190,4396,316,4421"/>
+<area shape="rect" id="node92" href="$a00385.html" title="O(as^2) pure&#45;singlet coefficient function for FL. Uses the fortran routines in &#39;src/dis/hqcoef.f&#39;. " alt="" coords="190,4445,316,4471"/>
+<area shape="rect" id="node93" href="$a00333.html" title="Identity expression (delta function) " alt="" coords="203,4495,303,4520"/>
+<area shape="rect" id="node94" href="$a00337.html" title="Zero expression. " alt="" coords="213,4544,293,4569"/>
+<area shape="rect" id="node95" href="$a00705.html" title="apfel::P0gg" alt="" coords="208,4593,297,4619"/>
+<area shape="rect" id="node96" href="$a00701.html" title="apfel::P0gq" alt="" coords="208,4643,297,4668"/>
+<area shape="rect" id="node97" href="$a00693.html" title="The LO space&#45;like splitting function classes. " alt="" coords="209,4692,297,4717"/>
+<area shape="rect" id="node98" href="$a00697.html" title="apfel::P0qg" alt="" coords="208,4741,297,4767"/>
+<area shape="rect" id="node99" href="$a00797.html" title="apfel::P0Tgg" alt="" coords="204,4791,301,4816"/>
+<area shape="rect" id="node100" href="$a00793.html" title="apfel::P0Tgq" alt="" coords="204,4840,301,4865"/>
+<area shape="rect" id="node101" href="$a00785.html" title="The LO time&#45;like splitting function classes. " alt="" coords="205,4889,301,4915"/>
+<area shape="rect" id="node102" href="$a00789.html" title="apfel::P0Tqg" alt="" coords="204,4939,301,4964"/>
+<area shape="rect" id="node103" href="$a00773.html" title="The LO space&#45;like splitting function for tranversely polarised PDFs. Reference https://arxiv.org/pdf/hep&#45;ph/9706511v2.pdf. " alt="" coords="194,4988,312,5013"/>
+<area shape="rect" id="node104" href="$a00853.html" title="The LO space&#45;like splitting function for tranversely polarised FFs. Reference https://arxiv.org/pdf/hep&#45;ph/0108241v1.pdf. " alt="" coords="190,5037,316,5063"/>
+<area shape="rect" id="node105" href="$a00729.html" title="apfel::P1gg" alt="" coords="208,5087,297,5112"/>
+<area shape="rect" id="node106" href="$a00725.html" title="apfel::P1gq" alt="" coords="208,5136,297,5161"/>
+<area shape="rect" id="node107" href="$a00709.html" title="The NLO space&#45;like splitting function classes. " alt="" coords="205,5185,301,5211"/>
+<area shape="rect" id="node109" href="$a00717.html" title="apfel::P1ps" alt="" coords="209,5235,297,5260"/>
+<area shape="rect" id="node110" href="$a00721.html" title="apfel::P1qg" alt="" coords="208,5284,297,5309"/>
+<area shape="rect" id="node111" href="$a00821.html" title="apfel::P1Tgg" alt="" coords="204,5333,301,5359"/>
+<area shape="rect" id="node112" href="$a00817.html" title="apfel::P1Tgq" alt="" coords="204,5383,301,5408"/>
+<area shape="rect" id="node113" href="$a00801.html" title="The NLO time&#45;like splitting function classes. " alt="" coords="201,5432,305,5457"/>
+<area shape="rect" id="node115" href="$a00809.html" title="apfel::P1Tps" alt="" coords="205,5481,301,5507"/>
+<area shape="rect" id="node116" href="$a00813.html" title="apfel::P1Tqg" alt="" coords="204,5531,301,5556"/>
+<area shape="rect" id="node117" href="$a00777.html" title="The NLO space&#45;like splitting function for tranversely polarised PDFs. Reference https://arxiv.org/pdf/hep&#45;ph/9706511v2.pdf. " alt="" coords="190,5580,315,5605"/>
+<area shape="rect" id="node119" href="$a00857.html" title="The NLO space&#45;like splitting function for tranversely polarised FFs. Reference https://arxiv.org/pdf/hep&#45;ph/0108241v1.pdf. " alt="" coords="186,5629,319,5655"/>
+<area shape="rect" id="node121" href="$a00757.html" title="apfel::P2gg" alt="" coords="208,5679,297,5704"/>
+<area shape="rect" id="node122" href="$a00753.html" title="apfel::P2gq" alt="" coords="208,5728,297,5753"/>
+<area shape="rect" id="node123" href="$a00737.html" title="apfel::P2nsm" alt="" coords="203,5777,302,5803"/>
+<area shape="rect" id="node124" href="$a00733.html" title="The NNLO space&#45;like splitting function classes (parametrized) " alt="" coords="205,5827,301,5852"/>
+<area shape="rect" id="node125" href="$a00741.html" title="apfel::P2nss" alt="" coords="205,5876,300,5901"/>
+<area shape="rect" id="node126" href="$a00745.html" title="apfel::P2ps" alt="" coords="209,5925,297,5951"/>
+<area shape="rect" id="node127" href="$a00749.html" title="apfel::P2qg" alt="" coords="208,5975,297,6000"/>
+<area shape="rect" id="node128" href="$a00849.html" title="apfel::P2Tgg" alt="" coords="204,6024,301,6049"/>
+<area shape="rect" id="node129" href="$a00845.html" title="apfel::P2Tgq" alt="" coords="204,6073,301,6099"/>
+<area shape="rect" id="node130" href="$a00829.html" title="apfel::P2Tnsm" alt="" coords="199,6123,306,6148"/>
+<area shape="rect" id="node131" href="$a00825.html" title="The NNLO time&#45;like splitting function classes (parametrized) " alt="" coords="201,6172,305,6197"/>
+<area shape="rect" id="node132" href="$a00833.html" title="apfel::P2Tnss" alt="" coords="201,6221,304,6247"/>
+<area shape="rect" id="node133" href="$a00837.html" title="apfel::P2Tps" alt="" coords="205,6271,301,6296"/>
+<area shape="rect" id="node134" href="$a00841.html" title="apfel::P2Tqg" alt="" coords="204,6320,301,6345"/>
+<area shape="rect" id="node135" href="$a00765.html" title="apfel::P3nsm" alt="" coords="203,6369,302,6395"/>
+<area shape="rect" id="node136" href="$a00761.html" title="The NNNLO space&#45;like splitting function classes (parametrized and leading color). Only the +..." alt="" coords="205,6419,301,6444"/>
+<area shape="rect" id="node137" href="$a00769.html" title="apfel::P3nss" alt="" coords="205,6468,300,6493"/>
+<area shape="rect" id="node108" href="$a00713.html" title="apfel::P1nsm" alt="" coords="396,5185,495,5211"/>
+<area shape="rect" id="node114" href="$a00805.html" title="apfel::P1Tnsm" alt="" coords="392,5432,499,5457"/>
+<area shape="rect" id="node118" href="$a00781.html" title="apfel::P1transnsm" alt="" coords="381,5580,510,5605"/>
+<area shape="rect" id="node120" href="$a00861.html" title="apfel::P1Ttransnsm" alt="" coords="377,5629,514,5655"/>
+</map>
