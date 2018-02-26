@@ -9,18 +9,11 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="apfelxx.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +26,7 @@
    <div id="projectname">APFEL
    &#160;<span id="projectnumber">4.0.0</span>
    </div>
-   <div id="projectbrief">A PDF evolution library</div>
+   <div id="projectbrief">A PDF evolution library in C++</div>
   </td>
  </tr>
  </tbody>
@@ -57,22 +50,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions_func_l.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -92,74 +69,71 @@ $(document).ready(function(){initNavTree('functions_func_l.html','');});
 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>LagrangeInterpolator()
-: <a class="el" href="a00353.html#a0f6acd41b96aed38522aa8a8cdcd0a3b">apfel::LagrangeInterpolator</a>
+: <a class="el" href="classapfel_1_1LagrangeInterpolator.html#a0f6acd41b96aed38522aa8a8cdcd0a3b">apfel::LagrangeInterpolator</a>
 </li>
 <li>Local()
-: <a class="el" href="a00545.html#aa9f5805ca3f785d26736155b793c1d89">apfel::ANS2qqH_0</a>
-, <a class="el" href="a00553.html#acf180ee6797bc4469aff234868450fba">apfel::ANS2qqH_L2</a>
-, <a class="el" href="a00549.html#a56c1ac93ebac885dbcd2272c2d41e9bd">apfel::ANS2qqH_L</a>
-, <a class="el" href="a00517.html#a9b2bd41046353ff7d78945a191359f6c">apfel::AS1ggH_L</a>
-, <a class="el" href="a00569.html#a3c39f6cdea8f49bf6b9c3099bed393f2">apfel::AS2ggH_0</a>
-, <a class="el" href="a00577.html#a2ed4b272372e93ecf0b06450316092fc">apfel::AS2ggH_L2</a>
-, <a class="el" href="a00573.html#a663cc2cb55530cf3ef2c7d3daf98c6bf">apfel::AS2ggH_L</a>
-, <a class="el" href="a00589.html#a4c1542417f129598b0ec024f21655094">apfel::ATS1ggH_L</a>
-, <a class="el" href="a00605.html#a32ded7260520cd70160520674f19f597">apfel::C1gg</a>
-, <a class="el" href="a00645.html#a77cf846778248916fd26a24f278aeaab">apfel::C1ggff</a>
-, <a class="el" href="a00593.html#a0af815a59cc1fd20cb71654f60939c56">apfel::C1ns</a>
-, <a class="el" href="a00633.html#afadc61bdda92006f73981b69488de75a">apfel::C1nsff</a>
-, <a class="el" href="a00885.html#a88379495d3f8358606b8f56c902895d4">apfel::C21ns</a>
-, <a class="el" href="a00905.html#aec4e8d9bcddd7cd1fbf1bca1cc13c9ec">apfel::C22g</a>
-, <a class="el" href="a00897.html#a3f89f83ae6b1f21cec78a73592d3268b">apfel::C22nsm</a>
-, <a class="el" href="a00893.html#a69e27d8c0f0432a22a8d9a906383b2ba">apfel::C22nsp</a>
-, <a class="el" href="a00629.html#a96499f543848d24cfc5c87257e56f618">apfel::C2gg</a>
-, <a class="el" href="a00669.html#a497e90a2b1e971343d969a5c521dbcc8">apfel::C2ggff</a>
-, <a class="el" href="a00609.html#a461f240f9179bd8fbea29a303213e21d">apfel::C2Vqq</a>
-, <a class="el" href="a00649.html#a6e864022b18296b7af96942ebfa521d3">apfel::C2Vqqff</a>
-, <a class="el" href="a00933.html#adad13807f240056497a5ffcd1ffc46d1">apfel::C31ns</a>
-, <a class="el" href="a00941.html#a61566bbfa41a66d9cca444b3c26cae30">apfel::C32nsm</a>
-, <a class="el" href="a00937.html#a57254d9cedd428c85d901593a25ad2d4">apfel::C32nsp</a>
-, <a class="el" href="a00921.html#a569987b83153eaa9489886499201099d">apfel::CL2nsm</a>
-, <a class="el" href="a00917.html#a28a3ee333736f0f7e61b2515c0cdbbb5">apfel::CL2nsp</a>
-, <a class="el" href="a00417.html#a8f4092f32b4bb0d8b0c4d88d5ca75ebc">apfel::Cm022nsNC_c</a>
-, <a class="el" href="a00425.html#a1f949a236d94d890d0d4667c3591a0b9">apfel::Cm022nsNC_l2</a>
-, <a class="el" href="a00421.html#a5b33dab89179a4f2b9657fb35ade43e6">apfel::Cm022nsNC_l</a>
-, <a class="el" href="a00365.html#ae15c4720cb387be88b4c570ef49a05ef">apfel::Cm22nsNC</a>
-, <a class="el" href="a00329.html#a235668b9dd1d209ce756f1c250e7da3b">apfel::Expression</a>
-, <a class="el" href="a00333.html#a6e64cb15c44d275de47381ffb9d91064">apfel::Identity</a>
-, <a class="el" href="a00705.html#ab8c371efdfab9da5964e63ec25242400">apfel::P0gg</a>
-, <a class="el" href="a00693.html#a5324746e2b9c751cb08212a215520adc">apfel::P0ns</a>
-, <a class="el" href="a00797.html#a0c5c45c9e8a93a3e9e2488568c4458dc">apfel::P0Tgg</a>
-, <a class="el" href="a00785.html#abe0d213234bacf98df9f500794ad87d1">apfel::P0Tns</a>
-, <a class="el" href="a00773.html#a6301fb45a7844ad8354cb855d1f23d5e">apfel::P0transns</a>
-, <a class="el" href="a00853.html#ae3c2ed45a2b379d8e735b2f6ac085699">apfel::P0Ttransns</a>
-, <a class="el" href="a00729.html#a716efe07f7c4ce29491cf01068932696">apfel::P1gg</a>
-, <a class="el" href="a00709.html#ad37f02f2e9389d4bb87a2e905ec17979">apfel::P1nsp</a>
-, <a class="el" href="a00821.html#af6871d92589d6b8c7800b229ed31856f">apfel::P1Tgg</a>
-, <a class="el" href="a00801.html#a0d80849b02ca5248aaefa3904f075a77">apfel::P1Tnsp</a>
-, <a class="el" href="a00777.html#ac8b486794b444943fea3ed45c1dabd98">apfel::P1transnsp</a>
-, <a class="el" href="a00857.html#ab96d6048b470a005ed3bc903b32f7a2d">apfel::P1Ttransnsp</a>
-, <a class="el" href="a00757.html#a4afca1c278f92fe20683322a7f1bff80">apfel::P2gg</a>
-, <a class="el" href="a00737.html#acbfce8912ebc59471ddfbbb3c16ea629">apfel::P2nsm</a>
-, <a class="el" href="a00733.html#af5659f7111b488353b4db1b710bc6f79">apfel::P2nsp</a>
-, <a class="el" href="a00849.html#ad5f41cc68e129578799ce6ac0297771c">apfel::P2Tgg</a>
-, <a class="el" href="a00829.html#a592fcbd570777bb7acb58e7aead11d84">apfel::P2Tnsm</a>
-, <a class="el" href="a00825.html#a63c7584a7bacd84b59d8dd2f0f871325">apfel::P2Tnsp</a>
-, <a class="el" href="a00765.html#aaf9d46c0ebe41317cdf6c16cea3a0176">apfel::P3nsm</a>
-, <a class="el" href="a00761.html#ac85081e58c8cf0e514b385f40eac6a0a">apfel::P3nsp</a>
+: <a class="el" href="classapfel_1_1ANS2qqH__0.html#aa9f5805ca3f785d26736155b793c1d89">apfel::ANS2qqH_0</a>
+, <a class="el" href="classapfel_1_1ANS2qqH__L2.html#acf180ee6797bc4469aff234868450fba">apfel::ANS2qqH_L2</a>
+, <a class="el" href="classapfel_1_1ANS2qqH__L.html#a56c1ac93ebac885dbcd2272c2d41e9bd">apfel::ANS2qqH_L</a>
+, <a class="el" href="classapfel_1_1AS1ggH__L.html#a9b2bd41046353ff7d78945a191359f6c">apfel::AS1ggH_L</a>
+, <a class="el" href="classapfel_1_1AS2ggH__0.html#a3c39f6cdea8f49bf6b9c3099bed393f2">apfel::AS2ggH_0</a>
+, <a class="el" href="classapfel_1_1AS2ggH__L2.html#a2ed4b272372e93ecf0b06450316092fc">apfel::AS2ggH_L2</a>
+, <a class="el" href="classapfel_1_1AS2ggH__L.html#a663cc2cb55530cf3ef2c7d3daf98c6bf">apfel::AS2ggH_L</a>
+, <a class="el" href="classapfel_1_1ATS1ggH__L.html#a4c1542417f129598b0ec024f21655094">apfel::ATS1ggH_L</a>
+, <a class="el" href="classapfel_1_1C1gg.html#a32ded7260520cd70160520674f19f597">apfel::C1gg</a>
+, <a class="el" href="classapfel_1_1C1ggff.html#a77cf846778248916fd26a24f278aeaab">apfel::C1ggff</a>
+, <a class="el" href="classapfel_1_1C1ns.html#a0af815a59cc1fd20cb71654f60939c56">apfel::C1ns</a>
+, <a class="el" href="classapfel_1_1C1nsff.html#afadc61bdda92006f73981b69488de75a">apfel::C1nsff</a>
+, <a class="el" href="classapfel_1_1C21ns.html#a88379495d3f8358606b8f56c902895d4">apfel::C21ns</a>
+, <a class="el" href="classapfel_1_1C22g.html#aec4e8d9bcddd7cd1fbf1bca1cc13c9ec">apfel::C22g</a>
+, <a class="el" href="classapfel_1_1C22nsm.html#a3f89f83ae6b1f21cec78a73592d3268b">apfel::C22nsm</a>
+, <a class="el" href="classapfel_1_1C22nsp.html#a69e27d8c0f0432a22a8d9a906383b2ba">apfel::C22nsp</a>
+, <a class="el" href="classapfel_1_1C2gg.html#a96499f543848d24cfc5c87257e56f618">apfel::C2gg</a>
+, <a class="el" href="classapfel_1_1C2ggff.html#a497e90a2b1e971343d969a5c521dbcc8">apfel::C2ggff</a>
+, <a class="el" href="classapfel_1_1C2Vqq.html#a461f240f9179bd8fbea29a303213e21d">apfel::C2Vqq</a>
+, <a class="el" href="classapfel_1_1C2Vqqff.html#a6e864022b18296b7af96942ebfa521d3">apfel::C2Vqqff</a>
+, <a class="el" href="classapfel_1_1C31ns.html#adad13807f240056497a5ffcd1ffc46d1">apfel::C31ns</a>
+, <a class="el" href="classapfel_1_1C32nsm.html#a61566bbfa41a66d9cca444b3c26cae30">apfel::C32nsm</a>
+, <a class="el" href="classapfel_1_1C32nsp.html#a57254d9cedd428c85d901593a25ad2d4">apfel::C32nsp</a>
+, <a class="el" href="classapfel_1_1CL2nsm.html#a569987b83153eaa9489886499201099d">apfel::CL2nsm</a>
+, <a class="el" href="classapfel_1_1CL2nsp.html#a28a3ee333736f0f7e61b2515c0cdbbb5">apfel::CL2nsp</a>
+, <a class="el" href="classapfel_1_1Cm022nsNC__c.html#a8f4092f32b4bb0d8b0c4d88d5ca75ebc">apfel::Cm022nsNC_c</a>
+, <a class="el" href="classapfel_1_1Cm022nsNC__l2.html#a1f949a236d94d890d0d4667c3591a0b9">apfel::Cm022nsNC_l2</a>
+, <a class="el" href="classapfel_1_1Cm022nsNC__l.html#a5b33dab89179a4f2b9657fb35ade43e6">apfel::Cm022nsNC_l</a>
+, <a class="el" href="classapfel_1_1Cm22nsNC.html#ae15c4720cb387be88b4c570ef49a05ef">apfel::Cm22nsNC</a>
+, <a class="el" href="classapfel_1_1Expression.html#a235668b9dd1d209ce756f1c250e7da3b">apfel::Expression</a>
+, <a class="el" href="classapfel_1_1Identity.html#a6e64cb15c44d275de47381ffb9d91064">apfel::Identity</a>
+, <a class="el" href="classapfel_1_1P0gg.html#ab8c371efdfab9da5964e63ec25242400">apfel::P0gg</a>
+, <a class="el" href="classapfel_1_1P0ns.html#a5324746e2b9c751cb08212a215520adc">apfel::P0ns</a>
+, <a class="el" href="classapfel_1_1P0Tgg.html#a0c5c45c9e8a93a3e9e2488568c4458dc">apfel::P0Tgg</a>
+, <a class="el" href="classapfel_1_1P0Tns.html#abe0d213234bacf98df9f500794ad87d1">apfel::P0Tns</a>
+, <a class="el" href="classapfel_1_1P0transns.html#a6301fb45a7844ad8354cb855d1f23d5e">apfel::P0transns</a>
+, <a class="el" href="classapfel_1_1P0Ttransns.html#ae3c2ed45a2b379d8e735b2f6ac085699">apfel::P0Ttransns</a>
+, <a class="el" href="classapfel_1_1P1gg.html#a716efe07f7c4ce29491cf01068932696">apfel::P1gg</a>
+, <a class="el" href="classapfel_1_1P1nsp.html#ad37f02f2e9389d4bb87a2e905ec17979">apfel::P1nsp</a>
+, <a class="el" href="classapfel_1_1P1Tgg.html#af6871d92589d6b8c7800b229ed31856f">apfel::P1Tgg</a>
+, <a class="el" href="classapfel_1_1P1Tnsp.html#a0d80849b02ca5248aaefa3904f075a77">apfel::P1Tnsp</a>
+, <a class="el" href="classapfel_1_1P1transnsp.html#ac8b486794b444943fea3ed45c1dabd98">apfel::P1transnsp</a>
+, <a class="el" href="classapfel_1_1P1Ttransnsp.html#ab96d6048b470a005ed3bc903b32f7a2d">apfel::P1Ttransnsp</a>
+, <a class="el" href="classapfel_1_1P2gg.html#a4afca1c278f92fe20683322a7f1bff80">apfel::P2gg</a>
+, <a class="el" href="classapfel_1_1P2nsm.html#acbfce8912ebc59471ddfbbb3c16ea629">apfel::P2nsm</a>
+, <a class="el" href="classapfel_1_1P2nsp.html#af5659f7111b488353b4db1b710bc6f79">apfel::P2nsp</a>
+, <a class="el" href="classapfel_1_1P2Tgg.html#ad5f41cc68e129578799ce6ac0297771c">apfel::P2Tgg</a>
+, <a class="el" href="classapfel_1_1P2Tnsm.html#a592fcbd570777bb7acb58e7aead11d84">apfel::P2Tnsm</a>
+, <a class="el" href="classapfel_1_1P2Tnsp.html#a63c7584a7bacd84b59d8dd2f0f871325">apfel::P2Tnsp</a>
+, <a class="el" href="classapfel_1_1P3nsm.html#aaf9d46c0ebe41317cdf6c16cea3a0176">apfel::P3nsm</a>
+, <a class="el" href="classapfel_1_1P3nsp.html#ac85081e58c8cf0e514b385f40eac6a0a">apfel::P3nsp</a>
 </li>
 <li>Locked()
-: <a class="el" href="a00341.html#a3c744e5cb1a6c5a5aa545ecf14142d21">apfel::Grid</a>
+: <a class="el" href="classapfel_1_1Grid.html#a3c744e5cb1a6c5a5aa545ecf14142d21">apfel::Grid</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Feb 26 2018 17:58:12 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

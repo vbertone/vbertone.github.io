@@ -9,18 +9,11 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="apfelxx.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +26,7 @@
    <div id="projectname">APFEL
    &#160;<span id="projectnumber">4.0.0</span>
    </div>
-   <div id="projectbrief">A PDF evolution library</div>
+   <div id="projectbrief">A PDF evolution library in C++</div>
   </td>
  </tr>
  </tbody>
@@ -57,22 +50,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions_func_g.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -92,75 +69,72 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>GetDistributionJointGrid()
-: <a class="el" href="a00349.html#a47d2b60b8aac3ec4922efa3651dfaf82">apfel::Interpolator</a>
+: <a class="el" href="classapfel_1_1Interpolator.html#a47d2b60b8aac3ec4922efa3651dfaf82">apfel::Interpolator</a>
 </li>
 <li>GetDistributionSubGrid()
-: <a class="el" href="a00349.html#aadf8d0279141eaa4d074b763a71e2d5f">apfel::Interpolator</a>
+: <a class="el" href="classapfel_1_1Interpolator.html#aadf8d0279141eaa4d074b763a71e2d5f">apfel::Interpolator</a>
 </li>
 <li>GetFQGrid()
-: <a class="el" href="a00685.html#a856375bff6f35fe95bdf4ad525a31b09">apfel::QGrid&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1QGrid.html#a856375bff6f35fe95bdf4ad525a31b09">apfel::QGrid&lt; T &gt;</a>
 </li>
 <li>GetGrid()
-: <a class="el" href="a00349.html#a9a2ca32b709976d46aadcff895ec1be8">apfel::Interpolator</a>
-, <a class="el" href="a00681.html#adaff7602598e18c5af64be8111fb6151">apfel::Operator</a>
-, <a class="el" href="a00869.html#a78fa1f7f7f26a24ddc72f3854b501253">apfel::SubGrid</a>
+: <a class="el" href="classapfel_1_1Interpolator.html#a9a2ca32b709976d46aadcff895ec1be8">apfel::Interpolator</a>
+, <a class="el" href="classapfel_1_1Operator.html#adaff7602598e18c5af64be8111fb6151">apfel::Operator</a>
+, <a class="el" href="classapfel_1_1SubGrid.html#a78fa1f7f7f26a24ddc72f3854b501253">apfel::SubGrid</a>
 </li>
 <li>GetJointGrid()
-: <a class="el" href="a00341.html#abecc758efa56ba7d5cc4fa1fce2c57c8">apfel::Grid</a>
+: <a class="el" href="classapfel_1_1Grid.html#abecc758efa56ba7d5cc4fa1fce2c57c8">apfel::Grid</a>
 </li>
 <li>GetLogGrid()
-: <a class="el" href="a00869.html#af3232f1e4a46bb2658c675ecbd37c20b">apfel::SubGrid</a>
+: <a class="el" href="classapfel_1_1SubGrid.html#af3232f1e4a46bb2658c675ecbd37c20b">apfel::SubGrid</a>
 </li>
 <li>GetMap()
-: <a class="el" href="a00689.html#afc73d4b081d55684b256e840b73d151d">apfel::Set&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1Set.html#afc73d4b081d55684b256e840b73d151d">apfel::Set&lt; T &gt;</a>
 </li>
 <li>GetMuRef()
-: <a class="el" href="a00501.html#a05aed8bfe87a049b51b0d2f02a9ac482">apfel::MatchedEvolution&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1MatchedEvolution.html#a05aed8bfe87a049b51b0d2f02a9ac482">apfel::MatchedEvolution&lt; T &gt;</a>
 </li>
 <li>GetName()
-: <a class="el" href="a00281.html#ae98374d82622629337c558e64b9bd6b3">apfel::ConvolutionMap</a>
+: <a class="el" href="classapfel_1_1ConvolutionMap.html#ae98374d82622629337c558e64b9bd6b3">apfel::ConvolutionMap</a>
 </li>
 <li>GetNumberOfSteps()
-: <a class="el" href="a00501.html#a6cf1be7e6236ca4bf745e1ef27a2502e">apfel::MatchedEvolution&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1MatchedEvolution.html#a6cf1be7e6236ca4bf745e1ef27a2502e">apfel::MatchedEvolution&lt; T &gt;</a>
 </li>
 <li>GetObjectRef()
-: <a class="el" href="a00501.html#aaa465cee35cec44fb98e0dcc56b9ba3c">apfel::MatchedEvolution&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1MatchedEvolution.html#aaa465cee35cec44fb98e0dcc56b9ba3c">apfel::MatchedEvolution&lt; T &gt;</a>
 </li>
 <li>GetObjects()
-: <a class="el" href="a00689.html#ac994a46dc615f84038d23ea410827cc0">apfel::Set&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1Set.html#ac994a46dc615f84038d23ea410827cc0">apfel::Set&lt; T &gt;</a>
 </li>
 <li>GetQGrid()
-: <a class="el" href="a00685.html#a4aa43dde0f69fb296e50454245448259">apfel::QGrid&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1QGrid.html#a4aa43dde0f69fb296e50454245448259">apfel::QGrid&lt; T &gt;</a>
 </li>
 <li>GetQGridValues()
-: <a class="el" href="a00685.html#a43b4fbec62551fdf1fffb35cb09b39e9">apfel::QGrid&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1QGrid.html#a43b4fbec62551fdf1fffb35cb09b39e9">apfel::QGrid&lt; T &gt;</a>
 </li>
 <li>GetRules()
-: <a class="el" href="a00281.html#a2963cbf41b786ff4fff2015d492ddab6">apfel::ConvolutionMap</a>
+: <a class="el" href="classapfel_1_1ConvolutionMap.html#a2963cbf41b786ff4fff2015d492ddab6">apfel::ConvolutionMap</a>
 </li>
 <li>GetSubGrid()
-: <a class="el" href="a00341.html#a5d2c4011b5ba8c1e752229b558793fee">apfel::Grid</a>
+: <a class="el" href="classapfel_1_1Grid.html#a5d2c4011b5ba8c1e752229b558793fee">apfel::Grid</a>
 </li>
 <li>GetTerms()
-: <a class="el" href="a00313.html#a448a154c28988b919eaa45ea1c22ee7c">apfel::DoubleObject&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1DoubleObject.html#a448a154c28988b919eaa45ea1c22ee7c">apfel::DoubleObject&lt; T &gt;</a>
 </li>
 <li>GetThresholds()
-: <a class="el" href="a00501.html#a60783c5c6ed127f6b65e8a99bfb431b6">apfel::MatchedEvolution&lt; T &gt;</a>
-, <a class="el" href="a00685.html#a243b4ae302465fdac1983e28f3278af9">apfel::QGrid&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1MatchedEvolution.html#a60783c5c6ed127f6b65e8a99bfb431b6">apfel::MatchedEvolution&lt; T &gt;</a>
+, <a class="el" href="classapfel_1_1QGrid.html#a243b4ae302465fdac1983e28f3278af9">apfel::QGrid&lt; T &gt;</a>
 </li>
 <li>Grid()
-: <a class="el" href="a00341.html#a31f9df16f2acb55991c2f48a7d2fbe77">apfel::Grid</a>
+: <a class="el" href="classapfel_1_1Grid.html#a31f9df16f2acb55991c2f48a7d2fbe77">apfel::Grid</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Feb 26 2018 17:58:12 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

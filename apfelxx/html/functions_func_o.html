@@ -9,18 +9,11 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="apfelxx.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +26,7 @@
    <div id="projectname">APFEL
    &#160;<span id="projectnumber">4.0.0</span>
    </div>
-   <div id="projectbrief">A PDF evolution library</div>
+   <div id="projectbrief">A PDF evolution library in C++</div>
   </td>
  </tr>
  </tbody>
@@ -57,22 +50,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions_func_o.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -92,62 +69,59 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>Observable()
-: <a class="el" href="a00677.html#a806706c15c3ade4e2dcbc39876054829">apfel::Observable</a>
+: <a class="el" href="classapfel_1_1Observable.html#a806706c15c3ade4e2dcbc39876054829">apfel::Observable</a>
 </li>
 <li>Operator()
-: <a class="el" href="a00681.html#a223552f6b71244a4d0cb82595e9bd865">apfel::Operator</a>
+: <a class="el" href="classapfel_1_1Operator.html#a223552f6b71244a4d0cb82595e9bd865">apfel::Operator</a>
 </li>
 <li>operator!=()
-: <a class="el" href="a00341.html#a6b7746f3e57aa280d49279660eacee77">apfel::Grid</a>
-, <a class="el" href="a00685.html#a785ad2d1e9680eaefc6f225c788e25b2">apfel::QGrid&lt; T &gt;</a>
-, <a class="el" href="a00869.html#afb724de1eda74f4c92a748782e75343a">apfel::SubGrid</a>
+: <a class="el" href="classapfel_1_1Grid.html#a6b7746f3e57aa280d49279660eacee77">apfel::Grid</a>
+, <a class="el" href="classapfel_1_1QGrid.html#a785ad2d1e9680eaefc6f225c788e25b2">apfel::QGrid&lt; T &gt;</a>
+, <a class="el" href="classapfel_1_1SubGrid.html#afb724de1eda74f4c92a748782e75343a">apfel::SubGrid</a>
 </li>
 <li>operator()()
-: <a class="el" href="a00673.html#a22df71a8d28f953db35ac01b895a085d">apfel::matrix&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1matrix.html#a22df71a8d28f953db35ac01b895a085d">apfel::matrix&lt; T &gt;</a>
 </li>
 <li>operator*=()
-: <a class="el" href="a00305.html#a1e1f011442a368a53fa8fd70cb0eea50">apfel::Distribution</a>
-, <a class="el" href="a00313.html#af9d61f7900c3628fd20295a209b1404f">apfel::DoubleObject&lt; T &gt;</a>
-, <a class="el" href="a00681.html#ac1cb0fe68195da6906fda8962c7b6b30">apfel::Operator</a>
-, <a class="el" href="a00689.html#ad26edb723af39cc6a3d7e18014019454">apfel::Set&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1Distribution.html#a32966406545ec7468a61919de32e6618">apfel::Distribution</a>
+, <a class="el" href="classapfel_1_1DoubleObject.html#a0e0989164041226f4e907a393b104c0b">apfel::DoubleObject&lt; T &gt;</a>
+, <a class="el" href="classapfel_1_1Operator.html#ac1cb0fe68195da6906fda8962c7b6b30">apfel::Operator</a>
+, <a class="el" href="classapfel_1_1Set.html#ab4452073f3888bdfc7a30675418118e2">apfel::Set&lt; T &gt;</a>
 </li>
 <li>operator+=()
-: <a class="el" href="a00305.html#a2706446c09f95ca09b096190c1182d0c">apfel::Distribution</a>
-, <a class="el" href="a00313.html#a056fa1eb09ce15af61795f4a9e3e2230">apfel::DoubleObject&lt; T &gt;</a>
-, <a class="el" href="a00681.html#a1fa7df6d22db3e0df845763ece3a0791">apfel::Operator</a>
-, <a class="el" href="a00689.html#a2730de56b3fbdeab4dc84dc3789a30d2">apfel::Set&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1Distribution.html#a13119190ad7f2fcca1d7f1f3e3517421">apfel::Distribution</a>
+, <a class="el" href="classapfel_1_1DoubleObject.html#a1756df3599f787c3b21c83b46a1efa62">apfel::DoubleObject&lt; T &gt;</a>
+, <a class="el" href="classapfel_1_1Operator.html#ac4c1a7c55a744ee999a9b3ece470f586">apfel::Operator</a>
+, <a class="el" href="classapfel_1_1Set.html#aee784b4f58bfc1815ce2f26f1879654d">apfel::Set&lt; T &gt;</a>
 </li>
 <li>operator-=()
-: <a class="el" href="a00305.html#abb0d09bc6765f08bdf997124bf197662">apfel::Distribution</a>
-, <a class="el" href="a00681.html#a4fcf28e958de9cdbd81ac72526c95646">apfel::Operator</a>
-, <a class="el" href="a00689.html#a112f1adc18cdb7ab373d28e8fd359e33">apfel::Set&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1Distribution.html#a91eff7090551a78e47bbaf69a4277540">apfel::Distribution</a>
+, <a class="el" href="classapfel_1_1Operator.html#a78a08b999e345ec9904591b45d32b793">apfel::Operator</a>
+, <a class="el" href="classapfel_1_1Set.html#af6ff99865195bca63bbee4ef08b7be74">apfel::Set&lt; T &gt;</a>
 </li>
 <li>operator/=()
-: <a class="el" href="a00305.html#acf0e62e2562df47ae29eea636c301490">apfel::Distribution</a>
-, <a class="el" href="a00313.html#aac631a61934e5828c28cdfbc9d673cc3">apfel::DoubleObject&lt; T &gt;</a>
-, <a class="el" href="a00681.html#a8af6c2c8c0a043c7df36b4aad3cd655a">apfel::Operator</a>
-, <a class="el" href="a00689.html#ab59dee6ac3f204eadad056b32bde3005">apfel::Set&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1Distribution.html#a9c8f28c2f1e380d5b644e42fc2f92d8b">apfel::Distribution</a>
+, <a class="el" href="classapfel_1_1DoubleObject.html#aa5bbc90303a12b657d1d5a054562c7ea">apfel::DoubleObject&lt; T &gt;</a>
+, <a class="el" href="classapfel_1_1Operator.html#a1172c12a1f531590b87c9cf3cb13c1ef">apfel::Operator</a>
+, <a class="el" href="classapfel_1_1Set.html#a7309377f46892a67744d42c8c971287c">apfel::Set&lt; T &gt;</a>
 </li>
 <li>operator=()
-: <a class="el" href="a00305.html#a88283bb797f9e28684116d8d44f11ba4">apfel::Distribution</a>
-, <a class="el" href="a00681.html#a249a7b6ca0c526de9b8d5f070485d391">apfel::Operator</a>
+: <a class="el" href="classapfel_1_1Distribution.html#afc3f3a79d7a62b78f771f2da1c40d895">apfel::Distribution</a>
+, <a class="el" href="classapfel_1_1Operator.html#a742e56ade4ec8477ea8612e2e06ad733">apfel::Operator</a>
 </li>
 <li>operator==()
-: <a class="el" href="a00285.html#a40629e23258f2a83fdf569a275708895">apfel::ConvolutionMap::rule</a>
-, <a class="el" href="a00341.html#ad46611474e00985adaf48899ae4089f2">apfel::Grid</a>
-, <a class="el" href="a00685.html#a3c1e36b8b96e4019777b2e07d7b07edc">apfel::QGrid&lt; T &gt;</a>
-, <a class="el" href="a00869.html#a64eeaa0d9731a1ea70b9dafb07cc83bf">apfel::SubGrid</a>
+: <a class="el" href="structapfel_1_1ConvolutionMap_1_1rule.html#a40629e23258f2a83fdf569a275708895">apfel::ConvolutionMap::rule</a>
+, <a class="el" href="classapfel_1_1Grid.html#ad46611474e00985adaf48899ae4089f2">apfel::Grid</a>
+, <a class="el" href="classapfel_1_1QGrid.html#a3c1e36b8b96e4019777b2e07d7b07edc">apfel::QGrid&lt; T &gt;</a>
+, <a class="el" href="classapfel_1_1SubGrid.html#a64eeaa0d9731a1ea70b9dafb07cc83bf">apfel::SubGrid</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Feb 26 2018 17:58:12 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

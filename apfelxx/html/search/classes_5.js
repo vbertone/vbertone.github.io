@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['identity',['Identity',['../a00333.html',1,'apfel']]],
-  ['integrator',['Integrator',['../a00345.html',1,'apfel']]],
-  ['interpolator',['Interpolator',['../a00349.html',1,'apfel']]]
+  ['identity',['Identity',['../classapfel_1_1Identity.html',1,'apfel']]],
+  ['integrator',['Integrator',['../classapfel_1_1Integrator.html',1,'apfel']]],
+  ['interpolator',['Interpolator',['../classapfel_1_1Interpolator.html',1,'apfel']]]
 ];

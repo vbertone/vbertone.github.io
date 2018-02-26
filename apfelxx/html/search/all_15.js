@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['warning',['warning',['../a00272.html#a060eb29aed36d236c7a7c5577842c1a0',1,'apfel']]],
-  ['wgplg',['wgplg',['../a00272.html#a20f7125dcb34f00fa7c02f25e7876a7f',1,'apfel']]]
+  ['warning',['warning',['../namespaceapfel.html#abebac49dbcd7d14693d8e69ceee97146',1,'apfel']]],
+  ['wgplg',['wgplg',['../namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc',1,'apfel']]]
 ];

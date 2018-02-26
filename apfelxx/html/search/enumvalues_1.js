@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['cg',['CG',['../a00272.html#a3200739a9aeaca2846d38032e3a4cbd0a9899bc42bb011125d4a04b0d81addfe5',1,'apfel']]],
-  ['cns',['CNS',['../a00272.html#a3200739a9aeaca2846d38032e3a4cbd0a05ab3e05551abe2cae80fa284d1c2d68',1,'apfel']]],
-  ['cs',['CS',['../a00272.html#a3200739a9aeaca2846d38032e3a4cbd0a217ad01507bdf23b68e205761697cd7d',1,'apfel']]]
+  ['gg',['GG',['../classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2ab7be4654eba413b154126da530238135',1,'apfel::EvolutionOperatorBasisQCD::GG()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa35af8ada4696ae66abb6450ebc365129',1,'apfel::MatchEvolOperatorBasisQCD::GG()'],['../classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a3dbad6849fbcffb9f8bc8e9727290b69',1,'apfel::MatchingOperatorBasisQCD::GG()']]],
+  ['gluon',['GLUON',['../classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169a534d9a14dbdfbf52b606e9d09a9bfec1',1,'apfel::EvolutionBasisQCD::GLUON()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399a2d71a98cff0a08292110507cc658f6d6',1,'apfel::MatchEvolOperatorBasisQCD::GLUON()'],['../classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831a01390ae55b8aa69fc13de0f31486147b',1,'apfel::MatchingBasisQCD::GLUON()'],['../namespaceapfel.html#a44338ff915cc36bc0e9ae1f19cebb7b4abb766fd69f5787e011e1463ffb42b1a3',1,'apfel::GLUON()']]],
+  ['gq',['GQ',['../classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2a3f88c777c21ed8dd9c8531851728be82',1,'apfel::EvolutionOperatorBasisQCD::GQ()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa9309f4b4c87ec0113f7818d2f8e6fadd',1,'apfel::MatchEvolOperatorBasisQCD::GQ()'],['../classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a4b0585fc498eac271b7c3b6e6a221d3b',1,'apfel::MatchingOperatorBasisQCD::GQ()']]]
 ];

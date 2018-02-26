@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['hardcrosssectiondy',['HardCrossSectionDY',['../a00272.html#a60f9641cb5310e96e8f806dad59600d4',1,'apfel']]],
-  ['hardcrosssectionsidis',['HardCrossSectionSIDIS',['../a00272.html#a528d4f5dafb245624bbc2a877314d84d',1,'apfel']]],
-  ['high',['HIGH',['../a00272.html#a341d411b597ec06a665d22f5bb53b411ae4faabce9ac8b40fc820df46a23122b0',1,'apfel']]],
-  ['hqcoef_2ef',['hqcoef.f',['../a00002.html',1,'']]]
+  ['hardcrosssectiondy',['HardCrossSectionDY',['../namespaceapfel.html#a6e1d6a7c5a467b8226baeb5d1f869725',1,'apfel']]],
+  ['hardcrosssectionsidis',['HardCrossSectionSIDIS',['../namespaceapfel.html#ac1d8ac2807b5308d2f9b1f1e269f9df6',1,'apfel']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qgrid',['QGrid',['../a00685.html',1,'apfel']]]
+  ['qgrid',['QGrid',['../classapfel_1_1QGrid.html',1,'apfel']]]
 ];

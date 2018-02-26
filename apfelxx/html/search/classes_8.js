@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['null',['Null',['../a00337.html',1,'apfel']]]
+  ['null',['Null',['../classapfel_1_1Null.html',1,'apfel']]]
 ];

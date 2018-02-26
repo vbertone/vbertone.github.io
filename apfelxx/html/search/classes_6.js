@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lagrangeinterpolator',['LagrangeInterpolator',['../a00353.html',1,'apfel']]]
+  ['lagrangeinterpolator',['LagrangeInterpolator',['../classapfel_1_1LagrangeInterpolator.html',1,'apfel']]]
 ];

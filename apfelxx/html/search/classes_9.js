@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['observable',['Observable',['../a00677.html',1,'apfel']]],
-  ['operator',['Operator',['../a00681.html',1,'apfel']]]
+  ['observable',['Observable',['../classapfel_1_1Observable.html',1,'apfel']]],
+  ['operator',['Operator',['../classapfel_1_1Operator.html',1,'apfel']]]
 ];

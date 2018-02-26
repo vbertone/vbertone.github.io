@@ -1,9 +1,0 @@
-<map id="apfel::ConvolutionMap" name="apfel::ConvolutionMap">
-<area shape="rect" id="node2" href="$a00302.html" title="DISCCBasis. " alt="" coords="255,5,387,31"/>
-<area shape="rect" id="node3" href="$a00298.html" title="DISNCBasis. " alt="" coords="255,55,387,80"/>
-<area shape="rect" id="node4" href="$a00318.html" title="ConvolutionMap derivation for the QCD evolution basis. " alt="" coords="233,104,408,129"/>
-<area shape="rect" id="node5" href="$a00322.html" title="apfel::EvolutionOperator\lBasisQCD" alt="" coords="238,153,403,192"/>
-<area shape="rect" id="node6" href="$a00326.html" title="apfel::MatchEvolOperator\lBasisQCD" alt="" coords="234,216,407,255"/>
-<area shape="rect" id="node7" href="$a00506.html" title="ConvolutionMap derivation for the QCD evolution basis. " alt="" coords="234,279,408,304"/>
-<area shape="rect" id="node8" href="$a00510.html" title="apfel::MatchingOperatorBasisQCD" alt="" coords="207,328,434,353"/>
-</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['accuracies',['Accuracies',['../a00272.html',1,'']]]
+  ['dis_20convolution_20maps',['DIS convolution maps',['../group__DISBases.html',1,'']]]
 ];

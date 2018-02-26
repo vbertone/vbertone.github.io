@@ -9,18 +9,11 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="apfelxx.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +26,7 @@
    <div id="projectname">APFEL
    &#160;<span id="projectnumber">4.0.0</span>
    </div>
-   <div id="projectbrief">A PDF evolution library</div>
+   <div id="projectbrief">A PDF evolution library in C++</div>
   </td>
  </tr>
  </tbody>
@@ -57,22 +50,6 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions_t.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -92,103 +69,100 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>T15
-: <a class="el" href="a00317.html#a0e3bb51b09bf1cfae51916729c1c8169a0596750e35910b4b864e7b1ddb1d6e70">apfel::EvolutionBasisQCD</a>
-, <a class="el" href="a00325.html#a12e0b1f723c3914f63255149d4ed3399ab6279a989151ddef22433fd18ffa461b">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00505.html#a662d45066a92fc8f8c6deda77b429831ac4fa0366e99a68008e08c850c457e72c">apfel::MatchingBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169a0596750e35910b4b864e7b1ddb1d6e70">apfel::EvolutionBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399ab6279a989151ddef22433fd18ffa461b">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831ac4fa0366e99a68008e08c850c457e72c">apfel::MatchingBasisQCD</a>
 </li>
 <li>T15G
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2aa9b4d2163b5582170b05c1df1c0f4890">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaadfb06ebc9dd273cbfd7c7dfb52201e8f">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5ac8166e9c2789808f63132ec473ee5284">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2aa9b4d2163b5582170b05c1df1c0f4890">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaadfb06ebc9dd273cbfd7c7dfb52201e8f">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5ac8166e9c2789808f63132ec473ee5284">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T15S
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2a77242eed2fd27f5412d7ec9df3de9b9a">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaa8f65029b79a4f0fa621116b4f08ee585">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5a79320ec0bacb9d9a2abfe9808fbe31b6">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2a77242eed2fd27f5412d7ec9df3de9b9a">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa8f65029b79a4f0fa621116b4f08ee585">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a79320ec0bacb9d9a2abfe9808fbe31b6">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T24
-: <a class="el" href="a00317.html#a0e3bb51b09bf1cfae51916729c1c8169a96f828eca4966b3ee89c0de84a695433">apfel::EvolutionBasisQCD</a>
-, <a class="el" href="a00325.html#a12e0b1f723c3914f63255149d4ed3399a89372ae2a80d439a215ee646e0bb35ab">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00505.html#a662d45066a92fc8f8c6deda77b429831ab7b49bf11644a51811adf696d0fae3d7">apfel::MatchingBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169a96f828eca4966b3ee89c0de84a695433">apfel::EvolutionBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399a89372ae2a80d439a215ee646e0bb35ab">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831ab7b49bf11644a51811adf696d0fae3d7">apfel::MatchingBasisQCD</a>
 </li>
 <li>T24G
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2ab519054a814ea0ebe041357afb5af7a5">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaad610e6fdc382981a8e8b90a8ce9077a0">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5aa0ecb75afefc3ea23b7ecdeb349b4054">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2ab519054a814ea0ebe041357afb5af7a5">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaad610e6fdc382981a8e8b90a8ce9077a0">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5aa0ecb75afefc3ea23b7ecdeb349b4054">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T24S
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2a39df0cf669a154636edc09e9523d39df">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaab7809e374ae202178397021d27845566">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5ad8443ad5db21741b744a47bccd47336f">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2a39df0cf669a154636edc09e9523d39df">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaab7809e374ae202178397021d27845566">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5ad8443ad5db21741b744a47bccd47336f">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T3
-: <a class="el" href="a00317.html#a0e3bb51b09bf1cfae51916729c1c8169ad35baed816a84080347c173d6869f13a">apfel::EvolutionBasisQCD</a>
-, <a class="el" href="a00325.html#a12e0b1f723c3914f63255149d4ed3399a87511d9bae938155136a051a14f1e427">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00505.html#a662d45066a92fc8f8c6deda77b429831a841a1474739e05d308c21f9b10867d21">apfel::MatchingBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169ad35baed816a84080347c173d6869f13a">apfel::EvolutionBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399a87511d9bae938155136a051a14f1e427">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831a841a1474739e05d308c21f9b10867d21">apfel::MatchingBasisQCD</a>
 </li>
 <li>T35
-: <a class="el" href="a00317.html#a0e3bb51b09bf1cfae51916729c1c8169a19be49aaea744e5398dd09ae7bd411d4">apfel::EvolutionBasisQCD</a>
-, <a class="el" href="a00325.html#a12e0b1f723c3914f63255149d4ed3399aa21b735d9434d47f30e0937a6c79b922">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00505.html#a662d45066a92fc8f8c6deda77b429831aba9e1a0392d1f71399fb7134264a8b0a">apfel::MatchingBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169a19be49aaea744e5398dd09ae7bd411d4">apfel::EvolutionBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399aa21b735d9434d47f30e0937a6c79b922">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831aba9e1a0392d1f71399fb7134264a8b0a">apfel::MatchingBasisQCD</a>
 </li>
 <li>T35G
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2a944bceb65101f5cb55fa1361cc7f1932">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaa81bd6f13480e6f834d091510a513a524">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5a0f5ece4dc1550a6dbeece5cdccd96f90">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2a944bceb65101f5cb55fa1361cc7f1932">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa81bd6f13480e6f834d091510a513a524">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a0f5ece4dc1550a6dbeece5cdccd96f90">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T35S
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2aade27ef1991bcaff30a51ab12b9d5e45">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaa183d9b1937980c7c845567d1b6399b68">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5a3bf57d7844540ce48f6c4edac8140af7">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2aade27ef1991bcaff30a51ab12b9d5e45">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa183d9b1937980c7c845567d1b6399b68">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a3bf57d7844540ce48f6c4edac8140af7">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T3G
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2ab3452437bed554b99beb0116a6c41d1f">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaa4381bd389144f5a979e3964eb0e2eade">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5a3bf808dfc77dbcc532939e376a734087">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2ab3452437bed554b99beb0116a6c41d1f">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa4381bd389144f5a979e3964eb0e2eade">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a3bf808dfc77dbcc532939e376a734087">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T3S
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2ae836ef5d5281702d7f83fddfe7bcaba3">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaace15db6cdd9f88a3415f8262e2675253">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5a3a595a699327331b45d15282bce5b508">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2ae836ef5d5281702d7f83fddfe7bcaba3">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaace15db6cdd9f88a3415f8262e2675253">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a3a595a699327331b45d15282bce5b508">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T8
-: <a class="el" href="a00317.html#a0e3bb51b09bf1cfae51916729c1c8169a0b44dbe9e25b42fda25ee9cc959eb506">apfel::EvolutionBasisQCD</a>
-, <a class="el" href="a00325.html#a12e0b1f723c3914f63255149d4ed3399a2184eeab836417506033f581ec3a1d7b">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00505.html#a662d45066a92fc8f8c6deda77b429831acd4d3168b39d377d845810daf10b7264">apfel::MatchingBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169a0b44dbe9e25b42fda25ee9cc959eb506">apfel::EvolutionBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399a2184eeab836417506033f581ec3a1d7b">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831acd4d3168b39d377d845810daf10b7264">apfel::MatchingBasisQCD</a>
 </li>
 <li>T8G
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2ad3a05a73bd3fd07dcf57b1c2d69a5b88">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaa90cd442314fa7ad2f99129c47689a6be">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5af3e9895122b73fa120e9766744d54819">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2ad3a05a73bd3fd07dcf57b1c2d69a5b88">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa90cd442314fa7ad2f99129c47689a6be">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5af3e9895122b73fa120e9766744d54819">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>T8S
-: <a class="el" href="a00321.html#ad5fa62759b0733d6d20128663afd72f2a3ac920836833c6b912f3f5c5db741852">apfel::EvolutionOperatorBasisQCD</a>
-, <a class="el" href="a00325.html#af96109423fe7910c24b1fa6df29e8cdaacfaf1730629aefb49f98e45336fb242d">apfel::MatchEvolOperatorBasisQCD</a>
-, <a class="el" href="a00509.html#a70a9611cc318a4ca953cbf56dae806a5aded5447c5bf7a15fb94accf67666bf15">apfel::MatchingOperatorBasisQCD</a>
+: <a class="el" href="classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2a3ac920836833c6b912f3f5c5db741852">apfel::EvolutionOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaacfaf1730629aefb49f98e45336fb242d">apfel::MatchEvolOperatorBasisQCD</a>
+, <a class="el" href="classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5aded5447c5bf7a15fb94accf67666bf15">apfel::MatchingOperatorBasisQCD</a>
 </li>
 <li>TabFunc()
-: <a class="el" href="a00685.html#a55252423376ca834e26054d44df09ca8">apfel::QGrid&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1QGrid.html#a55252423376ca834e26054d44df09ca8">apfel::QGrid&lt; T &gt;</a>
 </li>
 <li>TabulateObject()
-: <a class="el" href="a00873.html#aae6bb3a4886b480727716a8be06b7f6f">apfel::TabulateObject&lt; T &gt;</a>
+: <a class="el" href="classapfel_1_1TabulateObject.html#aae6bb3a4886b480727716a8be06b7f6f">apfel::TabulateObject&lt; T &gt;</a>
 </li>
 <li>Threshold
-: <a class="el" href="a00293.html#a86d077a0480f42088cf0b73a5163fddd">apfel::DglapObjects</a>
-, <a class="el" href="a00881.html#ae56448881a89de75ba38927a0226291a">apfel::TmdObjects</a>
+: <a class="el" href="structapfel_1_1DglapObjects.html#a86d077a0480f42088cf0b73a5163fddd">apfel::DglapObjects</a>
+, <a class="el" href="structapfel_1_1TmdObjects.html#ae56448881a89de75ba38927a0226291a">apfel::TmdObjects</a>
 </li>
 <li>Timer()
-: <a class="el" href="a00877.html#a4f3105d4294bfd96952d01e79c5bf63f">apfel::Timer</a>
+: <a class="el" href="classapfel_1_1Timer.html#a4f3105d4294bfd96952d01e79c5bf63f">apfel::Timer</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Mon Feb 26 2018 17:58:12 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>
