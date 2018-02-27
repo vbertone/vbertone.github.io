@@ -32,6 +32,7 @@ var searchData=
   ['evolutionfactors',['EvolutionFactors',['../namespaceapfel.html#a45301a83d84ad2e5c95e802e440f1a0c',1,'apfel']]],
   ['evolutionoperatorbasisqcd',['EvolutionOperatorBasisQCD',['../classapfel_1_1EvolutionOperatorBasisQCD.html',1,'apfel::EvolutionOperatorBasisQCD'],['../classapfel_1_1EvolutionOperatorBasisQCD.html#a17e140926c702ba46ee21c7d160d646b',1,'apfel::EvolutionOperatorBasisQCD::EvolutionOperatorBasisQCD()']]],
   ['evolveobject',['EvolveObject',['../classapfel_1_1MatchedEvolution.html#af1c4e4e48f86ea639b21258a8abb996a',1,'apfel::MatchedEvolution']]],
+  ['examples_2edox',['examples.dox',['../examples_8dox.html',1,'']]],
   ['expression',['Expression',['../classapfel_1_1Expression.html',1,'apfel::Expression'],['../classapfel_1_1Expression.html#af9d3ce036a592d210f32f3f7185b3445',1,'apfel::Expression::Expression()'],['../classapfel_1_1Expression.html#a3c3d51e332f6d0904e1351c790deaa30',1,'apfel::Expression::Expression(double const &amp;eta)']]],
   ['expression_2eh',['expression.h',['../expression_8h.html',1,'']]],
   ['extgrids',['ExtGrids',['../classapfel_1_1Grid.html#ad7dad628c1d46fab3154ff4dd6b30a8c',1,'apfel::Grid']]]

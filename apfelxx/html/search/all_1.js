@@ -25,6 +25,5 @@ var searchData=
   ['at',['at',['../classapfel_1_1Set.html#adc221d1fbd6323776a3c07408db8bd24',1,'apfel::Set']]],
   ['ats1ggh_5fl',['ATS1ggH_L',['../classapfel_1_1ATS1ggH__L.html',1,'apfel::ATS1ggH_L'],['../classapfel_1_1ATS1ggH__L.html#aba4a13b412096f5373ecfc7458604a0e',1,'apfel::ATS1ggH_L::ATS1ggH_L()']]],
   ['ats1hg_5f0',['ATS1Hg_0',['../classapfel_1_1ATS1Hg__0.html',1,'apfel::ATS1Hg_0'],['../classapfel_1_1ATS1Hg__0.html#af0bc70ef0a38e4987b310cf76168401d',1,'apfel::ATS1Hg_0::ATS1Hg_0()']]],
-  ['ats1hg_5fl',['ATS1Hg_L',['../classapfel_1_1ATS1Hg__L.html',1,'apfel::ATS1Hg_L'],['../classapfel_1_1ATS1Hg__L.html#a1d77f2b6ec7a295b5cfed2f3e1eeb25c',1,'apfel::ATS1Hg_L::ATS1Hg_L()']]],
-  ['apfel_20documentation',['APFEL documentation',['../index.html',1,'']]]
+  ['ats1hg_5fl',['ATS1Hg_L',['../classapfel_1_1ATS1Hg__L.html',1,'apfel::ATS1Hg_L'],['../classapfel_1_1ATS1Hg__L.html#a1d77f2b6ec7a295b5cfed2f3e1eeb25c',1,'apfel::ATS1Hg_L::ATS1Hg_L()']]]
 ];

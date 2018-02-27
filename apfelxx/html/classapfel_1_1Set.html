@@ -78,7 +78,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a> template class.  
+<p>The <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a> template class allocates a collection of objects of type T along the <a class="el" href="classapfel_1_1ConvolutionMap.html" title="The ConvolutionMap class encapsulates the set of rules to multiply a sets of operators with a set of ...">ConvolutionMap</a> and provides the methods to perform operations between different types of objects T.  
  <a href="classapfel_1_1Set.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="set_8h_source.html">set.h</a>&gt;</code></p>
@@ -86,8 +86,17 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b6907de8622e00afd31513b337ee697"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#a6b6907de8622e00afd31513b337ee697">Set</a> (<a class="el" href="classapfel_1_1ConvolutionMap.html">ConvolutionMap</a> const &amp;Map, map&lt; int, T &gt; const &amp;in)</td></tr>
-<tr class="memdesc:a6b6907de8622e00afd31513b337ee697"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a> class constructor.  <a href="#a6b6907de8622e00afd31513b337ee697">More...</a><br /></td></tr>
+<tr class="memdesc:a6b6907de8622e00afd31513b337ee697"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a> default constructor.  <a href="#a6b6907de8622e00afd31513b337ee697">More...</a><br /></td></tr>
 <tr class="separator:a6b6907de8622e00afd31513b337ee697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3dd9b9e43f245f4b6d21adb549339aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#aa3dd9b9e43f245f4b6d21adb549339aa">SetMap</a> (<a class="el" href="classapfel_1_1ConvolutionMap.html">ConvolutionMap</a> const &amp;newmap)</td></tr>
+<tr class="memdesc:aa3dd9b9e43f245f4b6d21adb549339aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function (re)sets the convolution map.  <a href="#aa3dd9b9e43f245f4b6d21adb549339aa">More...</a><br /></td></tr>
+<tr class="separator:aa3dd9b9e43f245f4b6d21adb549339aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7065697bdd240416184fee23592c77fa"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#a7065697bdd240416184fee23592c77fa">Combine</a> () const</td></tr>
+<tr class="memdesc:a7065697bdd240416184fee23592c77fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function sums up all the objects of the set into one.  <a href="#a7065697bdd240416184fee23592c77fa">More...</a><br /></td></tr>
+<tr class="separator:a7065697bdd240416184fee23592c77fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Set binary operators</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Binary operators involving a <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a>. </p>
+</div></td></tr>
 <tr class="memitem:a7b755b9fba673874d326b15a561194d7"><td class="memTemplParams" colspan="2">template&lt;class V &gt; </td></tr>
 <tr class="memitem:a7b755b9fba673874d326b15a561194d7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1Set.html">Set</a>&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#a7b755b9fba673874d326b15a561194d7">operator*=</a> (<a class="el" href="classapfel_1_1Set.html">Set</a>&lt; V &gt; const &amp;d) const</td></tr>
 <tr class="memdesc:a7b755b9fba673874d326b15a561194d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">operator *= product object  <a href="#a7b755b9fba673874d326b15a561194d7">More...</a><br /></td></tr>
@@ -105,21 +114,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7309377f46892a67744d42c8c971287c"><td class="mdescLeft">&#160;</td><td class="mdescRight">this /= scalar  <a href="#a7309377f46892a67744d42c8c971287c">More...</a><br /></td></tr>
 <tr class="separator:a7309377f46892a67744d42c8c971287c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee784b4f58bfc1815ce2f26f1879654d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1Set.html">Set</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#aee784b4f58bfc1815ce2f26f1879654d">operator+=</a> (<a class="el" href="classapfel_1_1Set.html">Set</a>&lt; T &gt; const &amp;d)</td></tr>
-<tr class="memdesc:aee784b4f58bfc1815ce2f26f1879654d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this += <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a>  <a href="#aee784b4f58bfc1815ce2f26f1879654d">More...</a><br /></td></tr>
+<tr class="memdesc:aee784b4f58bfc1815ce2f26f1879654d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this += <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a>  <a href="#aee784b4f58bfc1815ce2f26f1879654d">More...</a><br /></td></tr>
 <tr class="separator:aee784b4f58bfc1815ce2f26f1879654d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ff99865195bca63bbee4ef08b7be74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1Set.html">Set</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#af6ff99865195bca63bbee4ef08b7be74">operator-=</a> (<a class="el" href="classapfel_1_1Set.html">Set</a>&lt; T &gt; const &amp;d)</td></tr>
-<tr class="memdesc:af6ff99865195bca63bbee4ef08b7be74"><td class="mdescLeft">&#160;</td><td class="mdescRight">this -= <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a>  <a href="#af6ff99865195bca63bbee4ef08b7be74">More...</a><br /></td></tr>
+<tr class="memdesc:af6ff99865195bca63bbee4ef08b7be74"><td class="mdescLeft">&#160;</td><td class="mdescRight">this -= <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a>  <a href="#af6ff99865195bca63bbee4ef08b7be74">More...</a><br /></td></tr>
 <tr class="separator:af6ff99865195bca63bbee4ef08b7be74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Getters</div></td></tr>
 <tr class="memitem:adc221d1fbd6323776a3c07408db8bd24"><td class="memItemLeft" align="right" valign="top">T const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#adc221d1fbd6323776a3c07408db8bd24">at</a> (int const &amp;id) const</td></tr>
+<tr class="memdesc:adc221d1fbd6323776a3c07408db8bd24"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns object with ID "id" in the map.  <a href="#adc221d1fbd6323776a3c07408db8bd24">More...</a><br /></td></tr>
 <tr class="separator:adc221d1fbd6323776a3c07408db8bd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc73d4b081d55684b256e840b73d151d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1ConvolutionMap.html">ConvolutionMap</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#afc73d4b081d55684b256e840b73d151d">GetMap</a> () const</td></tr>
+<tr class="memdesc:afc73d4b081d55684b256e840b73d151d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the convolution map.  <a href="#afc73d4b081d55684b256e840b73d151d">More...</a><br /></td></tr>
 <tr class="separator:afc73d4b081d55684b256e840b73d151d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac994a46dc615f84038d23ea410827cc0"><td class="memItemLeft" align="right" valign="top">map&lt; int, T &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#ac994a46dc615f84038d23ea410827cc0">GetObjects</a> () const</td></tr>
+<tr class="memdesc:ac994a46dc615f84038d23ea410827cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the full map of objects.  <a href="#ac994a46dc615f84038d23ea410827cc0">More...</a><br /></td></tr>
 <tr class="separator:ac994a46dc615f84038d23ea410827cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3dd9b9e43f245f4b6d21adb549339aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#aa3dd9b9e43f245f4b6d21adb549339aa">SetMap</a> (<a class="el" href="classapfel_1_1ConvolutionMap.html">ConvolutionMap</a> const &amp;newmap)</td></tr>
-<tr class="separator:aa3dd9b9e43f245f4b6d21adb549339aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7065697bdd240416184fee23592c77fa"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Set.html#a7065697bdd240416184fee23592c77fa">Combine</a> () const</td></tr>
-<tr class="separator:a7065697bdd240416184fee23592c77fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -134,13 +143,9 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;class T&gt;<br />
 class apfel::Set&lt; T &gt;</h3>
 
-<p>The <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a> template class. </p>
-<p>This class allocates a <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a> of objects of type T following the <a class="el" href="classapfel_1_1ConvolutionMap.html" title="The ConvolutionMap class encapsulates the set of rules to multiply a sets of operators with a set of ...">ConvolutionMap</a> U. This class provides the methods to deal with operations between different types of objects T.</p>
-<p>Things to be improved:</p><ul>
-<li>there is no real necessity of allocating U</li>
-<li>missing operators. </li>
-</ul>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>The <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a> template class allocates a collection of objects of type T along the <a class="el" href="classapfel_1_1ConvolutionMap.html" title="The ConvolutionMap class encapsulates the set of rules to multiply a sets of operators with a set of ...">ConvolutionMap</a> and provides the methods to perform operations between different types of objects T. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="set_test_8cc-example.html#_a19">set_test.cc</a>.</dd>
+</dl></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6b6907de8622e00afd31513b337ee697"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b6907de8622e00afd31513b337ee697">&#9670;&nbsp;</a></span>Set()</h2>
 
@@ -169,10 +174,11 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a> class constructor. </p>
+<p>The <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a> default constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">the</td><td>input map, in this case it makes a copy </td></tr>
+    <tr><td class="paramname">Map</td><td>the convolution map </td></tr>
+    <tr><td class="paramname">in</td><td>a map of objects of type T </td></tr>
   </table>
   </dd>
 </dl>
@@ -206,6 +212,9 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>This returns object with ID "id" in the map. </p>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="set_test_8cc-example.html#a20">set_test.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a7065697bdd240416184fee23592c77fa"></a>
@@ -224,6 +233,8 @@ template&lt;class T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This function sums up all the objects of the set into one. </p>
 
 </div>
 </div>
@@ -252,6 +263,8 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>This returns the convolution map. </p>
+
 </div>
 </div>
 <a id="ac994a46dc615f84038d23ea410827cc0"></a>
@@ -279,6 +292,8 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>This returns the full map of objects. </p>
+
 </div>
 </div>
 <a id="a7b755b9fba673874d326b15a561194d7"></a>
@@ -304,11 +319,11 @@ template&lt;class V &gt; </div>
 <p>operator *= product object </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">d</td><td>left hand side object </td></tr>
+    <tr><td class="paramname">d</td><td>the left hand side object of type V </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a new object of type V and base U </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a new object of type V </dd></dl>
 
 </div>
 </div>
@@ -396,7 +411,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>this += <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a> </p>
+<p>this += <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a> </p>
 
 </div>
 </div>
@@ -418,7 +433,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>this -= <a class="el" href="classapfel_1_1Set.html" title="The Set template class. ">Set</a> </p>
+<p>this -= <a class="el" href="classapfel_1_1Set.html" title="The Set template class allocates a collection of objects of type T along the ConvolutionMap and provi...">Set</a> </p>
 
 </div>
 </div>
@@ -469,6 +484,8 @@ template&lt;class T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>This function (re)sets the convolution map. </p>
 
 </div>
 </div>
@@ -531,7 +548,7 @@ template&lt;class T&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Feb 26 2018 17:58:11 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 27 2018 10:05:38 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
