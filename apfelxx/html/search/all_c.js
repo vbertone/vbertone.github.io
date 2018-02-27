@@ -25,5 +25,5 @@ var searchData=
   ['matrix_2eh',['matrix.h',['../matrix_8h.html',1,'']]],
   ['matrix_3c_20double_20_3e',['matrix&lt; double &gt;',['../classapfel_1_1matrix.html',1,'apfel']]],
   ['messages_2eh',['messages.h',['../messages_8h.html',1,'']]],
-  ['massive_20neutral_20current_20coefficient_20functions',['Massive neutral current coefficient functions',['../group__NCMassive.html',1,'']]]
+  ['massless_20limit_20of_20the_20massive_20neutral_20current_20coefficient_20functions',['Massless limit of the massive neutral current coefficient functions',['../group__NCMassiveZero.html',1,'']]]
 ];

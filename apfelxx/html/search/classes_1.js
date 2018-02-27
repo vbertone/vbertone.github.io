@@ -59,17 +59,5 @@ var searchData=
   ['cm0l2psnc_5fc',['Cm0L2psNC_c',['../classapfel_1_1Cm0L2psNC__c.html',1,'apfel']]],
   ['cm0l2psnc_5ff',['Cm0L2psNC_f',['../classapfel_1_1Cm0L2psNC__f.html',1,'apfel']]],
   ['cm0l2psnc_5fl',['Cm0L2psNC_l',['../classapfel_1_1Cm0L2psNC__l.html',1,'apfel']]],
-  ['cm21gnc',['Cm21gNC',['../classapfel_1_1Cm21gNC.html',1,'apfel']]],
-  ['cm22bargnc',['Cm22bargNC',['../classapfel_1_1Cm22bargNC.html',1,'apfel']]],
-  ['cm22barpsnc',['Cm22barpsNC',['../classapfel_1_1Cm22barpsNC.html',1,'apfel']]],
-  ['cm22gnc',['Cm22gNC',['../classapfel_1_1Cm22gNC.html',1,'apfel']]],
-  ['cm22nsnc',['Cm22nsNC',['../classapfel_1_1Cm22nsNC.html',1,'apfel']]],
-  ['cm22psnc',['Cm22psNC',['../classapfel_1_1Cm22psNC.html',1,'apfel']]],
-  ['cml1gnc',['CmL1gNC',['../classapfel_1_1CmL1gNC.html',1,'apfel']]],
-  ['cml2bargnc',['CmL2bargNC',['../classapfel_1_1CmL2bargNC.html',1,'apfel']]],
-  ['cml2barpsnc',['CmL2barpsNC',['../classapfel_1_1CmL2barpsNC.html',1,'apfel']]],
-  ['cml2gnc',['CmL2gNC',['../classapfel_1_1CmL2gNC.html',1,'apfel']]],
-  ['cml2nsnc',['CmL2nsNC',['../classapfel_1_1CmL2nsNC.html',1,'apfel']]],
-  ['cml2psnc',['CmL2psNC',['../classapfel_1_1CmL2psNC.html',1,'apfel']]],
   ['convolutionmap',['ConvolutionMap',['../classapfel_1_1ConvolutionMap.html',1,'apfel']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['cg',['CG',['../namespaceapfel.html#a3200739a9aeaca2846d38032e3a4cbd0a9899bc42bb011125d4a04b0d81addfe5',1,'apfel']]],
-  ['cns',['CNS',['../namespaceapfel.html#a3200739a9aeaca2846d38032e3a4cbd0a05ab3e05551abe2cae80fa284d1c2d68',1,'apfel']]],
-  ['cs',['CS',['../namespaceapfel.html#a3200739a9aeaca2846d38032e3a4cbd0a217ad01507bdf23b68e205761697cd7d',1,'apfel']]]
+  ['cg',['CG',['../classapfel_1_1DISNCBasis.html#a4ab558bc993eb6f6b5c6a9f15eb53d60a52a1108889293dff2b652a23bc8a0725',1,'apfel::DISNCBasis::CG()'],['../classapfel_1_1DISCCBasis.html#a56bdaa6315470fe02451ec5c940fcc2fa62810fc51924226e888e0f815590e060',1,'apfel::DISCCBasis::CG()']]],
+  ['cns',['CNS',['../classapfel_1_1DISNCBasis.html#a4ab558bc993eb6f6b5c6a9f15eb53d60a865e4ec076559d4ab36f0f9b8c110b83',1,'apfel::DISNCBasis::CNS()'],['../classapfel_1_1DISCCBasis.html#a56bdaa6315470fe02451ec5c940fcc2fa403b083fd6ed38621d003339b13fd05b',1,'apfel::DISCCBasis::CNS()']]],
+  ['cs',['CS',['../classapfel_1_1DISNCBasis.html#a4ab558bc993eb6f6b5c6a9f15eb53d60a6edfc8afd7a0b1bfebc74332afb4031c',1,'apfel::DISNCBasis::CS()'],['../classapfel_1_1DISCCBasis.html#a56bdaa6315470fe02451ec5c940fcc2fa6501efd2adadece560864a42d0ef496b',1,'apfel::DISCCBasis::CS()']]]
 ];

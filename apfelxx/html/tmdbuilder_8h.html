@@ -71,8 +71,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">tmdbuilder.h File Reference</div>  </div>
 </div><!--header-->
@@ -95,33 +94,40 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceapfel"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html">apfel</a></td></tr>
+<tr class="memdesc:namespaceapfel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for all APFEL++ functions and classes. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">TMD object initializers</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Collection of functions that initialise TmdObjects structure for the perturbartive evolution and matching currently available. </p>
+</div></td></tr>
 <tr class="memitem:a752ef37c80e46f588917e0b12421d8d8"><td class="memItemLeft" align="right" valign="top">map&lt; int, TmdObjects &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a752ef37c80e46f588917e0b12421d8d8">apfel::InitializeTmdObjects</a> (Grid const &amp;g, vector&lt; double &gt; const &amp;Thresholds, double const &amp;IntEps=1e-5)</td></tr>
-<tr class="memdesc:a752ef37c80e46f588917e0b12421d8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ComputeMatchingFunctions precomputes the constant (i.e. non-logaritmic) perturbative coefficients of the matching functions to match PDFs/FFs on the respective TMDs at small values of bT.  <a href="namespaceapfel.html#a752ef37c80e46f588917e0b12421d8d8">More...</a><br /></td></tr>
+<tr class="memdesc:a752ef37c80e46f588917e0b12421d8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The InitializeDglapObjectsQCD function precomputes the perturbative coefficients of space-like unpolarised splitting functions and matching conditions and store them into a '<a class="el" href="structapfel_1_1DglapObjects.html" title="Structure that contains all the precomputed quantities needed to perform the DGLAP evolution...">DglapObjects</a>' structure.  <a href="namespaceapfel.html#a752ef37c80e46f588917e0b12421d8d8">More...</a><br /></td></tr>
 <tr class="separator:a752ef37c80e46f588917e0b12421d8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">TMD builders</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Collection of functions that build a TMD distributions (both PDFs and FF) as Set&lt;Distribution&gt;-valued functions. These functions perform evolution and matching either separately or alltogether. </p>
+</div></td></tr>
 <tr class="memitem:ad1e8db488674324ecfabc5a55ec596b8"><td class="memItemLeft" align="right" valign="top">function&lt; Set&lt; Distribution &gt;double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ad1e8db488674324ecfabc5a55ec596b8">apfel::BuildTmdPDFs</a> (map&lt; int, TmdObjects &gt; const &amp;TmdObj, map&lt; int, DglapObjects &gt; const &amp;DglapObj, function&lt; Set&lt; Distribution &gt;(double const &amp;)&gt; const &amp;CollPDFs, function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;fNP, function&lt; double(double const &amp;)&gt; const &amp;Mu0b, function&lt; double(double const &amp;)&gt; const &amp;Mub, int const &amp;PerturbativeOrder, function&lt; double(double const &amp;)&gt; const &amp;Alphas, double const &amp;IntEps=1e-7)</td></tr>
-<tr class="memdesc:ad1e8db488674324ecfabc5a55ec596b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched and evolved TMD PDFs in b-space as functions of the final scale and rapidity zeta. It assumes the zeta-prescription.  <a href="namespaceapfel.html#ad1e8db488674324ecfabc5a55ec596b8">More...</a><br /></td></tr>
+<tr class="memdesc:ad1e8db488674324ecfabc5a55ec596b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched and evolved TMD PDFs in b-space as functions of the final scale and rapidity. It assumes the zeta-prescription.  <a href="namespaceapfel.html#ad1e8db488674324ecfabc5a55ec596b8">More...</a><br /></td></tr>
 <tr class="separator:ad1e8db488674324ecfabc5a55ec596b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36f72df715a67209ecf3f1aa7b24b0ac"><td class="memItemLeft" align="right" valign="top">function&lt; Set&lt; Distribution &gt;double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a36f72df715a67209ecf3f1aa7b24b0ac">apfel::BuildTmdFFs</a> (map&lt; int, TmdObjects &gt; const &amp;TmdObj, map&lt; int, DglapObjects &gt; const &amp;DglapObj, function&lt; Set&lt; Distribution &gt;(double const &amp;)&gt; const &amp;CollFFs, function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;fNP, function&lt; double(double const &amp;)&gt; const &amp;Mu0b, function&lt; double(double const &amp;)&gt; const &amp;Mub, int const &amp;PerturbativeOrder, function&lt; double(double const &amp;)&gt; const &amp;Alphas, double const &amp;IntEps=1e-7)</td></tr>
-<tr class="memdesc:a36f72df715a67209ecf3f1aa7b24b0ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched and evolved TMD FFs in b-space as functions of the final scale and rapidity zeta. It assumes the zeta-prescription.  <a href="namespaceapfel.html#a36f72df715a67209ecf3f1aa7b24b0ac">More...</a><br /></td></tr>
+<tr class="memdesc:a36f72df715a67209ecf3f1aa7b24b0ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched and evolved TMD FFs in b-space as functions of the final scale and rapidity. It assumes the zeta-prescription.  <a href="namespaceapfel.html#a36f72df715a67209ecf3f1aa7b24b0ac">More...</a><br /></td></tr>
 <tr class="separator:a36f72df715a67209ecf3f1aa7b24b0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fb87bfc5e8aff38631b7282bbf17960"><td class="memItemLeft" align="right" valign="top">function&lt; Set&lt; Distribution &gt;double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a5fb87bfc5e8aff38631b7282bbf17960">apfel::MatchTmdPDFs</a> (map&lt; int, TmdObjects &gt; const &amp;TmdObj, map&lt; int, DglapObjects &gt; const &amp;DglapObj, function&lt; Set&lt; Distribution &gt;(double const &amp;)&gt; const &amp;CollPDFs, function&lt; double(double const &amp;)&gt; const &amp;Mub, int const &amp;PerturbativeOrder, function&lt; double(double const &amp;)&gt; const &amp;Alphas)</td></tr>
-<tr class="memdesc:a5fb87bfc5e8aff38631b7282bbf17960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched TMD PDFs in b-space as functions of the initial scale. It assumes the zeta-prescription.  <a href="namespaceapfel.html#a5fb87bfc5e8aff38631b7282bbf17960">More...</a><br /></td></tr>
+<tr class="memdesc:a5fb87bfc5e8aff38631b7282bbf17960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched TMD PDFs in b-space. It assumes the zeta-prescription.  <a href="namespaceapfel.html#a5fb87bfc5e8aff38631b7282bbf17960">More...</a><br /></td></tr>
 <tr class="separator:a5fb87bfc5e8aff38631b7282bbf17960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c801f851ab7e433e62bab252d80765c"><td class="memItemLeft" align="right" valign="top">function&lt; Set&lt; Distribution &gt;double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a3c801f851ab7e433e62bab252d80765c">apfel::MatchTmdFFs</a> (map&lt; int, TmdObjects &gt; const &amp;TmdObj, map&lt; int, DglapObjects &gt; const &amp;DglapObj, function&lt; Set&lt; Distribution &gt;(double const &amp;)&gt; const &amp;CollPDFs, function&lt; double(double const &amp;)&gt; const &amp;Mub, int const &amp;PerturbativeOrder, function&lt; double(double const &amp;)&gt; const &amp;Alphas)</td></tr>
-<tr class="memdesc:a3c801f851ab7e433e62bab252d80765c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched TMD FFs in b-space as functions of the initial scale. It assumes the zeta-prescription.  <a href="namespaceapfel.html#a3c801f851ab7e433e62bab252d80765c">More...</a><br /></td></tr>
+<tr class="memdesc:a3c801f851ab7e433e62bab252d80765c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched TMD FFs in b-space. It assumes the zeta-prescription.  <a href="namespaceapfel.html#a3c801f851ab7e433e62bab252d80765c">More...</a><br /></td></tr>
 <tr class="separator:a3c801f851ab7e433e62bab252d80765c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45301a83d84ad2e5c95e802e440f1a0c"><td class="memItemLeft" align="right" valign="top">function&lt; vector&lt; double &gt;double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a45301a83d84ad2e5c95e802e440f1a0c">apfel::EvolutionFactors</a> (map&lt; int, TmdObjects &gt; const &amp;TmdObj, function&lt; double(double const &amp;)&gt; const &amp;Mu0b, function&lt; double(double const &amp;)&gt; const &amp;Mub, int const &amp;PerturbativeOrder, function&lt; double(double const &amp;)&gt; const &amp;Alphas, double const &amp;IntEps=1e-7)</td></tr>
-<tr class="memdesc:a45301a83d84ad2e5c95e802e440f1a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the TMD evolution factor as a function of the impact factor, the final scale and rapidity.  <a href="namespaceapfel.html#a45301a83d84ad2e5c95e802e440f1a0c">More...</a><br /></td></tr>
+<tr class="memdesc:a45301a83d84ad2e5c95e802e440f1a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the evolution factors for gluon and quarks. It assumes the zeta-prescription. Universal for PDFs and FFs.  <a href="namespaceapfel.html#a45301a83d84ad2e5c95e802e440f1a0c">More...</a><br /></td></tr>
 <tr class="separator:a45301a83d84ad2e5c95e802e440f1a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 27 2018 10:05:37 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 27 2018 16:43:04 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
