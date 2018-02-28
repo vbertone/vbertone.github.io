@@ -14,5 +14,5 @@ var searchData=
   ['valence',['VALENCE',['../classapfel_1_1DISNCBasis.html#adb9d33d6b7cd7bafd381c214e83bd64daae91c687000f988d1bd93c2a593e3261',1,'apfel::DISNCBasis::VALENCE()'],['../classapfel_1_1DISCCBasis.html#a71d34c94c9d06fe8418da8d5ee37f501a33d8b83dfea85bdf4f96ebd0dfbbf295',1,'apfel::DISCCBasis::VALENCE()'],['../classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169aa95760e4684e512f7d17af2d61a07dce',1,'apfel::EvolutionBasisQCD::VALENCE()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399a58cc359ee34ed2dcd6b7bc555c567732',1,'apfel::MatchEvolOperatorBasisQCD::VALENCE()'],['../classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831a057c70e1c6a70cfcb3f9a83949d1f924',1,'apfel::MatchingBasisQCD::VALENCE()']]],
   ['version',['VERSION',['../version_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf',1,'version.h']]],
   ['version_2eh',['version.h',['../version_8h.html',1,'']]],
-  ['vij',['Vij',['../classapfel_1_1DISCCBasis.html#adebf92cc5ce68e1616c8438618afbcdc',1,'apfel::DISCCBasis']]]
+  ['vij',['Vij',['../classapfel_1_1DISCCBasis.html#a6c03ec4c587fa3b255f87265eeb5afb4',1,'apfel::DISCCBasis']]]
 ];

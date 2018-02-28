@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['set',['Set',['../classapfel_1_1Set.html#a6b6907de8622e00afd31513b337ee697',1,'apfel::Set']]],
-  ['setdistributions',['SetDistributions',['../classapfel_1_1Observable.html#a8963e208f2ec7720016487b986ff4771',1,'apfel::Observable']]],
-  ['setinitialdistributions',['SetInitialDistributions',['../classapfel_1_1Dglap.html#ab25386131134eb4e671c416b7e71b85d',1,'apfel::Dglap::SetInitialDistributions(function&lt; double(int const &amp;, double const &amp;)&gt; const &amp;InDistFunc)'],['../classapfel_1_1Dglap.html#a1bd024e5de0ece430b3c0bc86ad17aa2',1,'apfel::Dglap::SetInitialDistributions(function&lt; map&lt; int, double &gt;(double const &amp;)&gt; const &amp;InDistFunc)']]],
+  ['set',['Set',['../classapfel_1_1Set.html#afe0583488cebd90db88770e907a1d2d2',1,'apfel::Set']]],
+  ['setdistributions',['SetDistributions',['../classapfel_1_1Observable.html#a3e94e761fdb4859263d6508713d8e922',1,'apfel::Observable']]],
+  ['setinitialdistributions',['SetInitialDistributions',['../classapfel_1_1Dglap.html#a19ef0f9a007856ba1bd46f07dea5f93a',1,'apfel::Dglap::SetInitialDistributions(std::function&lt; double(int const &amp;, double const &amp;)&gt; const &amp;InDistFunc)'],['../classapfel_1_1Dglap.html#a04933fdfd995c4c3efd63bd5d18729de',1,'apfel::Dglap::SetInitialDistributions(std::function&lt; std::map&lt; int, double &gt;(double const &amp;)&gt; const &amp;InDistFunc)']]],
   ['setmap',['SetMap',['../classapfel_1_1Set.html#aa3dd9b9e43f245f4b6d21adb549339aa',1,'apfel::Set']]],
   ['setmuref',['SetMuRef',['../classapfel_1_1MatchedEvolution.html#ae2bc1b1ea399fbba5009fb720aab159d',1,'apfel::MatchedEvolution']]],
   ['setnumberofsteps',['SetNumberOfSteps',['../classapfel_1_1MatchedEvolution.html#ad60d84335c8dc3b8328a4ca4dfc7174d',1,'apfel::MatchedEvolution']]],
@@ -13,6 +13,6 @@ var searchData=
   ['start',['start',['../classapfel_1_1Timer.html#a8b8ffd3f8ceb45b50ecd2d7b00f84ccb',1,'apfel::Timer']]],
   ['step',['Step',['../classapfel_1_1SubGrid.html#a9093ca75b0d5329bb6e561a3e14370ea',1,'apfel::SubGrid']]],
   ['stop',['stop',['../classapfel_1_1Timer.html#a1f1a0c8452d56f62aac2dbec90e62e3f',1,'apfel::Timer']]],
-  ['subgrid',['SubGrid',['../classapfel_1_1SubGrid.html#a672537fdf7e6b790565e528a1aed1006',1,'apfel::SubGrid::SubGrid()=delete'],['../classapfel_1_1SubGrid.html#aee9d569772596ac57b7d984b7cb9b330',1,'apfel::SubGrid::SubGrid(int const &amp;nx, double const &amp;xMin, int const &amp;InterDegree)'],['../classapfel_1_1SubGrid.html#a304b4e0ee2d3ea87be7e661ac9742183',1,'apfel::SubGrid::SubGrid(vector&lt; double &gt; const &amp;xsg, int const &amp;InterDegree)']]],
-  ['sumbounds',['SumBounds',['../classapfel_1_1Interpolator.html#a16466c0a0a925b81f081b31fb722b28e',1,'apfel::Interpolator::SumBounds()'],['../classapfel_1_1LagrangeInterpolator.html#a1535496981d75badf3f6001838412f0a',1,'apfel::LagrangeInterpolator::SumBounds()'],['../classapfel_1_1QGrid.html#a70abee0f5ea65245c0e6fcf4ed4619bb',1,'apfel::QGrid::SumBounds()']]]
+  ['subgrid',['SubGrid',['../classapfel_1_1SubGrid.html#a672537fdf7e6b790565e528a1aed1006',1,'apfel::SubGrid::SubGrid()=delete'],['../classapfel_1_1SubGrid.html#aee9d569772596ac57b7d984b7cb9b330',1,'apfel::SubGrid::SubGrid(int const &amp;nx, double const &amp;xMin, int const &amp;InterDegree)'],['../classapfel_1_1SubGrid.html#a5c7fe00b92bc11957caaec41761cb9a9',1,'apfel::SubGrid::SubGrid(std::vector&lt; double &gt; const &amp;xsg, int const &amp;InterDegree)']]],
+  ['sumbounds',['SumBounds',['../classapfel_1_1Interpolator.html#acf4448797b971b6faee8b2eb84d9e910',1,'apfel::Interpolator::SumBounds()'],['../classapfel_1_1LagrangeInterpolator.html#a1937891f73add6ac97b543c4e291308d',1,'apfel::LagrangeInterpolator::SumBounds()'],['../classapfel_1_1QGrid.html#ab8f7547a7426b706908bd1150501eb85',1,'apfel::QGrid::SumBounds()']]]
 ];

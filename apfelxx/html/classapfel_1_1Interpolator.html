@@ -104,9 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd3ab683fdb2956354f27a1e7c200939"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#abd3ab683fdb2956354f27a1e7c200939">Interpolant</a> (int const &amp;beta, double const &amp;lnx, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const =0</td></tr>
 <tr class="memdesc:abd3ab683fdb2956354f27a1e7c200939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pure virtual method for the interpolating functions.  <a href="#abd3ab683fdb2956354f27a1e7c200939">More...</a><br /></td></tr>
 <tr class="separator:abd3ab683fdb2956354f27a1e7c200939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16466c0a0a925b81f081b31fb722b28e"><td class="memItemLeft" align="right" valign="top">virtual array&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a16466c0a0a925b81f081b31fb722b28e">SumBounds</a> (double const &amp;x, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const =0</td></tr>
-<tr class="memdesc:a16466c0a0a925b81f081b31fb722b28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This purely virtual function computes the lower and upper bounds on which the the sum over interpolants is limited.  <a href="#a16466c0a0a925b81f081b31fb722b28e">More...</a><br /></td></tr>
-<tr class="separator:a16466c0a0a925b81f081b31fb722b28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf4448797b971b6faee8b2eb84d9e910"><td class="memItemLeft" align="right" valign="top">virtual std::array&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#acf4448797b971b6faee8b2eb84d9e910">SumBounds</a> (double const &amp;x, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const =0</td></tr>
+<tr class="memdesc:acf4448797b971b6faee8b2eb84d9e910"><td class="mdescLeft">&#160;</td><td class="mdescRight">This purely virtual function computes the lower and upper bounds on which the the sum over interpolants is limited.  <a href="#acf4448797b971b6faee8b2eb84d9e910">More...</a><br /></td></tr>
+<tr class="separator:acf4448797b971b6faee8b2eb84d9e910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Evaluate functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>List of functions that perform the interpolation on the x-space grid. </p>
 </div></td></tr>
@@ -120,24 +120,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a2ca32b709976d46aadcff895ec1be8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1Grid.html">Grid</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a9a2ca32b709976d46aadcff895ec1be8">GetGrid</a> () const</td></tr>
 <tr class="memdesc:a9a2ca32b709976d46aadcff895ec1be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The grid.  <a href="#a9a2ca32b709976d46aadcff895ec1be8">More...</a><br /></td></tr>
 <tr class="separator:a9a2ca32b709976d46aadcff895ec1be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadf8d0279141eaa4d074b763a71e2d5f"><td class="memItemLeft" align="right" valign="top">vector&lt; vector&lt; double &gt; &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#aadf8d0279141eaa4d074b763a71e2d5f">GetDistributionSubGrid</a> () const</td></tr>
-<tr class="memdesc:aadf8d0279141eaa4d074b763a71e2d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distribution on the subgrids.  <a href="#aadf8d0279141eaa4d074b763a71e2d5f">More...</a><br /></td></tr>
-<tr class="separator:aadf8d0279141eaa4d074b763a71e2d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47d2b60b8aac3ec4922efa3651dfaf82"><td class="memItemLeft" align="right" valign="top">vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a47d2b60b8aac3ec4922efa3651dfaf82">GetDistributionJointGrid</a> () const</td></tr>
-<tr class="memdesc:a47d2b60b8aac3ec4922efa3651dfaf82"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distribution on the joint grid.  <a href="#a47d2b60b8aac3ec4922efa3651dfaf82">More...</a><br /></td></tr>
-<tr class="separator:a47d2b60b8aac3ec4922efa3651dfaf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b3ce90a94c82a043362b0c68bee398"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#ad9b3ce90a94c82a043362b0c68bee398">GetDistributionSubGrid</a> () const</td></tr>
+<tr class="memdesc:ad9b3ce90a94c82a043362b0c68bee398"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distribution on the subgrids.  <a href="#ad9b3ce90a94c82a043362b0c68bee398">More...</a><br /></td></tr>
+<tr class="separator:ad9b3ce90a94c82a043362b0c68bee398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7486f60789a0135fe4e2107ce0221dd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#af7486f60789a0135fe4e2107ce0221dd">GetDistributionJointGrid</a> () const</td></tr>
+<tr class="memdesc:af7486f60789a0135fe4e2107ce0221dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distribution on the joint grid.  <a href="#af7486f60789a0135fe4e2107ce0221dd">More...</a><br /></td></tr>
+<tr class="separator:af7486f60789a0135fe4e2107ce0221dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a6a98ca87f7d781661a98038e753c1c27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1Grid.html">Grid</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a6a98ca87f7d781661a98038e753c1c27">_grid</a></td></tr>
 <tr class="memdesc:a6a98ca87f7d781661a98038e753c1c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stored grid reference.  <a href="#a6a98ca87f7d781661a98038e753c1c27">More...</a><br /></td></tr>
 <tr class="separator:a6a98ca87f7d781661a98038e753c1c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d161af798d3a24d600ee09943fd16e"><td class="memItemLeft" align="right" valign="top">vector&lt; vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a53d161af798d3a24d600ee09943fd16e">_distributionSubGrid</a></td></tr>
-<tr class="memdesc:a53d161af798d3a24d600ee09943fd16e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The array with the distribution values on the subgrid.  <a href="#a53d161af798d3a24d600ee09943fd16e">More...</a><br /></td></tr>
-<tr class="separator:a53d161af798d3a24d600ee09943fd16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40dfef1c5536137b9a367b014c5f7c22"><td class="memItemLeft" align="right" valign="top">vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a40dfef1c5536137b9a367b014c5f7c22">_distributionJointGrid</a></td></tr>
-<tr class="memdesc:a40dfef1c5536137b9a367b014c5f7c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">The array with the distribution values on the joint grid.  <a href="#a40dfef1c5536137b9a367b014c5f7c22">More...</a><br /></td></tr>
-<tr class="separator:a40dfef1c5536137b9a367b014c5f7c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d213653646c8598d07aae2ae6afcff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a08d213653646c8598d07aae2ae6afcff">_distributionSubGrid</a></td></tr>
+<tr class="memdesc:a08d213653646c8598d07aae2ae6afcff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The array with the distribution values on the subgrid.  <a href="#a08d213653646c8598d07aae2ae6afcff">More...</a><br /></td></tr>
+<tr class="separator:a08d213653646c8598d07aae2ae6afcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9054c97a66105a3af624834ea49ab3d5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a9054c97a66105a3af624834ea49ab3d5">_distributionJointGrid</a></td></tr>
+<tr class="memdesc:a9054c97a66105a3af624834ea49ab3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The array with the distribution values on the joint grid.  <a href="#a9054c97a66105a3af624834ea49ab3d5">More...</a><br /></td></tr>
+<tr class="separator:a9054c97a66105a3af624834ea49ab3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> class is a mother class for the x-space interpolationand requires the implementation of a specialized interpolation algorithm. The current version uses the joint grid object stored allocated by the <a class="el" href="classapfel_1_1Grid.html" title="The Grid class defines ab object that is essentially a collection of &quot;SubGrid&quot; objects plus other glo...">Grid</a> class. </p>
@@ -260,8 +260,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a47d2b60b8aac3ec4922efa3651dfaf82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47d2b60b8aac3ec4922efa3651dfaf82">&#9670;&nbsp;</a></span>GetDistributionJointGrid()</h2>
+<a id="af7486f60789a0135fe4e2107ce0221dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7486f60789a0135fe4e2107ce0221dd">&#9670;&nbsp;</a></span>GetDistributionJointGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +270,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;double&gt; const&amp; apfel::Interpolator::GetDistributionJointGrid </td>
+          <td class="memname">std::vector&lt;double&gt; const&amp; apfel::Interpolator::GetDistributionJointGrid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -287,8 +287,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aadf8d0279141eaa4d074b763a71e2d5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadf8d0279141eaa4d074b763a71e2d5f">&#9670;&nbsp;</a></span>GetDistributionSubGrid()</h2>
+<a id="ad9b3ce90a94c82a043362b0c68bee398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b3ce90a94c82a043362b0c68bee398">&#9670;&nbsp;</a></span>GetDistributionSubGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,7 +297,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;vector&lt;double&gt; &gt; const&amp; apfel::Interpolator::GetDistributionSubGrid </td>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; const&amp; apfel::Interpolator::GetDistributionSubGrid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -396,8 +396,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a16466c0a0a925b81f081b31fb722b28e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16466c0a0a925b81f081b31fb722b28e">&#9670;&nbsp;</a></span>SumBounds()</h2>
+<a id="acf4448797b971b6faee8b2eb84d9e910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf4448797b971b6faee8b2eb84d9e910">&#9670;&nbsp;</a></span>SumBounds()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,7 +406,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual array&lt;int,2&gt; apfel::Interpolator::SumBounds </td>
+          <td class="memname">virtual std::array&lt;int,2&gt; apfel::Interpolator::SumBounds </td>
           <td>(</td>
           <td class="paramtype">double const &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -440,13 +440,13 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the lower and upper bounds of the grid index </dd></dl>
 
-<p>Implemented in <a class="el" href="classapfel_1_1LagrangeInterpolator.html#a1535496981d75badf3f6001838412f0a">apfel::LagrangeInterpolator</a>.</p>
+<p>Implemented in <a class="el" href="classapfel_1_1LagrangeInterpolator.html#a1937891f73add6ac97b543c4e291308d">apfel::LagrangeInterpolator</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a40dfef1c5536137b9a367b014c5f7c22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40dfef1c5536137b9a367b014c5f7c22">&#9670;&nbsp;</a></span>_distributionJointGrid</h2>
+<a id="a9054c97a66105a3af624834ea49ab3d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9054c97a66105a3af624834ea49ab3d5">&#9670;&nbsp;</a></span>_distributionJointGrid</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,7 +455,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;double&gt; apfel::Interpolator::_distributionJointGrid</td>
+          <td class="memname">std::vector&lt;double&gt; apfel::Interpolator::_distributionJointGrid</td>
         </tr>
       </table>
   </td>
@@ -469,8 +469,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a53d161af798d3a24d600ee09943fd16e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53d161af798d3a24d600ee09943fd16e">&#9670;&nbsp;</a></span>_distributionSubGrid</h2>
+<a id="a08d213653646c8598d07aae2ae6afcff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d213653646c8598d07aae2ae6afcff">&#9670;&nbsp;</a></span>_distributionSubGrid</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -479,7 +479,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;vector&lt;double&gt; &gt; apfel::Interpolator::_distributionSubGrid</td>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; apfel::Interpolator::_distributionSubGrid</td>
         </tr>
       </table>
   </td>
@@ -523,7 +523,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 27 2018 16:51:26 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 28 2018 15:04:22 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

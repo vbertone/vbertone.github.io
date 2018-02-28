@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['nf',['NF',['../namespaceapfel.html#ab3197da9c71ac6eee54a96572bc679c1',1,'apfel']]],
+  ['nf',['NF',['../namespaceapfel.html#a5ae0b26dd9a59ac71e0c8820ada8c433',1,'apfel']]],
   ['ngrids',['nGrids',['../classapfel_1_1Grid.html#a633e5058782ac5f774fba183606fa478',1,'apfel::Grid']]],
   ['nlo_20matching_20functions_20for_20pdfs',['NLO matching functions for PDFs',['../group__NLO.html',1,'']]],
   ['nlo_20matching_20functions_20for_20ffs',['NLO matching functions for FFs',['../group__NLOff.html',1,'']]],

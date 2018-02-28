@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['c0',['C0',['../structapfel_1_1StructureFunctionObjects.html#ad7aface126f37df2c23c73b6fb298847',1,'apfel::StructureFunctionObjects']]],
-  ['c1',['C1',['../structapfel_1_1StructureFunctionObjects.html#a2a4994df75d3fe2bed00eb5bc0a41ff0',1,'apfel::StructureFunctionObjects']]],
+  ['c0',['C0',['../structapfel_1_1StructureFunctionObjects.html#aec41790ab1ec2824247d19a58cb70076',1,'apfel::StructureFunctionObjects']]],
+  ['c1',['C1',['../structapfel_1_1StructureFunctionObjects.html#ab92e5ec267405390c2d9099306423786',1,'apfel::StructureFunctionObjects']]],
   ['c1gg',['C1gg',['../classapfel_1_1C1gg.html',1,'apfel::C1gg'],['../classapfel_1_1C1gg.html#aa8dbf2ff2cdc49c6cb591580eafb214f',1,'apfel::C1gg::C1gg()']]],
   ['c1ggff',['C1ggff',['../classapfel_1_1C1ggff.html',1,'apfel::C1ggff'],['../classapfel_1_1C1ggff.html#ae26c6dc5fceaccb5950e340db6977562',1,'apfel::C1ggff::C1ggff()']]],
   ['c1gq',['C1gq',['../classapfel_1_1C1gq.html',1,'apfel::C1gq'],['../classapfel_1_1C1gq.html#a79e7d392446dd2800251dc42df743dd2',1,'apfel::C1gq::C1gq()']]],
@@ -10,7 +10,7 @@ var searchData=
   ['c1nsff',['C1nsff',['../classapfel_1_1C1nsff.html',1,'apfel::C1nsff'],['../classapfel_1_1C1nsff.html#aa3fd3127859c93a35701721a761c0bfc',1,'apfel::C1nsff::C1nsff()']]],
   ['c1qg',['C1qg',['../classapfel_1_1C1qg.html',1,'apfel::C1qg'],['../classapfel_1_1C1qg.html#abc63ec16ea764bae7432a9ad3fc75b2e',1,'apfel::C1qg::C1qg()']]],
   ['c1qgff',['C1qgff',['../classapfel_1_1C1qgff.html',1,'apfel::C1qgff'],['../classapfel_1_1C1qgff.html#ac228ffa2c2be504f566c548f71c8ad57',1,'apfel::C1qgff::C1qgff()']]],
-  ['c2',['C2',['../structapfel_1_1StructureFunctionObjects.html#a35badf2e9bf983f168696c0a0cb799ea',1,'apfel::StructureFunctionObjects']]],
+  ['c2',['C2',['../structapfel_1_1StructureFunctionObjects.html#a2656306224af3f330880907794a3764b',1,'apfel::StructureFunctionObjects']]],
   ['c21g',['C21g',['../classapfel_1_1C21g.html',1,'apfel::C21g'],['../classapfel_1_1C21g.html#a1347131e6465c86c4ccca70a45ef58a0',1,'apfel::C21g::C21g()']]],
   ['c21ns',['C21ns',['../classapfel_1_1C21ns.html',1,'apfel::C21ns'],['../classapfel_1_1C21ns.html#a7c9849e8a526c015216337032622309d',1,'apfel::C21ns::C21ns()']]],
   ['c22g',['C22g',['../classapfel_1_1C22g.html',1,'apfel::C22g'],['../classapfel_1_1C22g.html#aedff7ae288816623fe64ced2d04f73a2',1,'apfel::C22g::C22g()']]],
@@ -69,9 +69,9 @@ var searchData=
   ['coefficient',['coefficient',['../structapfel_1_1ConvolutionMap_1_1rule.html#a4bf45b4c287915ad713e8367aea136ea',1,'apfel::ConvolutionMap::rule::coefficient()'],['../structapfel_1_1term.html#ab24e571b871595a33fbdb59d5dd67fa2',1,'apfel::term::coefficient()']]],
   ['combine',['Combine',['../classapfel_1_1Set.html#a7065697bdd240416184fee23592c77fa',1,'apfel::Set']]],
   ['constants_2eh',['constants.h',['../constants_8h.html',1,'']]],
-  ['convbasis',['ConvBasis',['../structapfel_1_1StructureFunctionObjects.html#ad4c35d4564ab99b5ed64bb30134cbeb7',1,'apfel::StructureFunctionObjects']]],
+  ['convbasis',['ConvBasis',['../structapfel_1_1StructureFunctionObjects.html#a61893ffd8cd0f9a35a2d4bf423f4f9b5',1,'apfel::StructureFunctionObjects']]],
   ['convfact',['ConvFact',['../namespaceapfel.html#ae98d82c9534cde7c04ae48896e66360e',1,'apfel']]],
-  ['convolutionmap',['ConvolutionMap',['../classapfel_1_1ConvolutionMap.html',1,'apfel::ConvolutionMap'],['../classapfel_1_1ConvolutionMap.html#a74e2252954fdea31f988c3591bd71f6a',1,'apfel::ConvolutionMap::ConvolutionMap()']]],
+  ['convolutionmap',['ConvolutionMap',['../classapfel_1_1ConvolutionMap.html',1,'apfel::ConvolutionMap'],['../classapfel_1_1ConvolutionMap.html#a0f602872988c9ec3286bd30c66a92cf7',1,'apfel::ConvolutionMap::ConvolutionMap()']]],
   ['convolutionmap_2eh',['convolutionmap.h',['../convolutionmap_8h.html',1,'']]],
   ['createjointgrid',['CreateJointGrid',['../classapfel_1_1Grid.html#a3c131fb5aa855cad1ebee09685f114bd',1,'apfel::Grid']]],
   ['cs',['CS',['../classapfel_1_1DISNCBasis.html#a4ab558bc993eb6f6b5c6a9f15eb53d60a6edfc8afd7a0b1bfebc74332afb4031c',1,'apfel::DISNCBasis::CS()'],['../classapfel_1_1DISCCBasis.html#a56bdaa6315470fe02451ec5c940fcc2fa6501efd2adadece560864a42d0ef496b',1,'apfel::DISCCBasis::CS()']]],
@@ -84,6 +84,6 @@ var searchData=
   ['csd31',['CSd31',['../namespaceapfel.html#a2403d13f05e1caca92a9d98add6a7d5e',1,'apfel']]],
   ['csd32',['CSd32',['../namespaceapfel.html#ab37d5a8817364719799866f35642c003',1,'apfel']]],
   ['csd33',['CSd33',['../namespaceapfel.html#a9da328877e9cfedcecd6743c1151b434',1,'apfel']]],
-  ['csdg',['CSdg',['../structapfel_1_1TmdObjects.html#a24d5a3ab791e5f9cb62cb00e7643e3f7',1,'apfel::TmdObjects']]],
-  ['csdq',['CSdq',['../structapfel_1_1TmdObjects.html#a935adc371540dc407af928e96443465b',1,'apfel::TmdObjects']]]
+  ['csdg',['CSdg',['../structapfel_1_1TmdObjects.html#ab0a07290f32447411f1fd4cb1175d4ec',1,'apfel::TmdObjects']]],
+  ['csdq',['CSdq',['../structapfel_1_1TmdObjects.html#a32c16125fe1f492ed123f4b908dae142',1,'apfel::TmdObjects']]]
 ];

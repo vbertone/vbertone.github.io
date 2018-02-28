@@ -77,7 +77,6 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="set_8h_source.html">apfel/set.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="distribution_8h_source.html">apfel/distribution.h</a>&quot;</code><br />
-<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="tmdcrosssections_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -102,18 +101,18 @@ Variables</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">TMD Drell-Yan cross sections</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Functions that return the fully differential Drell-Yan cross section as function of the transverse momentum on the vector boson qT, taking as inputs the evolved TMD PDFs, the center-of-mass energy Vs, the vector-boson virtuality Q and rapidity, the final TMD scales muf and zetaf. </p>
 </div></td></tr>
-<tr class="memitem:a0a9f16e4c0a442036c8cca122a9efef9"><td class="memItemLeft" align="right" valign="top">function&lt; double(double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a0a9f16e4c0a442036c8cca122a9efef9">apfel::TmdCrossSectionDY</a> (double const &amp;Vs, double const &amp;Q, double const &amp;y, function&lt; Set&lt; Distribution &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDPDFs, function&lt; double(double const &amp;)&gt; const &amp;Alphas, function&lt; vector&lt; double &gt;(double const &amp;)&gt; const &amp;fEWCharges, int const &amp;PerturbativeOrder, vector&lt; double &gt; const &amp;Thresholds, double const &amp;cmuf=1, double const &amp;czetaf=1)</td></tr>
-<tr class="separator:a0a9f16e4c0a442036c8cca122a9efef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9636d30148724e9065f9b2cacdc8b667"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a9636d30148724e9065f9b2cacdc8b667">apfel::TmdCrossSectionDY</a> (double const &amp;Vs, double const &amp;Q, double const &amp;y, std::function&lt; Set&lt; Distribution &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDPDFs, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;fEWCharges, int const &amp;PerturbativeOrder, std::vector&lt; double &gt; const &amp;Thresholds, double const &amp;cmuf=1, double const &amp;czetaf=1)</td></tr>
+<tr class="separator:a9636d30148724e9065f9b2cacdc8b667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">SIDIS TMD cross sections</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Functions that return the fully differential SIDIS cross section as function of the transverse momentum on the vector boson qT, taking as inputs the evolved TMD PDFs and FFs, the center-of-mass energy Vs, the inelasticity y, the momentum fractions of the incmoming and outgoing hadrons x and z, rapidity, the final TMD scales muf and zetaf. </p>
 </div></td></tr>
-<tr class="memitem:ad5528a015114b6e2a7461216a669535c"><td class="memItemLeft" align="right" valign="top">function&lt; double(double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ad5528a015114b6e2a7461216a669535c">apfel::TmdCrossSectionSIDIS</a> (double const &amp;Vs, double const &amp;x, double const &amp;y, double const &amp;z, function&lt; Set&lt; Distribution &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDPDFs, function&lt; Set&lt; Distribution &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDFFs, function&lt; double(double const &amp;)&gt; const &amp;Alphas, function&lt; vector&lt; double &gt;(double const &amp;)&gt; const &amp;fEWCharges, int const &amp;PerturbativeOrder, vector&lt; double &gt; const &amp;Thresholds, double const &amp;cmuf=1, double const &amp;czetaf=1)</td></tr>
-<tr class="separator:ad5528a015114b6e2a7461216a669535c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1e839833d9c0fd643bda0b7dbf89d5"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aed1e839833d9c0fd643bda0b7dbf89d5">apfel::TmdCrossSectionSIDIS</a> (double const &amp;Vs, double const &amp;x, double const &amp;y, double const &amp;z, std::function&lt; Set&lt; Distribution &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDPDFs, std::function&lt; Set&lt; Distribution &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDFFs, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;fEWCharges, int const &amp;PerturbativeOrder, std::vector&lt; double &gt; const &amp;Thresholds, double const &amp;cmuf=1, double const &amp;czetaf=1)</td></tr>
+<tr class="separator:aed1e839833d9c0fd643bda0b7dbf89d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 27 2018 16:51:25 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 28 2018 15:04:21 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

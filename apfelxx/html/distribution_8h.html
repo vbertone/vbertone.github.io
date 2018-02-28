@@ -77,7 +77,6 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="lagrangeinterpolator_8h_source.html">apfel/lagrangeinterpolator.h</a>&quot;</code><br />
-<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 </div>
 <p><a href="distribution_8h_source.html">Go to the source code of this file.</a></p>
@@ -103,12 +102,12 @@ Functions</h2></td></tr>
 <tr class="memitem:aaa500facbcf4c0f7fe308ff744e9c51a"><td class="memItemLeft" align="right" valign="top">Distribution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aaa500facbcf4c0f7fe308ff744e9c51a">apfel::operator*</a> (Distribution lhs, double const &amp;s)</td></tr>
 <tr class="memdesc:aaa500facbcf4c0f7fe308ff744e9c51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution*Scalar.  <a href="namespaceapfel.html#aaa500facbcf4c0f7fe308ff744e9c51a">More...</a><br /></td></tr>
 <tr class="separator:aaa500facbcf4c0f7fe308ff744e9c51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28aa5851964547285a5e331c504d3be6"><td class="memItemLeft" align="right" valign="top">Distribution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a28aa5851964547285a5e331c504d3be6">apfel::operator*</a> (function&lt; double(double const &amp;)&gt; const &amp;f, Distribution rhs)</td></tr>
-<tr class="memdesc:a28aa5851964547285a5e331c504d3be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function*Distribution.  <a href="namespaceapfel.html#a28aa5851964547285a5e331c504d3be6">More...</a><br /></td></tr>
-<tr class="separator:a28aa5851964547285a5e331c504d3be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a093948d75d0963879e4f4af1b2b966bb"><td class="memItemLeft" align="right" valign="top">Distribution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a093948d75d0963879e4f4af1b2b966bb">apfel::operator*</a> (Distribution lhs, function&lt; double(double const &amp;)&gt; const &amp;f)</td></tr>
-<tr class="memdesc:a093948d75d0963879e4f4af1b2b966bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution*Function.  <a href="namespaceapfel.html#a093948d75d0963879e4f4af1b2b966bb">More...</a><br /></td></tr>
-<tr class="separator:a093948d75d0963879e4f4af1b2b966bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac755f8ac8b722fa814e5bfbc276a6fa1"><td class="memItemLeft" align="right" valign="top">Distribution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ac755f8ac8b722fa814e5bfbc276a6fa1">apfel::operator*</a> (std::function&lt; double(double const &amp;)&gt; const &amp;f, Distribution rhs)</td></tr>
+<tr class="memdesc:ac755f8ac8b722fa814e5bfbc276a6fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function*Distribution.  <a href="namespaceapfel.html#ac755f8ac8b722fa814e5bfbc276a6fa1">More...</a><br /></td></tr>
+<tr class="separator:ac755f8ac8b722fa814e5bfbc276a6fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b56802c59b0b6a8622f1823bc38a2f6"><td class="memItemLeft" align="right" valign="top">Distribution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a2b56802c59b0b6a8622f1823bc38a2f6">apfel::operator*</a> (Distribution lhs, std::function&lt; double(double const &amp;)&gt; const &amp;f)</td></tr>
+<tr class="memdesc:a2b56802c59b0b6a8622f1823bc38a2f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution*Function.  <a href="namespaceapfel.html#a2b56802c59b0b6a8622f1823bc38a2f6">More...</a><br /></td></tr>
+<tr class="separator:a2b56802c59b0b6a8622f1823bc38a2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a051ae35acb69e292c5a13a2067f2df3f"><td class="memItemLeft" align="right" valign="top">Distribution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a051ae35acb69e292c5a13a2067f2df3f">apfel::operator/</a> (Distribution lhs, double const &amp;s)</td></tr>
 <tr class="memdesc:a051ae35acb69e292c5a13a2067f2df3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution/Scalar.  <a href="namespaceapfel.html#a051ae35acb69e292c5a13a2067f2df3f">More...</a><br /></td></tr>
 <tr class="separator:a051ae35acb69e292c5a13a2067f2df3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,17 +123,17 @@ Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Map of Distribution functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Function that return maps pf distributions. </p>
 </div></td></tr>
-<tr class="memitem:ac378cc783c064765184e2f440b0d6763"><td class="memItemLeft" align="right" valign="top">map&lt; int, Distribution &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ac378cc783c064765184e2f440b0d6763">apfel::DistributionMap</a> (Grid const &amp;g, function&lt; map&lt; int, double &gt;(double const &amp;, double const &amp;)&gt; const &amp;InDistFunc, double const &amp;Q, vector&lt; int &gt; const &amp;skip={})</td></tr>
-<tr class="memdesc:ac378cc783c064765184e2f440b0d6763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that fills in a map of distributions from a map-valued function.  <a href="namespaceapfel.html#ac378cc783c064765184e2f440b0d6763">More...</a><br /></td></tr>
-<tr class="separator:ac378cc783c064765184e2f440b0d6763"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22ecbe19511741801245be2a0b59830c"><td class="memItemLeft" align="right" valign="top">map&lt; int, Distribution &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a22ecbe19511741801245be2a0b59830c">apfel::DistributionMap</a> (Grid const &amp;g, function&lt; map&lt; int, double &gt;(double const &amp;)&gt; const &amp;InDistFunc, vector&lt; int &gt; const &amp;skip={})</td></tr>
-<tr class="memdesc:a22ecbe19511741801245be2a0b59830c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that fills in a map of distributions from a map-valued function.  <a href="namespaceapfel.html#a22ecbe19511741801245be2a0b59830c">More...</a><br /></td></tr>
-<tr class="separator:a22ecbe19511741801245be2a0b59830c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91369924aaedef23a58a6d737eeeb1d0"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, Distribution &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a91369924aaedef23a58a6d737eeeb1d0">apfel::DistributionMap</a> (Grid const &amp;g, std::function&lt; std::map&lt; int, double &gt;(double const &amp;, double const &amp;)&gt; const &amp;InDistFunc, double const &amp;Q, std::vector&lt; int &gt; const &amp;skip={})</td></tr>
+<tr class="memdesc:a91369924aaedef23a58a6d737eeeb1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that fills in a map of distributions from a map-valued function.  <a href="namespaceapfel.html#a91369924aaedef23a58a6d737eeeb1d0">More...</a><br /></td></tr>
+<tr class="separator:a91369924aaedef23a58a6d737eeeb1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb08b8a342fa66a29fde165969e48834"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, Distribution &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#acb08b8a342fa66a29fde165969e48834">apfel::DistributionMap</a> (Grid const &amp;g, std::function&lt; std::map&lt; int, double &gt;(double const &amp;)&gt; const &amp;InDistFunc, std::vector&lt; int &gt; const &amp;skip={})</td></tr>
+<tr class="memdesc:acb08b8a342fa66a29fde165969e48834"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that fills in a map of distributions from a map-valued function.  <a href="namespaceapfel.html#acb08b8a342fa66a29fde165969e48834">More...</a><br /></td></tr>
+<tr class="separator:acb08b8a342fa66a29fde165969e48834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 27 2018 16:51:25 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 28 2018 15:04:21 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
