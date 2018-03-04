@@ -90,7 +90,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6267a884d276851d6d829dbdaab9b366"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#a6267a884d276851d6d829dbdaab9b366">Grid</a> ()=delete</td></tr>
 <tr class="separator:a6267a884d276851d6d829dbdaab9b366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d69a3ebae295ea4559ad1a042cbdd16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#a9d69a3ebae295ea4559ad1a042cbdd16">Grid</a> (std::vector&lt; <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> &gt; const &amp;grs, bool const &amp;lockgrids=true)</td></tr>
-<tr class="memdesc:a9d69a3ebae295ea4559ad1a042cbdd16"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default constructor.  <a href="#a9d69a3ebae295ea4559ad1a042cbdd16">More...</a><br /></td></tr>
+<tr class="memdesc:a9d69a3ebae295ea4559ad1a042cbdd16"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Grid.html" title="The Grid class defines ab object that is essentially a collection of &quot;SubGrid&quot; objects plus other glo...">Grid</a> constructor.  <a href="#a9d69a3ebae295ea4559ad1a042cbdd16">More...</a><br /></td></tr>
 <tr class="separator:a9d69a3ebae295ea4559ad1a042cbdd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Getters</div></td></tr>
 <tr class="memitem:a633e5058782ac5f774fba183606fa478"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#a633e5058782ac5f774fba183606fa478">nGrids</a> () const</td></tr>
@@ -113,9 +113,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a3c131fb5aa855cad1ebee09685f114bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#a3c131fb5aa855cad1ebee09685f114bd">CreateJointGrid</a> ()</td></tr>
-<tr class="memdesc:a3c131fb5aa855cad1ebee09685f114bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes the input SubGrids, apply the locking if needed and fill the joint grid object with the appropriate grid nodes.  <a href="#a3c131fb5aa855cad1ebee09685f114bd">More...</a><br /></td></tr>
-<tr class="separator:a3c131fb5aa855cad1ebee09685f114bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a12837ed78aa281b3cbba10be175092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#a8a12837ed78aa281b3cbba10be175092">CreateJointGrid</a> ()</td></tr>
+<tr class="memdesc:a8a12837ed78aa281b3cbba10be175092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes the input SubGrids, apply the locking if needed and fill the joint grid object with the appropriate grid nodes.  <a href="#a8a12837ed78aa281b3cbba10be175092">More...</a><br /></td></tr>
+<tr class="separator:a8a12837ed78aa281b3cbba10be175092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -128,9 +128,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae21efbaa383663c4459f40d42f505daf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#ae21efbaa383663c4459f40d42f505daf">_GlobalGrid</a></td></tr>
 <tr class="memdesc:ae21efbaa383663c4459f40d42f505daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector with sub-grids.  <a href="#ae21efbaa383663c4459f40d42f505daf">More...</a><br /></td></tr>
 <tr class="separator:ae21efbaa383663c4459f40d42f505daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9144e68087d69ad9239f76093b63a772"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#a9144e68087d69ad9239f76093b63a772">_JointGrid</a></td></tr>
-<tr class="memdesc:a9144e68087d69ad9239f76093b63a772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for the joint grid.  <a href="#a9144e68087d69ad9239f76093b63a772">More...</a><br /></td></tr>
-<tr class="separator:a9144e68087d69ad9239f76093b63a772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa73b5a985d9d2ff1b26b8c2f7f5cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Grid.html#aafa73b5a985d9d2ff1b26b8c2f7f5cb2">_JointGrid</a></td></tr>
+<tr class="memdesc:aafa73b5a985d9d2ff1b26b8c2f7f5cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for the joint grid.  <a href="#aafa73b5a985d9d2ff1b26b8c2f7f5cb2">More...</a><br /></td></tr>
+<tr class="separator:aafa73b5a985d9d2ff1b26b8c2f7f5cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -193,7 +193,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The default constructor. </p>
+<p>The <a class="el" href="classapfel_1_1Grid.html" title="The Grid class defines ab object that is essentially a collection of &quot;SubGrid&quot; objects plus other glo...">Grid</a> constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">grs</td><td>vector of subgrids </td></tr>
@@ -205,8 +205,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3c131fb5aa855cad1ebee09685f114bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c131fb5aa855cad1ebee09685f114bd">&#9670;&nbsp;</a></span>CreateJointGrid()</h2>
+<a id="a8a12837ed78aa281b3cbba10be175092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a12837ed78aa281b3cbba10be175092">&#9670;&nbsp;</a></span>CreateJointGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +215,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void apfel::Grid::CreateJointGrid </td>
+          <td class="memname"><a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> apfel::Grid::CreateJointGrid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -229,6 +229,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Takes the input SubGrids, apply the locking if needed and fill the joint grid object with the appropriate grid nodes. </p>
+<dl class="section return"><dt>Returns</dt><dd>the joint grid </dd></dl>
 
 </div>
 </div>
@@ -487,8 +488,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a9144e68087d69ad9239f76093b63a772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9144e68087d69ad9239f76093b63a772">&#9670;&nbsp;</a></span>_JointGrid</h2>
+<a id="aafa73b5a985d9d2ff1b26b8c2f7f5cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa73b5a985d9d2ff1b26b8c2f7f5cb2">&#9670;&nbsp;</a></span>_JointGrid</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +498,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a>&gt; apfel::Grid::_JointGrid</td>
+          <td class="memname"><a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> apfel::Grid::_JointGrid</td>
         </tr>
       </table>
   </td>
@@ -541,7 +542,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 28 2018 15:04:22 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Mar 4 2018 15:51:39 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

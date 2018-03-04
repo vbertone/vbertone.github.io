@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['threshold',['Threshold',['../structapfel_1_1DglapObjects.html#a86d077a0480f42088cf0b73a5163fddd',1,'apfel::DglapObjects::Threshold()'],['../structapfel_1_1TmdObjects.html#ae56448881a89de75ba38927a0226291a',1,'apfel::TmdObjects::Threshold()']]],
-  ['tmdcrosssectiondy',['TmdCrossSectionDY',['../namespaceapfel.html#a9636d30148724e9065f9b2cacdc8b667',1,'apfel']]],
-  ['tmdcrosssectionsidis',['TmdCrossSectionSIDIS',['../namespaceapfel.html#aed1e839833d9c0fd643bda0b7dbf89d5',1,'apfel']]],
-  ['tr',['TR',['../namespaceapfel.html#aa5cdb3b0774934c96e344d691863282a',1,'apfel']]]
+  ['q0',['Q0',['../structapfel_1_1EvolutionSetup.html#a204de6ac2d42773ef73525b99feff1a0',1,'apfel::EvolutionSetup']]],
+  ['q2s',['q2s',['../structapfel_1_1LHKnotArray.html#a046277f51b173abadb78d49ec1f3bca6',1,'apfel::LHKnotArray']]],
+  ['qch',['QCh',['../namespaceapfel.html#a5eae545badb8945cd767271b573a8fc2',1,'apfel']]],
+  ['qch2',['QCh2',['../namespaceapfel.html#a4e9304b2e9dfeb40a2ad1a3cfa6b2e6a',1,'apfel']]],
+  ['qmax',['Qmax',['../structapfel_1_1EvolutionSetup.html#ab80c721e240135b40821d4cda11b78e2',1,'apfel::EvolutionSetup']]],
+  ['qmin',['Qmin',['../structapfel_1_1EvolutionSetup.html#aa74278493b4ea60f09c74510a84be9ec',1,'apfel::EvolutionSetup']]],
+  ['qqcdref',['QQCDRef',['../structapfel_1_1EvolutionSetup.html#a78386fbdc6c17e740cbd14ab8d015914',1,'apfel::EvolutionSetup']]],
+  ['qqedref',['QQEDRef',['../structapfel_1_1EvolutionSetup.html#a198ae368f643bda07977fd4a21815a1e',1,'apfel::EvolutionSetup']]]
 ];

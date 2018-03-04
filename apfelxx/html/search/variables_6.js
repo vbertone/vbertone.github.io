@@ -1,16 +1,9 @@
 var searchData=
 [
-  ['initializef2ccminusobjectszm',['InitializeF2CCMinusObjectsZM',['../namespaceapfel.html#a95f988601f534fa5486653b1dd9c161c',1,'apfel']]],
-  ['initializef2ccplusobjectszm',['InitializeF2CCPlusObjectsZM',['../namespaceapfel.html#af58e64c6a559d2409d9116b70c75c7c3',1,'apfel']]],
-  ['initializef2ncobjectsmassive',['InitializeF2NCObjectsMassive',['../namespaceapfel.html#a2f83f603ee5fcd31279efa7ba12449db',1,'apfel']]],
-  ['initializef2ncobjectsmassivezero',['InitializeF2NCObjectsMassiveZero',['../namespaceapfel.html#aabc003ca2048453082eee5584ff4a19a',1,'apfel']]],
-  ['initializef2ncobjectszm',['InitializeF2NCObjectsZM',['../namespaceapfel.html#aa3f966c69e5ed1a1200f1d601af951a7',1,'apfel']]],
-  ['initializef3ccminusobjectszm',['InitializeF3CCMinusObjectsZM',['../namespaceapfel.html#a53471c63dfc72ee43ad6cedd9973c903',1,'apfel']]],
-  ['initializef3ccplusobjectszm',['InitializeF3CCPlusObjectsZM',['../namespaceapfel.html#a010de0c6b77af43417c304820b9a87b9',1,'apfel']]],
-  ['initializef3ncobjectszm',['InitializeF3NCObjectsZM',['../namespaceapfel.html#a2ed59c5a61709aed447df1f7db6e4780',1,'apfel']]],
-  ['initializeflccminusobjectszm',['InitializeFLCCMinusObjectsZM',['../namespaceapfel.html#a27801b54cefc730c08076cd2422e42b7',1,'apfel']]],
-  ['initializeflccplusobjectszm',['InitializeFLCCPlusObjectsZM',['../namespaceapfel.html#a5e10aa682f52eb8af85ba07c1f83096a',1,'apfel']]],
-  ['initializeflncobjectsmassive',['InitializeFLNCObjectsMassive',['../namespaceapfel.html#af0c8cd81dff9b0c3bed2e1feab9e2755',1,'apfel']]],
-  ['initializeflncobjectsmassivezero',['InitializeFLNCObjectsMassiveZero',['../namespaceapfel.html#aad32401c8c8b34757d02c856e0f30908',1,'apfel']]],
-  ['initializeflncobjectszm',['InitializeFLNCObjectsZM',['../namespaceapfel.html#a442be14a57718a462036d90dd283dbc2',1,'apfel']]]
+  ['gammacuspg',['GammaCuspg',['../structapfel_1_1TmdObjects.html#ad4f9362e47e9d3665c41453ef8dc6475',1,'apfel::TmdObjects']]],
+  ['gammacuspq',['GammaCuspq',['../structapfel_1_1TmdObjects.html#a2981bedf7755ce3d1d49c36047c3c868',1,'apfel::TmdObjects']]],
+  ['gammavg',['GammaVg',['../structapfel_1_1TmdObjects.html#a02b23af7f42f32d18d6656fb2755abaa',1,'apfel::TmdObjects']]],
+  ['gammavq',['GammaVq',['../structapfel_1_1TmdObjects.html#a7df0d438e7acf3890ca91af4241322e3',1,'apfel::TmdObjects']]],
+  ['gaussaccuracy',['GaussAccuracy',['../structapfel_1_1EvolutionSetup.html#a54c93d3a7ba5755aeef82ef251831c2d',1,'apfel::EvolutionSetup']]],
+  ['gridparameters',['GridParameters',['../structapfel_1_1EvolutionSetup.html#ad81d6dd6e1abb9aed8d0e3e784ac9941',1,'apfel::EvolutionSetup']]]
 ];

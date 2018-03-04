@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vij',['Vij',['../classapfel_1_1DISCCBasis.html#a6c03ec4c587fa3b255f87265eeb5afb4',1,'apfel::DISCCBasis']]]
+  ['renfacratio',['RenFacRatio',['../structapfel_1_1EvolutionSetup.html#acce8fce3daa9d217a4183df7a448083f',1,'apfel::EvolutionSetup']]]
 ];

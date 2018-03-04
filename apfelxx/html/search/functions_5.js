@@ -26,6 +26,7 @@ var searchData=
   ['getrules',['GetRules',['../classapfel_1_1ConvolutionMap.html#a023650eaa280db45c1ee746565085ffe',1,'apfel::ConvolutionMap']]],
   ['getsubgrid',['GetSubGrid',['../classapfel_1_1Grid.html#a5d2c4011b5ba8c1e752229b558793fee',1,'apfel::Grid']]],
   ['getterms',['GetTerms',['../classapfel_1_1DoubleObject.html#abd3c4b7e4aa29ad042be541ba1a36d57',1,'apfel::DoubleObject']]],
+  ['getthesholdindices',['GetThesholdIndices',['../classapfel_1_1QGrid.html#aeea1ac5fbc6d8f0dddb5015c0f310bf3',1,'apfel::QGrid']]],
   ['getthresholds',['GetThresholds',['../classapfel_1_1MatchedEvolution.html#a9914b064a0d37c6849326e9d7f67102c',1,'apfel::MatchedEvolution::GetThresholds()'],['../classapfel_1_1QGrid.html#aecee5c415c15fa8b837fd1bffa4cd2d3',1,'apfel::QGrid::GetThresholds()']]],
   ['getverbositylevel',['GetVerbosityLevel',['../namespaceapfel.html#a72b6a7944341cd1a463f55c3330eeb82',1,'apfel']]],
   ['grid',['Grid',['../classapfel_1_1Grid.html#a6267a884d276851d6d829dbdaab9b366',1,'apfel::Grid::Grid()=delete'],['../classapfel_1_1Grid.html#a9d69a3ebae295ea4559ad1a042cbdd16',1,'apfel::Grid::Grid(std::vector&lt; SubGrid &gt; const &amp;grs, bool const &amp;lockgrids=true)']]]

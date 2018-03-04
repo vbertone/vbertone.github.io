@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['gammacuspg',['GammaCuspg',['../structapfel_1_1TmdObjects.html#ad4f9362e47e9d3665c41453ef8dc6475',1,'apfel::TmdObjects']]],
-  ['gammacuspq',['GammaCuspq',['../structapfel_1_1TmdObjects.html#a2981bedf7755ce3d1d49c36047c3c868',1,'apfel::TmdObjects']]],
-  ['gammavg',['GammaVg',['../structapfel_1_1TmdObjects.html#a02b23af7f42f32d18d6656fb2755abaa',1,'apfel::TmdObjects']]],
-  ['gammavq',['GammaVq',['../structapfel_1_1TmdObjects.html#a7df0d438e7acf3890ca91af4241322e3',1,'apfel::TmdObjects']]]
+  ['flavourscheme',['FlavourScheme',['../structapfel_1_1EvolutionSetup.html#a1fadbb568bd968bcd6c04e233001e6df',1,'apfel::EvolutionSetup']]],
+  ['fourpi',['FourPi',['../namespaceapfel.html#a85b8b6031f7dc4332676cf62fd78f18a',1,'apfel']]]
 ];

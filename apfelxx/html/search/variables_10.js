@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['zeta2',['zeta2',['../namespaceapfel.html#a35fb1a2f328a8628032d37315c2e6366',1,'apfel']]],
-  ['zeta3',['zeta3',['../namespaceapfel.html#a8c61738249340194dc5348b0f308cc31',1,'apfel']]],
-  ['zeta4',['zeta4',['../namespaceapfel.html#ada81e2768570ad4b52fb29b6c5f0cfc7',1,'apfel']]],
-  ['zeta5',['zeta5',['../namespaceapfel.html#a6ec5e74a577acfed19a3ba3b05006da8',1,'apfel']]]
+  ['skip',['skip',['../structapfel_1_1StructureFunctionObjects.html#a9f1b3557881f7d54fdc30d4aaed976ff',1,'apfel::StructureFunctionObjects']]],
+  ['splittingfunctions',['SplittingFunctions',['../structapfel_1_1DglapObjects.html#aa6d18ea7d275e7434c1ea564004670f0',1,'apfel::DglapObjects']]],
+  ['starttime',['startTime',['../classapfel_1_1Timer.html#acbe91fe2ef7dc2088413c972c9032440',1,'apfel::Timer']]]
 ];

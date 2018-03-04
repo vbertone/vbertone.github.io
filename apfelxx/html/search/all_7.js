@@ -16,6 +16,7 @@ var searchData=
   ['gammavq0',['gammaVq0',['../namespaceapfel.html#a14939d4804ad2ac8a025ed2bd29ea8f6',1,'apfel']]],
   ['gammavq1',['gammaVq1',['../namespaceapfel.html#ae7883506b53d7b21b49852b72c4fc116',1,'apfel']]],
   ['gammavq2',['gammaVq2',['../namespaceapfel.html#acce2ff7802a7404ae8cfc9b6ee846cac',1,'apfel']]],
+  ['gaussaccuracy',['GaussAccuracy',['../structapfel_1_1EvolutionSetup.html#a54c93d3a7ba5755aeef82ef251831c2d',1,'apfel::EvolutionSetup']]],
   ['getdistributionjointgrid',['GetDistributionJointGrid',['../classapfel_1_1Interpolator.html#af7486f60789a0135fe4e2107ce0221dd',1,'apfel::Interpolator']]],
   ['getdistributionsubgrid',['GetDistributionSubGrid',['../classapfel_1_1Interpolator.html#ad9b3ce90a94c82a043362b0c68bee398',1,'apfel::Interpolator']]],
   ['getfqgrid',['GetFQGrid',['../classapfel_1_1QGrid.html#a5988daad45edcd80bd39b2e6f88be606',1,'apfel::QGrid']]],
@@ -33,11 +34,13 @@ var searchData=
   ['getrules',['GetRules',['../classapfel_1_1ConvolutionMap.html#a023650eaa280db45c1ee746565085ffe',1,'apfel::ConvolutionMap']]],
   ['getsubgrid',['GetSubGrid',['../classapfel_1_1Grid.html#a5d2c4011b5ba8c1e752229b558793fee',1,'apfel::Grid']]],
   ['getterms',['GetTerms',['../classapfel_1_1DoubleObject.html#abd3c4b7e4aa29ad042be541ba1a36d57',1,'apfel::DoubleObject']]],
+  ['getthesholdindices',['GetThesholdIndices',['../classapfel_1_1QGrid.html#aeea1ac5fbc6d8f0dddb5015c0f310bf3',1,'apfel::QGrid']]],
   ['getthresholds',['GetThresholds',['../classapfel_1_1MatchedEvolution.html#a9914b064a0d37c6849326e9d7f67102c',1,'apfel::MatchedEvolution::GetThresholds()'],['../classapfel_1_1QGrid.html#aecee5c415c15fa8b837fd1bffa4cd2d3',1,'apfel::QGrid::GetThresholds()']]],
   ['getverbositylevel',['GetVerbosityLevel',['../namespaceapfel.html#a72b6a7944341cd1a463f55c3330eeb82',1,'apfel']]],
   ['gg',['GG',['../classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2ab7be4654eba413b154126da530238135',1,'apfel::EvolutionOperatorBasisQCD::GG()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa35af8ada4696ae66abb6450ebc365129',1,'apfel::MatchEvolOperatorBasisQCD::GG()'],['../classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a3dbad6849fbcffb9f8bc8e9727290b69',1,'apfel::MatchingOperatorBasisQCD::GG()']]],
   ['gluon',['GLUON',['../classapfel_1_1DISNCBasis.html#adb9d33d6b7cd7bafd381c214e83bd64da9ab9de3956c1e1bee693de0cbd05970f',1,'apfel::DISNCBasis::GLUON()'],['../classapfel_1_1DISCCBasis.html#a71d34c94c9d06fe8418da8d5ee37f501af45e9d90d80f83b3ff17146082a1e1d9',1,'apfel::DISCCBasis::GLUON()'],['../classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169a534d9a14dbdfbf52b606e9d09a9bfec1',1,'apfel::EvolutionBasisQCD::GLUON()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399a2d71a98cff0a08292110507cc658f6d6',1,'apfel::MatchEvolOperatorBasisQCD::GLUON()'],['../classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831a01390ae55b8aa69fc13de0f31486147b',1,'apfel::MatchingBasisQCD::GLUON()']]],
   ['gq',['GQ',['../classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2a3f88c777c21ed8dd9c8531851728be82',1,'apfel::EvolutionOperatorBasisQCD::GQ()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaa9309f4b4c87ec0113f7818d2f8e6fadd',1,'apfel::MatchEvolOperatorBasisQCD::GQ()'],['../classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5a4b0585fc498eac271b7c3b6e6a221d3b',1,'apfel::MatchingOperatorBasisQCD::GQ()']]],
   ['grid',['Grid',['../classapfel_1_1Grid.html',1,'apfel::Grid'],['../classapfel_1_1Grid.html#a6267a884d276851d6d829dbdaab9b366',1,'apfel::Grid::Grid()=delete'],['../classapfel_1_1Grid.html#a9d69a3ebae295ea4559ad1a042cbdd16',1,'apfel::Grid::Grid(std::vector&lt; SubGrid &gt; const &amp;grs, bool const &amp;lockgrids=true)']]],
-  ['grid_2eh',['grid.h',['../grid_8h.html',1,'']]]
+  ['grid_2eh',['grid.h',['../grid_8h.html',1,'']]],
+  ['gridparameters',['GridParameters',['../structapfel_1_1EvolutionSetup_1_1GridParameters.html',1,'apfel::EvolutionSetup::GridParameters'],['../structapfel_1_1EvolutionSetup.html#ad81d6dd6e1abb9aed8d0e3e784ac9941',1,'apfel::EvolutionSetup::GridParameters()']]]
 ];

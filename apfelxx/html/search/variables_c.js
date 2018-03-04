@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['qch',['QCh',['../namespaceapfel.html#a5eae545badb8945cd767271b573a8fc2',1,'apfel']]],
-  ['qch2',['QCh2',['../namespaceapfel.html#a4e9304b2e9dfeb40a2ad1a3cfa6b2e6a',1,'apfel']]]
+  ['object',['object',['../structapfel_1_1ConvolutionMap_1_1rule.html#a2c0746f83d8cd9aba6adef881214d4e6',1,'apfel::ConvolutionMap::rule']]],
+  ['object1',['object1',['../structapfel_1_1term.html#aff56d5220337805fdc38905bb38e98c5',1,'apfel::term']]],
+  ['object2',['object2',['../structapfel_1_1term.html#a6e255a0b9dde8cced1793b4326c1233c',1,'apfel::term']]],
+  ['operand',['operand',['../structapfel_1_1ConvolutionMap_1_1rule.html#a6c3092134ba2ed5a1eae04aae274211d',1,'apfel::ConvolutionMap::rule']]]
 ];
