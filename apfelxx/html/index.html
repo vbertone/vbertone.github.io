@@ -82,8 +82,8 @@ $(function() {
 <div class="fragment"><div class="line">git clone https://github.com/vbertone/apfelxx.git</div></div><!-- fragment --><p>If you instead want to download a specific tag:</p>
 <div class="fragment"><div class="line">git tag -l</div><div class="line">git checkout tags/tag_name</div></div><!-- fragment --> <h2>Installation</h2>
 <p>The code can be compiled using the following procedure:</p>
-<div class="fragment"><div class="line">cd apfelxx</div><div class="line">mkdir build;</div><div class="line">cd build;</div><div class="line">cmake ..</div><div class="line">make &amp;&amp; make install</div></div><!-- fragment --><p> By the default, if no further specification is given, the program will be installed in the /usr/local folder. If you want (or need) to use a different path, remember to export the APFEL++ /lib folder into the LD_LIBRARY_PATH.</p>
-<h2>Documetation</h2>
+<div class="fragment"><div class="line">cd apfelxx</div><div class="line">cmake -DCMAKE_INSTALL_PREFIX=/your/installation/path/ .</div><div class="line">make &amp;&amp; make install</div></div><!-- fragment --><p> By the default, if no prefix specification is given, the program will be installed in the /usr/local folder. If you want (or need) to use a different path, remember to export the APFEL++ /lib folder into the LD_LIBRARY_PATH. More configuration options can be accessed by typing:</p>
+<div class="fragment"><div class="line">ccmake .</div></div><!-- fragment --><h2>Documetation</h2>
 <p>Code documentation generated with Doxygen can be found here: <a href="https://vbertone.github.io/apfelxx/html/index.html">https://vbertone.github.io/apfelxx/html/index.html</a>.</p>
 <p>Visit also the HepForge webpage <a href="http://apfel.hepforge.org">http://apfel.hepforge.org</a> and the APFEL Web interface <a href="http://apfel.mi.infn.it/">http://apfel.mi.infn.it/</a>.</p>
 <h2>Relevant references</h2>
@@ -103,7 +103,7 @@ $(function() {
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 4 2018 15:51:39 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Mar 11 2018 13:33:56 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['main_2edox',['main.dox',['../main_8dox.html',1,'']]],
+  ['masses',['Masses',['../structapfel_1_1EvolutionSetup.html#a4020afe682b670da3163f676775a67cb',1,'apfel::EvolutionSetup']]],
   ['massivecoefficientfunctions_2eh',['massivecoefficientfunctions.h',['../massivecoefficientfunctions_8h.html',1,'']]],
   ['massivezerocoefficientfunctions_2eh',['massivezerocoefficientfunctions.h',['../massivezerocoefficientfunctions_8h.html',1,'']]],
   ['massrenscheme',['MassRenScheme',['../structapfel_1_1EvolutionSetup.html#adbf330a722f8daccfa1c3343204e8b0b',1,'apfel::EvolutionSetup::MassRenScheme()'],['../structapfel_1_1EvolutionSetup.html#a88411dbe8022d8cdc9b4bace53949cd9',1,'apfel::EvolutionSetup::MassRenScheme()']]],
@@ -25,12 +26,7 @@ var searchData=
   ['matrix',['matrix',['../classapfel_1_1matrix.html',1,'apfel::matrix&lt; T &gt;'],['../classapfel_1_1matrix.html#ad233ffd5afb1d9ec9ba46a39202338b1',1,'apfel::matrix::matrix()']]],
   ['matrix_2eh',['matrix.h',['../matrix_8h.html',1,'']]],
   ['matrix_3c_20double_20_3e',['matrix&lt; double &gt;',['../classapfel_1_1matrix.html',1,'apfel']]],
-  ['maxflavouralpha',['MaxFlavourAlpha',['../structapfel_1_1EvolutionSetup.html#a9f86a49006abc47d8af0d8af3083bed5',1,'apfel::EvolutionSetup']]],
-  ['maxflavourpdfs',['MaxFlavourPDFs',['../structapfel_1_1EvolutionSetup.html#a102234bbead6af1ed160edddff2e7997',1,'apfel::EvolutionSetup']]],
-  ['mbottom',['MBottom',['../structapfel_1_1EvolutionSetup.html#a34084a6645846ee0f018400a5a65103f',1,'apfel::EvolutionSetup']]],
-  ['mcharm',['MCharm',['../structapfel_1_1EvolutionSetup.html#a0ba01cceb6d294cebbc2de1bca967f48',1,'apfel::EvolutionSetup']]],
   ['messages_2eh',['messages.h',['../messages_8h.html',1,'']]],
   ['msbar',['MSBAR',['../structapfel_1_1EvolutionSetup.html#adbf330a722f8daccfa1c3343204e8b0bac7f91c377878634b622c5ee270fd5458',1,'apfel::EvolutionSetup']]],
-  ['mtop',['MTop',['../structapfel_1_1EvolutionSetup.html#a8e9029c5e135a1c3fd194f5c2c3d2ebd',1,'apfel::EvolutionSetup']]],
   ['massless_20limit_20of_20the_20massive_20neutral_20current_20coefficient_20functions',['Massless limit of the massive neutral current coefficient functions',['../group__NCMassiveZero.html',1,'']]]
 ];
