@@ -6,7 +6,6 @@ var searchData=
   ['renfacratio',['RenFacRatio',['../structapfel_1_1EvolutionSetup.html#acce8fce3daa9d217a4183df7a448083f',1,'apfel::EvolutionSetup']]],
   ['report',['report',['../namespaceapfel.html#a62f83f74838eef98fea91291a962741d',1,'apfel']]],
   ['reportsetup',['ReportSetup',['../classapfel_1_1InitialiseEvolution.html#ae1793ecd0c6157cb55cb9caf2cfe80c2',1,'apfel::InitialiseEvolution']]],
-  ['resetinitialdistributions',['ResetInitialDistributions',['../classapfel_1_1InitialiseEvolution.html#a8070ce8aa928432e8871fe2ea2ea6c1b',1,'apfel::InitialiseEvolution']]],
   ['resize',['resize',['../classapfel_1_1matrix.html#acdf1bf466b42a73833b71dbabdabeedc',1,'apfel::matrix']]],
   ['rk1',['rk1',['../namespaceapfel.html#a825d60d65a4d5defeaacf6bf0c63aed0',1,'apfel']]],
   ['rk4',['rk4',['../namespaceapfel.html#a05570e0782ff69b5ea545dec32e25a79',1,'apfel']]],

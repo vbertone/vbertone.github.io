@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['deltafun',['DeltaFun',['../namespaceapfel.html#a60e7f076062aec09d1944e468f292571',1,'apfel']]],
   ['derivative',['Derivative',['../classapfel_1_1AlphaQCD.html#a5a56117bc1bab61551e3c827aeb97ae6',1,'apfel::AlphaQCD::Derivative()'],['../classapfel_1_1Dglap.html#a46be4761a1ba49003c8e93b32a842231',1,'apfel::Dglap::Derivative()'],['../classapfel_1_1MatchedEvolution.html#ae71ea51bdbbad54dad165eec66d4c49a',1,'apfel::MatchedEvolution::Derivative()']]],
   ['dglap',['Dglap',['../classapfel_1_1Dglap.html#a4abb8353b7d12194adbb327f7b11a560',1,'apfel::Dglap::Dglap()=delete'],['../classapfel_1_1Dglap.html#ab35d51b5e877e37714377404b9dca5b7',1,'apfel::Dglap::Dglap(std::function&lt; Set&lt; Operator &gt;(int const &amp;, double const &amp;)&gt; const &amp;SplittingFunctions, std::function&lt; Set&lt; Operator &gt;(bool const &amp;, int const &amp;)&gt; const &amp;MatchingConditions, Set&lt; T &gt; const &amp;ObjRef, double const &amp;MuRef, std::vector&lt; double &gt; const &amp;Thresholds, int const &amp;nsteps=10)']]],
   ['dilog',['dilog',['../namespaceapfel.html#a892a0ab473cc1c2933458ae7b02909f4',1,'apfel']]],

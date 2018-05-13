@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['name',['name',['../structapfel_1_1EvolutionSetup.html#ad4d76387104f1d24f4c3f2dfb4054575',1,'apfel::EvolutionSetup']]],
   ['nf',['NF',['../namespaceapfel.html#a5ae0b26dd9a59ac71e0c8820ada8c433',1,'apfel']]],
   ['nf_5fff',['Nf_FF',['../structapfel_1_1EvolutionSetup.html#a9b30d8429e9a3d033202927abf5c8667',1,'apfel::EvolutionSetup']]],
   ['ngrids',['nGrids',['../classapfel_1_1Grid.html#a633e5058782ac5f774fba183606fa478',1,'apfel::Grid']]],

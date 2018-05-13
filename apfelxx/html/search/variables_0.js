@@ -58,6 +58,7 @@ var searchData=
   ['_5fterms',['_terms',['../classapfel_1_1DoubleObject.html#a4c0ca8c91da0609ae6cd100764339838',1,'apfel::DoubleObject']]],
   ['_5fthresholds',['_Thresholds',['../classapfel_1_1MatchedEvolution.html#a345fedfefe33962f4f7ceb9b2f8638e8',1,'apfel::MatchedEvolution::_Thresholds()'],['../classapfel_1_1QGrid.html#af4d8ebad864790a72b74f5532bee6919',1,'apfel::QGrid::_Thresholds()']]],
   ['_5fthresholds2',['_Thresholds2',['../classapfel_1_1MatchedEvolution.html#af026d0e84560490983f5db02c6f55507',1,'apfel::MatchedEvolution']]],
+  ['_5fwritegrid',['_WriteGrid',['../classapfel_1_1InitialiseEvolution.html#ace788f48892622cbaecb335eb28edc01',1,'apfel::InitialiseEvolution']]],
   ['_5fws',['_ws',['../classapfel_1_1Operator.html#a00289b832631c32c0b1700b1e7898b54',1,'apfel::Operator']]],
   ['_5fxbeta',['_xbeta',['../classapfel_1_1Operator.html#a3c432ac542529e4fea32c79a6d03f018',1,'apfel::Operator']]],
   ['_5fxmax',['_xMax',['../classapfel_1_1SubGrid.html#ab73f59f5d7f8284a86150f813902d924',1,'apfel::SubGrid']]],
