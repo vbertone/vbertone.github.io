@@ -5,7 +5,7 @@ var searchData=
   ['matchingbasisqcd',['MatchingBasisQCD',['../classapfel_1_1MatchingBasisQCD.html#a9dc8f980a586c204b52dfff6626b78ae',1,'apfel::MatchingBasisQCD']]],
   ['matchingoperatorbasisqcd',['MatchingOperatorBasisQCD',['../classapfel_1_1MatchingOperatorBasisQCD.html#a891d84b83ee0ecc589a5f3833e54852f',1,'apfel::MatchingOperatorBasisQCD']]],
   ['matchobject',['MatchObject',['../classapfel_1_1AlphaQCD.html#a2d1c556fa5a4173f3577234e4615192e',1,'apfel::AlphaQCD::MatchObject()'],['../classapfel_1_1Dglap.html#ac9f37328fb2680f5b1be74a279428972',1,'apfel::Dglap::MatchObject()'],['../classapfel_1_1MatchedEvolution.html#a82f4e0ff82cd9b5f1e393625b4d81bc4',1,'apfel::MatchedEvolution::MatchObject()']]],
-  ['matchtmdffs',['MatchTmdFFs',['../namespaceapfel.html#a5cafd89bab82404508df1bf81e023c15',1,'apfel']]],
-  ['matchtmdpdfs',['MatchTmdPDFs',['../namespaceapfel.html#afee5fecc01a4ed7d468c5884965d4df0',1,'apfel']]],
+  ['matchtmdffs',['MatchTmdFFs',['../namespaceapfel.html#a5b8d23c62bc27f73c4bb50ca88aa2a37',1,'apfel']]],
+  ['matchtmdpdfs',['MatchTmdPDFs',['../namespaceapfel.html#abd33fd2f2367ad8e26aad213676cda09',1,'apfel']]],
   ['matrix',['matrix',['../classapfel_1_1matrix.html#ad233ffd5afb1d9ec9ba46a39202338b1',1,'apfel::matrix']]]
 ];

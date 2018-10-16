@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['hardcrosssectiondy',['HardCrossSectionDY',['../namespaceapfel.html#a6e1d6a7c5a467b8226baeb5d1f869725',1,'apfel']]],
-  ['hardcrosssectionsidis',['HardCrossSectionSIDIS',['../namespaceapfel.html#ac1d8ac2807b5308d2f9b1f1e269f9df6',1,'apfel']]]
+  ['hardfactordy',['HardFactorDY',['../namespaceapfel.html#a32a5521ba656fa6889e25f4d3aaadb69',1,'apfel']]],
+  ['hardfactors_2eh',['hardfactors.h',['../hardfactors_8h.html',1,'']]],
+  ['hardfactorsidis',['HardFactorSIDIS',['../namespaceapfel.html#a7ff20e320e17c67495f59b475db94f06',1,'apfel']]]
 ];

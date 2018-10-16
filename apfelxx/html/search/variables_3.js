@@ -8,7 +8,5 @@ var searchData=
   ['coefficient',['coefficient',['../structapfel_1_1ConvolutionMap_1_1rule.html#a4bf45b4c287915ad713e8367aea136ea',1,'apfel::ConvolutionMap::rule::coefficient()'],['../structapfel_1_1term.html#ab24e571b871595a33fbdb59d5dd67fa2',1,'apfel::term::coefficient()']]],
   ['convbasis',['ConvBasis',['../structapfel_1_1StructureFunctionObjects.html#a61893ffd8cd0f9a35a2d4bf423f4f9b5',1,'apfel::StructureFunctionObjects']]],
   ['convfact',['ConvFact',['../namespaceapfel.html#ae98d82c9534cde7c04ae48896e66360e',1,'apfel']]],
-  ['couplingevolution',['CouplingEvolution',['../structapfel_1_1EvolutionSetup.html#aa26ea1950ffa331a10e1f8f6dd84f4cf',1,'apfel::EvolutionSetup']]],
-  ['csdg',['CSdg',['../structapfel_1_1TmdObjects.html#ab0a07290f32447411f1fd4cb1175d4ec',1,'apfel::TmdObjects']]],
-  ['csdq',['CSdq',['../structapfel_1_1TmdObjects.html#a32c16125fe1f492ed123f4b908dae142',1,'apfel::TmdObjects']]]
+  ['couplingevolution',['CouplingEvolution',['../structapfel_1_1EvolutionSetup.html#aa26ea1950ffa331a10e1f8f6dd84f4cf',1,'apfel::EvolutionSetup']]]
 ];

@@ -7,7 +7,7 @@ var searchData=
   ['evaluatexq',['EvaluatexQ',['../classapfel_1_1TabulateObject.html#a1206af95488cd367d86f9eefd51ff96e',1,'apfel::TabulateObject::EvaluatexQ(double const &amp;x, double const &amp;Q) const'],['../classapfel_1_1TabulateObject.html#a80973ee290e2b80c9234244a14460259',1,'apfel::TabulateObject::EvaluatexQ(int const &amp;i, double const &amp;x, double const &amp;Q) const']]],
   ['evaluatexzq',['EvaluatexzQ',['../classapfel_1_1TabulateObject.html#a9cab3e4da901b4632acb487dcda17b01',1,'apfel::TabulateObject']]],
   ['evolutionbasisqcd',['EvolutionBasisQCD',['../classapfel_1_1EvolutionBasisQCD.html#a6610cdd3d123e1e9320adb77cc35ff06',1,'apfel::EvolutionBasisQCD']]],
-  ['evolutionfactors',['EvolutionFactors',['../namespaceapfel.html#a18f7f5d40874a9b273565c0c094a6ac3',1,'apfel']]],
+  ['evolutionfactors',['EvolutionFactors',['../namespaceapfel.html#a5a6b07969c354af2015c2dc9b3766c35',1,'apfel']]],
   ['evolutionoperatorbasisqcd',['EvolutionOperatorBasisQCD',['../classapfel_1_1EvolutionOperatorBasisQCD.html#a17e140926c702ba46ee21c7d160d646b',1,'apfel::EvolutionOperatorBasisQCD']]],
   ['evolutionsetup',['EvolutionSetup',['../structapfel_1_1EvolutionSetup.html#a049f456def46728364a5cf98944b81d1',1,'apfel::EvolutionSetup']]],
   ['evolveobject',['EvolveObject',['../classapfel_1_1MatchedEvolution.html#af1c4e4e48f86ea639b21258a8abb996a',1,'apfel::MatchedEvolution']]],
