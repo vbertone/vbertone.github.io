@@ -7,5 +7,6 @@ var searchData=
   ['qmax',['Qmax',['../structapfel_1_1EvolutionSetup.html#ab80c721e240135b40821d4cda11b78e2',1,'apfel::EvolutionSetup']]],
   ['qmin',['Qmin',['../structapfel_1_1EvolutionSetup.html#aa74278493b4ea60f09c74510a84be9ec',1,'apfel::EvolutionSetup']]],
   ['qqcdref',['QQCDRef',['../structapfel_1_1EvolutionSetup.html#a78386fbdc6c17e740cbd14ab8d015914',1,'apfel::EvolutionSetup']]],
-  ['qqedref',['QQEDRef',['../structapfel_1_1EvolutionSetup.html#a198ae368f643bda07977fd4a21815a1e',1,'apfel::EvolutionSetup']]]
+  ['qqedref',['QQEDRef',['../structapfel_1_1EvolutionSetup.html#a198ae368f643bda07977fd4a21815a1e',1,'apfel::EvolutionSetup']]],
+  ['quarkevolutionfactors',['QuarkEvolutionFactors',['../namespaceapfel.html#abc2b7633b9e3233b523cfdd71adf8593',1,'apfel']]]
 ];

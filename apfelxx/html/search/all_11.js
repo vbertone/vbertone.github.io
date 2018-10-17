@@ -14,5 +14,6 @@ var searchData=
   ['qmin',['QMin',['../classapfel_1_1QGrid.html#a0a1450c5d3c7988817a9302953437aea',1,'apfel::QGrid::QMin()'],['../structapfel_1_1EvolutionSetup.html#aa74278493b4ea60f09c74510a84be9ec',1,'apfel::EvolutionSetup::Qmin()']]],
   ['qq',['QQ',['../classapfel_1_1EvolutionOperatorBasisQCD.html#ad5fa62759b0733d6d20128663afd72f2a9275f6977d87ae8cc947019710deabc3',1,'apfel::EvolutionOperatorBasisQCD::QQ()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#af96109423fe7910c24b1fa6df29e8cdaac6036838b627b6f6a26f2157ad0e3fd9',1,'apfel::MatchEvolOperatorBasisQCD::QQ()'],['../classapfel_1_1MatchingOperatorBasisQCD.html#a70a9611cc318a4ca953cbf56dae806a5ac2819bc96c25b39bf41681c32b67e96f',1,'apfel::MatchingOperatorBasisQCD::QQ()']]],
   ['qqcdref',['QQCDRef',['../structapfel_1_1EvolutionSetup.html#a78386fbdc6c17e740cbd14ab8d015914',1,'apfel::EvolutionSetup']]],
-  ['qqedref',['QQEDRef',['../structapfel_1_1EvolutionSetup.html#a198ae368f643bda07977fd4a21815a1e',1,'apfel::EvolutionSetup']]]
+  ['qqedref',['QQEDRef',['../structapfel_1_1EvolutionSetup.html#a198ae368f643bda07977fd4a21815a1e',1,'apfel::EvolutionSetup']]],
+  ['quarkevolutionfactors',['QuarkEvolutionFactors',['../namespaceapfel.html#abc2b7633b9e3233b523cfdd71adf8593',1,'apfel']]]
 ];
