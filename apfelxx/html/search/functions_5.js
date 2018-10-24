@@ -9,6 +9,7 @@ var searchData=
   ['gammavq0',['gammaVq0',['../namespaceapfel.html#a14939d4804ad2ac8a025ed2bd29ea8f6',1,'apfel']]],
   ['gammavq1',['gammaVq1',['../namespaceapfel.html#ae7883506b53d7b21b49852b72c4fc116',1,'apfel']]],
   ['gammavq2',['gammaVq2',['../namespaceapfel.html#acce2ff7802a7404ae8cfc9b6ee846cac',1,'apfel']]],
+  ['getcoordinates',['GetCoordinates',['../classapfel_1_1OgataQuadrature.html#aa00505afbdc2dbcdfb3b72dd921e01d9',1,'apfel::OgataQuadrature']]],
   ['getdistributionjointgrid',['GetDistributionJointGrid',['../classapfel_1_1Interpolator.html#af7486f60789a0135fe4e2107ce0221dd',1,'apfel::Interpolator']]],
   ['getdistributionsubgrid',['GetDistributionSubGrid',['../classapfel_1_1Interpolator.html#ad9b3ce90a94c82a043362b0c68bee398',1,'apfel::Interpolator']]],
   ['getfqgrid',['GetFQGrid',['../classapfel_1_1QGrid.html#a5988daad45edcd80bd39b2e6f88be606',1,'apfel::QGrid']]],
@@ -29,5 +30,6 @@ var searchData=
   ['getthesholdindices',['GetThesholdIndices',['../classapfel_1_1QGrid.html#aeea1ac5fbc6d8f0dddb5015c0f310bf3',1,'apfel::QGrid']]],
   ['getthresholds',['GetThresholds',['../classapfel_1_1MatchedEvolution.html#a9914b064a0d37c6849326e9d7f67102c',1,'apfel::MatchedEvolution::GetThresholds()'],['../classapfel_1_1QGrid.html#aecee5c415c15fa8b837fd1bffa4cd2d3',1,'apfel::QGrid::GetThresholds()']]],
   ['getverbositylevel',['GetVerbosityLevel',['../namespaceapfel.html#a72b6a7944341cd1a463f55c3330eeb82',1,'apfel']]],
+  ['getweights',['GetWeights',['../classapfel_1_1OgataQuadrature.html#a63db171294fff49a80e09e4ce52e3264',1,'apfel::OgataQuadrature']]],
   ['grid',['Grid',['../classapfel_1_1Grid.html#a6267a884d276851d6d829dbdaab9b366',1,'apfel::Grid::Grid()=delete'],['../classapfel_1_1Grid.html#a9d69a3ebae295ea4559ad1a042cbdd16',1,'apfel::Grid::Grid(std::vector&lt; SubGrid &gt; const &amp;grs, bool const &amp;lockgrids=true)']]]
 ];

@@ -67,8 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">apfel Namespace Reference</div>  </div>
 </div><!--header-->
@@ -394,6 +393,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Observable.html">Observable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Observable.html" title="The Observable class encapsulates sets of operators and sets of operators for an easy computation of ...">Observable</a> class encapsulates sets of operators and sets of operators for an easy computation of observebles deriving from the covolution of the two.  <a href="classapfel_1_1Observable.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1OgataQuadrature.html">OgataQuadrature</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1OgataQuadrature.html" title="The OgataQuadrature class implements the Hankel-transform of the input function using the Ogata quadr...">OgataQuadrature</a> class implements the Hankel-transform of the input function using the Ogata quadrature method described here: <a href="http://www.kurims.kyoto-u.ac.jp/~okamoto/paper/Publ_RIMS_DE/41-4-40.pdf">http://www.kurims.kyoto-u.ac.jp/~okamoto/paper/Publ_RIMS_DE/41-4-40.pdf</a>.  <a href="classapfel_1_1OgataQuadrature.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Operator.html">Operator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Operator.html" title="The Operator class defines the basic object &quot;Operator&quot; which is essentially the convolution on the gr...">Operator</a> class defines the basic object "Operator" which is essentially the convolution on the grid bewteen an <a class="el" href="classapfel_1_1Expression.html" title="The Expression class encapsulates in a proper form a given analystic expression in such a way that it...">Expression</a> object (e.g. a splitting function) and the inetrpolant functions.  <a href="classapfel_1_1Operator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -556,9 +558,6 @@ Functions</h2></td></tr>
 <tr class="memitem:abc23ca5eae2ff193a815b82a1a3777f2"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abc23ca5eae2ff193a815b82a1a3777f2">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr)</td></tr>
 <tr class="memdesc:abc23ca5eae2ff193a815b82a1a3777f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload the &lt;&lt; operator to print the parameters of the grid.  <a href="#abc23ca5eae2ff193a815b82a1a3777f2">More...</a><br /></td></tr>
 <tr class="separator:abc23ca5eae2ff193a815b82a1a3777f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2284e10a3c33f1f6891a800b5e396a96"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a2284e10a3c33f1f6891a800b5e396a96">OgataQuadrature</a> (std::function&lt; double(double const &amp;)&gt; const &amp;func, double const &amp;qT, double const &amp;CutOff=1e-5, double const &amp;h=0.001)</td></tr>
-<tr class="memdesc:a2284e10a3c33f1f6891a800b5e396a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that performs the Hankel-transform of the input function using the Ogata quadrature method described here: <a href="http://www.kurims.kyoto-u.ac.jp/~okamoto/paper/Publ_RIMS_DE/41-4-40.pdf">http://www.kurims.kyoto-u.ac.jp/~okamoto/paper/Publ_RIMS_DE/41-4-40.pdf</a>.  <a href="#a2284e10a3c33f1f6891a800b5e396a96">More...</a><br /></td></tr>
-<tr class="separator:a2284e10a3c33f1f6891a800b5e396a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad17e52cbe3d5c7dcd1e51b6bb5532e13"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ad17e52cbe3d5c7dcd1e51b6bb5532e13"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ad17e52cbe3d5c7dcd1e51b6bb5532e13">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classapfel_1_1QGrid.html">QGrid</a>&lt; T &gt; const &amp;Qg)</td></tr>
 <tr class="memdesc:ad17e52cbe3d5c7dcd1e51b6bb5532e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that prints <a class="el" href="classapfel_1_1QGrid.html" title="The template class QGrids is a mother class for the interpolation in Q. This class also implements me...">QGrid</a> with cout &lt;&lt;.  <a href="#ad17e52cbe3d5c7dcd1e51b6bb5532e13">More...</a><br /></td></tr>
@@ -897,9 +896,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1e072b1ec6ad8119fbd392985f6364b9"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a1e072b1ec6ad8119fbd392985f6364b9">j0Zeros</a></td></tr>
-<tr class="memdesc:a1e072b1ec6ad8119fbd392985f6364b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">First 1000 zero's of the first-order Bessel function J0 computed with Boost.  <a href="#a1e072b1ec6ad8119fbd392985f6364b9">More...</a><br /></td></tr>
-<tr class="separator:a1e072b1ec6ad8119fbd392985f6364b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Small numbers</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Small numbers used for cutoffs, integration accuracies, </p>
 </div></td></tr>
@@ -1019,27 +1015,17 @@ Variables</h2></td></tr>
 <tr class="memitem:aad32401c8c8b34757d02c856e0f30908"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a>(double const  &amp;, std::vector&lt; double &gt; const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aad32401c8c8b34757d02c856e0f30908">InitializeFLNCObjectsMassiveZero</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;g, std::vector&lt; double &gt; const &amp;Masses, double const &amp;IntEps=1e-5, int const &amp;nxi=150, double const &amp;ximin=0.001, double const &amp;ximax=100000, int const &amp;intdeg=3, double const &amp;lambda=0.0005)</td></tr>
 <tr class="memdesc:aad32401c8c8b34757d02c856e0f30908"><td class="mdescLeft">&#160;</td><td class="mdescRight">The InitializeFLNCObjectsMassiveZero precomputes the perturbative coefficients of coefficient functions for combination NC FL in the massless limit of the massive scheme and store them in the '<a class="el" href="structapfel_1_1StructureFunctionObjects.html" title="Structure that contains all the precomputed quantities needed to compute the DIS structure functions...">StructureFunctionObjects</a>' structure.  <a href="#aad32401c8c8b34757d02c856e0f30908">More...</a><br /></td></tr>
 <tr class="separator:aad32401c8c8b34757d02c856e0f30908"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">TMD Drell-Yan cross sections</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Functions that return the fully differential Drell-Yan cross section as function of the transverse momentum on the vector boson qT, taking as inputs the evolved TMD PDFs, the center-of-mass energy Vs, the vector-boson virtuality Q and rapidity, the final TMD scales muf and zetaf. </p>
-</div></td></tr>
-<tr class="memitem:a9636d30148724e9065f9b2cacdc8b667"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a9636d30148724e9065f9b2cacdc8b667">TmdCrossSectionDY</a> (double const &amp;Vs, double const &amp;Q, double const &amp;y, std::function&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDPDFs, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;fEWCharges, int const &amp;PerturbativeOrder, std::vector&lt; double &gt; const &amp;Thresholds, double const &amp;cmuf=1, double const &amp;czetaf=1)</td></tr>
-<tr class="separator:a9636d30148724e9065f9b2cacdc8b667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">SIDIS TMD cross sections</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Functions that return the fully differential SIDIS cross section as function of the transverse momentum on the vector boson qT, taking as inputs the evolved TMD PDFs and FFs, the center-of-mass energy Vs, the inelasticity y, the momentum fractions of the incmoming and outgoing hadrons x and z, rapidity, the final TMD scales muf and zetaf. </p>
-</div></td></tr>
-<tr class="memitem:aed1e839833d9c0fd643bda0b7dbf89d5"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aed1e839833d9c0fd643bda0b7dbf89d5">TmdCrossSectionSIDIS</a> (double const &amp;Vs, double const &amp;x, double const &amp;y, double const &amp;z, std::function&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDPDFs, std::function&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;EvolvedTMDFFs, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;fEWCharges, int const &amp;PerturbativeOrder, std::vector&lt; double &gt; const &amp;Thresholds, double const &amp;cmuf=1, double const &amp;czetaf=1)</td></tr>
-<tr class="separator:aed1e839833d9c0fd643bda0b7dbf89d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 TMD builders</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp93d3a9804af6a2a1fc044d478b28ac0f"></a>Collection of functions that build a TMD distributions (both PDFs and FF) as Set&lt;Distribution&gt;-valued functions. These functions perform evolution and matching either separately or alltogether. </p>
 </td></tr>
-<tr class="memitem:abc2b7633b9e3233b523cfdd71adf8593"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abc2b7633b9e3233b523cfdd71adf8593">QuarkEvolutionFactors</a> (std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const &amp;TmdObj, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, int const &amp;PerturbativeOrder, double const &amp;Ci=1, double const &amp;IntEps=1e-7)</td></tr>
-<tr class="memdesc:abc2b7633b9e3233b523cfdd71adf8593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the evolution factor for quarks.  <a href="#abc2b7633b9e3233b523cfdd71adf8593">More...</a><br /></td></tr>
-<tr class="separator:abc2b7633b9e3233b523cfdd71adf8593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d50b2b8411f2bb9b0f8ee611f47bce5"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a3d50b2b8411f2bb9b0f8ee611f47bce5">GluonEvolutionFactors</a> (std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const &amp;TmdObj, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, int const &amp;PerturbativeOrder, double const &amp;Ci=1, double const &amp;IntEps=1e-7)</td></tr>
-<tr class="memdesc:a3d50b2b8411f2bb9b0f8ee611f47bce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the evolution factor for the gluon.  <a href="#a3d50b2b8411f2bb9b0f8ee611f47bce5">More...</a><br /></td></tr>
-<tr class="separator:a3d50b2b8411f2bb9b0f8ee611f47bce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e74d81747712db262ce961822084c8"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae2e74d81747712db262ce961822084c8">QuarkEvolutionFactor</a> (std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const &amp;TmdObj, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, int const &amp;PerturbativeOrder, double const &amp;Ci=1, double const &amp;IntEps=1e-7)</td></tr>
+<tr class="memdesc:ae2e74d81747712db262ce961822084c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the evolution factor for quarks.  <a href="#ae2e74d81747712db262ce961822084c8">More...</a><br /></td></tr>
+<tr class="separator:ae2e74d81747712db262ce961822084c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99bd87b1845bb29e58da9906828fca9"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ad99bd87b1845bb29e58da9906828fca9">GluonEvolutionFactor</a> (std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const &amp;TmdObj, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, int const &amp;PerturbativeOrder, double const &amp;Ci=1, double const &amp;IntEps=1e-7)</td></tr>
+<tr class="memdesc:ad99bd87b1845bb29e58da9906828fca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the evolution factor for the gluon.  <a href="#ad99bd87b1845bb29e58da9906828fca9">More...</a><br /></td></tr>
+<tr class="separator:ad99bd87b1845bb29e58da9906828fca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04a2214395f5d5001f747b8f3ee9d897"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a04a2214395f5d5001f747b8f3ee9d897">BuildTmdPDFs</a> (std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const &amp;TmdObj, std::function&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;(double const &amp;)&gt; const &amp;CollPDFs, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, int const &amp;PerturbativeOrder, double const &amp;Ci=1, double const &amp;IntEps=1e-7)</td></tr>
 <tr class="memdesc:a04a2214395f5d5001f747b8f3ee9d897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the matched and evolved TMD PDFs in b-space as functions of the final scale and rapidity. It assumes the zeta-prescription.  <a href="#a04a2214395f5d5001f747b8f3ee9d897">More...</a><br /></td></tr>
 <tr class="separator:a04a2214395f5d5001f747b8f3ee9d897"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3047,57 +3033,6 @@ TMD builders</h2></td></tr>
 </dl>
 </div>
 </div>
-<a id="a2284e10a3c33f1f6891a800b5e396a96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2284e10a3c33f1f6891a800b5e396a96">&#9670;&nbsp;</a></span>OgataQuadrature()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double apfel::OgataQuadrature </td>
-          <td>(</td>
-          <td class="paramtype">std::function&lt; double(double const &amp;)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>func</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double const &amp;&#160;</td>
-          <td class="paramname"><em>qT</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double const &amp;&#160;</td>
-          <td class="paramname"><em>CutOff</em> = <code>1e-5</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double const &amp;&#160;</td>
-          <td class="paramname"><em>h</em> = <code>0.001</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function that performs the Hankel-transform of the input function using the Ogata quadrature method described here: <a href="http://www.kurims.kyoto-u.ac.jp/~okamoto/paper/Publ_RIMS_DE/41-4-40.pdf">http://www.kurims.kyoto-u.ac.jp/~okamoto/paper/Publ_RIMS_DE/41-4-40.pdf</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">func</td><td>the function to be transformed </td></tr>
-    <tr><td class="paramname">CutOff</td><td>the accuracy computed as a cutoff on the size of the last computed term relative to the total </td></tr>
-    <tr><td class="paramname">h</td><td>internal variable of the algorithm (default: 0.001) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the Hankel-transform of the input function computed in qT </dd></dl>
-
-</div>
-</div>
 <a id="aaa133b64918aa6b61b5ca8ae3ee9342d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaa133b64918aa6b61b5ca8ae3ee9342d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/23]</span></h2>
 
@@ -4892,14 +4827,14 @@ template&lt;class U &gt; </div>
 
 </div>
 </div>
-<a id="a3d50b2b8411f2bb9b0f8ee611f47bce5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d50b2b8411f2bb9b0f8ee611f47bce5">&#9670;&nbsp;</a></span>GluonEvolutionFactors</h2>
+<a id="ad99bd87b1845bb29e58da9906828fca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad99bd87b1845bb29e58da9906828fca9">&#9670;&nbsp;</a></span>GluonEvolutionFactor</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;double(double const&amp;, double const&amp;, double const&amp;)&gt; apfel::GluonEvolutionFactors(std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const  &amp;TmdObj, std::function&lt; double(double const  &amp;)&gt; const  &amp;Alphas, int const  &amp;PerturbativeOrder, double const  &amp;Ci=1, double const  &amp;IntEps=1e-7)</td>
+          <td class="memname">std::function&lt;double(double const&amp;, double const&amp;, double const&amp;)&gt; apfel::GluonEvolutionFactor(std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const  &amp;TmdObj, std::function&lt; double(double const  &amp;)&gt; const  &amp;Alphas, int const  &amp;PerturbativeOrder, double const  &amp;Ci=1, double const  &amp;IntEps=1e-7)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5267,22 +5202,6 @@ template&lt;class U &gt; </div>
 </dl>
 </div>
 </div>
-<a id="a1e072b1ec6ad8119fbd392985f6364b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e072b1ec6ad8119fbd392985f6364b9">&#9670;&nbsp;</a></span>j0Zeros</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double&gt; apfel::j0Zeros</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>First 1000 zero's of the first-order Bessel function J0 computed with Boost. </p>
-
-</div>
-</div>
 <a id="a9c7ef97459ddf2159d123ca9ceffe09b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c7ef97459ddf2159d123ca9ceffe09b">&#9670;&nbsp;</a></span>Pi2</h2>
 
@@ -5326,14 +5245,14 @@ template&lt;class U &gt; </div>
 </dl>
 </div>
 </div>
-<a id="abc2b7633b9e3233b523cfdd71adf8593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc2b7633b9e3233b523cfdd71adf8593">&#9670;&nbsp;</a></span>QuarkEvolutionFactors</h2>
+<a id="ae2e74d81747712db262ce961822084c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2e74d81747712db262ce961822084c8">&#9670;&nbsp;</a></span>QuarkEvolutionFactor</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;double(double const&amp;, double const&amp;, double const&amp;)&gt; apfel::QuarkEvolutionFactors(std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const  &amp;TmdObj, std::function&lt; double(double const  &amp;)&gt; const  &amp;Alphas, int const  &amp;PerturbativeOrder, double const  &amp;Ci=1, double const  &amp;IntEps=1e-7)</td>
+          <td class="memname">std::function&lt;double(double const&amp;, double const&amp;, double const&amp;)&gt; apfel::QuarkEvolutionFactor(std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt; const  &amp;TmdObj, std::function&lt; double(double const  &amp;)&gt; const  &amp;Alphas, int const  &amp;PerturbativeOrder, double const  &amp;Ci=1, double const  &amp;IntEps=1e-7)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5350,34 +5269,6 @@ template&lt;class U &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>double-valued function of the impact parameter b<sub>T</sub>, the final renormalisation scale &mu;, and the final rapidity scale &zeta;. It returns the quark evolution factor. </dd></dl>
-
-</div>
-</div>
-<a id="a9636d30148724e9065f9b2cacdc8b667"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9636d30148724e9065f9b2cacdc8b667">&#9670;&nbsp;</a></span>TmdCrossSectionDY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt; double(double const  &amp;)&gt; apfel::TmdCrossSectionDY</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aed1e839833d9c0fd643bda0b7dbf89d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed1e839833d9c0fd643bda0b7dbf89d5">&#9670;&nbsp;</a></span>TmdCrossSectionSIDIS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;double(double const&amp;)&gt; apfel::TmdCrossSectionSIDIS(double const  &amp;Vs, double const  &amp;x, double const  &amp;y, double const  &amp;z, std::function&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;(double const  &amp;, double const  &amp;, double const  &amp;)&gt; const  &amp;EvolvedTMDPDFs, std::function&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;(double const  &amp;, double const  &amp;, double const  &amp;)&gt; const  &amp;EvolvedTMDFFs, std::function&lt; double(double const  &amp;)&gt; const  &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const  &amp;)&gt; const  &amp;fEWCharges, int const  &amp;PerturbativeOrder, std::vector&lt; double &gt; const  &amp;Thresholds, double const  &amp;cmuf=1, double const  &amp;czetaf=1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -5454,7 +5345,7 @@ template&lt;class U &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 17 2018 23:40:13 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 24 2018 22:28:49 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

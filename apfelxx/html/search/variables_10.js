@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['skip',['skip',['../structapfel_1_1StructureFunctionObjects.html#a9f1b3557881f7d54fdc30d4aaed976ff',1,'apfel::StructureFunctionObjects']]],
-  ['splittingfunctions',['SplittingFunctions',['../structapfel_1_1DglapObjects.html#aa6d18ea7d275e7434c1ea564004670f0',1,'apfel::DglapObjects']]],
-  ['starttime',['startTime',['../classapfel_1_1Timer.html#acbe91fe2ef7dc2088413c972c9032440',1,'apfel::Timer']]]
+  ['taumass',['TauMass',['../structapfel_1_1EvolutionSetup.html#a9cf884af48d1913c168f1488cfa1c898',1,'apfel::EvolutionSetup']]],
+  ['theory',['Theory',['../structapfel_1_1EvolutionSetup.html#a1f5b96a8bab80e64227371a4669d95c5',1,'apfel::EvolutionSetup']]],
+  ['threshold',['Threshold',['../structapfel_1_1DglapObjects.html#a86d077a0480f42088cf0b73a5163fddd',1,'apfel::DglapObjects::Threshold()'],['../structapfel_1_1TmdObjects.html#ae56448881a89de75ba38927a0226291a',1,'apfel::TmdObjects::Threshold()']]],
+  ['thresholds',['Thresholds',['../structapfel_1_1EvolutionSetup.html#a42a4fa2e5320a7878a7fad669fc640be',1,'apfel::EvolutionSetup']]],
+  ['tr',['TR',['../namespaceapfel.html#aa5cdb3b0774934c96e344d691863282a',1,'apfel']]]
 ];

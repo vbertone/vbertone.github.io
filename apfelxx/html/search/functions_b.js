@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['nf',['NF',['../namespaceapfel.html#a5ae0b26dd9a59ac71e0c8820ada8c433',1,'apfel']]],
-  ['ngrids',['nGrids',['../classapfel_1_1Grid.html#a633e5058782ac5f774fba183606fa478',1,'apfel::Grid']]],
-  ['nq',['nQ',['../classapfel_1_1QGrid.html#a545c18a37669f843ea7874c5e9e8d23c',1,'apfel::QGrid']]],
-  ['null',['Null',['../classapfel_1_1Null.html#a0f74dde5cc4f104049878d17bd639248',1,'apfel::Null']]],
-  ['nx',['nx',['../classapfel_1_1SubGrid.html#ac9c8d18ab6868c90679a2b66f5616c81',1,'apfel::SubGrid']]]
+  ['matchedevolution',['MatchedEvolution',['../classapfel_1_1MatchedEvolution.html#adb2660fb7842ff7cfd1babfcdb2b0a05',1,'apfel::MatchedEvolution::MatchedEvolution()=delete'],['../classapfel_1_1MatchedEvolution.html#aebbd27d9fa7dc916378a4b4d726b5d26',1,'apfel::MatchedEvolution::MatchedEvolution(T const &amp;ObjRef, double const &amp;MuRef, std::vector&lt; double &gt; const &amp;Thresholds, int const &amp;nsteps=10)']]],
+  ['matchevoloperatorbasisqcd',['MatchEvolOperatorBasisQCD',['../classapfel_1_1MatchEvolOperatorBasisQCD.html#ae332069e80f8b3ce1ecdd2d0dff9a19c',1,'apfel::MatchEvolOperatorBasisQCD']]],
+  ['matchingbasisqcd',['MatchingBasisQCD',['../classapfel_1_1MatchingBasisQCD.html#a9dc8f980a586c204b52dfff6626b78ae',1,'apfel::MatchingBasisQCD']]],
+  ['matchingoperatorbasisqcd',['MatchingOperatorBasisQCD',['../classapfel_1_1MatchingOperatorBasisQCD.html#a891d84b83ee0ecc589a5f3833e54852f',1,'apfel::MatchingOperatorBasisQCD']]],
+  ['matchobject',['MatchObject',['../classapfel_1_1AlphaQCD.html#a2d1c556fa5a4173f3577234e4615192e',1,'apfel::AlphaQCD::MatchObject()'],['../classapfel_1_1Dglap.html#ac9f37328fb2680f5b1be74a279428972',1,'apfel::Dglap::MatchObject()'],['../classapfel_1_1MatchedEvolution.html#a82f4e0ff82cd9b5f1e393625b4d81bc4',1,'apfel::MatchedEvolution::MatchObject()']]],
+  ['matchtmdffs',['MatchTmdFFs',['../namespaceapfel.html#aff384553d8392f5819f06bf369b71033',1,'apfel']]],
+  ['matchtmdpdfs',['MatchTmdPDFs',['../namespaceapfel.html#a63b0f529e5b4b400c2d7906acc82bf58',1,'apfel']]],
+  ['matrix',['matrix',['../classapfel_1_1matrix.html#ad233ffd5afb1d9ec9ba46a39202338b1',1,'apfel::matrix']]]
 ];

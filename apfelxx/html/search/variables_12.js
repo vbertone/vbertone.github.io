@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['vij',['Vij',['../classapfel_1_1DISCCBasis.html#a6c03ec4c587fa3b255f87265eeb5afb4',1,'apfel::DISCCBasis']]],
-  ['virtuality',['Virtuality',['../structapfel_1_1EvolutionSetup.html#a97437e36806d7584b120f762488b11f8',1,'apfel::EvolutionSetup']]]
+  ['xfs',['xfs',['../structapfel_1_1LHKnotArray.html#ab8f6192839b549ee0db4c50ab78f9d1a',1,'apfel::LHKnotArray']]],
+  ['xgext',['xgext',['../structapfel_1_1EvolutionSetup_1_1GridParameters.html#a4f55f8e092ef8cf00546331cb700dd4a',1,'apfel::EvolutionSetup::GridParameters']]],
+  ['xmin',['xmin',['../structapfel_1_1EvolutionSetup_1_1GridParameters.html#a34003e1b1ec650bd91278f0dd66abe97',1,'apfel::EvolutionSetup::GridParameters']]],
+  ['xs',['xs',['../structapfel_1_1LHKnotArray.html#aca33fa03b0ca059cc5f1f7011cadc233',1,'apfel::LHKnotArray']]]
 ];

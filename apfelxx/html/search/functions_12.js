@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['warning',['warning',['../namespaceapfel.html#a8957d7723906083aa7e5a3a3483e443c',1,'apfel']]],
-  ['wgplg',['wgplg',['../namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc',1,'apfel']]],
-  ['writegrid',['WriteGrid',['../classapfel_1_1InitialiseEvolution.html#a17d43a477175f4c4fd84bd659d6b5fa9',1,'apfel::InitialiseEvolution']]],
-  ['writegridinfo',['WriteGridInfo',['../classapfel_1_1InitialiseEvolution.html#ace5cfdb335ee53b22dbdadade1a36bc1',1,'apfel::InitialiseEvolution']]]
+  ['tabfunc',['TabFunc',['../classapfel_1_1QGrid.html#a69f28b6c7da9dbf3a6e48953ce15c172',1,'apfel::QGrid']]],
+  ['tabulateevolution',['TabulateEvolution',['../classapfel_1_1InitialiseEvolution.html#a8bc3bbe0441a3b4feded357b2946131d',1,'apfel::InitialiseEvolution']]],
+  ['tabulateobject',['TabulateObject',['../classapfel_1_1TabulateObject.html#aae6bb3a4886b480727716a8be06b7f6f',1,'apfel::TabulateObject::TabulateObject(MatchedEvolution&lt; T &gt; &amp;Object, int const &amp;nQ, double const &amp;QMin, double const &amp;QMax, int const &amp;InterDegree, double const &amp;Lambda=0.25)'],['../classapfel_1_1TabulateObject.html#a5338ef7f98041dbf7b2d35dcdcab5cfb',1,'apfel::TabulateObject::TabulateObject(std::function&lt; T(double const &amp;)&gt; const &amp;Object, int const &amp;nQ, double const &amp;QMin, double const &amp;QMax, int const &amp;InterDegree, std::vector&lt; double &gt; const &amp;Thresholds, double const &amp;Lambda=0.25)'],['../classapfel_1_1TabulateObject.html#a03bff5c0560780d99cd9ab985492c734',1,'apfel::TabulateObject::TabulateObject(std::function&lt; T(double const &amp;)&gt; const &amp;Object, int const &amp;nQ, double const &amp;QMin, double const &amp;QMax, int const &amp;InterDegree, std::vector&lt; double &gt; const &amp;Thresholds, std::function&lt; double(double const &amp;)&gt; const &amp;TabFunc, std::function&lt; double(double const &amp;)&gt; const &amp;InvTabFunc)']]],
+  ['timer',['Timer',['../classapfel_1_1Timer.html#a4f3105d4294bfd96952d01e79c5bf63f',1,'apfel::Timer']]],
+  ['transform',['transform',['../classapfel_1_1OgataQuadrature.html#a48dcce624693b0886e5583cebd51eb58',1,'apfel::OgataQuadrature']]]
 ];

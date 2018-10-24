@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['j0zeros',['j0Zeros',['../namespaceapfel.html#a1e072b1ec6ad8119fbd392985f6364b9',1,'apfel']]]
+  ['lambda',['Lambda',['../structapfel_1_1EvolutionSetup.html#a627d756a982879f403991a8f5fe45811',1,'apfel::EvolutionSetup']]],
+  ['locked',['Locked',['../structapfel_1_1EvolutionSetup.html#a5f52eb6198ff1640c1189f5b20b23ef0',1,'apfel::EvolutionSetup']]]
 ];
