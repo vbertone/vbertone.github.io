@@ -14,5 +14,6 @@ var searchData=
   ['nnlo_20splitting_20functions',['NNLO splitting functions',['../group__NNLOunpsf.html',1,'']]],
   ['nnlo_20splitting_20functions',['NNLO splitting functions',['../group__NNLOunpsftl.html',1,'']]],
   ['nnlo_20zero_2dmass_20coefficient_20functions',['NNLO zero-mass coefficient functions',['../group__NNLOzm.html',1,'']]],
-  ['nnnlo_20splitting_20functions',['NNNLO splitting functions',['../group__NNNLOunpsf.html',1,'']]]
+  ['nnnlo_20splitting_20functions',['NNNLO splitting functions',['../group__NNNLOunpsf.html',1,'']]],
+  ['numerical_20constants',['Numerical constants',['../group__NumericalConstants.html',1,'']]]
 ];

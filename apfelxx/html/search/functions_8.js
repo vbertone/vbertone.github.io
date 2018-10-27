@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['j0zerosgenerator',['J0ZerosGenerator',['../classapfel_1_1OgataQuadrature.html#ac1a0220e599c38d131f99233a3815eee',1,'apfel::OgataQuadrature']]]
+  ['jnuzerosgenerator',['JnuZerosGenerator',['../classapfel_1_1OgataQuadrature.html#aff76a036a1e96d5587b173e3710912bf',1,'apfel::OgataQuadrature']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['observable',['Observable',['../classapfel_1_1Observable.html#a806706c15c3ade4e2dcbc39876054829',1,'apfel::Observable::Observable()=delete'],['../classapfel_1_1Observable.html#a0e57fd6e66c6b973d0901cb915fbb0f2',1,'apfel::Observable::Observable(std::function&lt; Set&lt; Operator &gt;(double const &amp;)&gt; const &amp;CoefficientFunctions, std::function&lt; Set&lt; Distribution &gt;(double const &amp;)&gt; const &amp;Distributions)']]],
-  ['ogataquadrature',['OgataQuadrature',['../classapfel_1_1OgataQuadrature.html#a49466aec445bfa0a3bb35ff3501ef032',1,'apfel::OgataQuadrature']]],
+  ['ogataquadrature',['OgataQuadrature',['../classapfel_1_1OgataQuadrature.html#a7c7d0b8434eb62771399493890ccdeec',1,'apfel::OgataQuadrature']]],
   ['operator',['Operator',['../classapfel_1_1Operator.html#abed3b7be91a5e75cea637a87fb4fa5d0',1,'apfel::Operator::Operator()=delete'],['../classapfel_1_1Operator.html#af92165933d07e889f047c69064f70566',1,'apfel::Operator::Operator(Grid const &amp;gr, Expression const &amp;expr, double const &amp;eps=1e-5)']]],
   ['operator_21_3d',['operator!=',['../classapfel_1_1Grid.html#a6b7746f3e57aa280d49279660eacee77',1,'apfel::Grid::operator!=()'],['../classapfel_1_1QGrid.html#a785ad2d1e9680eaefc6f225c788e25b2',1,'apfel::QGrid::operator!=()'],['../classapfel_1_1SubGrid.html#afb724de1eda74f4c92a748782e75343a',1,'apfel::SubGrid::operator!=()']]],
   ['operator_28_29',['operator()',['../classapfel_1_1matrix.html#a22df71a8d28f953db35ac01b895a085d',1,'apfel::matrix::operator()(size_t const &amp;i, size_t const &amp;j)'],['../classapfel_1_1matrix.html#a33b9a0ccda47540f96c875c0e174a5a5',1,'apfel::matrix::operator()(size_t const &amp;i, size_t const &amp;j) const']]],

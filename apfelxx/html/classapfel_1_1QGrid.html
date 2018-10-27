@@ -115,6 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad79a908a9bd73bcd0c2cc00a5f47bd7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1QGrid.html#ad79a908a9bd73bcd0c2cc00a5f47bd7e">QGrid</a> (int const &amp;<a class="el" href="classapfel_1_1QGrid.html#a545c18a37669f843ea7874c5e9e8d23c">nQ</a>, double const &amp;<a class="el" href="classapfel_1_1QGrid.html#a0a1450c5d3c7988817a9302953437aea">QMin</a>, double const &amp;<a class="el" href="classapfel_1_1QGrid.html#acd4156e722cbdc155f32d54ecc7432c0">QMax</a>, int const &amp;<a class="el" href="classapfel_1_1QGrid.html#a58fbd0d8210e5d469bcaabd5fce5b7fb">InterDegree</a>, std::vector&lt; double &gt; const &amp;Thresholds, double const &amp;Lambda=0.25)</td></tr>
 <tr class="memdesc:ad79a908a9bd73bcd0c2cc00a5f47bd7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1QGrid.html" title="The template class QGrids is a mother class for the interpolation in Q. This class also implements me...">QGrid</a> constructor.  <a href="#ad79a908a9bd73bcd0c2cc00a5f47bd7e">More...</a><br /></td></tr>
 <tr class="separator:ad79a908a9bd73bcd0c2cc00a5f47bd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25abb29b9bc72b7aeb5d6e025a1d9c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1QGrid.html#aa25abb29b9bc72b7aeb5d6e025a1d9c4">QGrid</a> (std::vector&lt; double &gt; const &amp;Qg, int const &amp;<a class="el" href="classapfel_1_1QGrid.html#a58fbd0d8210e5d469bcaabd5fce5b7fb">InterDegree</a>)</td></tr>
+<tr class="memdesc:aa25abb29b9bc72b7aeb5d6e025a1d9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1QGrid.html" title="The template class QGrids is a mother class for the interpolation in Q. This class also implements me...">QGrid</a> constructor.  <a href="#aa25abb29b9bc72b7aeb5d6e025a1d9c4">More...</a><br /></td></tr>
+<tr class="separator:aa25abb29b9bc72b7aeb5d6e025a1d9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Comparison operators</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of operators for comparing <a class="el" href="classapfel_1_1QGrid.html" title="The template class QGrids is a mother class for the interpolation in Q. This class also implements me...">QGrid</a> objects </p>
 </div></td></tr>
@@ -201,7 +204,7 @@ class apfel::QGrid&lt; T &gt;</h3>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="qgrid_test_8cc-example.html#_a0">qgrid_test.cc</a>.</dd>
 </dl></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a29217afc5663b54d611dc307700e32da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29217afc5663b54d611dc307700e32da">&#9670;&nbsp;</a></span>QGrid() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a29217afc5663b54d611dc307700e32da">&#9670;&nbsp;</a></span>QGrid() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +231,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="a237fbe86ce7780636cdeb60d9f51d5e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a237fbe86ce7780636cdeb60d9f51d5e4">&#9670;&nbsp;</a></span>QGrid() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a237fbe86ce7780636cdeb60d9f51d5e4">&#9670;&nbsp;</a></span>QGrid() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,7 +305,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="ad79a908a9bd73bcd0c2cc00a5f47bd7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad79a908a9bd73bcd0c2cc00a5f47bd7e">&#9670;&nbsp;</a></span>QGrid() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79a908a9bd73bcd0c2cc00a5f47bd7e">&#9670;&nbsp;</a></span>QGrid() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,6 +368,46 @@ template&lt;class T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aa25abb29b9bc72b7aeb5d6e025a1d9c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa25abb29b9bc72b7aeb5d6e025a1d9c4">&#9670;&nbsp;</a></span>QGrid() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classapfel_1_1QGrid.html">apfel::QGrid</a>&lt; T &gt;::<a class="el" href="classapfel_1_1QGrid.html">QGrid</a> </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>Qg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>InterDegree</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="classapfel_1_1QGrid.html" title="The template class QGrids is a mother class for the interpolation in Q. This class also implements me...">QGrid</a> constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Qg</td><td>the user-defined interpolation grid </td></tr>
+    <tr><td class="paramname">InterDegree</td><td>the interpolation degree </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This constructor assumes that the function used to compute the interpolating functions is linear. In addition, the input vector 'Qg' is assumed to be ordered and 'well-behaved'. To be used with care. </dd></dl>
 
 </div>
 </div>
@@ -1113,7 +1156,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 24 2018 22:28:50 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 27 2018 17:15:56 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

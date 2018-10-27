@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['zeta2',['zeta2',['../namespaceapfel.html#a35fb1a2f328a8628032d37315c2e6366',1,'apfel']]],
-  ['zeta3',['zeta3',['../namespaceapfel.html#a8c61738249340194dc5348b0f308cc31',1,'apfel']]],
-  ['zeta4',['zeta4',['../namespaceapfel.html#ada81e2768570ad4b52fb29b6c5f0cfc7',1,'apfel']]],
-  ['zeta5',['zeta5',['../namespaceapfel.html#a6ec5e74a577acfed19a3ba3b05006da8',1,'apfel']]]
+  ['xfs',['xfs',['../structapfel_1_1LHKnotArray.html#ab8f6192839b549ee0db4c50ab78f9d1a',1,'apfel::LHKnotArray']]],
+  ['xgext',['xgext',['../structapfel_1_1EvolutionSetup_1_1GridParameters.html#a4f55f8e092ef8cf00546331cb700dd4a',1,'apfel::EvolutionSetup::GridParameters']]],
+  ['xmin',['xmin',['../structapfel_1_1EvolutionSetup_1_1GridParameters.html#a34003e1b1ec650bd91278f0dd66abe97',1,'apfel::EvolutionSetup::GridParameters']]],
+  ['xs',['xs',['../structapfel_1_1LHKnotArray.html#aca33fa03b0ca059cc5f1f7011cadc233',1,'apfel::LHKnotArray']]]
 ];

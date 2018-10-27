@@ -22,5 +22,6 @@ var searchData=
   ['nq',['nQ',['../classapfel_1_1QGrid.html#a545c18a37669f843ea7874c5e9e8d23c',1,'apfel::QGrid']]],
   ['nqg',['nQg',['../structapfel_1_1EvolutionSetup.html#aab9528d803850444afe8f68ac552338c',1,'apfel::EvolutionSetup']]],
   ['null',['Null',['../classapfel_1_1Null.html',1,'apfel::Null'],['../classapfel_1_1Null.html#a0f74dde5cc4f104049878d17bd639248',1,'apfel::Null::Null()']]],
+  ['numerical_20constants',['Numerical constants',['../group__NumericalConstants.html',1,'']]],
   ['nx',['nx',['../structapfel_1_1EvolutionSetup_1_1GridParameters.html#ac1ac2d643f29aa6045eb13e32ae0fd3b',1,'apfel::EvolutionSetup::GridParameters::nx()'],['../classapfel_1_1SubGrid.html#ac9c8d18ab6868c90679a2b66f5616c81',1,'apfel::SubGrid::nx()']]]
 ];
