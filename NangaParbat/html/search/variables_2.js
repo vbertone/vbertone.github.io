@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name',['name',['../structNangaParbat_1_1Kinematics.html#abb863a008fc65a820dbee48da94c3c5f',1,'NangaParbat::Kinematics']]]
+  ['ndata',['ndata',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a8f8327956f4f57d0ea91a588737c3c3d',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

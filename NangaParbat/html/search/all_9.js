@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['qb',['Qb',['../structNangaParbat_1_1Kinematics.html#a701d833bb001ddefbd93278598841802',1,'NangaParbat::Kinematics']]],
-  ['qtv',['qTv',['../structNangaParbat_1_1Kinematics.html#a5844aff24833eaf4ff01e0f95a36746e',1,'NangaParbat::Kinematics']]]
+  ['nangaparbat',['NangaParbat',['../namespaceNangaParbat.html',1,'']]],
+  ['ndata',['ndata',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a8f8327956f4f57d0ea91a588737c3c3d',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

@@ -76,18 +76,21 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNangaParbat_1_1Kinematics.html">Kinematics</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure containing the kinematic information of one single data set.  <a href="structNangaParbat_1_1Kinematics.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "DataHandler" class is a mother class that provides a common interface to all datasets. It provides methods to get kinematics, central values, uncertainties, etc.  <a href="classNangaParbat_1_1DataHandler.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ins302822.html">ins302822</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "ins302822" class is a derived class of "DataHandler" for the E605 dataset. HEPData page: <a href="https://www.hepdata.net/record/ins302822">https://www.hepdata.net/record/ins302822</a>.  <a href="classNangaParbat_1_1ins302822.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TestData.html">TestData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "TestData" class is a derived class of "DataHandler" used for testing purposed. It instantiates and fill in a "DataHandler" object with hard-coded features.  <a href="classNangaParbat_1_1TestData.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3bdbab78ae689a42b107ad7e0060d399"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structNangaParbat_1_1Kinematics.html">Kinematics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a3bdbab78ae689a42b107ad7e0060d399">RetrieveKinematics</a> (YAML::Node const &amp;datalist)</td></tr>
-<tr class="memdesc:a3bdbab78ae689a42b107ad7e0060d399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the kinematics read from the HEPData file (some edit may be required).  <a href="#a3bdbab78ae689a42b107ad7e0060d399">More...</a><br /></td></tr>
-<tr class="separator:a3bdbab78ae689a42b107ad7e0060d399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4da5d6d68fc8cee42b40f95446e5a7b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#ab4da5d6d68fc8cee42b40f95446e5a7b">ComputeTables</a> (YAML::Node const &amp;config, std::vector&lt; <a class="el" href="structNangaParbat_1_1Kinematics.html">Kinematics</a> &gt; const &amp;KinVect)</td></tr>
-<tr class="memdesc:ab4da5d6d68fc8cee42b40f95446e5a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function computes the interpolation tables given as an input a configuration file and dataset file.  <a href="#ab4da5d6d68fc8cee42b40f95446e5a7b">More...</a><br /></td></tr>
-<tr class="separator:ab4da5d6d68fc8cee42b40f95446e5a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4065bcfe8d0c9821e411c4bb86ed9b68"><td class="memItemLeft" align="right" valign="top">std::vector&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a4065bcfe8d0c9821e411c4bb86ed9b68">ComputeTables</a> (YAML::Node const &amp;config, std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect)</td></tr>
+<tr class="memdesc:a4065bcfe8d0c9821e411c4bb86ed9b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function computes the interpolation tables given as an input a configuration file and a vector of "DataHandler" objects.  <a href="#a4065bcfe8d0c9821e411c4bb86ed9b68">More...</a><br /></td></tr>
+<tr class="separator:a4065bcfe8d0c9821e411c4bb86ed9b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a25b2a30ee7aaa3f344c43b6e9a458695">bstar</a> (double const &amp;b, double const &amp;bmax)</td></tr>
 <tr class="memdesc:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription to implement the CSS prescription.  <a href="#a25b2a30ee7aaa3f344c43b6e9a458695">More...</a><br /></td></tr>
 <tr class="separator:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,12 +126,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>b* prescription to implement the CSS prescription. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a4">IntegrationTest.cc</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a10">IntegrationTest.cc</a>.</dd>
 </dl>
 </div>
 </div>
-<a id="ab4da5d6d68fc8cee42b40f95446e5a7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4da5d6d68fc8cee42b40f95446e5a7b">&#9670;&nbsp;</a></span>ComputeTables()</h2>
+<a id="a4065bcfe8d0c9821e411c4bb86ed9b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4065bcfe8d0c9821e411c4bb86ed9b68">&#9670;&nbsp;</a></span>ComputeTables()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,8 +145,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structNangaParbat_1_1Kinematics.html">Kinematics</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>KinVect</em>&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>DHVect</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -153,11 +156,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function computes the interpolation tables given as an input a configuration file and dataset file. </p>
+<p>This function computes the interpolation tables given as an input a configuration file and a vector of "DataHandler" objects. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">configfile</td><td>configuration card in YAML format </td></tr>
-    <tr><td class="paramname">datasetfile</td><td>vector of "Kinematics" objects. </td></tr>
+    <tr><td class="paramname">DHVect</td><td>vector of "DataHandler" objects. </td></tr>
   </table>
   </dd>
 </dl>
@@ -208,39 +211,10 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3bdbab78ae689a42b107ad7e0060d399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bdbab78ae689a42b107ad7e0060d399">&#9670;&nbsp;</a></span>RetrieveKinematics()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structNangaParbat_1_1Kinematics.html">Kinematics</a>&gt; NangaParbat::RetrieveKinematics </td>
-          <td>(</td>
-          <td class="paramtype">YAML::Node const &amp;&#160;</td>
-          <td class="paramname"><em>datalist</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function that returns the kinematics read from the HEPData file (some edit may be required). </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">configfile</td><td>configuration card in YAML format </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a vector of "Kinematics" objects. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This function is meant to limit the "dirty" stuff required to parse a datafile to a single function. This function returns a structure (a "Kinematics" object) that encapsulates information on kinematics in a format that can be processed by the "ComputeTable" function. </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a0">IntegrationTest.cc</a>.</dd>
-</dl>
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 5 2018 09:50:35 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 7 2018 20:44:04 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
