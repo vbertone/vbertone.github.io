@@ -74,29 +74,37 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "ChiSquare" class computes the &chi;<sup>2</sup>'s given a set of "DataHandler" objects and the corresponding "ConvolutionTable" objects. The computation depends of the non-perturbative functions given as input.  <a href="classNangaParbat_1_1ChiSquare.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "DataHandler" class is a mother class that provides a common interface to all datasets. It provides methods to get kinematics, central values, uncertainties, etc.  <a href="classNangaParbat_1_1DataHandler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ins302822.html">ins302822</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "ins302822" class is a derived class of "DataHandler" for the E605 dataset. HEPData page: <a href="https://www.hepdata.net/record/ins302822">https://www.hepdata.net/record/ins302822</a>.  <a href="classNangaParbat_1_1ins302822.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TestData.html">TestData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "TestData" class is a derived class of "DataHandler" used for testing purposed. It instantiates and fill in a "DataHandler" object with hard-coded features.  <a href="classNangaParbat_1_1TestData.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html">FastInterface</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4065bcfe8d0c9821e411c4bb86ed9b68"><td class="memItemLeft" align="right" valign="top">std::vector&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a4065bcfe8d0c9821e411c4bb86ed9b68">ComputeTables</a> (YAML::Node const &amp;config, std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect)</td></tr>
-<tr class="memdesc:a4065bcfe8d0c9821e411c4bb86ed9b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function computes the interpolation tables given as an input a configuration file and a vector of "DataHandler" objects.  <a href="#a4065bcfe8d0c9821e411c4bb86ed9b68">More...</a><br /></td></tr>
-<tr class="separator:a4065bcfe8d0c9821e411c4bb86ed9b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a25b2a30ee7aaa3f344c43b6e9a458695">bstar</a> (double const &amp;b, double const &amp;bmax)</td></tr>
-<tr class="memdesc:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription to implement the CSS prescription.  <a href="#a25b2a30ee7aaa3f344c43b6e9a458695">More...</a><br /></td></tr>
+<tr class="memdesc:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="mdescLeft">&#160;</td><td class="mdescRight">the CSS-like b* prescription  <a href="#a25b2a30ee7aaa3f344c43b6e9a458695">More...</a><br /></td></tr>
 <tr class="separator:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a820a87cf68db29122bf61c48946b81ad"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a820a87cf68db29122bf61c48946b81ad">GenerateQGrid</a> (int const &amp;n, double const &amp;min, double const &amp;max, int const &amp;ext=0)</td></tr>
 <tr class="memdesc:a820a87cf68db29122bf61c48946b81ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to generate an interpolation grid.  <a href="#a820a87cf68db29122bf61c48946b81ad">More...</a><br /></td></tr>
 <tr class="separator:a820a87cf68db29122bf61c48946b81ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48cab3d6c952e89f365ce6d3d5379101"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">CholeskyDecomposition</a> (apfel::matrix&lt; double &gt; const V)</td></tr>
+<tr class="memdesc:a48cab3d6c952e89f365ce6d3d5379101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition of the covariance matrix.  <a href="#a48cab3d6c952e89f365ce6d3d5379101">More...</a><br /></td></tr>
+<tr class="separator:a48cab3d6c952e89f365ce6d3d5379101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f20573b47444b73bfb8dad711c98d86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86">SolveLowerSystem</a> (apfel::matrix&lt; double &gt; L, std::vector&lt; double &gt; y)</td></tr>
+<tr class="memdesc:a8f20573b47444b73bfb8dad711c98d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve lower-diagonal system of equations by forward substitution.  <a href="#a8f20573b47444b73bfb8dad711c98d86">More...</a><br /></td></tr>
+<tr class="separator:a8f20573b47444b73bfb8dad711c98d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f58dd5df005599b122829e38bf9129c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c">SolveUpperSystem</a> (apfel::matrix&lt; double &gt; U, std::vector&lt; double &gt; y)</td></tr>
+<tr class="memdesc:a5f58dd5df005599b122829e38bf9129c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve upper-diagonal system of equations by backward substitution.  <a href="#a5f58dd5df005599b122829e38bf9129c">More...</a><br /></td></tr>
+<tr class="separator:a5f58dd5df005599b122829e38bf9129c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027d18a91af358aae7e96e01a4a0ee07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">SolveSymmetricSystem</a> (apfel::matrix&lt; double &gt; A, std::vector&lt; double &gt; rho)</td></tr>
+<tr class="memdesc:a027d18a91af358aae7e96e01a4a0ee07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve symmetric system of equations.  <a href="#a027d18a91af358aae7e96e01a4a0ee07">More...</a><br /></td></tr>
+<tr class="separator:a027d18a91af358aae7e96e01a4a0ee07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a25b2a30ee7aaa3f344c43b6e9a458695"></a>
@@ -125,48 +133,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>b* prescription to implement the CSS prescription. </p>
+<p>the CSS-like b* prescription </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bmax</td><td>the saturation value </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a10">IntegrationTest.cc</a>.</dd>
 </dl>
 </div>
 </div>
-<a id="a4065bcfe8d0c9821e411c4bb86ed9b68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4065bcfe8d0c9821e411c4bb86ed9b68">&#9670;&nbsp;</a></span>ComputeTables()</h2>
+<a id="a48cab3d6c952e89f365ce6d3d5379101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48cab3d6c952e89f365ce6d3d5379101">&#9670;&nbsp;</a></span>CholeskyDecomposition()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;YAML::Emitter&gt; NangaParbat::ComputeTables </td>
+          <td class="memname">apfel::matrix&lt;double&gt; NangaParbat::CholeskyDecomposition </td>
           <td>(</td>
-          <td class="paramtype">YAML::Node const &amp;&#160;</td>
-          <td class="paramname"><em>config</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">apfel::matrix&lt; double &gt; const&#160;</td>
+          <td class="paramname"><em>V</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>DHVect</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function computes the interpolation tables given as an input a configuration file and a vector of "DataHandler" objects. </p>
+<p>Cholesky decomposition of the covariance matrix. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">configfile</td><td>configuration card in YAML format </td></tr>
-    <tr><td class="paramname">DHVect</td><td>vector of "DataHandler" objects. </td></tr>
+    <tr><td class="paramname">V</td><td>the covariance matrix </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a vector of "YAML::Emitter" objects containing as many tables as elements of "KinVect". </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a1">IntegrationTest.cc</a>.</dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>The Cholesky decomposition matrix L such that L<sup>T</sup>L = V </dd></dl>
+
 </div>
 </div>
 <a id="a820a87cf68db29122bf61c48946b81ad"></a>
@@ -208,13 +210,137 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Utility function to generate an interpolation grid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>the number of nodes of the grid </td></tr>
+    <tr><td class="paramname">min</td><td>the lower bound </td></tr>
+    <tr><td class="paramname">max</td><td>the upper bound </td></tr>
+    <tr><td class="paramname">ext</td><td>the numer of extra nodes </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a linearly-spaced grid with "n" nodes between "min" and "max" plus "ext" extra nodes on the right. </dd></dl>
+
+</div>
+</div>
+<a id="a8f20573b47444b73bfb8dad711c98d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f20573b47444b73bfb8dad711c98d86">&#9670;&nbsp;</a></span>SolveLowerSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::SolveLowerSystem </td>
+          <td>(</td>
+          <td class="paramtype">apfel::matrix&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solve lower-diagonal system of equations by forward substitution. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">L</td><td>lower-diagonal matrix </td></tr>
+    <tr><td class="paramname">y</td><td>vector of constants </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the solution vector x </dd></dl>
+
+</div>
+</div>
+<a id="a027d18a91af358aae7e96e01a4a0ee07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a027d18a91af358aae7e96e01a4a0ee07">&#9670;&nbsp;</a></span>SolveSymmetricSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::SolveSymmetricSystem </td>
+          <td>(</td>
+          <td class="paramtype">apfel::matrix&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>rho</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solve symmetric system of equations. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">A</td><td>symmetric matrix </td></tr>
+    <tr><td class="paramname">rho</td><td>vector of constants </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the solution vector </dd></dl>
+
+</div>
+</div>
+<a id="a5f58dd5df005599b122829e38bf9129c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f58dd5df005599b122829e38bf9129c">&#9670;&nbsp;</a></span>SolveUpperSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::SolveUpperSystem </td>
+          <td>(</td>
+          <td class="paramtype">apfel::matrix&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>U</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solve upper-diagonal system of equations by backward substitution. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">U</td><td>upper-diagonal matrix </td></tr>
+    <tr><td class="paramname">y</td><td>vector of constants </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the solution vector </dd></dl>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 8 2018 14:04:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Dec 8 2018 11:24:58 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

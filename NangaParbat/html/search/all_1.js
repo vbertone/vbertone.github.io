@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bstar',['bstar',['../namespaceNangaParbat.html#a25b2a30ee7aaa3f344c43b6e9a458695',1,'NangaParbat']]]
+  ['addblock',['AddBlock',['../classNangaParbat_1_1ChiSquare.html#abcc6656f59cf268659aad7c4aefd466f',1,'NangaParbat::ChiSquare']]]
 ];

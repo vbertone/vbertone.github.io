@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Nanga Parbat: /Users/vbertone/Codes/TMDs/inc/NangaParbat/utilities.h File Reference</title>
+<title>Nanga Parbat: /Users/vbertone/Codes/NangaParbat/inc/NangaParbat/utilities.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -76,6 +76,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;yaml-cpp/yaml.h&gt;</code><br />
+<code>#include &lt;apfel/matrix.h&gt;</code><br />
 </div>
 <p><a href="utilities_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -87,16 +88,28 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a25b2a30ee7aaa3f344c43b6e9a458695">NangaParbat::bstar</a> (double const &amp;b, double const &amp;bmax)</td></tr>
-<tr class="memdesc:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription to implement the CSS prescription.  <a href="namespaceNangaParbat.html#a25b2a30ee7aaa3f344c43b6e9a458695">More...</a><br /></td></tr>
+<tr class="memdesc:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="mdescLeft">&#160;</td><td class="mdescRight">the CSS-like b* prescription  <a href="namespaceNangaParbat.html#a25b2a30ee7aaa3f344c43b6e9a458695">More...</a><br /></td></tr>
 <tr class="separator:a25b2a30ee7aaa3f344c43b6e9a458695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a820a87cf68db29122bf61c48946b81ad"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a820a87cf68db29122bf61c48946b81ad">NangaParbat::GenerateQGrid</a> (int const &amp;n, double const &amp;min, double const &amp;max, int const &amp;ext=0)</td></tr>
 <tr class="memdesc:a820a87cf68db29122bf61c48946b81ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to generate an interpolation grid.  <a href="namespaceNangaParbat.html#a820a87cf68db29122bf61c48946b81ad">More...</a><br /></td></tr>
 <tr class="separator:a820a87cf68db29122bf61c48946b81ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48cab3d6c952e89f365ce6d3d5379101"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">NangaParbat::CholeskyDecomposition</a> (apfel::matrix&lt; double &gt; const V)</td></tr>
+<tr class="memdesc:a48cab3d6c952e89f365ce6d3d5379101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition of the covariance matrix.  <a href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">More...</a><br /></td></tr>
+<tr class="separator:a48cab3d6c952e89f365ce6d3d5379101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f20573b47444b73bfb8dad711c98d86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86">NangaParbat::SolveLowerSystem</a> (apfel::matrix&lt; double &gt; L, std::vector&lt; double &gt; y)</td></tr>
+<tr class="memdesc:a8f20573b47444b73bfb8dad711c98d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve lower-diagonal system of equations by forward substitution.  <a href="namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86">More...</a><br /></td></tr>
+<tr class="separator:a8f20573b47444b73bfb8dad711c98d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f58dd5df005599b122829e38bf9129c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c">NangaParbat::SolveUpperSystem</a> (apfel::matrix&lt; double &gt; U, std::vector&lt; double &gt; y)</td></tr>
+<tr class="memdesc:a5f58dd5df005599b122829e38bf9129c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve upper-diagonal system of equations by backward substitution.  <a href="namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c">More...</a><br /></td></tr>
+<tr class="separator:a5f58dd5df005599b122829e38bf9129c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027d18a91af358aae7e96e01a4a0ee07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">NangaParbat::SolveSymmetricSystem</a> (apfel::matrix&lt; double &gt; A, std::vector&lt; double &gt; rho)</td></tr>
+<tr class="memdesc:a027d18a91af358aae7e96e01a4a0ee07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve symmetric system of equations.  <a href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">More...</a><br /></td></tr>
+<tr class="separator:a027d18a91af358aae7e96e01a4a0ee07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 8 2018 14:04:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Dec 8 2018 11:24:58 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

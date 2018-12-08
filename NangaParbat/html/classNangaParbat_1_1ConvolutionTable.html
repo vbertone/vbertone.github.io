@@ -87,18 +87,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a409e1252848068c4215eeac17dd222f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a409e1252848068c4215eeac17dd222f0">ConvolutionTable</a> (std::string const &amp;infile)</td></tr>
 <tr class="memdesc:a409e1252848068c4215eeac17dd222f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "ConvolutionTable" constructor.  <a href="#a409e1252848068c4215eeac17dd222f0">More...</a><br /></td></tr>
 <tr class="separator:a409e1252848068c4215eeac17dd222f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec637a7ee6026920e04bb9d9f24aa6aa"><td class="memItemLeft" align="right" valign="top">std::map&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aec637a7ee6026920e04bb9d9f24aa6aa">Convolute</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2) const</td></tr>
+<tr class="memdesc:aec637a7ee6026920e04bb9d9f24aa6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function convolutes the input convolution table with two user-given non-perturbative functions.  <a href="#aec637a7ee6026920e04bb9d9f24aa6aa">More...</a><br /></td></tr>
+<tr class="separator:aec637a7ee6026920e04bb9d9f24aa6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1065721d888fd1b87dd2c0ade057d4c9"><td class="memItemLeft" align="right" valign="top">std::map&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a1065721d888fd1b87dd2c0ade057d4c9">Convolute</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP) const</td></tr>
-<tr class="memdesc:a1065721d888fd1b87dd2c0ade057d4c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This functions convolute the input convolution table with a user-given non-perturbative function.  <a href="#a1065721d888fd1b87dd2c0ade057d4c9">More...</a><br /></td></tr>
+<tr class="memdesc:a1065721d888fd1b87dd2c0ade057d4c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function convolutes the input convolution table with a user-given non-perturbative function assuming that first and second functions are equal.  <a href="#a1065721d888fd1b87dd2c0ade057d4c9">More...</a><br /></td></tr>
 <tr class="separator:a1065721d888fd1b87dd2c0ade057d4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0edd9a4328dc2ec3959a5640e4d21384"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a0edd9a4328dc2ec3959a5640e4d21384">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2) const</td></tr>
+<tr class="memdesc:a0edd9a4328dc2ec3959a5640e4d21384"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions with a two user-given non-perturbative functions.  <a href="#a0edd9a4328dc2ec3959a5640e4d21384">More...</a><br /></td></tr>
+<tr class="separator:a0edd9a4328dc2ec3959a5640e4d21384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0c298f22892447123a10f7b5dd1f86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a4a0c298f22892447123a10f7b5dd1f86">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP) const</td></tr>
+<tr class="memdesc:a4a0c298f22892447123a10f7b5dd1f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions with a a user-given non-perturbative function assuming that first and second functions are equal.  <a href="#a4a0c298f22892447123a10f7b5dd1f86">More...</a><br /></td></tr>
+<tr class="separator:a4a0c298f22892447123a10f7b5dd1f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a57917cd26ad8eabb72d92fe817d21197"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a57917cd26ad8eabb72d92fe817d21197">_name</a></td></tr>
 <tr class="memdesc:a57917cd26ad8eabb72d92fe817d21197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the table.  <a href="#a57917cd26ad8eabb72d92fe817d21197">More...</a><br /></td></tr>
 <tr class="separator:a57917cd26ad8eabb72d92fe817d21197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a098a53327fb936df037ae78f6682f949"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a098a53327fb936df037ae78f6682f949">_proc</a></td></tr>
+<tr class="memdesc:a098a53327fb936df037ae78f6682f949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the process (0: DY, 1: SIDIS)  <a href="#a098a53327fb936df037ae78f6682f949">More...</a><br /></td></tr>
+<tr class="separator:a098a53327fb936df037ae78f6682f949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac74302a35b3c6013aa67bba8044fa43a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ac74302a35b3c6013aa67bba8044fa43a">_Vs</a></td></tr>
 <tr class="memdesc:ac74302a35b3c6013aa67bba8044fa43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center of mass energy.  <a href="#ac74302a35b3c6013aa67bba8044fa43a">More...</a><br /></td></tr>
 <tr class="separator:ac74302a35b3c6013aa67bba8044fa43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08fe53ee3eb93f0c0087e2a5cb9ac79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ae08fe53ee3eb93f0c0087e2a5cb9ac79">_IntqT</a></td></tr>
+<tr class="memdesc:ae08fe53ee3eb93f0c0087e2a5cb9ac79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the bin are integrated in qT or not.  <a href="#ae08fe53ee3eb93f0c0087e2a5cb9ac79">More...</a><br /></td></tr>
+<tr class="separator:ae08fe53ee3eb93f0c0087e2a5cb9ac79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4be771e1b4bfbaf73c3c8556e537445"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#af4be771e1b4bfbaf73c3c8556e537445">_qTv</a></td></tr>
 <tr class="memdesc:af4be771e1b4bfbaf73c3c8556e537445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of qT.  <a href="#af4be771e1b4bfbaf73c3c8556e537445">More...</a><br /></td></tr>
 <tr class="separator:af4be771e1b4bfbaf73c3c8556e537445"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,8 +186,47 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aec637a7ee6026920e04bb9d9f24aa6aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec637a7ee6026920e04bb9d9f24aa6aa">&#9670;&nbsp;</a></span>Convolute() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;double,double&gt; NangaParbat::ConvolutionTable::Convolute </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function convolutes the input convolution table with two user-given non-perturbative functions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fNP1</td><td>the first non-perturbative input function </td></tr>
+    <tr><td class="paramname">fNP2</td><td>the second non-perturbative input function </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a map that associates each value of qT to a prediction. </dd></dl>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a3">IntegrationTest.cc</a>.</dd>
+</dl>
+</div>
+</div>
 <a id="a1065721d888fd1b87dd2c0ade057d4c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1065721d888fd1b87dd2c0ade057d4c9">&#9670;&nbsp;</a></span>Convolute()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1065721d888fd1b87dd2c0ade057d4c9">&#9670;&nbsp;</a></span>Convolute() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,7 +241,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This functions convolute the input convolution table with a user-given non-perturbative function. </p>
+<p>This function convolutes the input convolution table with a user-given non-perturbative function assuming that first and second functions are equal. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fNP</td><td>the non-perturbative input function </td></tr>
@@ -195,11 +249,99 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a map that associates each value of qT to a prediction. </dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a3">IntegrationTest.cc</a>.</dd>
+
+</div>
+</div>
+<a id="a0edd9a4328dc2ec3959a5640e4d21384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0edd9a4328dc2ec3959a5640e4d21384">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::GetPredictions </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function returns a vector of predictions with a two user-given non-perturbative functions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fNP1</td><td>the first non-perturbative input function </td></tr>
+    <tr><td class="paramname">fNP2</td><td>the second non-perturbative input function </td></tr>
+  </table>
+  </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>a vector of predictions. </dd></dl>
+
+</div>
+</div>
+<a id="a4a0c298f22892447123a10f7b5dd1f86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0c298f22892447123a10f7b5dd1f86">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::GetPredictions </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function returns a vector of predictions with a a user-given non-perturbative function assuming that first and second functions are equal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fNP</td><td>the first non-perturbative input function </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a vector of predictions. </dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae08fe53ee3eb93f0c0087e2a5cb9ac79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae08fe53ee3eb93f0c0087e2a5cb9ac79">&#9670;&nbsp;</a></span>_IntqT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NangaParbat::ConvolutionTable::_IntqT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the bin are integrated in qT or not. </p>
+
+</div>
+</div>
 <a id="a57917cd26ad8eabb72d92fe817d21197"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57917cd26ad8eabb72d92fe817d21197">&#9670;&nbsp;</a></span>_name</h2>
 
@@ -221,6 +363,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Name of the table. </p>
+
+</div>
+</div>
+<a id="a098a53327fb936df037ae78f6682f949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a098a53327fb936df037ae78f6682f949">&#9670;&nbsp;</a></span>_proc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NangaParbat::ConvolutionTable::_proc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Index of the process (0: DY, 1: SIDIS) </p>
 
 </div>
 </div>
@@ -369,12 +535,12 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/vbertone/Codes/TMDs/inc/NangaParbat/<a class="el" href="convolutiontable_8h_source.html">convolutiontable.h</a></li>
+<li>/Users/vbertone/Codes/NangaParbat/inc/NangaParbat/<a class="el" href="convolutiontable_8h_source.html">convolutiontable.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 8 2018 14:04:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Dec 8 2018 11:24:58 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

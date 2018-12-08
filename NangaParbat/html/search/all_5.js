@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['generateqgrid',['GenerateQGrid',['../namespaceNangaParbat.html#a820a87cf68db29122bf61c48946b81ad',1,'NangaParbat']]],
-  ['getcovariancematrix',['GetCovarianceMatrix',['../classNangaParbat_1_1DataHandler.html#a09ada8d68af11d5363c8f218e4e4f8e7',1,'NangaParbat::DataHandler']]],
-  ['getkinematics',['GetKinematics',['../classNangaParbat_1_1DataHandler.html#a4d7a2c22d20957c995e55420cd5c7a7f',1,'NangaParbat::DataHandler']]],
-  ['getmeanvalues',['GetMeanValues',['../classNangaParbat_1_1DataHandler.html#afc1287523dc18554fdd983b924bbc07a',1,'NangaParbat::DataHandler']]],
-  ['getname',['GetName',['../classNangaParbat_1_1DataHandler.html#a40f4979e8b9b38c8719a612755366616',1,'NangaParbat::DataHandler']]],
-  ['getprocess',['GetProcess',['../classNangaParbat_1_1DataHandler.html#a87d71e366e9e9742493ddaaa101fbd25',1,'NangaParbat::DataHandler']]],
-  ['getuncorrelatedunc',['GetUncorrelatedUnc',['../classNangaParbat_1_1DataHandler.html#a4b51c0075183497e39b14b442a7f2da8',1,'NangaParbat::DataHandler']]]
+  ['ed3q',['Ed3q',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38ae20abd9f6336888fc062923724acd350',1,'NangaParbat::DataHandler']]],
+  ['evaluate',['Evaluate',['../classNangaParbat_1_1ChiSquare.html#a7ae20990b90a25521f67d2d94b787872',1,'NangaParbat::ChiSquare::Evaluate(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2, int const &amp;ids=-1) const'],['../classNangaParbat_1_1ChiSquare.html#ade61ed9f27fb4c2b97a7dcfed28c516a',1,'NangaParbat::ChiSquare::Evaluate(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP, int const &amp;ids=-1) const']]],
+  ['examples_2edox',['examples.dox',['../examples_8dox.html',1,'']]]
 ];
