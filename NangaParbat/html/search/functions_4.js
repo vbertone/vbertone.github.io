@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['evaluate',['Evaluate',['../classNangaParbat_1_1ChiSquare.html#a7ae20990b90a25521f67d2d94b787872',1,'NangaParbat::ChiSquare::Evaluate(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2, int const &amp;ids=-1) const'],['../classNangaParbat_1_1ChiSquare.html#ade61ed9f27fb4c2b97a7dcfed28c516a',1,'NangaParbat::ChiSquare::Evaluate(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP, int const &amp;ids=-1) const']]]
+  ['evaluate',['Evaluate',['../classNangaParbat_1_1ChiSquare.html#a09e2e6bba4fef685405a7362754dc168',1,'NangaParbat::ChiSquare::Evaluate()'],['../classNangaParbat_1_1Parameterisation.html#a730656b1a224b1f28e7220ba33e70acf',1,'NangaParbat::Parameterisation::Evaluate()']]]
 ];

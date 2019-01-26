@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['ed3q',['Ed3q',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38ae20abd9f6336888fc062923724acd350',1,'NangaParbat::DataHandler']]],
-  ['evaluate',['Evaluate',['../classNangaParbat_1_1ChiSquare.html#a7ae20990b90a25521f67d2d94b787872',1,'NangaParbat::ChiSquare::Evaluate(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2, int const &amp;ids=-1) const'],['../classNangaParbat_1_1ChiSquare.html#ade61ed9f27fb4c2b97a7dcfed28c516a',1,'NangaParbat::ChiSquare::Evaluate(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP, int const &amp;ids=-1) const']]],
-  ['examples_2edox',['examples.dox',['../examples_8dox.html',1,'']]]
+  ['f',['f',['../group__PrivFuns.html#gac4f048b5458d518908f057032fb2b48a',1,'NangaParbat::TwoParticlePhaseSpace']]],
+  ['fastinterface',['FastInterface',['../classNangaParbat_1_1FastInterface.html',1,'NangaParbat::FastInterface'],['../classNangaParbat_1_1FastInterface.html#ad6f113ff65b51542ad86ec36748a078f',1,'NangaParbat::FastInterface::FastInterface()']]],
+  ['fastinterface_2eh',['fastinterface.h',['../fastinterface_8h.html',1,'']]],
+  ['fcnminuit',['FcnMinuit',['../classNangaParbat_1_1FcnMinuit.html',1,'NangaParbat::FcnMinuit'],['../classNangaParbat_1_1FcnMinuit.html#ad4afc6dc87e080b8fb68623d4f89ee00',1,'NangaParbat::FcnMinuit::FcnMinuit()']]]
 ];

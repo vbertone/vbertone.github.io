@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['process',['Process',['../classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86',1,'NangaParbat::DataHandler']]]
+  ['observable',['Observable',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38',1,'NangaParbat::DataHandler']]]
 ];
