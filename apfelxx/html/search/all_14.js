@@ -37,7 +37,7 @@ var searchData=
   ['tools_2eh',['tools.h',['../tools_8h.html',1,'']]],
   ['tr',['TR',['../group__MathConstants.html#gaa5cdb3b0774934c96e344d691863282a',1,'apfel']]],
   ['trans',['TRANS',['../structapfel_1_1EvolutionSetup.html#a2231cecea101e46d2b8b5b1652e26792aaa4d3e47e41ae4dfaea730e92a239b31',1,'apfel::EvolutionSetup']]],
-  ['transform',['transform',['../classapfel_1_1OgataQuadrature.html#a48dcce624693b0886e5583cebd51eb58',1,'apfel::OgataQuadrature']]],
+  ['transform',['transform',['../classapfel_1_1OgataQuadrature.html#ac4b604cbf051ae94480af5d325dabbbe',1,'apfel::OgataQuadrature']]],
   ['transversely_20polarised_20splitting_20functions',['Transversely polarised splitting functions',['../group__TransSF.html',1,'']]],
   ['transversely_20polarised_20splitting_20functions',['Transversely polarised splitting functions',['../group__TransSFtl.html',1,'']]],
   ['truncated',['truncated',['../structapfel_1_1EvolutionSetup.html#a57a10440e153bba3cb67c3b66e0d0328a8b2c3668538924f5576e302e345eedab',1,'apfel::EvolutionSetup']]]

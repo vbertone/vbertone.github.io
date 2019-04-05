@@ -12,7 +12,7 @@ var searchData=
   ['size',['size',['../classapfel_1_1matrix.html#aa1828d253916d16d8018c2a232db5303',1,'apfel::matrix']]],
   ['start',['start',['../classapfel_1_1Timer.html#a8b8ffd3f8ceb45b50ecd2d7b00f84ccb',1,'apfel::Timer']]],
   ['step',['Step',['../classapfel_1_1SubGrid.html#a9093ca75b0d5329bb6e561a3e14370ea',1,'apfel::SubGrid']]],
-  ['stop',['stop',['../classapfel_1_1Timer.html#a1f1a0c8452d56f62aac2dbec90e62e3f',1,'apfel::Timer']]],
+  ['stop',['stop',['../classapfel_1_1Timer.html#a015b2c516bb668f392faa6d0a5eae3c1',1,'apfel::Timer']]],
   ['subgrid',['SubGrid',['../classapfel_1_1SubGrid.html#a49bc8ad55193b3d2a9b4f13f2ac21e97',1,'apfel::SubGrid::SubGrid()'],['../classapfel_1_1SubGrid.html#aee9d569772596ac57b7d984b7cb9b330',1,'apfel::SubGrid::SubGrid(int const &amp;nx, double const &amp;xMin, int const &amp;InterDegree)'],['../classapfel_1_1SubGrid.html#a5c7fe00b92bc11957caaec41761cb9a9',1,'apfel::SubGrid::SubGrid(std::vector&lt; double &gt; const &amp;xsg, int const &amp;InterDegree)']]],
   ['sumbounds',['SumBounds',['../classapfel_1_1Interpolator.html#acf4448797b971b6faee8b2eb84d9e910',1,'apfel::Interpolator::SumBounds()'],['../classapfel_1_1LagrangeInterpolator.html#a1937891f73add6ac97b543c4e291308d',1,'apfel::LagrangeInterpolator::SumBounds()'],['../classapfel_1_1QGrid.html#ab8f7547a7426b706908bd1150501eb85',1,'apfel::QGrid::SumBounds()']]]
 ];

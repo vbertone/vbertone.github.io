@@ -21,7 +21,7 @@ var searchData=
   ['matchingfunctionspdf_2eh',['matchingfunctionspdf.h',['../matchingfunctionspdf_8h.html',1,'']]],
   ['matchingfunctionspdfs',['MatchingFunctionsPDFs',['../structapfel_1_1TmdObjects.html#ab686b962f037c0fdf8ba48f51836b855',1,'apfel::TmdObjects']]],
   ['matchingoperatorbasisqcd',['MatchingOperatorBasisQCD',['../classapfel_1_1MatchingOperatorBasisQCD.html',1,'apfel::MatchingOperatorBasisQCD'],['../classapfel_1_1MatchingOperatorBasisQCD.html#a891d84b83ee0ecc589a5f3833e54852f',1,'apfel::MatchingOperatorBasisQCD::MatchingOperatorBasisQCD()']]],
-  ['matchobject',['MatchObject',['../classapfel_1_1AlphaQCD.html#a2d1c556fa5a4173f3577234e4615192e',1,'apfel::AlphaQCD::MatchObject()'],['../classapfel_1_1Dglap.html#ac9f37328fb2680f5b1be74a279428972',1,'apfel::Dglap::MatchObject()'],['../classapfel_1_1MatchedEvolution.html#a82f4e0ff82cd9b5f1e393625b4d81bc4',1,'apfel::MatchedEvolution::MatchObject()']]],
+  ['matchobject',['MatchObject',['../classapfel_1_1AlphaQCD.html#a2d1c556fa5a4173f3577234e4615192e',1,'apfel::AlphaQCD::MatchObject()'],['../classapfel_1_1AlphaQED.html#a27224bd5df84b04b6334e61b6a370133',1,'apfel::AlphaQED::MatchObject()'],['../classapfel_1_1Dglap.html#ac9f37328fb2680f5b1be74a279428972',1,'apfel::Dglap::MatchObject()'],['../classapfel_1_1MatchedEvolution.html#a82f4e0ff82cd9b5f1e393625b4d81bc4',1,'apfel::MatchedEvolution::MatchObject()']]],
   ['matchtmdffs',['MatchTmdFFs',['../namespaceapfel.html#aff384553d8392f5819f06bf369b71033',1,'apfel']]],
   ['matchtmdpdfs',['MatchTmdPDFs',['../namespaceapfel.html#a63b0f529e5b4b400c2d7906acc82bf58',1,'apfel']]],
   ['mathematical_20constants',['Mathematical constants',['../group__MathConstants.html',1,'']]],

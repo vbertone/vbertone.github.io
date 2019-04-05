@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['electroweakcharges',['ElectroWeakCharges',['../namespaceapfel.html#aace39cb513591802093ec5e05d1e8202',1,'apfel']]],
   ['error',['error',['../namespaceapfel.html#a82544bb00b63654826d2fa658d052414',1,'apfel']]],
   ['eta',['eta',['../classapfel_1_1Expression.html#a8f6586afbb64fa96a47fdadf29daf994',1,'apfel::Expression']]],
   ['evaluate',['Evaluate',['../classapfel_1_1DoubleObject.html#ae41209f68678be795e71a211c462d9eb',1,'apfel::DoubleObject::Evaluate()'],['../classapfel_1_1Interpolator.html#aaa04fd13b61de9eca4bce12c4afd8e97',1,'apfel::Interpolator::Evaluate(double const &amp;x) const'],['../classapfel_1_1Interpolator.html#a0a02b02f3a9b75647af7b64da7057c4a',1,'apfel::Interpolator::Evaluate(double const &amp;x, int const &amp;ig) const'],['../classapfel_1_1MatchedEvolution.html#ab20faeee4e277e3835bd9b7c35f8bb23',1,'apfel::MatchedEvolution::Evaluate()'],['../classapfel_1_1Observable.html#a86a5ddd3e1425537c285c1af7e827ca8',1,'apfel::Observable::Evaluate(double const &amp;Q) const'],['../classapfel_1_1Observable.html#afa334399163fbd13baec929f5fcd41fd',1,'apfel::Observable::Evaluate(double const &amp;x, double const &amp;Q) const'],['../classapfel_1_1QGrid.html#ac2e13c956b563254deb9d6c677feff9d',1,'apfel::QGrid::Evaluate()']]],

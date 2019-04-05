@@ -2,6 +2,7 @@ var searchData=
 [
   ['ed',['ed',['../group__PhysConstants.html#ga27d95df89b3300852e09c217a893a878',1,'apfel']]],
   ['ed2',['ed2',['../group__PhysConstants.html#ga3cb793ece46ee52d8adcad5694e203b5',1,'apfel']]],
+  ['electroweakcharges',['ElectroWeakCharges',['../namespaceapfel.html#aace39cb513591802093ec5e05d1e8202',1,'apfel']]],
   ['emc',['emc',['../group__MathConstants.html#ga240795bbdee297aae748a1683bce99b6',1,'apfel']]],
   ['eps10',['eps10',['../group__MathConstants.html#ga6047a08b2ca07a0903c7909c13e41d88',1,'apfel']]],
   ['eps11',['eps11',['../group__MathConstants.html#ga627096cc5542441d120e9212c87126d2',1,'apfel']]],

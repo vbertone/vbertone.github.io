@@ -71,6 +71,7 @@ var searchData=
   ['cns',['CNS',['../classapfel_1_1DISNCBasis.html#a4ab558bc993eb6f6b5c6a9f15eb53d60a865e4ec076559d4ab36f0f9b8c110b83',1,'apfel::DISNCBasis::CNS()'],['../classapfel_1_1DISCCBasis.html#a56bdaa6315470fe02451ec5c940fcc2fa403b083fd6ed38621d003339b13fd05b',1,'apfel::DISCCBasis::CNS()']]],
   ['coefficient',['coefficient',['../structapfel_1_1ConvolutionMap_1_1rule.html#a4bf45b4c287915ad713e8367aea136ea',1,'apfel::ConvolutionMap::rule::coefficient()'],['../structapfel_1_1term.html#ab24e571b871595a33fbdb59d5dd67fa2',1,'apfel::term::coefficient()']]],
   ['combine',['Combine',['../classapfel_1_1Set.html#a7065697bdd240416184fee23592c77fa',1,'apfel::Set']]],
+  ['concatenateandsortvectors',['ConcatenateAndSortVectors',['../namespaceapfel.html#aee89f2fd03ee7b3c45e39162322a2850',1,'apfel']]],
   ['constants_2eh',['constants.h',['../constants_8h.html',1,'']]],
   ['convbasis',['ConvBasis',['../structapfel_1_1StructureFunctionObjects.html#a61893ffd8cd0f9a35a2d4bf423f4f9b5',1,'apfel::StructureFunctionObjects']]],
   ['convfact',['ConvFact',['../group__PhysConstants.html#gae98d82c9534cde7c04ae48896e66360e',1,'apfel']]],

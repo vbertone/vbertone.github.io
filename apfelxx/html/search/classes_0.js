@@ -1,6 +1,7 @@
 var searchData=
 [
   ['alphaqcd',['AlphaQCD',['../classapfel_1_1AlphaQCD.html',1,'apfel']]],
+  ['alphaqed',['AlphaQED',['../classapfel_1_1AlphaQED.html',1,'apfel']]],
   ['ans2qqh_5f0',['ANS2qqH_0',['../classapfel_1_1ANS2qqH__0.html',1,'apfel']]],
   ['ans2qqh_5fl',['ANS2qqH_L',['../classapfel_1_1ANS2qqH__L.html',1,'apfel']]],
   ['ans2qqh_5fl2',['ANS2qqH_L2',['../classapfel_1_1ANS2qqH__L2.html',1,'apfel']]],

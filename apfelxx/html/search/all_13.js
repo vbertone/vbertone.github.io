@@ -26,7 +26,7 @@ var searchData=
   ['start',['start',['../classapfel_1_1Timer.html#a8b8ffd3f8ceb45b50ecd2d7b00f84ccb',1,'apfel::Timer']]],
   ['starttime',['startTime',['../classapfel_1_1Timer.html#acbe91fe2ef7dc2088413c972c9032440',1,'apfel::Timer']]],
   ['step',['Step',['../classapfel_1_1SubGrid.html#a9093ca75b0d5329bb6e561a3e14370ea',1,'apfel::SubGrid']]],
-  ['stop',['stop',['../classapfel_1_1Timer.html#a1f1a0c8452d56f62aac2dbec90e62e3f',1,'apfel::Timer']]],
+  ['stop',['stop',['../classapfel_1_1Timer.html#a015b2c516bb668f392faa6d0a5eae3c1',1,'apfel::Timer']]],
   ['structurefunctionbuilder_2eh',['structurefunctionbuilder.h',['../structurefunctionbuilder_8h.html',1,'']]],
   ['structurefunctionobjects',['StructureFunctionObjects',['../structapfel_1_1StructureFunctionObjects.html',1,'apfel']]],
   ['subgrid',['SubGrid',['../classapfel_1_1SubGrid.html',1,'apfel::SubGrid'],['../classapfel_1_1SubGrid.html#a49bc8ad55193b3d2a9b4f13f2ac21e97',1,'apfel::SubGrid::SubGrid()'],['../classapfel_1_1SubGrid.html#aee9d569772596ac57b7d984b7cb9b330',1,'apfel::SubGrid::SubGrid(int const &amp;nx, double const &amp;xMin, int const &amp;InterDegree)'],['../classapfel_1_1SubGrid.html#a5c7fe00b92bc11957caaec41761cb9a9',1,'apfel::SubGrid::SubGrid(std::vector&lt; double &gt; const &amp;xsg, int const &amp;InterDegree)']]],
