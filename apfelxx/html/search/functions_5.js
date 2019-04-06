@@ -3,6 +3,8 @@ var searchData=
   ['gammacusp0',['GammaCusp0',['../namespaceapfel.html#ac554d9be8593b9ed7377bf6b32bc8929',1,'apfel']]],
   ['gammacusp1',['GammaCusp1',['../namespaceapfel.html#acc6e286c3044fd0d89a2085c73338cb0',1,'apfel']]],
   ['gammacusp2',['GammaCusp2',['../namespaceapfel.html#ab1500592a1b2f62d80a09f4efa86f5e1',1,'apfel']]],
+  ['gammacusp3',['GammaCusp3',['../namespaceapfel.html#a97dcc5a3b0a822837ec850d328d56cc1',1,'apfel']]],
+  ['gammacusp3gmq',['GammaCusp3gmq',['../namespaceapfel.html#ade040e3a0b1dc460934c6d9486196dfd',1,'apfel']]],
   ['gammavg0',['gammaVg0',['../namespaceapfel.html#ae2ec5041315b93a3ca27d46799f241d3',1,'apfel']]],
   ['gammavg1',['gammaVg1',['../namespaceapfel.html#a98110d4a27c3036fb4daf77c86349a29',1,'apfel']]],
   ['gammavg2',['gammaVg2',['../namespaceapfel.html#a1748b9e5c2c89f6c6da7851519021784',1,'apfel']]],

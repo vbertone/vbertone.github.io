@@ -779,7 +779,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a9da328877e9cfedcecd6743c1151b434"><td class="mdescLeft">&#160;</td><td class="mdescRight">&alpha;<sub>s</sub><sup>3</sup>L<sup>3</sup> term  <a href="#a9da328877e9cfedcecd6743c1151b434">More...</a><br /></td></tr>
 <tr class="separator:a9da328877e9cfedcecd6743c1151b434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Cusp anomalous dimension.</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Coefficients of the &Gamma;<sub>Cusp</sub> anomalous dimension. The expressions are taken from eq. (59) <a href="https://arxiv.org/pdf/1705.07167.pdf">https://arxiv.org/pdf/1705.07167.pdf</a>. </p>
+<tr><td colspan="2"><div class="groupText"><p>Coefficients of the &Gamma;<sub>Cusp</sub> anomalous dimension. The expressions up to O(&alpha;<sub>s</sub><sup>3</sup>) are taken from eq. (59) <a href="https://arxiv.org/pdf/1705.07167.pdf">https://arxiv.org/pdf/1705.07167.pdf</a>. While the expressions at are taken from O(&alpha;<sub>s</sub><sup>4</sup>) from eqs. (4.1) and (4.2) of <a href="https://arxiv.org/pdf/1805.09638.pdf">https://arxiv.org/pdf/1805.09638.pdf</a>. </p><dl class="section note"><dt>Note</dt><dd>All the expressions do not include an overall factor C<sub>F</sub> or C<sub>A</sub>. </dd></dl>
 </div></td></tr>
 <tr class="memitem:ac554d9be8593b9ed7377bf6b32bc8929"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ac554d9be8593b9ed7377bf6b32bc8929">GammaCusp0</a> ()</td></tr>
 <tr class="separator:ac554d9be8593b9ed7377bf6b32bc8929"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -789,6 +789,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ab1500592a1b2f62d80a09f4efa86f5e1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ab1500592a1b2f62d80a09f4efa86f5e1">GammaCusp2</a> (int const &amp;nf)</td></tr>
 <tr class="memdesc:ab1500592a1b2f62d80a09f4efa86f5e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">&alpha;<sub>s</sub><sup>3</sup> term  <a href="#ab1500592a1b2f62d80a09f4efa86f5e1">More...</a><br /></td></tr>
 <tr class="separator:ab1500592a1b2f62d80a09f4efa86f5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97dcc5a3b0a822837ec850d328d56cc1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a97dcc5a3b0a822837ec850d328d56cc1">GammaCusp3</a> (int const &amp;nf)</td></tr>
+<tr class="memdesc:a97dcc5a3b0a822837ec850d328d56cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">&alpha;<sub>s</sub><sup>4</sup> term  <a href="#a97dcc5a3b0a822837ec850d328d56cc1">More...</a><br /></td></tr>
+<tr class="separator:a97dcc5a3b0a822837ec850d328d56cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade040e3a0b1dc460934c6d9486196dfd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ade040e3a0b1dc460934c6d9486196dfd">GammaCusp3gmq</a> (int const &amp;nf)</td></tr>
+<tr class="separator:ade040e3a0b1dc460934c6d9486196dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">GammaV anomalous dimension.</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Coefficients of the &Gamma;<sub>V</sub> anomalous dimension. The expressions are taken from eq. (58) <a href="https://arxiv.org/pdf/1705.07167.pdf">https://arxiv.org/pdf/1705.07167.pdf</a>. </p>
 </div></td></tr>
@@ -2379,6 +2384,45 @@ TMD builders</h2></td></tr>
 
 </div>
 </div>
+<a id="a97dcc5a3b0a822837ec850d328d56cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97dcc5a3b0a822837ec850d328d56cc1">&#9670;&nbsp;</a></span>GammaCusp3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double apfel::GammaCusp3 </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>nf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>&alpha;<sub>s</sub><sup>4</sup> term </p>
+
+</div>
+</div>
+<a id="ade040e3a0b1dc460934c6d9486196dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade040e3a0b1dc460934c6d9486196dfd">&#9670;&nbsp;</a></span>GammaCusp3gmq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double apfel::GammaCusp3gmq </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>nf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&alpha;<sub>s</sub><sup>4</sup> correction to the gluon anonalous dimension (neglected for now). </p>
+
+</div>
+</div>
 <a id="ae2ec5041315b93a3ca27d46799f241d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2ec5041315b93a3ca27d46799f241d3">&#9670;&nbsp;</a></span>gammaVg0()</h2>
 
@@ -3740,38 +3784,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="acee7efa521483ea2492f5394bfccdceb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acee7efa521483ea2492f5394bfccdceb">&#9670;&nbsp;</a></span>operator *() <span class="overload">[16/23]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator * </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae6df9c1d383615c7dacc2eb7c2053163"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6df9c1d383615c7dacc2eb7c2053163">&#9670;&nbsp;</a></span>operator *() <span class="overload">[17/23]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6df9c1d383615c7dacc2eb7c2053163">&#9670;&nbsp;</a></span>operator *() <span class="overload">[16/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3789,6 +3803,36 @@ template&lt;class T &gt; </div>
           <td></td>
           <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
           <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acee7efa521483ea2492f5394bfccdceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee7efa521483ea2492f5394bfccdceb">&#9670;&nbsp;</a></span>operator *() <span class="overload">[17/23]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator * </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5155,7 +5199,7 @@ template&lt;class U &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 5 2019 12:02:07 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 6 2019 21:54:04 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
