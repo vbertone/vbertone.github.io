@@ -142,6 +142,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a012a406400f933a9b3ae72535b120bdc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a012a406400f933a9b3ae72535b120bdc">_xig</a></td></tr>
 <tr class="memdesc:a012a406400f933a9b3ae72535b120bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid in xi.  <a href="#a012a406400f933a9b3ae72535b120bdc">More...</a><br /></td></tr>
 <tr class="separator:a012a406400f933a9b3ae72535b120bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb272432de65a68c697c1afb66e1c751"><td class="memItemLeft" align="right" valign="top">std::map&lt; double, std::vector&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aeb272432de65a68c697c1afb66e1c751">_PSRed</a></td></tr>
+<tr class="memdesc:aeb272432de65a68c697c1afb66e1c751"><td class="mdescLeft">&#160;</td><td class="mdescRight">The phase-space reduction factors.  <a href="#aeb272432de65a68c697c1afb66e1c751">More...</a><br /></td></tr>
+<tr class="separator:aeb272432de65a68c697c1afb66e1c751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad93c5cdda1ef9c749a55804be5debf"><td class="memItemLeft" align="right" valign="top">std::map&lt; double, std::vector&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a5ad93c5cdda1ef9c749a55804be5debf">_dPSRed</a></td></tr>
+<tr class="memdesc:a5ad93c5cdda1ef9c749a55804be5debf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The derivative of the phase-space reduction factors.  <a href="#a5ad93c5cdda1ef9c749a55804be5debf">More...</a><br /></td></tr>
+<tr class="separator:a5ad93c5cdda1ef9c749a55804be5debf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf3fe31d76eacc304d08792023edad29"><td class="memItemLeft" align="right" valign="top">std::map&lt; double, std::vector&lt; std::vector&lt; std::vector&lt; double &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aaf3fe31d76eacc304d08792023edad29">_W</a></td></tr>
 <tr class="memdesc:aaf3fe31d76eacc304d08792023edad29"><td class="mdescLeft">&#160;</td><td class="mdescRight">The weights.  <a href="#aaf3fe31d76eacc304d08792023edad29">More...</a><br /></td></tr>
 <tr class="separator:aaf3fe31d76eacc304d08792023edad29"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,8 +244,6 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a map that associates each value of qT to a prediction. </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a3">IntegrationTest.cc</a>.</dd>
-</dl>
 
 </div>
 </div>
@@ -305,6 +309,8 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a vector of predictions. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a3">IntegrationTest.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -364,6 +370,30 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5ad93c5cdda1ef9c749a55804be5debf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad93c5cdda1ef9c749a55804be5debf">&#9670;&nbsp;</a></span>_dPSRed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;double,std::vector&lt;std::vector&lt;double&gt; &gt; &gt; NangaParbat::ConvolutionTable::_dPSRed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The derivative of the phase-space reduction factors. </p>
+
+</div>
+</div>
 <a id="ae08fe53ee3eb93f0c0087e2a5cb9ac79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae08fe53ee3eb93f0c0087e2a5cb9ac79">&#9670;&nbsp;</a></span>_IntqT</h2>
 
@@ -457,6 +487,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Index of the process (0: DY, 1: SIDIS) </p>
+
+</div>
+</div>
+<a id="aeb272432de65a68c697c1afb66e1c751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb272432de65a68c697c1afb66e1c751">&#9670;&nbsp;</a></span>_PSRed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;double,std::vector&lt;std::vector&lt;double&gt; &gt; &gt; NangaParbat::ConvolutionTable::_PSRed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The phase-space reduction factors. </p>
 
 </div>
 </div>
@@ -610,7 +664,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 26 2019 20:03:31 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 19 2019 19:24:03 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

@@ -91,8 +91,11 @@ $(function() {
 <li>_cuts
 : <a class="el" href="group__Cuts.html#gad9aabf75ceb0a603b34622a91955a013">NangaParbat::TwoParticlePhaseSpace</a>
 </li>
-<li>_DHVect
-: <a class="el" href="classNangaParbat_1_1ChiSquare.html#ada6c5d3bf07048ddd66a8a76a5a731d9">NangaParbat::ChiSquare</a>
+<li>_dPSRed
+: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a5ad93c5cdda1ef9c749a55804be5debf">NangaParbat::ConvolutionTable</a>
+</li>
+<li>_DSVect
+: <a class="el" href="classNangaParbat_1_1ChiSquare.html#a8e36c5363b029a9a2995db58a249001b">NangaParbat::ChiSquare</a>
 </li>
 <li>_error
 : <a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html#a945d1207e9bd81d822c73945305d4739">NangaParbat::TwoParticlePhaseSpace</a>
@@ -152,6 +155,9 @@ $(function() {
 : <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a57917cd26ad8eabb72d92fe817d21197">NangaParbat::ConvolutionTable</a>
 , <a class="el" href="classNangaParbat_1_1DataHandler.html#aa2604347766ab241625f793182c69f0a">NangaParbat::DataHandler</a>
 </li>
+<li>_ndata
+: <a class="el" href="classNangaParbat_1_1ChiSquare.html#a84755705f813e563c381726dd6ac6b1d">NangaParbat::ChiSquare</a>
+</li>
 <li>_nfuncs
 : <a class="el" href="classNangaParbat_1_1Parameterisation.html#a6e2bb7717a1c006d0c2d5a00bd4578a2">NangaParbat::Parameterisation</a>
 </li>
@@ -165,15 +171,24 @@ $(function() {
 <li>_pars
 : <a class="el" href="classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91">NangaParbat::Parameterisation</a>
 </li>
+<li>_prefact
+: <a class="el" href="classNangaParbat_1_1DataHandler.html#a7a458eab84e50a5e9e697b1068aa5835">NangaParbat::DataHandler</a>
+</li>
 <li>_proc
 : <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a098a53327fb936df037ae78f6682f949">NangaParbat::ConvolutionTable</a>
 , <a class="el" href="classNangaParbat_1_1DataHandler.html#a0bed04cba113d9e62db7d1a86f5dc10a">NangaParbat::DataHandler</a>
+</li>
+<li>_PSRed
+: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aeb272432de65a68c697c1afb66e1c751">NangaParbat::ConvolutionTable</a>
 </li>
 <li>_Qg
 : <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aa509c07b8ad51a6e16efea4c78f89410">NangaParbat::ConvolutionTable</a>
 </li>
 <li>_qT
 : <a class="el" href="group__InputKin.html#ga4dafd8012e8e893da8888146dc53c90b">NangaParbat::TwoParticlePhaseSpace</a>
+</li>
+<li>_qToQMax
+: <a class="el" href="classNangaParbat_1_1ChiSquare.html#a6259b874dea47818bcfca27ca04a8192">NangaParbat::ChiSquare</a>
 </li>
 <li>_qTv
 : <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#af4be771e1b4bfbaf73c3c8556e537445">NangaParbat::ConvolutionTable</a>
@@ -255,7 +270,7 @@ $(function() {
 : <a class="el" href="classNangaParbat_1_1Variable__Limit.html#a8b70accde5ed498fadc41bfab995cb33">NangaParbat::Variable_Limit</a>
 </li>
 <li>AddBlock()
-: <a class="el" href="classNangaParbat_1_1ChiSquare.html#abcc6656f59cf268659aad7c4aefd466f">NangaParbat::ChiSquare</a>
+: <a class="el" href="classNangaParbat_1_1ChiSquare.html#a0040adcfa695c35c4b895dcd96cf0d5a">NangaParbat::ChiSquare</a>
 </li>
 <li>aoE
 : <a class="el" href="group__DerVar.html#ga253afc803dd20b05bedaf6a8da80fbe0">NangaParbat::TwoParticlePhaseSpace</a>
@@ -268,7 +283,7 @@ $(function() {
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>ChiSquare()
-: <a class="el" href="classNangaParbat_1_1ChiSquare.html#ab7d922efb759a313f53f7e3f54aea0dd">NangaParbat::ChiSquare</a>
+: <a class="el" href="classNangaParbat_1_1ChiSquare.html#aed3871a7ae457dc7d010c88cae2b3dc6">NangaParbat::ChiSquare</a>
 </li>
 <li>ComputeTables()
 : <a class="el" href="classNangaParbat_1_1FastInterface.html#a16e549fbbb8a29e55b1d9bb915a924c3">NangaParbat::FastInterface</a>
@@ -280,10 +295,10 @@ $(function() {
 : <a class="el" href="classNangaParbat_1_1Interval.html#aaba77b3eba5db1dfd7ee7348f8aeb6dd">NangaParbat::Interval</a>
 </li>
 <li>Convolute()
-: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a1065721d888fd1b87dd2c0ade057d4c9">NangaParbat::ConvolutionTable</a>
+: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aec637a7ee6026920e04bb9d9f24aa6aa">NangaParbat::ConvolutionTable</a>
 </li>
 <li>ConvolutionTable()
-: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a409e1252848068c4215eeac17dd222f0">NangaParbat::ConvolutionTable</a>
+: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a8922444aa9727e818207d9882c7b97a5">NangaParbat::ConvolutionTable</a>
 </li>
 </ul>
 
@@ -294,6 +309,12 @@ $(function() {
 </li>
 <li>Derive()
 : <a class="el" href="classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a">NangaParbat::Parameterisation</a>
+</li>
+<li>DerivePhaseSpaceReduction()
+: <a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html#ae65221cbb56dc407258f7b6c98b1e7ed">NangaParbat::TwoParticlePhaseSpace</a>
+</li>
+<li>dxFdQdqT
+: <a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38acf38b47643ab25dae81a954920682e7b">NangaParbat::DataHandler</a>
 </li>
 <li>DY
 : <a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86a3cf018c150eda8ffd9fc6618842dd4f5">NangaParbat::DataHandler</a>
@@ -317,8 +338,11 @@ $(function() {
 <li>E_u_p
 : <a class="el" href="group__DerVar.html#gab55d17b98c505b5327f9ed2aec4582aa">NangaParbat::TwoParticlePhaseSpace</a>
 </li>
-<li>Ed3q
-: <a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38ae20abd9f6336888fc062923724acd350">NangaParbat::DataHandler</a>
+<li>empty()
+: <a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#a799f73803b42d7d0df2eece5548aeae7">NangaParbat::DataHandler::Kinematics</a>
+</li>
+<li>etaRange
+: <a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#a87b46fc96f192538dc1c5e8f37288580">NangaParbat::DataHandler::Kinematics</a>
 </li>
 <li>Evaluate()
 : <a class="el" href="classNangaParbat_1_1ChiSquare.html#a09e2e6bba4fef685405a7362754dc168">NangaParbat::ChiSquare</a>
@@ -356,6 +380,9 @@ $(function() {
 <li>GetCovarianceMatrix()
 : <a class="el" href="classNangaParbat_1_1DataHandler.html#a09ada8d68af11d5363c8f218e4e4f8e7">NangaParbat::DataHandler</a>
 </li>
+<li>GetDataPointNumbers()
+: <a class="el" href="classNangaParbat_1_1ChiSquare.html#a0a195c99355a933cdbe33c8470e9d0e3">NangaParbat::ChiSquare</a>
+</li>
 <li>GetKinematics()
 : <a class="el" href="classNangaParbat_1_1DataHandler.html#a4d7a2c22d20957c995e55420cd5c7a7f">NangaParbat::DataHandler</a>
 </li>
@@ -373,14 +400,14 @@ $(function() {
 : <a class="el" href="group__ConvolutionTableGetters.html#gaefbefb5d03e3bc8e394d2be39bebaeec">NangaParbat::ConvolutionTable</a>
 , <a class="el" href="classNangaParbat_1_1DataHandler.html#a8739904c861949805116468a3060af2a">NangaParbat::DataHandler</a>
 </li>
-<li>GetParameterisation()
-: <a class="el" href="group__ChiSquareGetters.html#gad369473d1885d8df63eba53a0941f8ab">NangaParbat::ChiSquare</a>
-</li>
 <li>GetParameters()
 : <a class="el" href="group__ParameterisationGetters.html#ga32017cc14920bb6e4dfd353095e31f44">NangaParbat::Parameterisation</a>
 </li>
 <li>GetPredictions()
-: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a4a0c298f22892447123a10f7b5dd1f86">NangaParbat::ConvolutionTable</a>
+: <a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a0edd9a4328dc2ec3959a5640e4d21384">NangaParbat::ConvolutionTable</a>
+</li>
+<li>GetPrefactor()
+: <a class="el" href="classNangaParbat_1_1DataHandler.html#a9e3f3f5134ae5bf23d6e4b32e1101ff1">NangaParbat::DataHandler</a>
 </li>
 <li>GetProcess()
 : <a class="el" href="group__ConvolutionTableGetters.html#ga42354df5fe6f8d41d519a215f0d8efef">NangaParbat::ConvolutionTable</a>
@@ -439,6 +466,13 @@ $(function() {
 </ul>
 
 
+<h3><a id="index_k"></a>- k -</h3><ul>
+<li>Kinematics()
+: <a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#a3ffb980736e56e710ed7fd894a286325">NangaParbat::DataHandler::Kinematics</a>
+</li>
+</ul>
+
+
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>L_nu
 : <a class="el" href="group__DerVar.html#gad3159c59a111d587497cdd3979498b0d">NangaParbat::TwoParticlePhaseSpace</a>
@@ -490,7 +524,10 @@ $(function() {
 </li>
 <li>operator()()
 : <a class="el" href="classNangaParbat_1_1ChiSquare.html#a3d5a9a39f940ec1570185557716a40aa">NangaParbat::ChiSquare</a>
-, <a class="el" href="classNangaParbat_1_1FcnMinuit.html#acf6188298a81129e30b9e41995d7a3fc">NangaParbat::FcnMinuit</a>
+, <a class="el" href="classNangaParbat_1_1FcnMinuit.html#a3ac38c1616cedf326ed55c1c6c14b268">NangaParbat::FcnMinuit</a>
+</li>
+<li>operator&lt;&lt;
+: <a class="el" href="classNangaParbat_1_1DataHandler.html#a9597164a755c3ae1b1a6a6869643c8ef">NangaParbat::DataHandler</a>
 </li>
 </ul>
 
@@ -503,10 +540,16 @@ $(function() {
 : <a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html#a226d8ec9c7d362f34392b6d6986b4e02">NangaParbat::TwoParticlePhaseSpace</a>
 </li>
 <li>position_of()
-: <a class="el" href="classNangaParbat_1_1Interval.html#a7fb19b45a429fa48b63cddbcd74c578b">NangaParbat::Interval</a>
+: <a class="el" href="classNangaParbat_1_1Interval.html#a563d3c74d8917c6abba294b19893de81">NangaParbat::Interval</a>
 </li>
 <li>Process
 : <a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86">NangaParbat::DataHandler</a>
+</li>
+<li>PSRed
+: <a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#a52a0d86829660726ec5c3f26c3e663f9">NangaParbat::DataHandler::Kinematics</a>
+</li>
+<li>pTMin
+: <a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#a19bd3421a91dbd3c7032697bed859f2f">NangaParbat::DataHandler::Kinematics</a>
 </li>
 </ul>
 
@@ -549,6 +592,12 @@ $(function() {
 <li>u_limit_to_alpha()
 : <a class="el" href="group__PrivFuns.html#ga65391ee81557dc4fc17f5ceec617ccb5">NangaParbat::TwoParticlePhaseSpace</a>
 </li>
+<li>UnknownObservable
+: <a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38a4182eaf68beff1c8eb7bfcbfaa6ab256">NangaParbat::DataHandler</a>
+</li>
+<li>UnknownProcess
+: <a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86aaa9312a5ac732bedb9160a88c0c7aea3">NangaParbat::DataHandler</a>
+</li>
 <li>Up()
 : <a class="el" href="classNangaParbat_1_1FcnMinuit.html#aa447fb742f0369b80ecf1402ea83adc4">NangaParbat::FcnMinuit</a>
 </li>
@@ -579,7 +628,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 26 2019 20:03:31 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 19 2019 19:24:03 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

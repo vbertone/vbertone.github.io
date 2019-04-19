@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['chisquare',['ChiSquare',['../classNangaParbat_1_1ChiSquare.html',1,'NangaParbat::ChiSquare'],['../classNangaParbat_1_1ChiSquare.html#ab7d922efb759a313f53f7e3f54aea0dd',1,'NangaParbat::ChiSquare::ChiSquare(std::vector&lt; std::pair&lt; DataHandler, ConvolutionTable &gt;&gt; const &amp;DHVect, Parameterisation &amp;NPFunc)'],['../classNangaParbat_1_1ChiSquare.html#adb60c13019b30d9dd530744aff895925',1,'NangaParbat::ChiSquare::ChiSquare(Parameterisation &amp;NPFunc)']]],
+  ['chisquare',['ChiSquare',['../classNangaParbat_1_1ChiSquare.html',1,'NangaParbat::ChiSquare'],['../classNangaParbat_1_1ChiSquare.html#aed3871a7ae457dc7d010c88cae2b3dc6',1,'NangaParbat::ChiSquare::ChiSquare(std::vector&lt; std::pair&lt; DataHandler, ConvolutionTable &gt;&gt; const &amp;DSVect, Parameterisation &amp;NPFunc, double const &amp;qToQMax=100)'],['../classNangaParbat_1_1ChiSquare.html#aa889b0ed67650eb197339868f049b5dd',1,'NangaParbat::ChiSquare::ChiSquare(Parameterisation &amp;NPFunc, double const &amp;qToQMax=100)']]],
   ['chisquare_2eh',['chisquare.h',['../chisquare_8h.html',1,'']]],
   ['choleskydecomposition',['CholeskyDecomposition',['../namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101',1,'NangaParbat']]],
   ['computetables',['ComputeTables',['../classNangaParbat_1_1FastInterface.html#a16e549fbbb8a29e55b1d9bb915a924c3',1,'NangaParbat::FastInterface']]],

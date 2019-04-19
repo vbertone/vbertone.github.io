@@ -4,12 +4,13 @@ var indexSectionsWithContent =
   1: "cdfikptv",
   2: "n",
   3: "cdefimprtuv",
-  4: "_acdefgilopstuv~",
-  5: "_aeilmnqsv",
+  4: "_acdefgiklopstuv~",
+  5: "_aeilmnpqsv",
   6: "eop",
-  7: "deisv",
-  8: "lv",
-  9: "dgipv"
+  7: "disuv",
+  8: "o",
+  9: "lv",
+  10: "dgipv"
 };
 
 var indexSectionNames =
@@ -22,8 +23,9 @@ var indexSectionNames =
   5: "variables",
   6: "enums",
   7: "enumvalues",
-  8: "defines",
-  9: "groups"
+  8: "related",
+  9: "defines",
+  10: "groups"
 };
 
 var indexSectionLabels =
@@ -36,7 +38,8 @@ var indexSectionLabels =
   5: "Variables",
   6: "Enumerations",
   7: "Enumerator",
-  8: "Macros",
-  9: "Modules"
+  8: "Friends",
+  9: "Macros",
+  10: "Modules"
 };
 

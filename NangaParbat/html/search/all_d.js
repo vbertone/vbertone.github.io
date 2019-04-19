@@ -6,5 +6,7 @@ var searchData=
   ['position_5fof',['position_of',['../classNangaParbat_1_1Interval.html#a563d3c74d8917c6abba294b19893de81',1,'NangaParbat::Interval::position_of(double const &amp;value) const'],['../classNangaParbat_1_1Interval.html#a7fb19b45a429fa48b63cddbcd74c578b',1,'NangaParbat::Interval::position_of(Interval const &amp;I) const']]],
   ['private_20utility_20functions',['Private utility functions',['../group__PrivFuns.html',1,'']]],
   ['process',['Process',['../classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86',1,'NangaParbat::DataHandler']]],
+  ['psred',['PSRed',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a52a0d86829660726ec5c3f26c3e663f9',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['ptmin',['pTMin',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a19bd3421a91dbd3c7032697bed859f2f',1,'NangaParbat::DataHandler::Kinematics']]],
   ['phase_2dspace_20reduction_20factor_20and_20its_20integration_20uncertainty_2e',['Phase-space reduction factor and its integration uncertainty.',['../group__Result.html',1,'']]]
 ];

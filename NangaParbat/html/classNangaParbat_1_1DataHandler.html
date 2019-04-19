@@ -73,6 +73,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classNangaParbat_1_1DataHandler-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">NangaParbat::DataHandler Class Reference</div>  </div>
@@ -92,13 +93,15 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:adb1898207ec84c569d2fabef5f20dd86"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86">Process</a> : int { <a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86a3cf018c150eda8ffd9fc6618842dd4f5">DY</a>, 
-<a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86a2f2da9eda839a882a8e8cd5c2ae513cc">SIDIS</a>
+<tr class="memitem:adb1898207ec84c569d2fabef5f20dd86"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86">Process</a> : int { <a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86aaa9312a5ac732bedb9160a88c0c7aea3">UnknownProcess</a> = -1, 
+<a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86a3cf018c150eda8ffd9fc6618842dd4f5">DY</a> = 0, 
+<a class="el" href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86a2f2da9eda839a882a8e8cd5c2ae513cc">SIDIS</a> = 1
  }</td></tr>
 <tr class="memdesc:adb1898207ec84c569d2fabef5f20dd86"><td class="mdescLeft">&#160;</td><td class="mdescRight">The process enumerator.  <a href="classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86">More...</a><br /></td></tr>
 <tr class="separator:adb1898207ec84c569d2fabef5f20dd86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9793a68d5ac75ab22be39739ea95c38"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38">Observable</a> : int { <a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38a680e00d35a871ccb7e45e7a4c3063862">dydQdqT</a>, 
-<a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38ae20abd9f6336888fc062923724acd350">Ed3q</a>
+<tr class="memitem:af9793a68d5ac75ab22be39739ea95c38"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38">Observable</a> : int { <a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38a4182eaf68beff1c8eb7bfcbfaa6ab256">UnknownObservable</a> = -1, 
+<a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38a680e00d35a871ccb7e45e7a4c3063862">dydQdqT</a> = 0, 
+<a class="el" href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38acf38b47643ab25dae81a954920682e7b">dxFdQdqT</a> = 1
  }</td></tr>
 <tr class="memdesc:af9793a68d5ac75ab22be39739ea95c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">The observable enumerator.  <a href="classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38">More...</a><br /></td></tr>
 <tr class="separator:af9793a68d5ac75ab22be39739ea95c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7260e1dc6fcea5098938c55ce315778b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a7260e1dc6fcea5098938c55ce315778b">GetTargetIsoscalarity</a> () const</td></tr>
 <tr class="memdesc:a7260e1dc6fcea5098938c55ce315778b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the target isoscalarity.  <a href="#a7260e1dc6fcea5098938c55ce315778b">More...</a><br /></td></tr>
 <tr class="separator:a7260e1dc6fcea5098938c55ce315778b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e3f3f5134ae5bf23d6e4b32e1101ff1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a9e3f3f5134ae5bf23d6e4b32e1101ff1">GetPrefactor</a> () const</td></tr>
+<tr class="memdesc:a9e3f3f5134ae5bf23d6e4b32e1101ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns any possible constant prefactor to be used to multiply the theoretical predictions.  <a href="#a9e3f3f5134ae5bf23d6e4b32e1101ff1">More...</a><br /></td></tr>
+<tr class="separator:a9e3f3f5134ae5bf23d6e4b32e1101ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d7a2c22d20957c995e55420cd5c7a7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html">Kinematics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a4d7a2c22d20957c995e55420cd5c7a7f">GetKinematics</a> () const</td></tr>
 <tr class="memdesc:a4d7a2c22d20957c995e55420cd5c7a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the kinematic object.  <a href="#a4d7a2c22d20957c995e55420cd5c7a7f">More...</a><br /></td></tr>
 <tr class="separator:a4d7a2c22d20957c995e55420cd5c7a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +156,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:acc33d7bd395ab88a554f1f7261143a4a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#acc33d7bd395ab88a554f1f7261143a4a">_targetiso</a></td></tr>
 <tr class="memdesc:acc33d7bd395ab88a554f1f7261143a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Isoscalarity of the target.  <a href="#acc33d7bd395ab88a554f1f7261143a4a">More...</a><br /></td></tr>
 <tr class="separator:acc33d7bd395ab88a554f1f7261143a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a458eab84e50a5e9e697b1068aa5835"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a7a458eab84e50a5e9e697b1068aa5835">_prefact</a></td></tr>
+<tr class="memdesc:a7a458eab84e50a5e9e697b1068aa5835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible prefactor to multiply the theoretical predictions.  <a href="#a7a458eab84e50a5e9e697b1068aa5835">More...</a><br /></td></tr>
+<tr class="separator:a7a458eab84e50a5e9e697b1068aa5835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d600de06f7cb1e49b9eb152ab8f43d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html">Kinematics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a7d600de06f7cb1e49b9eb152ab8f43d7">_kin</a></td></tr>
 <tr class="memdesc:a7d600de06f7cb1e49b9eb152ab8f43d7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html" title="Structure containing the kinematic information of one single data set.">Kinematics</a> block.  <a href="#a7d600de06f7cb1e49b9eb152ab8f43d7">More...</a><br /></td></tr>
 <tr class="separator:a7d600de06f7cb1e49b9eb152ab8f43d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +177,11 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a87bd9bb79aea730afed58e46836a6914"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a87bd9bb79aea730afed58e46836a6914">_CholL</a></td></tr>
 <tr class="memdesc:a87bd9bb79aea730afed58e46836a6914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition of the covariance matrix.  <a href="#a87bd9bb79aea730afed58e46836a6914">More...</a><br /></td></tr>
 <tr class="separator:a87bd9bb79aea730afed58e46836a6914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a9597164a755c3ae1b1a6a6869643c8ef"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a9597164a755c3ae1b1a6a6869643c8ef">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> const &amp;DH)</td></tr>
+<tr class="separator:a9597164a755c3ae1b1a6a6869643c8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The "DataHandler" class provides a common interface to all datasets. It provides methods to get kinematics, central values, uncertainties, etc. </p>
@@ -188,8 +202,9 @@ Protected Attributes</h2></td></tr>
 
 <p>The observable enumerator. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af9793a68d5ac75ab22be39739ea95c38a680e00d35a871ccb7e45e7a4c3063862"></a>dydQdqT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af9793a68d5ac75ab22be39739ea95c38ae20abd9f6336888fc062923724acd350"></a>Ed3q&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af9793a68d5ac75ab22be39739ea95c38a4182eaf68beff1c8eb7bfcbfaa6ab256"></a>UnknownObservable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af9793a68d5ac75ab22be39739ea95c38a680e00d35a871ccb7e45e7a4c3063862"></a>dydQdqT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af9793a68d5ac75ab22be39739ea95c38acf38b47643ab25dae81a954920682e7b"></a>dxFdQdqT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -208,7 +223,8 @@ Protected Attributes</h2></td></tr>
 
 <p>The process enumerator. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adb1898207ec84c569d2fabef5f20dd86a3cf018c150eda8ffd9fc6618842dd4f5"></a>DY&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adb1898207ec84c569d2fabef5f20dd86aaa9312a5ac732bedb9160a88c0c7aea3"></a>UnknownProcess&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adb1898207ec84c569d2fabef5f20dd86a3cf018c150eda8ffd9fc6618842dd4f5"></a>DY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="adb1898207ec84c569d2fabef5f20dd86a2f2da9eda839a882a8e8cd5c2ae513cc"></a>SIDIS&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -415,6 +431,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9e3f3f5134ae5bf23d6e4b32e1101ff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e3f3f5134ae5bf23d6e4b32e1101ff1">&#9670;&nbsp;</a></span>GetPrefactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::DataHandler::GetPrefactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns any possible constant prefactor to be used to multiply the theoretical predictions. </p>
+
+</div>
+</div>
 <a id="a87d71e366e9e9742493ddaaa101fbd25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87d71e366e9e9742493ddaaa101fbd25">&#9670;&nbsp;</a></span>GetProcess()</h2>
 
@@ -494,6 +537,43 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function that returns the sum in quadrature of the uncorrelated uncertainties. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a9597164a755c3ae1b1a6a6869643c8ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9597164a755c3ae1b1a6a6869643c8ef">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> const &amp;&#160;</td>
+          <td class="paramname"><em>DH</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -666,6 +746,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7a458eab84e50a5e9e697b1068aa5835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a458eab84e50a5e9e697b1068aa5835">&#9670;&nbsp;</a></span>_prefact</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::DataHandler::_prefact</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Possible prefactor to multiply the theoretical predictions. </p>
+
+</div>
+</div>
 <a id="a0bed04cba113d9e62db7d1a86f5dc10a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0bed04cba113d9e62db7d1a86f5dc10a">&#9670;&nbsp;</a></span>_proc</h2>
 
@@ -744,7 +848,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 26 2019 20:03:31 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 19 2019 19:24:03 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['parameterisation',['Parameterisation',['../classNangaParbat_1_1Parameterisation.html#a1cdd4192a60a433cb77b66d4cfcebbcf',1,'NangaParbat::Parameterisation']]],
-  ['phasespacereduction',['PhaseSpaceReduction',['../classNangaParbat_1_1TwoParticlePhaseSpace.html#a226d8ec9c7d362f34392b6d6986b4e02',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['position_5fof',['position_of',['../classNangaParbat_1_1Interval.html#a563d3c74d8917c6abba294b19893de81',1,'NangaParbat::Interval::position_of(double const &amp;value) const'],['../classNangaParbat_1_1Interval.html#a7fb19b45a429fa48b63cddbcd74c578b',1,'NangaParbat::Interval::position_of(Interval const &amp;I) const']]]
+  ['operator_28_29',['operator()',['../classNangaParbat_1_1ChiSquare.html#a3d5a9a39f940ec1570185557716a40aa',1,'NangaParbat::ChiSquare::operator()()'],['../classNangaParbat_1_1FcnMinuit.html#a3ac38c1616cedf326ed55c1c6c14b268',1,'NangaParbat::FcnMinuit::operator()()']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../namespaceNangaParbat.html#a1128faa5f002bc0052e1d94cfd8d54cc',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, DataHandler const &amp;DH)'],['../namespaceNangaParbat.html#aa021cfafa7719dc9e923e2cd4e03b1e9',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, TwoParticlePhaseSpace const &amp;PS)']]]
 ];

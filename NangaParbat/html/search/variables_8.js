@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['snu',['Snu',['../group__DerVar.html#ga7105925bcda483a4847c4df502b0c41d',1,'NangaParbat::TwoParticlePhaseSpace']]]
+  ['qtv',['qTv',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a48a34a8e0e1e368035c08d79bda27f4e',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

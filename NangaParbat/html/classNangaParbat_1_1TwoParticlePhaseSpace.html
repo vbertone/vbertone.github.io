@@ -92,6 +92,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a226d8ec9c7d362f34392b6d6986b4e02"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html#a226d8ec9c7d362f34392b6d6986b4e02">PhaseSpaceReduction</a> (double const &amp;M, double const &amp;qT, double const &amp;y)</td></tr>
 <tr class="memdesc:a226d8ec9c7d362f34392b6d6986b4e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the phase-space reduction factor.  <a href="#a226d8ec9c7d362f34392b6d6986b4e02">More...</a><br /></td></tr>
 <tr class="separator:a226d8ec9c7d362f34392b6d6986b4e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae65221cbb56dc407258f7b6c98b1e7ed"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html#ae65221cbb56dc407258f7b6c98b1e7ed">DerivePhaseSpaceReduction</a> (double const &amp;M, double const &amp;qT, double const &amp;y)</td></tr>
+<tr class="memdesc:ae65221cbb56dc407258f7b6c98b1e7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the derivative w.r.t. qT of the phase-space reduction factor.  <a href="#ae65221cbb56dc407258f7b6c98b1e7ed">More...</a><br /></td></tr>
+<tr class="separator:ae65221cbb56dc407258f7b6c98b1e7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a895e358a2a761b734640fd6fa5b99efa"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html#a895e358a2a761b734640fd6fa5b99efa">into_stream</a> (std::ostream &amp;os) const</td></tr>
 <tr class="memdesc:a895e358a2a761b734640fd6fa5b99efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the phase-space reduction factor along with its uncertainty in a human-readable format.  <a href="#a895e358a2a761b734640fd6fa5b99efa">More...</a><br /></td></tr>
 <tr class="separator:a895e358a2a761b734640fd6fa5b99efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +189,8 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section note"><dt>Note</dt><dd>Calculate the phase-space volume within cuts relative to total phase-space for: q -&gt; k + kb with: k_T &gt; kTmin &amp;&amp; kb_T &gt; kTmin |eta| &lt; etamax &amp;&amp; |etab| &lt; etamax excluding: eta0 &lt; |eta| &lt; eta1 &amp;&amp; eta0 &lt; |etab| &lt; eta1</dd></dl>
 <p>The following class has been extracted from the "Cute" program version 2.0.0 (see <a href="https://cute.hepforge.org">https://cute.hepforge.org</a>) and adapted to fit into APFEL++. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#_a11">IntegrationTest.cc</a>.</dd>
+</dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42dfb01b2ee3329c1777084892dd373c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42dfb01b2ee3329c1777084892dd373c">&#9670;&nbsp;</a></span>TwoParticlePhaseSpace()</h2>
@@ -265,6 +270,51 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae65221cbb56dc407258f7b6c98b1e7ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae65221cbb56dc407258f7b6c98b1e7ed">&#9670;&nbsp;</a></span>DerivePhaseSpaceReduction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::TwoParticlePhaseSpace::DerivePhaseSpaceReduction </td>
+          <td>(</td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>qT</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that returns the derivative w.r.t. qT of the phase-space reduction factor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">M</td><td>invariant mass of the leptonic pair </td></tr>
+    <tr><td class="paramname">qT</td><td>transverse momentum of the leptonic pair </td></tr>
+    <tr><td class="paramname">y</td><td>rapidity of the leptonic pair </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the derivative of the phase-space reduction factor as a function of the invariant mass, transverse momentum and rapidity of the lepton pair. </dd></dl>
+
+</div>
+</div>
 <a id="a895e358a2a761b734640fd6fa5b99efa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a895e358a2a761b734640fd6fa5b99efa">&#9670;&nbsp;</a></span>into_stream()</h2>
 
@@ -326,7 +376,7 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the phase-space reduction factor as a function of th invariant mass, transverse momentum and rapidity of the lepton pair. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the phase-space reduction factor as a function of the invariant mass, transverse momentum and rapidity of the lepton pair. </dd></dl>
 
 </div>
 </div>
@@ -381,7 +431,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 26 2019 20:03:31 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 19 2019 19:24:03 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

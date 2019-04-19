@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7etwoparticlephasespace',['~TwoParticlePhaseSpace',['../classNangaParbat_1_1TwoParticlePhaseSpace.html#ac39957a263f3f305d0da2686473a7e09',1,'NangaParbat::TwoParticlePhaseSpace']]]
+  ['variable_5flimit',['Variable_Limit',['../classNangaParbat_1_1Variable__Limit.html#a2cddb881789f1294c3cfbd6afb5643cd',1,'NangaParbat::Variable_Limit']]]
 ];
