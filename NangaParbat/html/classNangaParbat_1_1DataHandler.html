@@ -132,12 +132,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc1287523dc18554fdd983b924bbc07a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#afc1287523dc18554fdd983b924bbc07a">GetMeanValues</a> () const</td></tr>
 <tr class="memdesc:afc1287523dc18554fdd983b924bbc07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the mean values.  <a href="#afc1287523dc18554fdd983b924bbc07a">More...</a><br /></td></tr>
 <tr class="separator:afc1287523dc18554fdd983b924bbc07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09ada8d68af11d5363c8f218e4e4f8e7"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a09ada8d68af11d5363c8f218e4e4f8e7">GetCovarianceMatrix</a> () const</td></tr>
-<tr class="memdesc:a09ada8d68af11d5363c8f218e4e4f8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the covariance matrix of the correlated uncertainties.  <a href="#a09ada8d68af11d5363c8f218e4e4f8e7">More...</a><br /></td></tr>
-<tr class="separator:a09ada8d68af11d5363c8f218e4e4f8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b51c0075183497e39b14b442a7f2da8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a4b51c0075183497e39b14b442a7f2da8">GetUncorrelatedUnc</a> () const</td></tr>
 <tr class="memdesc:a4b51c0075183497e39b14b442a7f2da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the sum in quadrature of the uncorrelated uncertainties.  <a href="#a4b51c0075183497e39b14b442a7f2da8">More...</a><br /></td></tr>
 <tr class="separator:a4b51c0075183497e39b14b442a7f2da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a0aab43e571740c9fd7d29dd89501f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a44a0aab43e571740c9fd7d29dd89501f">GetCorrelatedUnc</a> () const</td></tr>
+<tr class="memdesc:a44a0aab43e571740c9fd7d29dd89501f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the correlated systematic uncertainties.  <a href="#a44a0aab43e571740c9fd7d29dd89501f">More...</a><br /></td></tr>
+<tr class="separator:a44a0aab43e571740c9fd7d29dd89501f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ada8d68af11d5363c8f218e4e4f8e7"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a09ada8d68af11d5363c8f218e4e4f8e7">GetCovarianceMatrix</a> () const</td></tr>
+<tr class="memdesc:a09ada8d68af11d5363c8f218e4e4f8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the covariance matrix of the correlated uncertainties.  <a href="#a09ada8d68af11d5363c8f218e4e4f8e7">More...</a><br /></td></tr>
+<tr class="separator:a09ada8d68af11d5363c8f218e4e4f8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4942bd403c8068d66633315f8e3deb9e"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a4942bd403c8068d66633315f8e3deb9e">GetCholeskyDecomposition</a> () const</td></tr>
 <tr class="memdesc:a4942bd403c8068d66633315f8e3deb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the Cholesky decomposition of the covariance matrix.  <a href="#a4942bd403c8068d66633315f8e3deb9e">More...</a><br /></td></tr>
 <tr class="separator:a4942bd403c8068d66633315f8e3deb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,6 +296,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function that returns the Cholesky decomposition of the covariance matrix. </p>
+
+</div>
+</div>
+<a id="a44a0aab43e571740c9fd7d29dd89501f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44a0aab43e571740c9fd7d29dd89501f">&#9670;&nbsp;</a></span>GetCorrelatedUnc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; NangaParbat::DataHandler::GetCorrelatedUnc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the correlated systematic uncertainties. </p>
 
 </div>
 </div>
@@ -848,7 +878,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 19 2019 19:24:03 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 24 2019 14:45:02 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

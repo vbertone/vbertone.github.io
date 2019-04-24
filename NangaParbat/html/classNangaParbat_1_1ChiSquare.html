@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classNangaParbat_1_1ChiSquare-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">NangaParbat::ChiSquare Class Reference</div>  </div>
@@ -105,6 +106,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a195c99355a933cdbe33c8470e9d0e3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a0a195c99355a933cdbe33c8470e9d0e3">GetDataPointNumbers</a> () const</td></tr>
 <tr class="memdesc:a0a195c99355a933cdbe33c8470e9d0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that gets the number of data points that pass the qT / Q cut for each data set in the form of a vector of integers.  <a href="#a0a195c99355a933cdbe33c8470e9d0e3">More...</a><br /></td></tr>
 <tr class="separator:a0a195c99355a933cdbe33c8470e9d0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a137f6d015d018462453676bc4358d394"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a137f6d015d018462453676bc4358d394">GetNumberOfExperiments</a> () const</td></tr>
+<tr class="memdesc:a137f6d015d018462453676bc4358d394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the number of experiments.  <a href="#a137f6d015d018462453676bc4358d394">More...</a><br /></td></tr>
+<tr class="separator:a137f6d015d018462453676bc4358d394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -120,6 +124,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a84755705f813e563c381726dd6ac6b1d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a84755705f813e563c381726dd6ac6b1d">_ndata</a></td></tr>
 <tr class="memdesc:a84755705f813e563c381726dd6ac6b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector constaining the number of data points per dataset that pass the qT/Q cut.  <a href="#a84755705f813e563c381726dd6ac6b1d">More...</a><br /></td></tr>
 <tr class="separator:a84755705f813e563c381726dd6ac6b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a597b9078d0086fca47ce87cb603cc045"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a597b9078d0086fca47ce87cb603cc045">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2)</td></tr>
+<tr class="memdesc:a597b9078d0086fca47ce87cb603cc045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method which prints <a class="el" href="classNangaParbat_1_1ChiSquare.html" title="The &quot;ChiSquare&quot; class computes the χ2&#39;s given a set of &quot;DataHandler&quot; objects and the corresponding &quot;C...">ChiSquare</a> feautures with cout &lt;&lt;.  <a href="#a597b9078d0086fca47ce87cb603cc045">More...</a><br /></td></tr>
+<tr class="separator:a597b9078d0086fca47ce87cb603cc045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The "ChiSquare" class computes the &chi;<sup>2</sup>'s given a set of "DataHandler" objects and the corresponding "ConvolutionTable" objects. The computation depends of the non-perturbative functions given as input. </p>
@@ -285,6 +295,34 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a137f6d015d018462453676bc4358d394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a137f6d015d018462453676bc4358d394">&#9670;&nbsp;</a></span>GetNumberOfExperiments()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NangaParbat::ChiSquare::GetNumberOfExperiments </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the number of experiments. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of experiments. </dd></dl>
+
+</div>
+</div>
 <a id="a3d5a9a39f940ec1570185557716a40aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d5a9a39f940ec1570185557716a40aa">&#9670;&nbsp;</a></span>operator()()</h2>
 
@@ -344,6 +382,45 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a597b9078d0086fca47ce87cb603cc045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a597b9078d0086fca47ce87cb603cc045">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;&#160;</td>
+          <td class="paramname"><em>chi2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method which prints <a class="el" href="classNangaParbat_1_1ChiSquare.html" title="The &quot;ChiSquare&quot; class computes the χ2&#39;s given a set of &quot;DataHandler&quot; objects and the corresponding &quot;C...">ChiSquare</a> feautures with cout &lt;&lt;. </p>
 
 </div>
 </div>
@@ -450,7 +527,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 19 2019 19:24:03 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 24 2019 14:45:02 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

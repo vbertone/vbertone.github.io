@@ -34,7 +34,7 @@ var searchData=
   ['_5fnpfunc',['_NPFunc',['../classNangaParbat_1_1ChiSquare.html#acb825dc6acf224c3dcc503ccf9d13865',1,'NangaParbat::ChiSquare']]],
   ['_5fobs',['_obs',['../classNangaParbat_1_1ConvolutionTable.html#a2c96d09faa764b3a7073299ea4152c2e',1,'NangaParbat::ConvolutionTable::_obs()'],['../classNangaParbat_1_1DataHandler.html#a1c3341ddbeead8130c4f481d44ad46c2',1,'NangaParbat::DataHandler::_obs()']]],
   ['_5fpars',['_pars',['../classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91',1,'NangaParbat::Parameterisation']]],
-  ['_5fprefact',['_prefact',['../classNangaParbat_1_1DataHandler.html#a7a458eab84e50a5e9e697b1068aa5835',1,'NangaParbat::DataHandler']]],
+  ['_5fprefact',['_prefact',['../classNangaParbat_1_1ConvolutionTable.html#aa06d2af6dbcffb1b0e02cd7c737f3835',1,'NangaParbat::ConvolutionTable::_prefact()'],['../classNangaParbat_1_1DataHandler.html#a7a458eab84e50a5e9e697b1068aa5835',1,'NangaParbat::DataHandler::_prefact()']]],
   ['_5fproc',['_proc',['../classNangaParbat_1_1ConvolutionTable.html#a098a53327fb936df037ae78f6682f949',1,'NangaParbat::ConvolutionTable::_proc()'],['../classNangaParbat_1_1DataHandler.html#a0bed04cba113d9e62db7d1a86f5dc10a',1,'NangaParbat::DataHandler::_proc()']]],
   ['_5fpsred',['_PSRed',['../classNangaParbat_1_1ConvolutionTable.html#aeb272432de65a68c697c1afb66e1c751',1,'NangaParbat::ConvolutionTable']]],
   ['_5fqg',['_Qg',['../classNangaParbat_1_1ConvolutionTable.html#aa509c07b8ad51a6e16efea4c78f89410',1,'NangaParbat::ConvolutionTable']]],
