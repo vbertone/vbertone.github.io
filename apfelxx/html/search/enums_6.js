@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['virtuality',['Virtuality',['../structapfel_1_1EvolutionSetup.html#a4188fd899c89d904b14feea52c039af7',1,'apfel::EvolutionSetup']]]
+  ['pdfevolution',['PDFEvolution',['../structapfel_1_1EvolutionSetup.html#a57a10440e153bba3cb67c3b66e0d0328',1,'apfel::EvolutionSetup']]]
 ];

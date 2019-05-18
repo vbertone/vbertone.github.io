@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['hardfactordy',['HardFactorDY',['../namespaceapfel.html#a32a5521ba656fa6889e25f4d3aaadb69',1,'apfel']]],
-  ['hardfactorsidis',['HardFactorSIDIS',['../namespaceapfel.html#a7ff20e320e17c67495f59b475db94f06',1,'apfel']]]
+  ['hardfactordy',['HardFactorDY',['../namespaceapfel.html#abb62dde36bf4a2ba35bf7dead959b504',1,'apfel']]],
+  ['hardfactorsidis',['HardFactorSIDIS',['../namespaceapfel.html#a6c0872ebe133d97d5e2e4f1e4e7f23b1',1,'apfel']]]
 ];

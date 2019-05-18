@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">apfel Namespace Reference</div>  </div>
@@ -556,6 +557,21 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that contains all the precomputed quantities needed to perform the TMD evolution and matchinf to the collinear PDFs, i.e. perturbative coefficients of matching functions and and all anomalous dimensions.  <a href="structapfel_1_1TmdObjects.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8c509ac51bd27e1f97b8e5cb520df446"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446">LogAccuracy</a> : int { <br />
+&#160;&#160;<a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446adfc29ff39675e3cece6122543a35a06f">NNLLp</a> = -2, 
+<a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446a0e7d1540bc320138a315f0782f9b855e">NLLp</a> = -1, 
+<a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446ad653300441796ddfb2fd7d2bcfef1118">LL</a> = 0, 
+<a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446a34582b355410694f2355d80af25b1288">NLL</a> = 1, 
+<br />
+&#160;&#160;<a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446a8cb9e49b56b78490614921ffb7bd2672">NNLL</a> = 2, 
+<a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446a949a7f277ba11f30498415ab0951e8cc">NNNLL</a> = 3
+<br />
+ }</td></tr>
+<tr class="memdesc:a8c509ac51bd27e1f97b8e5cb520df446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerator for the logarithmic accuracy.  <a href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446">More...</a><br /></td></tr>
+<tr class="separator:a8c509ac51bd27e1f97b8e5cb520df446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abc23ca5eae2ff193a815b82a1a3777f2"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abc23ca5eae2ff193a815b82a1a3777f2">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr)</td></tr>
@@ -814,13 +830,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a1748b9e5c2c89f6c6da7851519021784"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a1748b9e5c2c89f6c6da7851519021784">gammaVg2</a> (int const &amp;nf)</td></tr>
 <tr class="memdesc:a1748b9e5c2c89f6c6da7851519021784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gluon &alpha;<sub>s</sub><sup>3</sup> term.  <a href="#a1748b9e5c2c89f6c6da7851519021784">More...</a><br /></td></tr>
 <tr class="separator:a1748b9e5c2c89f6c6da7851519021784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Hard factors</div></td></tr>
-<tr class="memitem:a32a5521ba656fa6889e25f4d3aaadb69"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a32a5521ba656fa6889e25f4d3aaadb69">HardFactorDY</a> (int const &amp;pt, double const &amp;Alphas, int const &amp;nf, double const &amp;kappa)</td></tr>
-<tr class="memdesc:a32a5521ba656fa6889e25f4d3aaadb69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perturbative hard factor for Drell-Yan.  <a href="#a32a5521ba656fa6889e25f4d3aaadb69">More...</a><br /></td></tr>
-<tr class="separator:a32a5521ba656fa6889e25f4d3aaadb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ff20e320e17c67495f59b475db94f06"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a7ff20e320e17c67495f59b475db94f06">HardFactorSIDIS</a> (int const &amp;pt, double const &amp;Alphas, int const &amp;nf, double const &amp;kappa)</td></tr>
-<tr class="memdesc:a7ff20e320e17c67495f59b475db94f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perturbative hard factor for SIDIS.  <a href="#a7ff20e320e17c67495f59b475db94f06">More...</a><br /></td></tr>
-<tr class="separator:a7ff20e320e17c67495f59b475db94f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Message functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of functions related to the verbosity of the code. </p>
 </div></td></tr>
@@ -901,6 +910,15 @@ Functions</h2></td></tr>
 <tr class="memitem:abcd434172940c57f56243804402555a6"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="structapfel_1_1TmdObjects.html">TmdObjects</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abcd434172940c57f56243804402555a6">InitializeTmdObjects</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;g, std::vector&lt; double &gt; const &amp;Thresholds, double const &amp;IntEps=1e-5)</td></tr>
 <tr class="memdesc:abcd434172940c57f56243804402555a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The InitializeTmdObjects function precomputes the perturbative coefficients required for the evolution and matching of TMD PDFs and FFs and store them into a '<a class="el" href="structapfel_1_1TmdObjects.html" title="Structure that contains all the precomputed quantities needed to perform the TMD evolution and matchi...">TmdObjects</a>' structure.  <a href="#abcd434172940c57f56243804402555a6">More...</a><br /></td></tr>
 <tr class="separator:abcd434172940c57f56243804402555a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Hard factors</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Collection of hard functions used in the defintion of the qT-dependent cross sections in TMD factorisation. </p>
+</div></td></tr>
+<tr class="memitem:abb62dde36bf4a2ba35bf7dead959b504"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abb62dde36bf4a2ba35bf7dead959b504">HardFactorDY</a> (int const &amp;PerturbativeOrder, double const &amp;Alphas, int const &amp;nf, double const &amp;kappa)</td></tr>
+<tr class="memdesc:abb62dde36bf4a2ba35bf7dead959b504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perturbative hard factor for Drell-Yan.  <a href="#abb62dde36bf4a2ba35bf7dead959b504">More...</a><br /></td></tr>
+<tr class="separator:abb62dde36bf4a2ba35bf7dead959b504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c0872ebe133d97d5e2e4f1e4e7f23b1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a6c0872ebe133d97d5e2e4f1e4e7f23b1">HardFactorSIDIS</a> (int const &amp;PerturbativeOrder, double const &amp;Alphas, int const &amp;nf, double const &amp;kappa)</td></tr>
+<tr class="memdesc:a6c0872ebe133d97d5e2e4f1e4e7f23b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perturbative hard factor for SIDIS.  <a href="#a6c0872ebe133d97d5e2e4f1e4e7f23b1">More...</a><br /></td></tr>
+<tr class="separator:a6c0872ebe133d97d5e2e4f1e4e7f23b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Tools</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of useful tools. </p>
 </div></td></tr>
@@ -1141,7 +1159,32 @@ TMD builders</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for all APFEL++ functions and classes. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a8c509ac51bd27e1f97b8e5cb520df446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c509ac51bd27e1f97b8e5cb520df446">&#9670;&nbsp;</a></span>LogAccuracy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446">apfel::LogAccuracy</a> : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enumerator for the logarithmic accuracy. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8c509ac51bd27e1f97b8e5cb520df446adfc29ff39675e3cece6122543a35a06f"></a>NNLLp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c509ac51bd27e1f97b8e5cb520df446a0e7d1540bc320138a315f0782f9b855e"></a>NLLp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c509ac51bd27e1f97b8e5cb520df446ad653300441796ddfb2fd7d2bcfef1118"></a>LL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c509ac51bd27e1f97b8e5cb520df446a34582b355410694f2355d80af25b1288"></a>NLL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c509ac51bd27e1f97b8e5cb520df446a8cb9e49b56b78490614921ffb7bd2672"></a>NNLL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c509ac51bd27e1f97b8e5cb520df446a949a7f277ba11f30498415ab0951e8cc"></a>NNNLL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a4c2d1010b19712c8c950c6aed5db7c98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c2d1010b19712c8c950c6aed5db7c98">&#9670;&nbsp;</a></span>Banner()</h2>
 
@@ -1602,7 +1645,7 @@ TMD builders</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A map of "Observable" objects, one for number of active flavours </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="structurefunction_test_8cc-example.html#a13">structurefunction_test.cc</a>.</dd>
 </dl>
 
@@ -1663,7 +1706,7 @@ TMD builders</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A map of "Observable" objects, one for number of active flavours </dd></dl>
 
 </div>
 </div>
@@ -2561,8 +2604,8 @@ TMD builders</h2></td></tr>
 
 </div>
 </div>
-<a id="a32a5521ba656fa6889e25f4d3aaadb69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32a5521ba656fa6889e25f4d3aaadb69">&#9670;&nbsp;</a></span>HardFactorDY()</h2>
+<a id="abb62dde36bf4a2ba35bf7dead959b504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb62dde36bf4a2ba35bf7dead959b504">&#9670;&nbsp;</a></span>HardFactorDY()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2571,7 +2614,7 @@ TMD builders</h2></td></tr>
           <td class="memname">double apfel::HardFactorDY </td>
           <td>(</td>
           <td class="paramtype">int const &amp;&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
+          <td class="paramname"><em>PerturbativeOrder</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2600,11 +2643,21 @@ TMD builders</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Perturbative hard factor for Drell-Yan. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PerturbativeOrder</td><td>the perturbative order </td></tr>
+    <tr><td class="paramname">Alphas</td><td>the value of the strong coupling </td></tr>
+    <tr><td class="paramname">nf</td><td>the number of active flavours </td></tr>
+    <tr><td class="paramname">kappa</td><td>the ration between hard scale and renormalusation scale </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The hard factor for Drell-Yan. </dd></dl>
 
 </div>
 </div>
-<a id="a7ff20e320e17c67495f59b475db94f06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ff20e320e17c67495f59b475db94f06">&#9670;&nbsp;</a></span>HardFactorSIDIS()</h2>
+<a id="a6c0872ebe133d97d5e2e4f1e4e7f23b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c0872ebe133d97d5e2e4f1e4e7f23b1">&#9670;&nbsp;</a></span>HardFactorSIDIS()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2613,7 +2666,7 @@ TMD builders</h2></td></tr>
           <td class="memname">double apfel::HardFactorSIDIS </td>
           <td>(</td>
           <td class="paramtype">int const &amp;&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
+          <td class="paramname"><em>PerturbativeOrder</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2642,6 +2695,16 @@ TMD builders</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Perturbative hard factor for SIDIS. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PerturbativeOrder</td><td>the perturbative order </td></tr>
+    <tr><td class="paramname">Alphas</td><td>the value of the strong coupling </td></tr>
+    <tr><td class="paramname">nf</td><td>the number of active flavours </td></tr>
+    <tr><td class="paramname">kappa</td><td>the ration between hard scale and renormalusation scale </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The hard factor for SIDIS. </dd></dl>
 
 </div>
 </div>
@@ -5199,7 +5262,7 @@ template&lt;class U &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 6 2019 21:54:04 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 18 2019 14:50:41 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

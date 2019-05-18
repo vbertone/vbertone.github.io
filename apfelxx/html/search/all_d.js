@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['main_2edox',['main.dox',['../main_8dox.html',1,'']]],
   ['masses',['Masses',['../structapfel_1_1EvolutionSetup.html#a4020afe682b670da3163f676775a67cb',1,'apfel::EvolutionSetup']]],
   ['massivecoefficientfunctions_2eh',['massivecoefficientfunctions.h',['../massivecoefficientfunctions_8h.html',1,'']]],
   ['massivezerocoefficientfunctions_2eh',['massivezerocoefficientfunctions.h',['../massivezerocoefficientfunctions_8h.html',1,'']]],
