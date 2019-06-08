@@ -600,7 +600,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a780121c6acabc585bf2f16d992ec6dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">NNNLO coefficient of the QCD <img class="formulaInl" alt="$\beta$" src="form_1.png"/> function.  <a href="#a780121c6acabc585bf2f16d992ec6dab">More...</a><br /></td></tr>
 <tr class="separator:a780121c6acabc585bf2f16d992ec6dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">QED beta function</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Coefficients of the QED <img class="formulaInl" alt="$\beta_{QED}$" src="form_9.png"/> function. </p>
+<tr><td colspan="2"><div class="groupText"><p>Coefficients of the QED <img class="formulaInl" alt="$\beta_{QED}$" src="form_6.png"/> function. </p>
 </div></td></tr>
 <tr class="memitem:ae95ebb55b1718733aa14d879062e362f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae95ebb55b1718733aa14d879062e362f">beta0qed</a> (int const &amp;nf, int const &amp;nl)</td></tr>
 <tr class="memdesc:ae95ebb55b1718733aa14d879062e362f"><td class="mdescLeft">&#160;</td><td class="mdescRight">LO coefficient of the QED <img class="formulaInl" alt="$\beta$" src="form_1.png"/> function.  <a href="#ae95ebb55b1718733aa14d879062e362f">More...</a><br /></td></tr>
@@ -890,7 +890,7 @@ Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of special functions needed in the evaluation of some expressions. </p>
 </div></td></tr>
 <tr class="memitem:a892a0ab473cc1c2933458ae7b02909f4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a892a0ab473cc1c2933458ae7b02909f4">dilog</a> (double const &amp;x)</td></tr>
-<tr class="memdesc:a892a0ab473cc1c2933458ae7b02909f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real dilogarithm <img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_7.png"/>.  <a href="#a892a0ab473cc1c2933458ae7b02909f4">More...</a><br /></td></tr>
+<tr class="memdesc:a892a0ab473cc1c2933458ae7b02909f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real dilogarithm <img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_10.png"/>.  <a href="#a892a0ab473cc1c2933458ae7b02909f4">More...</a><br /></td></tr>
 <tr class="separator:a892a0ab473cc1c2933458ae7b02909f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">wgplg</a> (int const &amp;n, int const &amp;p, double const &amp;x)</td></tr>
 <tr class="memdesc:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for the computation of the Nielsen's generalized dilogs.  <a href="#ae07fc6dc7c2b19aaeae0957f7afa9ccc">More...</a><br /></td></tr>
@@ -898,12 +898,12 @@ Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Structure function builders</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of functions that build a map of <a class="el" href="classapfel_1_1Observable.html" title="The Observable class encapsulates sets of operators and sets of operators for an easy computation of ...">Observable</a> objects corresponding to the different component of the structure functions. </p>
 </div></td></tr>
-<tr class="memitem:a22f4cb2750a5c0cf78ed6e1b47d4f773"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="classapfel_1_1Observable.html">Observable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a22f4cb2750a5c0cf78ed6e1b47d4f773">BuildStructureFunctions</a> (std::function&lt; <a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a>(double const &amp;, std::vector&lt; double &gt; const &amp;)&gt; const &amp;FObj, std::function&lt; std::map&lt; int, double &gt;(double const &amp;, double const &amp;)&gt; const &amp;InDistFunc, int const &amp;PerturbativeOrder, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;Couplings)</td></tr>
-<tr class="memdesc:a22f4cb2750a5c0cf78ed6e1b47d4f773"><td class="mdescLeft">&#160;</td><td class="mdescRight">The StructureFunctionBuildNC class constructs a map of "Observable" objects.  <a href="#a22f4cb2750a5c0cf78ed6e1b47d4f773">More...</a><br /></td></tr>
-<tr class="separator:a22f4cb2750a5c0cf78ed6e1b47d4f773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a512b81465d3ac92e8a159cca82308766"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="classapfel_1_1Observable.html">Observable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a512b81465d3ac92e8a159cca82308766">BuildStructureFunctions</a> (std::function&lt; <a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a>(double const &amp;, std::vector&lt; double &gt; const &amp;)&gt; const &amp;FObj, std::function&lt; double(int const &amp;, double const &amp;, double const &amp;)&gt; const &amp;InDistFunc, int const &amp;PerturbativeOrder, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;Couplings)</td></tr>
-<tr class="memdesc:a512b81465d3ac92e8a159cca82308766"><td class="mdescLeft">&#160;</td><td class="mdescRight">The StructureFunctionBuildNC class constructs a map of "Observable" objects.  <a href="#a512b81465d3ac92e8a159cca82308766">More...</a><br /></td></tr>
-<tr class="separator:a512b81465d3ac92e8a159cca82308766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c05f97ee84da413e8dc66e9f4e7493"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="classapfel_1_1Observable.html">Observable</a>&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a24c05f97ee84da413e8dc66e9f4e7493">BuildStructureFunctions</a> (std::function&lt; <a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a>(double const &amp;, std::vector&lt; double &gt; const &amp;)&gt; const &amp;FObj, std::function&lt; std::map&lt; int, double &gt;(double const &amp;, double const &amp;)&gt; const &amp;InDistFunc, int const &amp;PerturbativeOrder, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;Couplings)</td></tr>
+<tr class="memdesc:a24c05f97ee84da413e8dc66e9f4e7493"><td class="mdescLeft">&#160;</td><td class="mdescRight">The StructureFunctionBuildNC class constructs a map of "Observable" objects.  <a href="#a24c05f97ee84da413e8dc66e9f4e7493">More...</a><br /></td></tr>
+<tr class="separator:a24c05f97ee84da413e8dc66e9f4e7493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1510acd898fb0addc171926e1e1216"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="classapfel_1_1Observable.html">Observable</a>&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a1e1510acd898fb0addc171926e1e1216">BuildStructureFunctions</a> (std::function&lt; <a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a>(double const &amp;, std::vector&lt; double &gt; const &amp;)&gt; const &amp;FObj, std::function&lt; double(int const &amp;, double const &amp;, double const &amp;)&gt; const &amp;InDistFunc, int const &amp;PerturbativeOrder, std::function&lt; double(double const &amp;)&gt; const &amp;Alphas, std::function&lt; std::vector&lt; double &gt;(double const &amp;)&gt; const &amp;Couplings)</td></tr>
+<tr class="memdesc:a1e1510acd898fb0addc171926e1e1216"><td class="mdescLeft">&#160;</td><td class="mdescRight">The StructureFunctionBuildNC class constructs a map of "Observable" objects.  <a href="#a1e1510acd898fb0addc171926e1e1216">More...</a><br /></td></tr>
+<tr class="separator:a1e1510acd898fb0addc171926e1e1216"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">TMD object initializers</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of functions that initialise <a class="el" href="structapfel_1_1TmdObjects.html" title="Structure that contains all the precomputed quantities needed to perform the TMD evolution and matchi...">TmdObjects</a> structure for the perturbartive evolution and matching currently available. </p>
 </div></td></tr>
@@ -992,7 +992,7 @@ Variables</h2></td></tr>
 </div></td></tr>
 <tr class="memitem:gaa5cdb3b0774934c96e344d691863282a"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathConstants.html#gaa5cdb3b0774934c96e344d691863282a">TR</a> = 0.5</td></tr>
 <tr class="separator:gaa5cdb3b0774934c96e344d691863282a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga687ec16c12edc12df465398573b42d47"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathConstants.html#ga687ec16c12edc12df465398573b42d47">CF</a> = 4./3.</td></tr>
+<tr class="memitem:ga687ec16c12edc12df465398573b42d47"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathConstants.html#ga687ec16c12edc12df465398573b42d47">CF</a> = 4. / 3.</td></tr>
 <tr class="separator:ga687ec16c12edc12df465398573b42d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8eecdadecd5396bb2e5eaa7a99267895"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathConstants.html#ga8eecdadecd5396bb2e5eaa7a99267895">CA</a> = 3.</td></tr>
 <tr class="separator:ga8eecdadecd5396bb2e5eaa7a99267895"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1267,7 +1267,7 @@ TMD builders</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\beta_0(n_f, n_l)$" src="form_10.png"/> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\beta_0(n_f, n_l)$" src="form_7.png"/> </dd></dl>
 
 </div>
 </div>
@@ -1332,7 +1332,7 @@ TMD builders</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\beta_1(n_f, n_l)$" src="form_11.png"/> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\beta_1(n_f, n_l)$" src="form_8.png"/> </dd></dl>
 
 </div>
 </div>
@@ -1590,14 +1590,14 @@ TMD builders</h2></td></tr>
 
 </div>
 </div>
-<a id="a22f4cb2750a5c0cf78ed6e1b47d4f773"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22f4cb2750a5c0cf78ed6e1b47d4f773">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[1/2]</span></h2>
+<a id="a24c05f97ee84da413e8dc66e9f4e7493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c05f97ee84da413e8dc66e9f4e7493">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int,<a class="el" href="classapfel_1_1Observable.html">Observable</a>&gt; apfel::BuildStructureFunctions </td>
+          <td class="memname">std::map&lt;int,<a class="el" href="classapfel_1_1Observable.html">Observable</a>&lt;&gt; &gt; apfel::BuildStructureFunctions </td>
           <td>(</td>
           <td class="paramtype">std::function&lt; <a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a>(double const &amp;, std::vector&lt; double &gt; const &amp;)&gt; const &amp;&#160;</td>
           <td class="paramname"><em>FObj</em>, </td>
@@ -1651,14 +1651,14 @@ TMD builders</h2></td></tr>
 
 </div>
 </div>
-<a id="a512b81465d3ac92e8a159cca82308766"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a512b81465d3ac92e8a159cca82308766">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[2/2]</span></h2>
+<a id="a1e1510acd898fb0addc171926e1e1216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1510acd898fb0addc171926e1e1216">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;int,<a class="el" href="classapfel_1_1Observable.html">Observable</a>&gt; apfel::BuildStructureFunctions </td>
+          <td class="memname">std::map&lt;int,<a class="el" href="classapfel_1_1Observable.html">Observable</a>&lt;&gt; &gt; apfel::BuildStructureFunctions </td>
           <td>(</td>
           <td class="paramtype">std::function&lt; <a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a>(double const &amp;, std::vector&lt; double &gt; const &amp;)&gt; const &amp;&#160;</td>
           <td class="paramname"><em>FObj</em>, </td>
@@ -2094,7 +2094,7 @@ TMD builders</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">a</td><td>first parameter </td></tr>
     <tr><td class="paramname">b</td><td>second parameter </td></tr>
-    <tr><td class="paramname">c</td><td>thied parameter </td></tr>
+    <tr><td class="paramname">c</td><td>third parameter </td></tr>
   </table>
   </dd>
 </dl>
@@ -2118,14 +2118,14 @@ TMD builders</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Real dilogarithm <img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_7.png"/>. </p>
+<p>Real dilogarithm <img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_10.png"/>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>the real argument </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_7.png"/> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_10.png"/> </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Implementation translated by R.Brun from CERNLIB DILOG function C332. </dd></dl>
 
 </div>
@@ -2269,6 +2269,8 @@ TMD builders</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the std::vector of the electroweak charges </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="structurefunction_test_8cc-example.html#a6">structurefunction_test.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -4848,7 +4850,7 @@ template&lt;class U &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\mathrm{S}_{n,p}(x)$" src="form_8.png"/> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\mathrm{S}_{n,p}(x)$" src="form_11.png"/> </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Implementation translated from CERNLIB WGPLG. </dd></dl>
 
 </div>
@@ -5262,7 +5264,7 @@ template&lt;class U &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 18 2019 14:50:41 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 8 2019 23:40:48 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

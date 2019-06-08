@@ -21,6 +21,7 @@ var searchData=
   ['gammaw',['GammaW',['../group__PhysConstants.html#ga88a6077298cefab58b2272f65c05c75b',1,'apfel']]],
   ['gammaz',['GammaZ',['../group__PhysConstants.html#gabd11d74b7dcb591975dc2695b9f887ec',1,'apfel']]],
   ['gaussaccuracy',['GaussAccuracy',['../structapfel_1_1EvolutionSetup.html#a54c93d3a7ba5755aeef82ef251831c2d',1,'apfel::EvolutionSetup']]],
+  ['getcoefficientfunctions',['GetCoefficientFunctions',['../classapfel_1_1Observable.html#aa991bce4f0294b874220ab39621bf620',1,'apfel::Observable']]],
   ['getcoordinates',['GetCoordinates',['../classapfel_1_1OgataQuadrature.html#aa00505afbdc2dbcdfb3b72dd921e01d9',1,'apfel::OgataQuadrature']]],
   ['getdistributionjointgrid',['GetDistributionJointGrid',['../classapfel_1_1Interpolator.html#af7486f60789a0135fe4e2107ce0221dd',1,'apfel::Interpolator']]],
   ['getdistributionsubgrid',['GetDistributionSubGrid',['../classapfel_1_1Interpolator.html#ad9b3ce90a94c82a043362b0c68bee398',1,'apfel::Interpolator']]],

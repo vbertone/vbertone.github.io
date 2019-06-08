@@ -11,6 +11,7 @@ var searchData=
   ['gammavq0',['gammaVq0',['../namespaceapfel.html#a14939d4804ad2ac8a025ed2bd29ea8f6',1,'apfel']]],
   ['gammavq1',['gammaVq1',['../namespaceapfel.html#ae7883506b53d7b21b49852b72c4fc116',1,'apfel']]],
   ['gammavq2',['gammaVq2',['../namespaceapfel.html#acce2ff7802a7404ae8cfc9b6ee846cac',1,'apfel']]],
+  ['getcoefficientfunctions',['GetCoefficientFunctions',['../classapfel_1_1Observable.html#aa991bce4f0294b874220ab39621bf620',1,'apfel::Observable']]],
   ['getcoordinates',['GetCoordinates',['../classapfel_1_1OgataQuadrature.html#aa00505afbdc2dbcdfb3b72dd921e01d9',1,'apfel::OgataQuadrature']]],
   ['getdistributionjointgrid',['GetDistributionJointGrid',['../classapfel_1_1Interpolator.html#af7486f60789a0135fe4e2107ce0221dd',1,'apfel::Interpolator']]],
   ['getdistributionsubgrid',['GetDistributionSubGrid',['../classapfel_1_1Interpolator.html#ad9b3ce90a94c82a043362b0c68bee398',1,'apfel::Interpolator']]],
