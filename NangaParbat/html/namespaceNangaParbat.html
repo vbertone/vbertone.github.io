@@ -93,7 +93,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mother class that implements the main feautures of a functional parameterisation of non-perturbative functions.  <a href="classNangaParbat_1_1Parameterisation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html">TwoParticlePhaseSpace</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoBodyPhaseSpace.html">TwoBodyPhaseSpace</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Variable__Exclusion.html">Variable_Exclusion</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,11 +126,9 @@ Functions</h2></td></tr>
 <tr class="separator:aeef9685762d57f0bb3f66373811993c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1128faa5f002bc0052e1d94cfd8d54cc"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a1128faa5f002bc0052e1d94cfd8d54cc">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> const &amp;DH)</td></tr>
 <tr class="separator:a1128faa5f002bc0052e1d94cfd8d54cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa021cfafa7719dc9e923e2cd4e03b1e9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#aa021cfafa7719dc9e923e2cd4e03b1e9">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html">TwoParticlePhaseSpace</a> const &amp;PS)</td></tr>
-<tr class="separator:aa021cfafa7719dc9e923e2cd4e03b1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a464c9c850168458767feefe93e446722"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a464c9c850168458767feefe93e446722">GenerateGrid</a> (int const &amp;n, double const &amp;min, double const &amp;max, int const &amp;ext=0)</td></tr>
-<tr class="memdesc:a464c9c850168458767feefe93e446722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to generate an interpolation grid.  <a href="#a464c9c850168458767feefe93e446722">More...</a><br /></td></tr>
-<tr class="separator:a464c9c850168458767feefe93e446722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32f0748d67389ceabe1663571b35f244"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a32f0748d67389ceabe1663571b35f244">GenerateGrid</a> (int const &amp;n, double const &amp;min, double const &amp;max, int const &amp;ext=0, bool const &amp;lgt=false)</td></tr>
+<tr class="memdesc:a32f0748d67389ceabe1663571b35f244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to generate an interpolation grid.  <a href="#a32f0748d67389ceabe1663571b35f244">More...</a><br /></td></tr>
+<tr class="separator:a32f0748d67389ceabe1663571b35f244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48cab3d6c952e89f365ce6d3d5379101"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">CholeskyDecomposition</a> (apfel::matrix&lt; double &gt; const V)</td></tr>
 <tr class="memdesc:a48cab3d6c952e89f365ce6d3d5379101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition of the covariance matrix.  <a href="#a48cab3d6c952e89f365ce6d3d5379101">More...</a><br /></td></tr>
 <tr class="separator:a48cab3d6c952e89f365ce6d3d5379101"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +141,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a027d18a91af358aae7e96e01a4a0ee07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">SolveSymmetricSystem</a> (apfel::matrix&lt; double &gt; A, std::vector&lt; double &gt; rho)</td></tr>
 <tr class="memdesc:a027d18a91af358aae7e96e01a4a0ee07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve symmetric system of equations.  <a href="#a027d18a91af358aae7e96e01a4a0ee07">More...</a><br /></td></tr>
 <tr class="separator:a027d18a91af358aae7e96e01a4a0ee07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c8d8d140f03fe5a2a5c3c3f4ce3f30"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a84c8d8d140f03fe5a2a5c3c3f4ce3f30">bstar</a> (double const &amp;b, double const &amp;Q)</td></tr>
+<tr class="memdesc:a84c8d8d140f03fe5a2a5c3c3f4ce3f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription a la Collins  <a href="#a84c8d8d140f03fe5a2a5c3c3f4ce3f30">More...</a><br /></td></tr>
+<tr class="separator:a84c8d8d140f03fe5a2a5c3c3f4ce3f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3043c8aa5446a9280268a908c18a01be"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a3043c8aa5446a9280268a908c18a01be">bstarmin</a> (double const &amp;b, double const &amp;Q)</td></tr>
+<tr class="memdesc:a3043c8aa5446a9280268a908c18a01be"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription with bmin  <a href="#a3043c8aa5446a9280268a908c18a01be">More...</a><br /></td></tr>
+<tr class="separator:a3043c8aa5446a9280268a908c18a01be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a2ac0de4cc157399d01fb404f35d070d7"></a>
@@ -187,6 +191,84 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a84c8d8d140f03fe5a2a5c3c3f4ce3f30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c8d8d140f03fe5a2a5c3c3f4ce3f30">&#9670;&nbsp;</a></span>bstar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::bstar </td>
+          <td>(</td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>Q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>b* prescription a la Collins </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>the impact parameter </td></tr>
+    <tr><td class="paramname">Q</td><td>the hard scale </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>b* </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a2">IntegrationTest.cc</a>.</dd>
+</dl>
+
+</div>
+</div>
+<a id="a3043c8aa5446a9280268a908c18a01be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3043c8aa5446a9280268a908c18a01be">&#9670;&nbsp;</a></span>bstarmin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::bstarmin </td>
+          <td>(</td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>Q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>b* prescription with bmin </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>the impact parameter </td></tr>
+    <tr><td class="paramname">Q</td><td>the hard scale </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>b* </dd></dl>
+
+</div>
+</div>
 <a id="a48cab3d6c952e89f365ce6d3d5379101"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48cab3d6c952e89f365ce6d3d5379101">&#9670;&nbsp;</a></span>CholeskyDecomposition()</h2>
 
@@ -214,8 +296,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a464c9c850168458767feefe93e446722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a464c9c850168458767feefe93e446722">&#9670;&nbsp;</a></span>GenerateGrid()</h2>
+<a id="a32f0748d67389ceabe1663571b35f244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f0748d67389ceabe1663571b35f244">&#9670;&nbsp;</a></span>GenerateGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +324,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int const &amp;&#160;</td>
-          <td class="paramname"><em>ext</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>ext</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool const &amp;&#160;</td>
+          <td class="paramname"><em>lgt</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -258,7 +346,8 @@ Functions</h2></td></tr>
     <tr><td class="paramname">n</td><td>the number of nodes of the grid </td></tr>
     <tr><td class="paramname">min</td><td>the lower bound </td></tr>
     <tr><td class="paramname">max</td><td>the upper bound </td></tr>
-    <tr><td class="paramname">ext</td><td>the numer of extra nodes </td></tr>
+    <tr><td class="paramname">ext</td><td>the number of extra nodes (default: 0) </td></tr>
+    <tr><td class="paramname">lgt</td><td>whether the grid is logarithmically spaced (default: false) </td></tr>
   </table>
   </dd>
 </dl>
@@ -267,7 +356,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="aeef9685762d57f0bb3f66373811993c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeef9685762d57f0bb3f66373811993c8">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef9685762d57f0bb3f66373811993c8">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,7 +386,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a1128faa5f002bc0052e1d94cfd8d54cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1128faa5f002bc0052e1d94cfd8d54cc">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1128faa5f002bc0052e1d94cfd8d54cc">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,34 +402,6 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> const &amp;&#160;</td>
           <td class="paramname"><em>DH</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa021cfafa7719dc9e923e2cd4e03b1e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa021cfafa7719dc9e923e2cd4e03b1e9">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; NangaParbat::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classNangaParbat_1_1TwoParticlePhaseSpace.html">TwoParticlePhaseSpace</a> const &amp;&#160;</td>
-          <td class="paramname"><em>PS</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -469,7 +530,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 24 2019 14:45:02 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 29 2019 15:24:19 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

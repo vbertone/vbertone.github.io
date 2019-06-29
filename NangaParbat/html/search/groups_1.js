@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['getter_20functions_20to_20retrieve',['Getter functions to retrieve',['../group__ConvolutionTableGetters.html',1,'']]],
-  ['gsl_20objects',['GSL objects',['../group__GSLobj.html',1,'']]],
-  ['getter_20functions_20to_20retrieve',['Getter functions to retrieve',['../group__ParameterisationGetters.html',1,'']]]
+  ['variables_20that_20define_20the_20cuts_20on_20the_20single_20leptons',['Variables that define the cuts on the single leptons',['../group__Cuts.html',1,'']]]
 ];

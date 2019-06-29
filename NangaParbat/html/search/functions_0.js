@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['_5fcalc_5falphas',['_calc_alphas',['../group__PrivFuns.html#gad53596c48a5175eccc56b96b87d8f6de',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['_5fcalc_5fone_5fregion',['_calc_one_region',['../group__PrivFuns.html#gad775e42a66ce4f95614929e6068174c3',1,'NangaParbat::TwoParticlePhaseSpace::_calc_one_region(const Variable_Limit &amp;IR)'],['../group__PrivFuns.html#ga7d440c2ccae0c20dc010ac7ed144eb9f',1,'NangaParbat::TwoParticlePhaseSpace::_calc_one_region(Variable_Limit &amp;IR, Variable_Exclusion E1)'],['../group__PrivFuns.html#ga0ce589dc9188e3bd94d5842799b2b901',1,'NangaParbat::TwoParticlePhaseSpace::_calc_one_region(Variable_Limit &amp;IR, const Variable_Exclusion &amp;E1, Variable_Exclusion E2)']]],
-  ['_5ffnub_5fupm',['_fnub_upm',['../group__PrivFuns.html#gad1c41d2809fbc19c27433e2e55b94602',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['_5ffthb',['_fthb',['../group__PrivFuns.html#ga265dd6d072c7374b730466e69871f4f6',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['_5fgsl_5fintegrand',['_gsl_integrand',['../group__PrivFuns.html#ga557454a82e328c9783732fa09036be27',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['_5fintegrand_5fnu',['_integrand_nu',['../group__PrivFuns.html#ga69ab205277af7b73957dcc5fde73f1d0',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['_5fset0',['_set0',['../group__PrivFuns.html#gac56c7db8dc02860613f4f01a89e3e189',1,'NangaParbat::TwoParticlePhaseSpace']]]
+  ['add_5flimit',['add_limit',['../classNangaParbat_1_1Variable__Limit.html#adf463dc2d6a2b8cb4b01ba07bd914774',1,'NangaParbat::Variable_Limit']]],
+  ['add_5flimit_5fmax',['add_limit_max',['../classNangaParbat_1_1Variable__Limit.html#abc18581f253cd763ba5f324f66927f52',1,'NangaParbat::Variable_Limit']]],
+  ['add_5flimit_5fmin',['add_limit_min',['../classNangaParbat_1_1Variable__Limit.html#a49a9c0f81856d80e50ba2c80174be305',1,'NangaParbat::Variable_Limit']]],
+  ['add_5flimit_5fmin_5fmax',['add_limit_min_max',['../classNangaParbat_1_1Variable__Limit.html#a8b70accde5ed498fadc41bfab995cb33',1,'NangaParbat::Variable_Limit']]],
+  ['addblock',['AddBlock',['../classNangaParbat_1_1ChiSquare.html#a0040adcfa695c35c4b895dcd96cf0d5a',1,'NangaParbat::ChiSquare']]],
+  ['apply_5fto_5flimit',['apply_to_limit',['../classNangaParbat_1_1Variable__Exclusion.html#ad609236503589ca496ecb857039b10ca',1,'NangaParbat::Variable_Exclusion']]]
 ];

@@ -100,6 +100,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a48a34a8e0e1e368035c08d79bda27f4e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#a48a34a8e0e1e368035c08d79bda27f4e">qTv</a></td></tr>
 <tr class="memdesc:a48a34a8e0e1e368035c08d79bda27f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of qT values.  <a href="#a48a34a8e0e1e368035c08d79bda27f4e">More...</a><br /></td></tr>
 <tr class="separator:a48a34a8e0e1e368035c08d79bda27f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad08e9a6cd3e9195e1e77f35b08139d47"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#ad08e9a6cd3e9195e1e77f35b08139d47">qTmap</a></td></tr>
+<tr class="memdesc:ad08e9a6cd3e9195e1e77f35b08139d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of qT bounds to associate to the single bins.  <a href="#ad08e9a6cd3e9195e1e77f35b08139d47">More...</a><br /></td></tr>
+<tr class="separator:ad08e9a6cd3e9195e1e77f35b08139d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe059e74fb5e3fb8b20d9d28a24a43e4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#abe059e74fb5e3fb8b20d9d28a24a43e4">qTfact</a></td></tr>
+<tr class="memdesc:abe059e74fb5e3fb8b20d9d28a24a43e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible bin-by-bin prefactors to multiply the theoretical predictions.  <a href="#abe059e74fb5e3fb8b20d9d28a24a43e4">More...</a><br /></td></tr>
+<tr class="separator:abe059e74fb5e3fb8b20d9d28a24a43e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a4eb1524ab9e9ece9157fb65287a7a6"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html#a2a4eb1524ab9e9ece9157fb65287a7a6">var1b</a></td></tr>
 <tr class="memdesc:a2a4eb1524ab9e9ece9157fb65287a7a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable 1 integration bounds.  <a href="#a2a4eb1524ab9e9ece9157fb65287a7a6">More...</a><br /></td></tr>
 <tr class="separator:a2a4eb1524ab9e9ece9157fb65287a7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,7 +133,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure containing the kinematic information of one single data set. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#_a4">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#_a5">IntegrationTest.cc</a>.</dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3ffb980736e56e710ed7fd894a286325"></a>
@@ -179,7 +185,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Allowed range in eta of the final-state leptons. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a10">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a11">IntegrationTest.cc</a>.</dd>
 </dl>
 
 </div>
@@ -277,8 +283,40 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Minimum pT of the final-state leptons. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a9">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a10">IntegrationTest.cc</a>.</dd>
 </dl>
+
+</div>
+</div>
+<a id="abe059e74fb5e3fb8b20d9d28a24a43e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe059e74fb5e3fb8b20d9d28a24a43e4">&#9670;&nbsp;</a></span>qTfact</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::DataHandler::Kinematics::qTfact</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Possible bin-by-bin prefactors to multiply the theoretical predictions. </p>
+
+</div>
+</div>
+<a id="ad08e9a6cd3e9195e1e77f35b08139d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad08e9a6cd3e9195e1e77f35b08139d47">&#9670;&nbsp;</a></span>qTmap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;double,double&gt; &gt; NangaParbat::DataHandler::Kinematics::qTmap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Map of qT bounds to associate to the single bins. </p>
 
 </div>
 </div>
@@ -295,7 +333,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Vector of qT values. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a8">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a9">IntegrationTest.cc</a>.</dd>
 </dl>
 
 </div>
@@ -313,7 +351,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Variable 1 integration bounds. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a7">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a8">IntegrationTest.cc</a>.</dd>
 </dl>
 
 </div>
@@ -331,7 +369,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Variable 1 integration bounds. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a6">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a7">IntegrationTest.cc</a>.</dd>
 </dl>
 
 </div>
@@ -349,7 +387,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Center of mass energy. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a5">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a6">IntegrationTest.cc</a>.</dd>
 </dl>
 
 </div>
@@ -360,7 +398,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 24 2019 14:45:02 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 29 2019 15:24:19 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

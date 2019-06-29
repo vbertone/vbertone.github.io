@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['max',['max',['../classNangaParbat_1_1Interval.html#ad78c05668065bdf8e0ef27860cfa9c7e',1,'NangaParbat::Interval']]],
-  ['min',['min',['../classNangaParbat_1_1Interval.html#a1233b2922b9f89bc01b6f6b16b166e8e',1,'NangaParbat::Interval']]]
+  ['psred',['PSRed',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a52a0d86829660726ec5c3f26c3e663f9',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['ptmin',['pTMin',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a19bd3421a91dbd3c7032697bed859f2f',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

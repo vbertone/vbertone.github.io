@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['limit_5fsize',['LIMIT_SIZE',['../twoparticlephasespace_8h.html#a0db475cb1beebf2729f9cdfa26fb8a25',1,'twoparticlephasespace.h']]]
+  ['version',['VERSION',['../version_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf',1,'version.h']]]
 ];

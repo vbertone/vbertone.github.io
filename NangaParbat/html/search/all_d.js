@@ -1,12 +1,6 @@
 var searchData=
 [
-  ['parameterisation',['Parameterisation',['../classNangaParbat_1_1Parameterisation.html',1,'NangaParbat::Parameterisation'],['../classNangaParbat_1_1Parameterisation.html#a1cdd4192a60a433cb77b66d4cfcebbcf',1,'NangaParbat::Parameterisation::Parameterisation()']]],
-  ['parameterisation_2eh',['parameterisation.h',['../parameterisation_8h.html',1,'']]],
-  ['phasespacereduction',['PhaseSpaceReduction',['../classNangaParbat_1_1TwoParticlePhaseSpace.html#a226d8ec9c7d362f34392b6d6986b4e02',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['position_5fof',['position_of',['../classNangaParbat_1_1Interval.html#a563d3c74d8917c6abba294b19893de81',1,'NangaParbat::Interval::position_of(double const &amp;value) const'],['../classNangaParbat_1_1Interval.html#a7fb19b45a429fa48b63cddbcd74c578b',1,'NangaParbat::Interval::position_of(Interval const &amp;I) const']]],
-  ['private_20utility_20functions',['Private utility functions',['../group__PrivFuns.html',1,'']]],
-  ['process',['Process',['../classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86',1,'NangaParbat::DataHandler']]],
-  ['psred',['PSRed',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a52a0d86829660726ec5c3f26c3e663f9',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['ptmin',['pTMin',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a19bd3421a91dbd3c7032697bed859f2f',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['phase_2dspace_20reduction_20factor_20and_20its_20integration_20uncertainty_2e',['Phase-space reduction factor and its integration uncertainty.',['../group__Result.html',1,'']]]
+  ['observable',['Observable',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38',1,'NangaParbat::DataHandler']]],
+  ['operator_28_29',['operator()',['../classNangaParbat_1_1ChiSquare.html#a3d5a9a39f940ec1570185557716a40aa',1,'NangaParbat::ChiSquare::operator()()'],['../classNangaParbat_1_1FcnMinuit.html#a3ac38c1616cedf326ed55c1c6c14b268',1,'NangaParbat::FcnMinuit::operator()()']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../classNangaParbat_1_1ChiSquare.html#a597b9078d0086fca47ce87cb603cc045',1,'NangaParbat::ChiSquare::operator&lt;&lt;()'],['../classNangaParbat_1_1DataHandler.html#a9597164a755c3ae1b1a6a6869643c8ef',1,'NangaParbat::DataHandler::operator&lt;&lt;()'],['../namespaceNangaParbat.html#aeef9685762d57f0bb3f66373811993c8',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, ChiSquare const &amp;chi2)'],['../namespaceNangaParbat.html#a1128faa5f002bc0052e1d94cfd8d54cc',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, DataHandler const &amp;DH)']]]
 ];

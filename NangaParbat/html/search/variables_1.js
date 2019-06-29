@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['aoe',['aoE',['../group__DerVar.html#ga253afc803dd20b05bedaf6a8da80fbe0',1,'NangaParbat::TwoParticlePhaseSpace']]]
+  ['etarange',['etaRange',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a87b46fc96f192538dc1c5e8f37288580',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

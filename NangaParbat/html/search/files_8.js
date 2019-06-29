@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['twoparticlephasespace_2eh',['twoparticlephasespace.h',['../twoparticlephasespace_8h.html',1,'']]]
+  ['twobodyphasespace_2eh',['twobodyphasespace.h',['../twobodyphasespace_8h.html',1,'']]]
 ];

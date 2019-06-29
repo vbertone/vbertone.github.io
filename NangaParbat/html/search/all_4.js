@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['e_5fnu_5fm',['E_nu_m',['../group__DerVar.html#ga7967a4aae6f78165ca0d472758fb7fb8',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['e_5fnu_5fp',['E_nu_p',['../group__DerVar.html#ga61be7d40b25ceff969841425801b9186',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['e_5fpos_5fint_5fto_5fint',['E_POS_INT_TO_INT',['../namespaceNangaParbat.html#a2ac0de4cc157399d01fb404f35d070d7',1,'NangaParbat']]],
-  ['e_5fpos_5fval_5fto_5fint',['E_POS_VAL_TO_INT',['../namespaceNangaParbat.html#a2cc5516d3feb2957ac60252c25dd918a',1,'NangaParbat']]],
-  ['e_5fu_5fm',['E_u_m',['../group__DerVar.html#ga94dacd0b2147045e3eb3bae126dcd869',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['e_5fu_5fp',['E_u_p',['../group__DerVar.html#gab55d17b98c505b5327f9ed2aec4582aa',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['empty',['empty',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a799f73803b42d7d0df2eece5548aeae7',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['etarange',['etaRange',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a87b46fc96f192538dc1c5e8f37288580',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['evaluate',['Evaluate',['../classNangaParbat_1_1ChiSquare.html#a09e2e6bba4fef685405a7362754dc168',1,'NangaParbat::ChiSquare::Evaluate()'],['../classNangaParbat_1_1Parameterisation.html#a730656b1a224b1f28e7220ba33e70acf',1,'NangaParbat::Parameterisation::Evaluate()']]],
-  ['examples_2edox',['examples.dox',['../examples_8dox.html',1,'']]]
+  ['datahandler',['DataHandler',['../classNangaParbat_1_1DataHandler.html',1,'NangaParbat::DataHandler'],['../classNangaParbat_1_1DataHandler.html#a40225256c62abb7809cc5d33c91c4f60',1,'NangaParbat::DataHandler::DataHandler()']]],
+  ['datahandler_2eh',['datahandler.h',['../datahandler_8h.html',1,'']]],
+  ['derive',['Derive',['../classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a',1,'NangaParbat::Parameterisation']]],
+  ['derivephasespacereduction',['DerivePhaseSpaceReduction',['../classNangaParbat_1_1TwoBodyPhaseSpace.html#a7e3271ba488972e619a96cb512d97bd6',1,'NangaParbat::TwoBodyPhaseSpace']]],
+  ['directcomputation',['DirectComputation',['../classNangaParbat_1_1FastInterface.html#a4b6716866478c3b5a78421567f0fc38c',1,'NangaParbat::FastInterface']]],
+  ['dws',['DWS',['../classDWS.html',1,'DWS'],['../classDWS.html#a3d4c4dfd6900728dae3c2494a6068ab4',1,'DWS::DWS()']]],
+  ['dws_2eh',['DWS.h',['../DWS_8h.html',1,'']]],
+  ['dxfdqdqt',['dxFdQdqT',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38acf38b47643ab25dae81a954920682e7b',1,'NangaParbat::DataHandler']]],
+  ['dy',['DY',['../classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86a3cf018c150eda8ffd9fc6618842dd4f5',1,'NangaParbat::DataHandler']]],
+  ['dydqdqt',['dydQdqT',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38a680e00d35a871ccb7e45e7a4c3063862',1,'NangaParbat::DataHandler']]]
 ];

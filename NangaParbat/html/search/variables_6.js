@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['ndata',['ndata',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a8f8327956f4f57d0ea91a588737c3c3d',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['nu',['nu',['../group__DerVar.html#ga62bf96b17a2bf781bcedd554d44538f9',1,'NangaParbat::TwoParticlePhaseSpace']]]
+  ['qtfact',['qTfact',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#abe059e74fb5e3fb8b20d9d28a24a43e4',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['qtmap',['qTmap',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#ad08e9a6cd3e9195e1e77f35b08139d47',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['qtv',['qTv',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a48a34a8e0e1e368035c08d79bda27f4e',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

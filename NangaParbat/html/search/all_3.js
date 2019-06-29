@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['datahandler',['DataHandler',['../classNangaParbat_1_1DataHandler.html',1,'NangaParbat::DataHandler'],['../classNangaParbat_1_1DataHandler.html#a40225256c62abb7809cc5d33c91c4f60',1,'NangaParbat::DataHandler::DataHandler()']]],
-  ['datahandler_2eh',['datahandler.h',['../datahandler_8h.html',1,'']]],
-  ['derive',['Derive',['../classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a',1,'NangaParbat::Parameterisation']]],
-  ['derivephasespacereduction',['DerivePhaseSpaceReduction',['../classNangaParbat_1_1TwoParticlePhaseSpace.html#ae65221cbb56dc407258f7b6c98b1e7ed',1,'NangaParbat::TwoParticlePhaseSpace']]],
-  ['derived_20global_20variables',['Derived global variables',['../group__DerVar.html',1,'']]],
-  ['dxfdqdqt',['dxFdQdqT',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38acf38b47643ab25dae81a954920682e7b',1,'NangaParbat::DataHandler']]],
-  ['dy',['DY',['../classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86a3cf018c150eda8ffd9fc6618842dd4f5',1,'NangaParbat::DataHandler']]],
-  ['dydqdqt',['dydQdqT',['../classNangaParbat_1_1DataHandler.html#af9793a68d5ac75ab22be39739ea95c38a680e00d35a871ccb7e45e7a4c3063862',1,'NangaParbat::DataHandler']]]
+  ['chisquare',['ChiSquare',['../classNangaParbat_1_1ChiSquare.html',1,'NangaParbat::ChiSquare'],['../classNangaParbat_1_1ChiSquare.html#aed3871a7ae457dc7d010c88cae2b3dc6',1,'NangaParbat::ChiSquare::ChiSquare(std::vector&lt; std::pair&lt; DataHandler, ConvolutionTable &gt;&gt; const &amp;DSVect, Parameterisation &amp;NPFunc, double const &amp;qToQMax=100)'],['../classNangaParbat_1_1ChiSquare.html#aa889b0ed67650eb197339868f049b5dd',1,'NangaParbat::ChiSquare::ChiSquare(Parameterisation &amp;NPFunc, double const &amp;qToQMax=100)']]],
+  ['chisquare_2eh',['chisquare.h',['../chisquare_8h.html',1,'']]],
+  ['choleskydecomposition',['CholeskyDecomposition',['../namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101',1,'NangaParbat']]],
+  ['computetables',['ComputeTables',['../classNangaParbat_1_1FastInterface.html#ad83a34b3881ace113da406c18f6b88bd',1,'NangaParbat::FastInterface']]],
+  ['contains',['contains',['../classNangaParbat_1_1Interval.html#a37d3d114cc90035f870679ab233a9a5a',1,'NangaParbat::Interval']]],
+  ['contains_5fnot',['contains_not',['../classNangaParbat_1_1Interval.html#aaba77b3eba5db1dfd7ee7348f8aeb6dd',1,'NangaParbat::Interval']]],
+  ['convolute',['Convolute',['../classNangaParbat_1_1ConvolutionTable.html#aec637a7ee6026920e04bb9d9f24aa6aa',1,'NangaParbat::ConvolutionTable::Convolute(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2) const'],['../classNangaParbat_1_1ConvolutionTable.html#a1065721d888fd1b87dd2c0ade057d4c9',1,'NangaParbat::ConvolutionTable::Convolute(std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP) const']]],
+  ['convolutiontable',['ConvolutionTable',['../classNangaParbat_1_1ConvolutionTable.html',1,'NangaParbat::ConvolutionTable'],['../classNangaParbat_1_1ConvolutionTable.html#a8922444aa9727e818207d9882c7b97a5',1,'NangaParbat::ConvolutionTable::ConvolutionTable(YAML::Node const &amp;table)'],['../classNangaParbat_1_1ConvolutionTable.html#a409e1252848068c4215eeac17dd222f0',1,'NangaParbat::ConvolutionTable::ConvolutionTable(std::string const &amp;infile)']]],
+  ['convolutiontable_2eh',['convolutiontable.h',['../convolutiontable_8h.html',1,'']]]
 ];

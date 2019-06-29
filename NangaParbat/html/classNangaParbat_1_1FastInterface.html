@@ -90,9 +90,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2b979141209edd7d3ab240276ad4db4"><td class="memItemLeft" align="right" valign="top">apfel::DoubleObject&lt; apfel::Distribution &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#ac2b979141209edd7d3ab240276ad4db4">LuminositySIDIS</a> (double const &amp;b, double const &amp;Q, double const &amp;targetiso) const</td></tr>
 <tr class="memdesc:ac2b979141209edd7d3ab240276ad4db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function returns the luminosity for the SIDIS process as a "DoubleObject" for a fixed values of "b" and "Q".  <a href="#ac2b979141209edd7d3ab240276ad4db4">More...</a><br /></td></tr>
 <tr class="separator:ac2b979141209edd7d3ab240276ad4db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16e549fbbb8a29e55b1d9bb915a924c3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#a16e549fbbb8a29e55b1d9bb915a924c3">ComputeTables</a> (std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect, std::function&lt; double(double const &amp;, double const &amp;)&gt; bstar) const</td></tr>
-<tr class="memdesc:a16e549fbbb8a29e55b1d9bb915a924c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that computes the interpolation tables given as an input vector of "DataHandler" objects.  <a href="#a16e549fbbb8a29e55b1d9bb915a924c3">More...</a><br /></td></tr>
-<tr class="separator:a16e549fbbb8a29e55b1d9bb915a924c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad83a34b3881ace113da406c18f6b88bd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#ad83a34b3881ace113da406c18f6b88bd">ComputeTables</a> (std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect, std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;<a class="el" href="namespaceNangaParbat.html#a84c8d8d140f03fe5a2a5c3c3f4ce3f30">bstar</a>) const</td></tr>
+<tr class="memdesc:ad83a34b3881ace113da406c18f6b88bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that computes the interpolation tables given as an input vector of "DataHandler" objects.  <a href="#ad83a34b3881ace113da406c18f6b88bd">More...</a><br /></td></tr>
+<tr class="separator:ad83a34b3881ace113da406c18f6b88bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6716866478c3b5a78421567f0fc38c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#a4b6716866478c3b5a78421567f0fc38c">DirectComputation</a> (std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect, std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;<a class="el" href="namespaceNangaParbat.html#a84c8d8d140f03fe5a2a5c3c3f4ce3f30">bstar</a>, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2, double const &amp;epsQ=1e-7, double const &amp;epsxi=1e-7, bool const &amp;sameOgata=true) const</td></tr>
+<tr class="memdesc:a4b6716866478c3b5a78421567f0fc38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that computes the predictions corresponding to a set of "DataHandler" objects as direct integration.  <a href="#a4b6716866478c3b5a78421567f0fc38c">More...</a><br /></td></tr>
+<tr class="separator:a4b6716866478c3b5a78421567f0fc38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -164,8 +167,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a16e549fbbb8a29e55b1d9bb915a924c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16e549fbbb8a29e55b1d9bb915a924c3">&#9670;&nbsp;</a></span>ComputeTables()</h2>
+<a id="ad83a34b3881ace113da406c18f6b88bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83a34b3881ace113da406c18f6b88bd">&#9670;&nbsp;</a></span>ComputeTables()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +182,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
           <td class="paramname"><em>bstar</em>&#160;</td>
         </tr>
         <tr>
@@ -194,10 +197,84 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">DHVect</td><td>vector of "DataHandler" objects. </td></tr>
+    <tr><td class="paramname">bstar</td><td>function that returns b*. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a vector of "YAML::Emitter" objects containing as many tables as elements of "DHVect". </dd></dl>
+
+</div>
+</div>
+<a id="a4b6716866478c3b5a78421567f0fc38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6716866478c3b5a78421567f0fc38c">&#9670;&nbsp;</a></span>DirectComputation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; NangaParbat::FastInterface::DirectComputation </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>DHVect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>bstar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>epsQ</em> = <code>1e-7</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>epsxi</em> = <code>1e-7</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool const &amp;&#160;</td>
+          <td class="paramname"><em>sameOgata</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that computes the predictions corresponding to a set of "DataHandler" objects as direct integration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DHVect</td><td>vector of "DataHandler" objects. </td></tr>
+    <tr><td class="paramname">bstar</td><td>function that returns b*. </td></tr>
+    <tr><td class="paramname">fNP1</td><td>the first non-perturbative input function </td></tr>
+    <tr><td class="paramname">fNP2</td><td>the second non-perturbative input function </td></tr>
+    <tr><td class="paramname">epsQ</td><td>the integration accuracy in Q </td></tr>
+    <tr><td class="paramname">epsxi</td><td>the integration accuracy in xi </td></tr>
+    <tr><td class="paramname">sameOgata</td><td>whether to use the same number of Ogata points or reach the required accuracy </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a vector of vectors, each containing the predictions associated to the corresponding "DataHandler" object </dd></dl>
 
 </div>
 </div>
@@ -584,7 +661,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 24 2019 14:45:02 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 29 2019 15:24:19 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
