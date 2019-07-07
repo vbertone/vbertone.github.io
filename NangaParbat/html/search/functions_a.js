@@ -15,5 +15,5 @@ var searchData=
   ['preprocesslhcb13tev',['PreprocessLHCb13TeV',['../namespaceNangaParbat.html#a0d2d6c7541ba3cd9c16776f6d1b66338',1,'NangaParbat']]],
   ['preprocesslhcb7tev',['PreprocessLHCb7TeV',['../namespaceNangaParbat.html#ac42acaf26941dd6af128c36795e33787',1,'NangaParbat']]],
   ['preprocesslhcb8tev',['PreprocessLHCb8TeV',['../namespaceNangaParbat.html#acd6f2896512b4cbf5eaf639fde008f0e',1,'NangaParbat']]],
-  ['pv17',['PV17',['../classPV17.html#a503ebff647a7f3e182adf9b09eba34cb',1,'PV17']]]
+  ['pv17',['PV17',['../classNangaParbat_1_1PV17.html#a84df4ab627ec0ca4e42c8520192a6885',1,'NangaParbat::PV17']]]
 ];
