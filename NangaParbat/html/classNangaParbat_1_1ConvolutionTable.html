@@ -106,8 +106,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ga035549a1a6df5e5b9342476241277da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga42354df5fe6f8d41d519a215f0d8efef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ConvolutionTableGetters.html#ga42354df5fe6f8d41d519a215f0d8efef">GetProcess</a> () const</td></tr>
 <tr class="separator:ga42354df5fe6f8d41d519a215f0d8efef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaefbefb5d03e3bc8e394d2be39bebaeec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ConvolutionTableGetters.html#gaefbefb5d03e3bc8e394d2be39bebaeec">GetObservable</a> () const</td></tr>
-<tr class="separator:gaefbefb5d03e3bc8e394d2be39bebaeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8398b0b7931eeb7ea0a15f587905fa2b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ConvolutionTableGetters.html#ga8398b0b7931eeb7ea0a15f587905fa2b">GetCME</a> () const</td></tr>
 <tr class="separator:ga8398b0b7931eeb7ea0a15f587905fa2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf7adb10a0e56aa245c786d8a2e8a0af4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ConvolutionTableGetters.html#gaf7adb10a0e56aa245c786d8a2e8a0af4">GetqTBins</a> () const</td></tr>
@@ -121,9 +119,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a098a53327fb936df037ae78f6682f949"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a098a53327fb936df037ae78f6682f949">_proc</a></td></tr>
 <tr class="memdesc:a098a53327fb936df037ae78f6682f949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the process (0: DY, 1: SIDIS)  <a href="#a098a53327fb936df037ae78f6682f949">More...</a><br /></td></tr>
 <tr class="separator:a098a53327fb936df037ae78f6682f949"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c96d09faa764b3a7073299ea4152c2e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a2c96d09faa764b3a7073299ea4152c2e">_obs</a></td></tr>
-<tr class="memdesc:a2c96d09faa764b3a7073299ea4152c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the observable.  <a href="#a2c96d09faa764b3a7073299ea4152c2e">More...</a><br /></td></tr>
-<tr class="separator:a2c96d09faa764b3a7073299ea4152c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac74302a35b3c6013aa67bba8044fa43a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ac74302a35b3c6013aa67bba8044fa43a">_Vs</a></td></tr>
 <tr class="memdesc:ac74302a35b3c6013aa67bba8044fa43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center of mass energy.  <a href="#ac74302a35b3c6013aa67bba8044fa43a">More...</a><br /></td></tr>
 <tr class="separator:ac74302a35b3c6013aa67bba8044fa43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -451,30 +446,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2c96d09faa764b3a7073299ea4152c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c96d09faa764b3a7073299ea4152c2e">&#9670;&nbsp;</a></span>_obs</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int NangaParbat::ConvolutionTable::_obs</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Index of the observable. </p>
-
-</div>
-</div>
 <a id="aa06d2af6dbcffb1b0e02cd7c737f3835"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa06d2af6dbcffb1b0e02cd7c737f3835">&#9670;&nbsp;</a></span>_prefact</h2>
 
@@ -745,7 +716,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 29 2019 15:24:19 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jul 7 2019 16:19:34 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

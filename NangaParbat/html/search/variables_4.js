@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['name',['name',['../classDWS.html#a627cd8104188f39f948562b4db5ec9b8',1,'DWS::name()'],['../classf1NP.html#a1ad14256203e10fd3defdee2f489e68d',1,'f1NP::name()']]],
-  ['ndata',['ndata',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a8f8327956f4f57d0ea91a588737c3c3d',1,'NangaParbat::DataHandler::Kinematics']]]
+  ['psred',['PSRed',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a52a0d86829660726ec5c3f26c3e663f9',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['ptmin',['pTMin',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a19bd3421a91dbd3c7032697bed859f2f',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['parameterisation',['Parameterisation',['../classNangaParbat_1_1Parameterisation.html',1,'NangaParbat']]]
+  ['twobodyphasespace',['TwoBodyPhaseSpace',['../classNangaParbat_1_1TwoBodyPhaseSpace.html',1,'NangaParbat']]]
 ];

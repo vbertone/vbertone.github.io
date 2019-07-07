@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['parameterisation',['Parameterisation',['../classNangaParbat_1_1Parameterisation.html#a1cdd4192a60a433cb77b66d4cfcebbcf',1,'NangaParbat::Parameterisation']]],
-  ['phasespacereduction',['PhaseSpaceReduction',['../classNangaParbat_1_1TwoBodyPhaseSpace.html#abfbf536bf1dac09831ce799c348c5815',1,'NangaParbat::TwoBodyPhaseSpace']]],
-  ['position_5fof',['position_of',['../classNangaParbat_1_1Interval.html#a563d3c74d8917c6abba294b19893de81',1,'NangaParbat::Interval::position_of(double const &amp;value) const'],['../classNangaParbat_1_1Interval.html#a7fb19b45a429fa48b63cddbcd74c578b',1,'NangaParbat::Interval::position_of(Interval const &amp;I) const']]]
+  ['setparameters',['SetParameters',['../classNangaParbat_1_1ChiSquare.html#a0765583bbe91ba79d3668a22bfb4020c',1,'NangaParbat::ChiSquare::SetParameters()'],['../classNangaParbat_1_1Parameterisation.html#a99ca4a5fdbad38d23457c75ed434d7f9',1,'NangaParbat::Parameterisation::SetParameters()']]],
+  ['solvelowersystem',['SolveLowerSystem',['../namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86',1,'NangaParbat']]],
+  ['solvesymmetricsystem',['SolveSymmetricSystem',['../namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07',1,'NangaParbat']]],
+  ['solveuppersystem',['SolveUpperSystem',['../namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c',1,'NangaParbat']]]
 ];

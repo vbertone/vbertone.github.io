@@ -88,15 +88,15 @@ Inheritance diagram for NangaParbat::Parameterisation:</div>
   <img src="classNangaParbat_1_1Parameterisation.png" usemap="#NangaParbat::Parameterisation_map" alt=""/>
   <map id="NangaParbat::Parameterisation_map" name="NangaParbat::Parameterisation_map">
 <area href="classDWS.html" alt="DWS" shape="rect" coords="0,56,186,80"/>
-<area href="classf1NP.html" alt="f1NP" shape="rect" coords="196,56,382,80"/>
+<area href="classPV17.html" alt="PV17" shape="rect" coords="196,56,382,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1cdd4192a60a433cb77b66d4cfcebbcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a1cdd4192a60a433cb77b66d4cfcebbcf">Parameterisation</a> (int const &amp;nfuncs=0, std::vector&lt; double &gt; pars={})</td></tr>
-<tr class="memdesc:a1cdd4192a60a433cb77b66d4cfcebbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="#a1cdd4192a60a433cb77b66d4cfcebbcf">More...</a><br /></td></tr>
-<tr class="separator:a1cdd4192a60a433cb77b66d4cfcebbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#aef7e0ff7abff2d38f562c44eaccfdc9c">Parameterisation</a> (std::string const &amp;name, int const &amp;nfuncs=0, std::vector&lt; double &gt; pars={})</td></tr>
+<tr class="memdesc:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="#aef7e0ff7abff2d38f562c44eaccfdc9c">More...</a><br /></td></tr>
+<tr class="separator:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ca4a5fdbad38d23457c75ed434d7f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a99ca4a5fdbad38d23457c75ed434d7f9">SetParameters</a> (std::vector&lt; double &gt; const &amp;pars)</td></tr>
 <tr class="memdesc:a99ca4a5fdbad38d23457c75ed434d7f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that sets the free parameters of the parameterisation.  <a href="#a99ca4a5fdbad38d23457c75ed434d7f9">More...</a><br /></td></tr>
 <tr class="separator:a99ca4a5fdbad38d23457c75ed434d7f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -106,6 +106,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3469fb8e0a3ec388bdfe0e05959350a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a">Derive</a> (double const &amp;x, double const &amp;b, double const &amp;zeta, int const &amp;ifunc, int const &amp;ipar) const</td></tr>
 <tr class="memdesc:ac3469fb8e0a3ec388bdfe0e05959350a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns the value of the derivative of one of the functions.  <a href="#ac3469fb8e0a3ec388bdfe0e05959350a">More...</a><br /></td></tr>
 <tr class="separator:ac3469fb8e0a3ec388bdfe0e05959350a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga935081bd7c9e97da63b7af8a092f4784"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ParameterisationGetters.html#ga935081bd7c9e97da63b7af8a092f4784">GetName</a> () const</td></tr>
+<tr class="separator:ga935081bd7c9e97da63b7af8a092f4784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2ae7e1580c8eaf915143c31dbd516c5e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ParameterisationGetters.html#ga2ae7e1580c8eaf915143c31dbd516c5e">GetNumberOfFunctions</a> () const</td></tr>
 <tr class="separator:ga2ae7e1580c8eaf915143c31dbd516c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga32017cc14920bb6e4dfd353095e31f44"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ParameterisationGetters.html#ga32017cc14920bb6e4dfd353095e31f44">GetParameters</a> () const</td></tr>
@@ -113,6 +115,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a519dbcb842f54b6a6ca1d5c89994f88b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a519dbcb842f54b6a6ca1d5c89994f88b">_name</a></td></tr>
+<tr class="memdesc:a519dbcb842f54b6a6ca1d5c89994f88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the parameterisation.  <a href="#a519dbcb842f54b6a6ca1d5c89994f88b">More...</a><br /></td></tr>
+<tr class="separator:a519dbcb842f54b6a6ca1d5c89994f88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e2bb7717a1c006d0c2d5a00bd4578a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a6e2bb7717a1c006d0c2d5a00bd4578a2">_nfuncs</a></td></tr>
 <tr class="memdesc:a6e2bb7717a1c006d0c2d5a00bd4578a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of output functions.  <a href="#a6e2bb7717a1c006d0c2d5a00bd4578a2">More...</a><br /></td></tr>
 <tr class="separator:a6e2bb7717a1c006d0c2d5a00bd4578a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,8 +128,8 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Mother class that implements the main feautures of a functional parameterisation of non-perturbative functions. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1cdd4192a60a433cb77b66d4cfcebbcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cdd4192a60a433cb77b66d4cfcebbcf">&#9670;&nbsp;</a></span>Parameterisation()</h2>
+<a id="aef7e0ff7abff2d38f562c44eaccfdc9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7e0ff7abff2d38f562c44eaccfdc9c">&#9670;&nbsp;</a></span>Parameterisation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,6 +137,12 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">NangaParbat::Parameterisation::Parameterisation </td>
           <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int const &amp;&#160;</td>
           <td class="paramname"><em>nfuncs</em> = <code>0</code>, </td>
         </tr>
@@ -279,7 +290,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>it returns the value of the ifunc-th function at (x, b, &zeta;) </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classf1NP.html#ac1563c90c29f6f20ef7ab772b7ab438f">f1NP</a>, and <a class="el" href="classDWS.html#aa2395c5ef2171c32772561d1c1dd910c">DWS</a>.</p>
+<p>Reimplemented in <a class="el" href="classPV17.html#add91ee4be7233a8a7608a4e6aae16469">PV17</a>, and <a class="el" href="classDWS.html#aa2395c5ef2171c32772561d1c1dd910c">DWS</a>.</p>
 
 </div>
 </div>
@@ -318,6 +329,30 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a519dbcb842f54b6a6ca1d5c89994f88b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a519dbcb842f54b6a6ca1d5c89994f88b">&#9670;&nbsp;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string NangaParbat::Parameterisation::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of the parameterisation. </p>
+
+</div>
+</div>
 <a id="a6e2bb7717a1c006d0c2d5a00bd4578a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e2bb7717a1c006d0c2d5a00bd4578a2">&#9670;&nbsp;</a></span>_nfuncs</h2>
 
@@ -372,7 +407,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 29 2019 15:24:19 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jul 7 2019 16:19:34 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
