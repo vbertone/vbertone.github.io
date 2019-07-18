@@ -70,7 +70,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">minimisation.h File Reference</div>  </div>
 </div><!--header-->
@@ -78,6 +79,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="chisquare_8h_source.html">NangaParbat/chisquare.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="parameterisation_8h_source.html">NangaParbat/parameterisation.h</a>&quot;</code><br />
 <code>#include &lt;ROOT/Minuit2/FCNBase.h&gt;</code><br />
+<code>#include &lt;ROOT/Minuit2/MnMigrad.h&gt;</code><br />
 </div>
 <p><a href="minimisation_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -86,16 +88,28 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnMinuit.html">NangaParbat::FcnMinuit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "FcnMinuit" class is a derived class of of the "FCNBase" mother class of Minuit that returns the figure of merit (&chi;<sup>2</sup>) to be minimised.  <a href="classNangaParbat_1_1FcnMinuit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnCeres.html">NangaParbat::FcnCeres</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "FcnCeres" class.  <a href="classNangaParbat_1_1FcnCeres.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceNangaParbat"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html">NangaParbat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a330496dec681a55dbfe041d75b2e630f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a330496dec681a55dbfe041d75b2e630f">NangaParbat::MinuitMinimiser</a> (ChiSquare const &amp;chi2, YAML::Node const &amp;parameters)</td></tr>
+<tr class="memdesc:a330496dec681a55dbfe041d75b2e630f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "MinuitMinimiser" function using Minuit2 as implemented in ROOT.  <a href="namespaceNangaParbat.html#a330496dec681a55dbfe041d75b2e630f">More...</a><br /></td></tr>
+<tr class="separator:a330496dec681a55dbfe041d75b2e630f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01868a35264bf9f7abd61b3436ebd594"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a01868a35264bf9f7abd61b3436ebd594">NangaParbat::CeresMinimiser</a> (ChiSquare const &amp;chi2, YAML::Node const &amp;parameters)</td></tr>
+<tr class="memdesc:a01868a35264bf9f7abd61b3436ebd594"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "CeresMinimiser" function using ceres-solver.  <a href="namespaceNangaParbat.html#a01868a35264bf9f7abd61b3436ebd594">More...</a><br /></td></tr>
+<tr class="separator:a01868a35264bf9f7abd61b3436ebd594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 7 2019 16:25:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 18 2019 17:08:41 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

@@ -89,6 +89,7 @@ Inheritance diagram for NangaParbat::Parameterisation:</div>
   <map id="NangaParbat::Parameterisation_map" name="NangaParbat::Parameterisation_map">
 <area href="classNangaParbat_1_1DWS.html" alt="NangaParbat::DWS" shape="rect" coords="0,56,186,80"/>
 <area href="classNangaParbat_1_1PV17.html" alt="NangaParbat::PV17" shape="rect" coords="196,56,382,80"/>
+<area href="classNangaParbat_1_1PV19.html" alt="NangaParbat::PV19" shape="rect" coords="392,56,578,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -97,6 +98,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#aef7e0ff7abff2d38f562c44eaccfdc9c">Parameterisation</a> (std::string const &amp;name, int const &amp;nfuncs=0, std::vector&lt; double &gt; pars={})</td></tr>
 <tr class="memdesc:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="#aef7e0ff7abff2d38f562c44eaccfdc9c">More...</a><br /></td></tr>
 <tr class="separator:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c742bfdee93832a246cfdd4f307203e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a4c742bfdee93832a246cfdd4f307203e">~Parameterisation</a> ()</td></tr>
+<tr class="memdesc:a4c742bfdee93832a246cfdd4f307203e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" destructor.  <a href="#a4c742bfdee93832a246cfdd4f307203e">More...</a><br /></td></tr>
+<tr class="separator:a4c742bfdee93832a246cfdd4f307203e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ca4a5fdbad38d23457c75ed434d7f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a99ca4a5fdbad38d23457c75ed434d7f9">SetParameters</a> (std::vector&lt; double &gt; const &amp;pars)</td></tr>
 <tr class="memdesc:a99ca4a5fdbad38d23457c75ed434d7f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that sets the free parameters of the parameterisation.  <a href="#a99ca4a5fdbad38d23457c75ed434d7f9">More...</a><br /></td></tr>
 <tr class="separator:a99ca4a5fdbad38d23457c75ed434d7f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +165,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The "Parameterisation" constructor. </p>
+
+</div>
+</div>
+<a id="a4c742bfdee93832a246cfdd4f307203e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c742bfdee93832a246cfdd4f307203e">&#9670;&nbsp;</a></span>~Parameterisation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual NangaParbat::Parameterisation::~Parameterisation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The "Parameterisation" destructor. </p>
 
 </div>
 </div>
@@ -290,7 +321,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>it returns the value of the ifunc-th function at (x, b, &zeta;) </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV17.html#a4386aa3047b64b38196d73b68b78e001">NangaParbat::PV17</a>, and <a class="el" href="classNangaParbat_1_1DWS.html#a2a7a61b4931aac7f1396d6444a3bf22b">NangaParbat::DWS</a>.</p>
+<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a335730bffaa8b4fc05c5109ce2541353">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1PV17.html#a4386aa3047b64b38196d73b68b78e001">NangaParbat::PV17</a>, and <a class="el" href="classNangaParbat_1_1DWS.html#a2a7a61b4931aac7f1396d6444a3bf22b">NangaParbat::DWS</a>.</p>
 
 </div>
 </div>
@@ -407,7 +438,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 7 2019 16:25:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 18 2019 17:08:41 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

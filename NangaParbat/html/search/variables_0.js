@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['_5fchi2',['_chi2',['../classNangaParbat_1_1FcnMinuit.html#ad4be1ce44f85ce1adb91e3d3c9590f91',1,'NangaParbat::FcnMinuit']]],
+  ['_5fchi2',['_chi2',['../classNangaParbat_1_1FcnMinuit.html#ad4be1ce44f85ce1adb91e3d3c9590f91',1,'NangaParbat::FcnMinuit::_chi2()'],['../classNangaParbat_1_1FcnCeres.html#a896ffcb0d10780a0cda6075d6cb386f3',1,'NangaParbat::FcnCeres::_chi2()']]],
   ['_5fcholl',['_CholL',['../classNangaParbat_1_1DataHandler.html#a87bd9bb79aea730afed58e46836a6914',1,'NangaParbat::DataHandler']]],
   ['_5fconfig',['_config',['../classNangaParbat_1_1FastInterface.html#a3a753c2583c7440d75d10d23516157cc',1,'NangaParbat::FastInterface']]],
   ['_5fcorr',['_corr',['../classNangaParbat_1_1DataHandler.html#ade0b7166a98dbbc4a05c49109f4b5e10',1,'NangaParbat::DataHandler']]],
@@ -8,7 +8,7 @@ var searchData=
   ['_5fcorrm',['_corrm',['../classNangaParbat_1_1DataHandler.html#a95ece01a705a39dba977e82724682c53',1,'NangaParbat::DataHandler']]],
   ['_5fcovmat',['_covmat',['../classNangaParbat_1_1DataHandler.html#aa10b2b380eb60aaeb1f4e6d7c6b163fe',1,'NangaParbat::DataHandler']]],
   ['_5fdpsred',['_dPSRed',['../classNangaParbat_1_1ConvolutionTable.html#a5ad93c5cdda1ef9c749a55804be5debf',1,'NangaParbat::ConvolutionTable']]],
-  ['_5fdsvect',['_DSVect',['../classNangaParbat_1_1ChiSquare.html#a8e36c5363b029a9a2995db58a249001b',1,'NangaParbat::ChiSquare']]],
+  ['_5fdsvect',['_DSVect',['../classNangaParbat_1_1ChiSquare.html#abe56b5c10c91e3eb17a4d49d62dd02cf',1,'NangaParbat::ChiSquare']]],
   ['_5feps',['_eps',['../group__Cuts.html#ga68ef3597ab0bed53df65b57f47fce21b',1,'NangaParbat::TwoBodyPhaseSpace']]],
   ['_5fetamax',['_etamax',['../group__Cuts.html#ga6c35b5fe78a79cb3288fca3368b691a4',1,'NangaParbat::TwoBodyPhaseSpace']]],
   ['_5fetamin',['_etamin',['../group__Cuts.html#ga9bbdf7ad4f4542b56a14d6f7b74d8a6f',1,'NangaParbat::TwoBodyPhaseSpace']]],

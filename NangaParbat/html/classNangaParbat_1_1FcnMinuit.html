@@ -93,11 +93,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad4afc6dc87e080b8fb68623d4f89ee00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnMinuit.html#ad4afc6dc87e080b8fb68623d4f89ee00">FcnMinuit</a> (<a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2)</td></tr>
 <tr class="memdesc:ad4afc6dc87e080b8fb68623d4f89ee00"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "FcnMinuit" default constructor.  <a href="#ad4afc6dc87e080b8fb68623d4f89ee00">More...</a><br /></td></tr>
 <tr class="separator:ad4afc6dc87e080b8fb68623d4f89ee00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac38c1616cedf326ed55c1c6c14b268"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnMinuit.html#a3ac38c1616cedf326ed55c1c6c14b268">operator()</a> (const std::vector&lt; double &gt; &amp;pars) const</td></tr>
-<tr class="memdesc:a3ac38c1616cedf326ed55c1c6c14b268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator required by Minuit to compute the function to be minimised.  <a href="#a3ac38c1616cedf326ed55c1c6c14b268">More...</a><br /></td></tr>
-<tr class="separator:a3ac38c1616cedf326ed55c1c6c14b268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeff17193dbc0cd16dd02d20235afa0f3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnMinuit.html#aeff17193dbc0cd16dd02d20235afa0f3">operator()</a> (std::vector&lt; double &gt; const &amp;pars) const</td></tr>
+<tr class="memdesc:aeff17193dbc0cd16dd02d20235afa0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator required by Minuit to compute the function to be minimised.  <a href="#aeff17193dbc0cd16dd02d20235afa0f3">More...</a><br /></td></tr>
+<tr class="separator:aeff17193dbc0cd16dd02d20235afa0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa447fb742f0369b80ecf1402ea83adc4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnMinuit.html#aa447fb742f0369b80ecf1402ea83adc4">Up</a> () const</td></tr>
 <tr class="separator:aa447fb742f0369b80ecf1402ea83adc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad79a5fce6c69b073046296f691efcdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnMinuit.html#aad79a5fce6c69b073046296f691efcdb">SetParameters</a> (std::vector&lt; double &gt; const &amp;pars)</td></tr>
+<tr class="memdesc:aad79a5fce6c69b073046296f691efcdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that sets the parameter of the "ChiSquare" object.  <a href="#aad79a5fce6c69b073046296f691efcdb">More...</a><br /></td></tr>
+<tr class="separator:aad79a5fce6c69b073046296f691efcdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -128,7 +131,6 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">chi2</td><td>the "ChiSquare" object that returns the values of all chi2's </td></tr>
-    <tr><td class="paramname">func</td><td>the "Parameterisation" object that encapsulates the non-perturnative function(s) </td></tr>
   </table>
   </dd>
 </dl>
@@ -136,8 +138,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3ac38c1616cedf326ed55c1c6c14b268"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac38c1616cedf326ed55c1c6c14b268">&#9670;&nbsp;</a></span>operator()()</h2>
+<a id="aeff17193dbc0cd16dd02d20235afa0f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeff17193dbc0cd16dd02d20235afa0f3">&#9670;&nbsp;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,7 +147,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">double NangaParbat::FcnMinuit::operator() </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
           <td class="paramname"><em>pars</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -160,6 +162,40 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the function to be minimised </dd></dl>
+
+</div>
+</div>
+<a id="aad79a5fce6c69b073046296f691efcdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad79a5fce6c69b073046296f691efcdb">&#9670;&nbsp;</a></span>SetParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NangaParbat::FcnMinuit::SetParameters </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>pars</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that sets the parameter of the "ChiSquare" object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pars</td><td>the vector of parameters </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -219,7 +255,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 7 2019 16:25:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 18 2019 17:08:41 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

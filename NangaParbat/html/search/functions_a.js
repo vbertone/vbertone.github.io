@@ -1,19 +1,5 @@
 var searchData=
 [
-  ['parameterisation',['Parameterisation',['../classNangaParbat_1_1Parameterisation.html#aef7e0ff7abff2d38f562c44eaccfdc9c',1,'NangaParbat::Parameterisation']]],
-  ['phasespacereduction',['PhaseSpaceReduction',['../classNangaParbat_1_1TwoBodyPhaseSpace.html#abfbf536bf1dac09831ce799c348c5815',1,'NangaParbat::TwoBodyPhaseSpace']]],
-  ['preprocessatlas7tev',['PreprocessATLAS7TeV',['../namespaceNangaParbat.html#a42a1dbb65a6a25e90968d935772e8bf7',1,'NangaParbat']]],
-  ['preprocessatlas8tev',['PreprocessATLAS8TeV',['../namespaceNangaParbat.html#ad4b9a774a37b90bc4cef75c156142769',1,'NangaParbat']]],
-  ['preprocesscdfruni',['PreprocessCDFRunI',['../namespaceNangaParbat.html#a2ee510c82e32f4decd35bd2f61e7bcad',1,'NangaParbat']]],
-  ['preprocesscdfrunii',['PreprocessCDFRunII',['../namespaceNangaParbat.html#ad2127ff66e1bc3d3dcfd1885243d4dce',1,'NangaParbat']]],
-  ['preprocesscms7tev',['PreprocessCMS7TeV',['../namespaceNangaParbat.html#a3d858be0e205a5f18375a00f7c03f082',1,'NangaParbat']]],
-  ['preprocesscms8tev',['PreprocessCMS8TeV',['../namespaceNangaParbat.html#a92e2666ae85a60f6e1fa9184b7a4a751',1,'NangaParbat']]],
-  ['preprocessd0runi',['PreprocessD0RunI',['../namespaceNangaParbat.html#a8040a90015f5bea7b14e255a96005d51',1,'NangaParbat']]],
-  ['preprocessd0runii',['PreprocessD0RunII',['../namespaceNangaParbat.html#acba567c5345e43aa0fac85d587e01310',1,'NangaParbat']]],
-  ['preprocesse288',['PreprocessE288',['../namespaceNangaParbat.html#a024bbace1bd3132ba4e2211cc1518b12',1,'NangaParbat']]],
-  ['preprocesse605',['PreprocessE605',['../namespaceNangaParbat.html#af591d6786971b5956ee09567a6dd29d2',1,'NangaParbat']]],
-  ['preprocesslhcb13tev',['PreprocessLHCb13TeV',['../namespaceNangaParbat.html#a0d2d6c7541ba3cd9c16776f6d1b66338',1,'NangaParbat']]],
-  ['preprocesslhcb7tev',['PreprocessLHCb7TeV',['../namespaceNangaParbat.html#ac42acaf26941dd6af128c36795e33787',1,'NangaParbat']]],
-  ['preprocesslhcb8tev',['PreprocessLHCb8TeV',['../namespaceNangaParbat.html#acd6f2896512b4cbf5eaf639fde008f0e',1,'NangaParbat']]],
-  ['pv17',['PV17',['../classNangaParbat_1_1PV17.html#a84df4ab627ec0ca4e42c8520192a6885',1,'NangaParbat::PV17']]]
+  ['operator_28_29',['operator()',['../classNangaParbat_1_1ChiSquare.html#a3d5a9a39f940ec1570185557716a40aa',1,'NangaParbat::ChiSquare::operator()()'],['../classNangaParbat_1_1FcnMinuit.html#aeff17193dbc0cd16dd02d20235afa0f3',1,'NangaParbat::FcnMinuit::operator()()'],['../classNangaParbat_1_1FcnCeres.html#a782116a8d467300553b0c23e62675d11',1,'NangaParbat::FcnCeres::operator()()']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../namespaceNangaParbat.html#aeef9685762d57f0bb3f66373811993c8',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, ChiSquare const &amp;chi2)'],['../namespaceNangaParbat.html#a1128faa5f002bc0052e1d94cfd8d54cc',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, DataHandler const &amp;DH)']]]
 ];

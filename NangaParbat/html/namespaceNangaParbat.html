@@ -86,6 +86,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html">FastInterface</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnCeres.html">FcnCeres</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "FcnCeres" class.  <a href="classNangaParbat_1_1FcnCeres.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FcnMinuit.html">FcnMinuit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "FcnMinuit" class is a derived class of of the "FCNBase" mother class of Minuit that returns the figure of merit (&chi;<sup>2</sup>) to be minimised.  <a href="classNangaParbat_1_1FcnMinuit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,6 +96,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mother class that implements the main feautures of a functional parameterisation of non-perturbative functions.  <a href="classNangaParbat_1_1Parameterisation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1PV17.html">PV17</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1PV19.html">PV19</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoBodyPhaseSpace.html">TwoBodyPhaseSpace</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -104,12 +109,24 @@ Functions</h2></td></tr>
 <tr class="separator:aeef9685762d57f0bb3f66373811993c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1128faa5f002bc0052e1d94cfd8d54cc"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a1128faa5f002bc0052e1d94cfd8d54cc">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> const &amp;DH)</td></tr>
 <tr class="separator:a1128faa5f002bc0052e1d94cfd8d54cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330496dec681a55dbfe041d75b2e630f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a330496dec681a55dbfe041d75b2e630f">MinuitMinimiser</a> (<a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2, YAML::Node const &amp;parameters)</td></tr>
+<tr class="memdesc:a330496dec681a55dbfe041d75b2e630f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "MinuitMinimiser" function using Minuit2 as implemented in ROOT.  <a href="#a330496dec681a55dbfe041d75b2e630f">More...</a><br /></td></tr>
+<tr class="separator:a330496dec681a55dbfe041d75b2e630f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01868a35264bf9f7abd61b3436ebd594"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a01868a35264bf9f7abd61b3436ebd594">CeresMinimiser</a> (<a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2, YAML::Node const &amp;parameters)</td></tr>
+<tr class="memdesc:a01868a35264bf9f7abd61b3436ebd594"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "CeresMinimiser" function using ceres-solver.  <a href="#a01868a35264bf9f7abd61b3436ebd594">More...</a><br /></td></tr>
+<tr class="separator:a01868a35264bf9f7abd61b3436ebd594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a024bbace1bd3132ba4e2211cc1518b12"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a024bbace1bd3132ba4e2211cc1518b12">PreprocessE288</a> (std::string const &amp;RawDataPath, std::string const &amp;ProcessedDataPath)</td></tr>
 <tr class="memdesc:a024bbace1bd3132ba4e2211cc1518b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing of the E288 datasets.  <a href="#a024bbace1bd3132ba4e2211cc1518b12">More...</a><br /></td></tr>
 <tr class="separator:a024bbace1bd3132ba4e2211cc1518b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af591d6786971b5956ee09567a6dd29d2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#af591d6786971b5956ee09567a6dd29d2">PreprocessE605</a> (std::string const &amp;RawDataPath, std::string const &amp;ProcessedDataPath)</td></tr>
 <tr class="memdesc:af591d6786971b5956ee09567a6dd29d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing of the E605 datasets.  <a href="#af591d6786971b5956ee09567a6dd29d2">More...</a><br /></td></tr>
 <tr class="separator:af591d6786971b5956ee09567a6dd29d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c89ed1dba16b5e4f71d140544a4175"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a79c89ed1dba16b5e4f71d140544a4175">PreprocessPHENIX200</a> (std::string const &amp;RawDataPath, std::string const &amp;ProcessedDataPath)</td></tr>
+<tr class="memdesc:a79c89ed1dba16b5e4f71d140544a4175"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing of the STAR dataset at 510 GeV.  <a href="#a79c89ed1dba16b5e4f71d140544a4175">More...</a><br /></td></tr>
+<tr class="separator:a79c89ed1dba16b5e4f71d140544a4175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d8f8ff9a930099a151f68a0a4a1920"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a03d8f8ff9a930099a151f68a0a4a1920">PreprocessSTAR510</a> (std::string const &amp;RawDataPath, std::string const &amp;ProcessedDataPath)</td></tr>
+<tr class="memdesc:a03d8f8ff9a930099a151f68a0a4a1920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing of the STAR dataset at 510 GeV.  <a href="#a03d8f8ff9a930099a151f68a0a4a1920">More...</a><br /></td></tr>
+<tr class="separator:a03d8f8ff9a930099a151f68a0a4a1920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ee510c82e32f4decd35bd2f61e7bcad"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a2ee510c82e32f4decd35bd2f61e7bcad">PreprocessCDFRunI</a> (std::string const &amp;RawDataPath, std::string const &amp;ProcessedDataPath)</td></tr>
 <tr class="memdesc:a2ee510c82e32f4decd35bd2f61e7bcad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing of the CDF RunI dataset.  <a href="#a2ee510c82e32f4decd35bd2f61e7bcad">More...</a><br /></td></tr>
 <tr class="separator:a2ee510c82e32f4decd35bd2f61e7bcad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,6 +261,43 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a01868a35264bf9f7abd61b3436ebd594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01868a35264bf9f7abd61b3436ebd594">&#9670;&nbsp;</a></span>CeresMinimiser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NangaParbat::CeresMinimiser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;&#160;</td>
+          <td class="paramname"><em>chi2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">YAML::Node const &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The "CeresMinimiser" function using ceres-solver. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chi2</td><td>the "ChiSquare" object that returns the values of all chi2's </td></tr>
+    <tr><td class="paramname">parameters</td><td>the "YAML::Node" object that contains the parameters to be minimised along with the relevant information </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a48cab3d6c952e89f365ce6d3d5379101"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48cab3d6c952e89f365ce6d3d5379101">&#9670;&nbsp;</a></span>CholeskyDecomposition()</h2>
 
@@ -327,6 +381,43 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a linearly-spaced grid with "n" nodes between "min" and "max" plus "ext" extra nodes on the right. </dd></dl>
+
+</div>
+</div>
+<a id="a330496dec681a55dbfe041d75b2e630f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330496dec681a55dbfe041d75b2e630f">&#9670;&nbsp;</a></span>MinuitMinimiser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NangaParbat::MinuitMinimiser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;&#160;</td>
+          <td class="paramname"><em>chi2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">YAML::Node const &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The "MinuitMinimiser" function using Minuit2 as implemented in ROOT. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chi2</td><td>the "ChiSquare" object that returns the values of all chi2's </td></tr>
+    <tr><td class="paramname">parameters</td><td>the "YAML::Node" object that contains the parameters to be minimised along with the relevant information </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -882,6 +973,82 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a79c89ed1dba16b5e4f71d140544a4175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c89ed1dba16b5e4f71d140544a4175">&#9670;&nbsp;</a></span>PreprocessPHENIX200()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string NangaParbat::PreprocessPHENIX200 </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>RawDataPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>ProcessedDataPath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Preprocessing of the STAR dataset at 510 GeV. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">RawDataPath</td><td>the path to the raw-data folder </td></tr>
+    <tr><td class="paramname">ProcessedDataPath</td><td>the path to the folder where the processed data will be stored </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the coordinate string </dd></dl>
+
+</div>
+</div>
+<a id="a03d8f8ff9a930099a151f68a0a4a1920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d8f8ff9a930099a151f68a0a4a1920">&#9670;&nbsp;</a></span>PreprocessSTAR510()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string NangaParbat::PreprocessSTAR510 </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>RawDataPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>ProcessedDataPath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Preprocessing of the STAR dataset at 510 GeV. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">RawDataPath</td><td>the path to the raw-data folder </td></tr>
+    <tr><td class="paramname">ProcessedDataPath</td><td>the path to the folder where the processed data will be stored </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the coordinate string </dd></dl>
+
+</div>
+</div>
 <a id="a8f20573b47444b73bfb8dad711c98d86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f20573b47444b73bfb8dad711c98d86">&#9670;&nbsp;</a></span>SolveLowerSystem()</h2>
 
@@ -999,7 +1166,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 7 2019 16:25:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 18 2019 17:08:41 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

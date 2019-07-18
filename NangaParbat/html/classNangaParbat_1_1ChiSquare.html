@@ -94,6 +94,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a0040adcfa695c35c4b895dcd96cf0d5a">AddBlock</a> (std::pair&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>, <a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a> &gt; const &amp;DSBlock)</td></tr>
 <tr class="memdesc:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add ("DataHandler","ConvolutionTable") pair block to the "DSVect" vector.  <a href="#a0040adcfa695c35c4b895dcd96cf0d5a">More...</a><br /></td></tr>
 <tr class="separator:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1175db6a95d82001ec9bf33e5a343f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#abd1175db6a95d82001ec9bf33e5a343f">GetResiduals</a> (int const &amp;ids) const</td></tr>
+<tr class="memdesc:abd1175db6a95d82001ec9bf33e5a343f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the residuals of the chi2 deriving from the Cholesky decomposition of the covariance matrix.  <a href="#abd1175db6a95d82001ec9bf33e5a343f">More...</a><br /></td></tr>
+<tr class="separator:abd1175db6a95d82001ec9bf33e5a343f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e2e6bba4fef685405a7362754dc168"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a09e2e6bba4fef685405a7362754dc168">Evaluate</a> (int const &amp;ids=-1) const</td></tr>
 <tr class="memdesc:a09e2e6bba4fef685405a7362754dc168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the &chi;<sup>2</sup>'s.  <a href="#a09e2e6bba4fef685405a7362754dc168">More...</a><br /></td></tr>
 <tr class="separator:a09e2e6bba4fef685405a7362754dc168"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,18 +106,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0765583bbe91ba79d3668a22bfb4020c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a0765583bbe91ba79d3668a22bfb4020c">SetParameters</a> (std::vector&lt; double &gt; const &amp;pars)</td></tr>
 <tr class="memdesc:a0765583bbe91ba79d3668a22bfb4020c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that sets the free parameters of the parameterisation.  <a href="#a0765583bbe91ba79d3668a22bfb4020c">More...</a><br /></td></tr>
 <tr class="separator:a0765583bbe91ba79d3668a22bfb4020c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad65b46c90b0c267ad486e653a1519da0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>, <a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#ad65b46c90b0c267ad486e653a1519da0">GetBlocks</a> () const</td></tr>
+<tr class="memdesc:ad65b46c90b0c267ad486e653a1519da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the vector of ("DataHandler", "ConvolutionTable") object-pairs for all the datasets.  <a href="#ad65b46c90b0c267ad486e653a1519da0">More...</a><br /></td></tr>
+<tr class="separator:ad65b46c90b0c267ad486e653a1519da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16350a6de6b2813e5cc9d79d1f1c1e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#ab16350a6de6b2813e5cc9d79d1f1c1e4">GetNonPerturbativeFunction</a> () const</td></tr>
+<tr class="memdesc:ab16350a6de6b2813e5cc9d79d1f1c1e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the "Parameterisation" object associated to this chisquare object.  <a href="#ab16350a6de6b2813e5cc9d79d1f1c1e4">More...</a><br /></td></tr>
+<tr class="separator:ab16350a6de6b2813e5cc9d79d1f1c1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09b141f1c695b358c2976d16b28dfa3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#ab09b141f1c695b358c2976d16b28dfa3">GetCutqToverQ</a> () const</td></tr>
+<tr class="memdesc:ab09b141f1c695b358c2976d16b28dfa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns value of the cut in qT / Q.  <a href="#ab09b141f1c695b358c2976d16b28dfa3">More...</a><br /></td></tr>
+<tr class="separator:ab09b141f1c695b358c2976d16b28dfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a195c99355a933cdbe33c8470e9d0e3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a0a195c99355a933cdbe33c8470e9d0e3">GetDataPointNumbers</a> () const</td></tr>
 <tr class="memdesc:a0a195c99355a933cdbe33c8470e9d0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that gets the number of data points that pass the qT / Q cut for each data set in the form of a vector of integers.  <a href="#a0a195c99355a933cdbe33c8470e9d0e3">More...</a><br /></td></tr>
 <tr class="separator:a0a195c99355a933cdbe33c8470e9d0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a137f6d015d018462453676bc4358d394"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a137f6d015d018462453676bc4358d394">GetNumberOfExperiments</a> () const</td></tr>
 <tr class="memdesc:a137f6d015d018462453676bc4358d394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the number of experiments.  <a href="#a137f6d015d018462453676bc4358d394">More...</a><br /></td></tr>
 <tr class="separator:a137f6d015d018462453676bc4358d394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e2914c511393d54fbac48e978cd2b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#af6e2914c511393d54fbac48e978cd2b2">GetNumberOfParameters</a> () const</td></tr>
+<tr class="memdesc:af6e2914c511393d54fbac48e978cd2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the number of parameters of the parameterisation objects.  <a href="#af6e2914c511393d54fbac48e978cd2b2">More...</a><br /></td></tr>
+<tr class="separator:af6e2914c511393d54fbac48e978cd2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8614ecef31a294777ebd11f3dabd7483"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a8614ecef31a294777ebd11f3dabd7483">GetParameters</a> () const</td></tr>
+<tr class="memdesc:a8614ecef31a294777ebd11f3dabd7483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the parameters of the parameterisation objects.  <a href="#a8614ecef31a294777ebd11f3dabd7483">More...</a><br /></td></tr>
+<tr class="separator:a8614ecef31a294777ebd11f3dabd7483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a8e36c5363b029a9a2995db58a249001b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>, <a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a8e36c5363b029a9a2995db58a249001b">_DSVect</a></td></tr>
-<tr class="memdesc:a8e36c5363b029a9a2995db58a249001b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of "DataHandler-ConcolutionTable" pairs.  <a href="#a8e36c5363b029a9a2995db58a249001b">More...</a><br /></td></tr>
-<tr class="separator:a8e36c5363b029a9a2995db58a249001b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe56b5c10c91e3eb17a4d49d62dd02cf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>, <a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#abe56b5c10c91e3eb17a4d49d62dd02cf">_DSVect</a></td></tr>
+<tr class="memdesc:abe56b5c10c91e3eb17a4d49d62dd02cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of "DataHandler-ConcolutionTable" pairs.  <a href="#abe56b5c10c91e3eb17a4d49d62dd02cf">More...</a><br /></td></tr>
+<tr class="separator:abe56b5c10c91e3eb17a4d49d62dd02cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb825dc6acf224c3dcc503ccf9d13865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#acb825dc6acf224c3dcc503ccf9d13865">_NPFunc</a></td></tr>
 <tr class="memdesc:acb825dc6acf224c3dcc503ccf9d13865"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">Parameterisation</a> of the non-perturbative component.  <a href="#acb825dc6acf224c3dcc503ccf9d13865">More...</a><br /></td></tr>
 <tr class="separator:acb825dc6acf224c3dcc503ccf9d13865"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,6 +285,62 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ad65b46c90b0c267ad486e653a1519da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad65b46c90b0c267ad486e653a1519da0">&#9670;&nbsp;</a></span>GetBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>, <a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a>&gt; &gt; NangaParbat::ChiSquare::GetBlocks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the vector of ("DataHandler", "ConvolutionTable") object-pairs for all the datasets. </p>
+<dl class="section return"><dt>Returns</dt><dd>The vector of ("DataHandler", "ConvolutionTable") object-pairs </dd></dl>
+
+</div>
+</div>
+<a id="ab09b141f1c695b358c2976d16b28dfa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab09b141f1c695b358c2976d16b28dfa3">&#9670;&nbsp;</a></span>GetCutqToverQ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::ChiSquare::GetCutqToverQ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns value of the cut in qT / Q. </p>
+<dl class="section return"><dt>Returns</dt><dd>The cut in qT / Q </dd></dl>
+
+</div>
+</div>
 <a id="a0a195c99355a933cdbe33c8470e9d0e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a195c99355a933cdbe33c8470e9d0e3">&#9670;&nbsp;</a></span>GetDataPointNumbers()</h2>
 
@@ -295,6 +369,34 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ab16350a6de6b2813e5cc9d79d1f1c1e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab16350a6de6b2813e5cc9d79d1f1c1e4">&#9670;&nbsp;</a></span>GetNonPerturbativeFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a>&amp; NangaParbat::ChiSquare::GetNonPerturbativeFunction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the "Parameterisation" object associated to this chisquare object. </p>
+<dl class="section return"><dt>Returns</dt><dd>The "Parameterisation" object </dd></dl>
+
+</div>
+</div>
 <a id="a137f6d015d018462453676bc4358d394"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a137f6d015d018462453676bc4358d394">&#9670;&nbsp;</a></span>GetNumberOfExperiments()</h2>
 
@@ -320,6 +422,89 @@ Friends</h2></td></tr>
 
 <p>Function that returns the number of experiments. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of experiments. </dd></dl>
+
+</div>
+</div>
+<a id="af6e2914c511393d54fbac48e978cd2b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e2914c511393d54fbac48e978cd2b2">&#9670;&nbsp;</a></span>GetNumberOfParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NangaParbat::ChiSquare::GetNumberOfParameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the number of parameters of the parameterisation objects. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of parameters. </dd></dl>
+
+</div>
+</div>
+<a id="a8614ecef31a294777ebd11f3dabd7483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8614ecef31a294777ebd11f3dabd7483">&#9670;&nbsp;</a></span>GetParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ChiSquare::GetParameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the parameters of the parameterisation objects. </p>
+<dl class="section return"><dt>Returns</dt><dd>The vector containing the parameters. </dd></dl>
+
+</div>
+</div>
+<a id="abd1175db6a95d82001ec9bf33e5a343f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1175db6a95d82001ec9bf33e5a343f">&#9670;&nbsp;</a></span>GetResiduals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ChiSquare::GetResiduals </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ids</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that returns the residuals of the chi2 deriving from the Cholesky decomposition of the covariance matrix. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ids</td><td>the dataset index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the vector of residuals </dd></dl>
 
 </div>
 </div>
@@ -425,8 +610,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8e36c5363b029a9a2995db58a249001b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e36c5363b029a9a2995db58a249001b">&#9670;&nbsp;</a></span>_DSVect</h2>
+<a id="abe56b5c10c91e3eb17a4d49d62dd02cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe56b5c10c91e3eb17a4d49d62dd02cf">&#9670;&nbsp;</a></span>_DSVect</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -435,7 +620,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>,<a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a>&gt; &gt; NangaParbat::ChiSquare::_DSVect</td>
+          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>, <a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a>&gt; &gt; NangaParbat::ChiSquare::_DSVect</td>
         </tr>
       </table>
   </td>
@@ -527,7 +712,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jul 7 2019 16:25:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 18 2019 17:08:41 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

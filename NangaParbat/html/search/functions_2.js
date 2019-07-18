@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ceresminimiser',['CeresMinimiser',['../namespaceNangaParbat.html#a01868a35264bf9f7abd61b3436ebd594',1,'NangaParbat']]],
   ['chisquare',['ChiSquare',['../classNangaParbat_1_1ChiSquare.html#aed3871a7ae457dc7d010c88cae2b3dc6',1,'NangaParbat::ChiSquare::ChiSquare(std::vector&lt; std::pair&lt; DataHandler, ConvolutionTable &gt;&gt; const &amp;DSVect, Parameterisation &amp;NPFunc, double const &amp;qToQMax=100)'],['../classNangaParbat_1_1ChiSquare.html#aa889b0ed67650eb197339868f049b5dd',1,'NangaParbat::ChiSquare::ChiSquare(Parameterisation &amp;NPFunc, double const &amp;qToQMax=100)']]],
   ['choleskydecomposition',['CholeskyDecomposition',['../namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101',1,'NangaParbat']]],
   ['computetables',['ComputeTables',['../classNangaParbat_1_1FastInterface.html#ad83a34b3881ace113da406c18f6b88bd',1,'NangaParbat::FastInterface']]],
