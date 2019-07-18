@@ -70,7 +70,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classNangaParbat_1_1TwoBodyPhaseSpace-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">NangaParbat::TwoBodyPhaseSpace Class Reference</div>  </div>
@@ -93,14 +92,17 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ga1348dd0efd0d427891c883b157665490"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Cuts.html#ga1348dd0efd0d427891c883b157665490">_pTmin</a></td></tr>
-<tr class="separator:ga1348dd0efd0d427891c883b157665490"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9bbdf7ad4f4542b56a14d6f7b74d8a6f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Cuts.html#ga9bbdf7ad4f4542b56a14d6f7b74d8a6f">_etamin</a></td></tr>
-<tr class="separator:ga9bbdf7ad4f4542b56a14d6f7b74d8a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c35b5fe78a79cb3288fca3368b691a4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Cuts.html#ga6c35b5fe78a79cb3288fca3368b691a4">_etamax</a></td></tr>
-<tr class="separator:ga6c35b5fe78a79cb3288fca3368b691a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga68ef3597ab0bed53df65b57f47fce21b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Cuts.html#ga68ef3597ab0bed53df65b57f47fce21b">_eps</a></td></tr>
-<tr class="separator:ga68ef3597ab0bed53df65b57f47fce21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Cut variables</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Cut Variables that define the cuts on the single leptons </p>
+</div></td></tr>
+<tr class="memitem:a1348dd0efd0d427891c883b157665490"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoBodyPhaseSpace.html#a1348dd0efd0d427891c883b157665490">_pTmin</a></td></tr>
+<tr class="separator:a1348dd0efd0d427891c883b157665490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bbdf7ad4f4542b56a14d6f7b74d8a6f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoBodyPhaseSpace.html#a9bbdf7ad4f4542b56a14d6f7b74d8a6f">_etamin</a></td></tr>
+<tr class="separator:a9bbdf7ad4f4542b56a14d6f7b74d8a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c35b5fe78a79cb3288fca3368b691a4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoBodyPhaseSpace.html#a6c35b5fe78a79cb3288fca3368b691a4">_etamax</a></td></tr>
+<tr class="separator:a6c35b5fe78a79cb3288fca3368b691a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ef3597ab0bed53df65b57f47fce21b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoBodyPhaseSpace.html#a68ef3597ab0bed53df65b57f47fce21b">_eps</a></td></tr>
+<tr class="separator:a68ef3597ab0bed53df65b57f47fce21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section note"><dt>Note</dt><dd>Calculate the phase-space volume within cuts relative to total phase-space for: q -&gt; k + kb with: k_T &gt; pTmin &amp;&amp; kb_T &gt; pTmin |eta| &lt; etamax &amp;&amp; |etab| &lt; etamax </dd></dl>
@@ -249,13 +251,102 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a68ef3597ab0bed53df65b57f47fce21b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ef3597ab0bed53df65b57f47fce21b">&#9670;&nbsp;</a></span>_eps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::TwoBodyPhaseSpace::_eps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c35b5fe78a79cb3288fca3368b691a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c35b5fe78a79cb3288fca3368b691a4">&#9670;&nbsp;</a></span>_etamax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::TwoBodyPhaseSpace::_etamax</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bbdf7ad4f4542b56a14d6f7b74d8a6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bbdf7ad4f4542b56a14d6f7b74d8a6f">&#9670;&nbsp;</a></span>_etamin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::TwoBodyPhaseSpace::_etamin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1348dd0efd0d427891c883b157665490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1348dd0efd0d427891c883b157665490">&#9670;&nbsp;</a></span>_pTmin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::TwoBodyPhaseSpace::_pTmin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/Users/vbertone/Codes/NangaParbat/inc/NangaParbat/<a class="el" href="twobodyphasespace_8h_source.html">twobodyphasespace.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 18 2019 17:08:41 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 18 2019 17:17:16 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

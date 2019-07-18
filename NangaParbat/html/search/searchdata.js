@@ -9,8 +9,7 @@ var indexSectionsWithContent =
   6: "p",
   7: "dsu",
   8: "o",
-  9: "v",
-  10: "gv"
+  9: "v"
 };
 
 var indexSectionNames =
@@ -24,8 +23,7 @@ var indexSectionNames =
   6: "enums",
   7: "enumvalues",
   8: "related",
-  9: "defines",
-  10: "groups"
+  9: "defines"
 };
 
 var indexSectionLabels =
@@ -39,7 +37,6 @@ var indexSectionLabels =
   6: "Enumerations",
   7: "Enumerator",
   8: "Friends",
-  9: "Macros",
-  10: "Modules"
+  9: "Macros"
 };
 
