@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4942bd403c8068d66633315f8e3deb9e"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a4942bd403c8068d66633315f8e3deb9e">GetCholeskyDecomposition</a> () const</td></tr>
 <tr class="memdesc:a4942bd403c8068d66633315f8e3deb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the Cholesky decomposition of the covariance matrix.  <a href="#a4942bd403c8068d66633315f8e3deb9e">More...</a><br /></td></tr>
 <tr class="separator:a4942bd403c8068d66633315f8e3deb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b6d5612666201ba661c3525f7cf38d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a66b6d5612666201ba661c3525f7cf38d">GetLabels</a> () const</td></tr>
+<tr class="memdesc:a66b6d5612666201ba661c3525f7cf38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the plotting labels.  <a href="#a66b6d5612666201ba661c3525f7cf38d">More...</a><br /></td></tr>
+<tr class="separator:a66b6d5612666201ba661c3525f7cf38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -180,6 +183,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a87bd9bb79aea730afed58e46836a6914"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a87bd9bb79aea730afed58e46836a6914">_CholL</a></td></tr>
 <tr class="memdesc:a87bd9bb79aea730afed58e46836a6914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition of the covariance matrix.  <a href="#a87bd9bb79aea730afed58e46836a6914">More...</a><br /></td></tr>
 <tr class="separator:a87bd9bb79aea730afed58e46836a6914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bac590ff89444ecceac80890bddd6dc"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a7bac590ff89444ecceac80890bddd6dc">_labels</a></td></tr>
+<tr class="memdesc:a7bac590ff89444ecceac80890bddd6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Labels used for plotting.  <a href="#a7bac590ff89444ecceac80890bddd6dc">More...</a><br /></td></tr>
+<tr class="separator:a7bac590ff89444ecceac80890bddd6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -383,6 +389,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function that returns the kinematic object. </p>
+
+</div>
+</div>
+<a id="a66b6d5612666201ba661c3525f7cf38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b6d5612666201ba661c3525f7cf38d">&#9670;&nbsp;</a></span>GetLabels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::string&gt; NangaParbat::DataHandler::GetLabels </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the plotting labels. </p>
 
 </div>
 </div>
@@ -758,6 +791,30 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a7bac590ff89444ecceac80890bddd6dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bac590ff89444ecceac80890bddd6dc">&#9670;&nbsp;</a></span>_labels</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::string&gt; NangaParbat::DataHandler::_labels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Labels used for plotting. </p>
+
+</div>
+</div>
 <a id="a037a1181df5d5f74328a325e04a012a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a037a1181df5d5f74328a325e04a012a1">&#9670;&nbsp;</a></span>_mean</h2>
 
@@ -908,7 +965,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 18 2019 17:20:53 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 19 2019 22:42:39 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

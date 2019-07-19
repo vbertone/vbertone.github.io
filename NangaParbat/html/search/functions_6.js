@@ -10,6 +10,7 @@ var searchData=
   ['getcutqtoverq',['GetCutqToverQ',['../classNangaParbat_1_1ChiSquare.html#ab09b141f1c695b358c2976d16b28dfa3',1,'NangaParbat::ChiSquare']]],
   ['getdatapointnumbers',['GetDataPointNumbers',['../classNangaParbat_1_1ChiSquare.html#a0a195c99355a933cdbe33c8470e9d0e3',1,'NangaParbat::ChiSquare']]],
   ['getkinematics',['GetKinematics',['../classNangaParbat_1_1DataHandler.html#a4d7a2c22d20957c995e55420cd5c7a7f',1,'NangaParbat::DataHandler']]],
+  ['getlabels',['GetLabels',['../classNangaParbat_1_1DataHandler.html#a66b6d5612666201ba661c3525f7cf38d',1,'NangaParbat::DataHandler']]],
   ['getmeanvalues',['GetMeanValues',['../classNangaParbat_1_1DataHandler.html#afc1287523dc18554fdd983b924bbc07a',1,'NangaParbat::DataHandler']]],
   ['getmultcorrelatedunc',['GetMultCorrelatedUnc',['../classNangaParbat_1_1DataHandler.html#a6c76974e675ae7ff02815734ae0f35b9',1,'NangaParbat::DataHandler']]],
   ['getname',['GetName',['../classNangaParbat_1_1ConvolutionTable.html#a035549a1a6df5e5b9342476241277da2',1,'NangaParbat::ConvolutionTable::GetName()'],['../classNangaParbat_1_1DataHandler.html#a40f4979e8b9b38c8719a612755366616',1,'NangaParbat::DataHandler::GetName()'],['../classNangaParbat_1_1Parameterisation.html#a935081bd7c9e97da63b7af8a092f4784',1,'NangaParbat::Parameterisation::GetName()']]],

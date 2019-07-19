@@ -18,6 +18,7 @@ var searchData=
   ['_5fgpdf',['_gpdf',['../classNangaParbat_1_1FastInterface.html#aa7180ba0238e95e3f8baac08f23d3900',1,'NangaParbat::FastInterface']]],
   ['_5fintqt',['_IntqT',['../classNangaParbat_1_1ConvolutionTable.html#ae08fe53ee3eb93f0c0087e2a5cb9ac79',1,'NangaParbat::ConvolutionTable']]],
   ['_5fkin',['_kin',['../classNangaParbat_1_1DataHandler.html#a7d600de06f7cb1e49b9eb152ab8f43d7',1,'NangaParbat::DataHandler']]],
+  ['_5flabels',['_labels',['../classNangaParbat_1_1DataHandler.html#a7bac590ff89444ecceac80890bddd6dc',1,'NangaParbat::DataHandler']]],
   ['_5fmean',['_mean',['../classNangaParbat_1_1DataHandler.html#a037a1181df5d5f74328a325e04a012a1',1,'NangaParbat::DataHandler']]],
   ['_5fname',['_name',['../classNangaParbat_1_1ConvolutionTable.html#a57917cd26ad8eabb72d92fe817d21197',1,'NangaParbat::ConvolutionTable::_name()'],['../classNangaParbat_1_1DataHandler.html#aa2604347766ab241625f793182c69f0a',1,'NangaParbat::DataHandler::_name()'],['../classNangaParbat_1_1Parameterisation.html#a519dbcb842f54b6a6ca1d5c89994f88b',1,'NangaParbat::Parameterisation::_name()']]],
   ['_5fndata',['_ndata',['../classNangaParbat_1_1ChiSquare.html#a84755705f813e563c381726dd6ac6b1d',1,'NangaParbat::ChiSquare']]],
