@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['nangaparbat',['NangaParbat',['../namespaceNangaParbat.html',1,'']]],
-  ['ndata',['ndata',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a8f8327956f4f57d0ea91a588737c3c3d',1,'NangaParbat::DataHandler::Kinematics']]]
+  ['main_2edox',['main.dox',['../main_8dox.html',1,'']]],
+  ['minimisation_2eh',['minimisation.h',['../minimisation_8h.html',1,'']]],
+  ['minuitminimiser',['MinuitMinimiser',['../namespaceNangaParbat.html#a330496dec681a55dbfe041d75b2e630f',1,'NangaParbat']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7eparameterisation',['~Parameterisation',['../classNangaParbat_1_1Parameterisation.html#a4c742bfdee93832a246cfdd4f307203e',1,'NangaParbat::Parameterisation']]]
+  ['twobodyphasespace',['TwoBodyPhaseSpace',['../classNangaParbat_1_1TwoBodyPhaseSpace.html#a077abbc585ea2e957a1c71f7dde6b912',1,'NangaParbat::TwoBodyPhaseSpace']]]
 ];

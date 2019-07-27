@@ -87,17 +87,17 @@ Inheritance diagram for NangaParbat::Parameterisation:</div>
  <div class="center">
   <img src="classNangaParbat_1_1Parameterisation.png" usemap="#NangaParbat::Parameterisation_map" alt=""/>
   <map id="NangaParbat::Parameterisation_map" name="NangaParbat::Parameterisation_map">
-<area href="classNangaParbat_1_1DWS.html" alt="NangaParbat::DWS" shape="rect" coords="0,56,186,80"/>
-<area href="classNangaParbat_1_1PV17.html" alt="NangaParbat::PV17" shape="rect" coords="196,56,382,80"/>
-<area href="classNangaParbat_1_1PV19.html" alt="NangaParbat::PV19" shape="rect" coords="392,56,578,80"/>
+<area href="classNangaParbat_1_1DWS.html" title="Davies-Webber-Stirling parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::DWS" shape="rect" coords="0,56,186,80"/>
+<area href="classNangaParbat_1_1PV17.html" title="Pavia 20117 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::PV17" shape="rect" coords="196,56,382,80"/>
+<area href="classNangaParbat_1_1PV19.html" title="Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::PV19" shape="rect" coords="392,56,578,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#aef7e0ff7abff2d38f562c44eaccfdc9c">Parameterisation</a> (std::string const &amp;name, int const &amp;nfuncs=0, std::vector&lt; double &gt; pars={})</td></tr>
-<tr class="memdesc:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="#aef7e0ff7abff2d38f562c44eaccfdc9c">More...</a><br /></td></tr>
-<tr class="separator:aef7e0ff7abff2d38f562c44eaccfdc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95be9c1573e016b68c7f6a400ee50b06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a95be9c1573e016b68c7f6a400ee50b06">Parameterisation</a> (std::string const &amp;name, int const &amp;nfuncs=0, std::vector&lt; double &gt; pars={}, bool const &amp;anders=false)</td></tr>
+<tr class="memdesc:a95be9c1573e016b68c7f6a400ee50b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="#a95be9c1573e016b68c7f6a400ee50b06">More...</a><br /></td></tr>
+<tr class="separator:a95be9c1573e016b68c7f6a400ee50b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c742bfdee93832a246cfdd4f307203e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a4c742bfdee93832a246cfdd4f307203e">~Parameterisation</a> ()</td></tr>
 <tr class="memdesc:a4c742bfdee93832a246cfdd4f307203e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" destructor.  <a href="#a4c742bfdee93832a246cfdd4f307203e">More...</a><br /></td></tr>
 <tr class="separator:a4c742bfdee93832a246cfdd4f307203e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,9 +107,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a730656b1a224b1f28e7220ba33e70acf"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a730656b1a224b1f28e7220ba33e70acf">Evaluate</a> (double const &amp;x, double const &amp;b, double const &amp;zeta, int const &amp;ifunc) const</td></tr>
 <tr class="memdesc:a730656b1a224b1f28e7220ba33e70acf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns the value of one of the functions.  <a href="#a730656b1a224b1f28e7220ba33e70acf">More...</a><br /></td></tr>
 <tr class="separator:a730656b1a224b1f28e7220ba33e70acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a015d347223374dced3702f0ac3669925"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;, int const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a015d347223374dced3702f0ac3669925">Function</a> () const</td></tr>
+<tr class="memdesc:a015d347223374dced3702f0ac3669925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the parametrisation in the form of a std::function.  <a href="#a015d347223374dced3702f0ac3669925">More...</a><br /></td></tr>
+<tr class="separator:a015d347223374dced3702f0ac3669925"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3469fb8e0a3ec388bdfe0e05959350a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a">Derive</a> (double const &amp;x, double const &amp;b, double const &amp;zeta, int const &amp;ifunc, int const &amp;ipar) const</td></tr>
 <tr class="memdesc:ac3469fb8e0a3ec388bdfe0e05959350a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns the value of the derivative of one of the functions.  <a href="#ac3469fb8e0a3ec388bdfe0e05959350a">More...</a><br /></td></tr>
 <tr class="separator:ac3469fb8e0a3ec388bdfe0e05959350a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af45d8475b351a4c54bf46028cf0a3916"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;, int const  &amp;, int const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#af45d8475b351a4c54bf46028cf0a3916">Derivative</a> () const</td></tr>
+<tr class="memdesc:af45d8475b351a4c54bf46028cf0a3916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the derivative of the parametrisation in the form of a std::function.  <a href="#af45d8475b351a4c54bf46028cf0a3916">More...</a><br /></td></tr>
+<tr class="separator:af45d8475b351a4c54bf46028cf0a3916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698f18b4a96859c42973ff6e7199a0d7"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a698f18b4a96859c42973ff6e7199a0d7">LatexFormula</a> () const</td></tr>
+<tr class="memdesc:a698f18b4a96859c42973ff6e7199a0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns a string with the formula of the non-perturbative function(s) in LaTex format.  <a href="#a698f18b4a96859c42973ff6e7199a0d7">More...</a><br /></td></tr>
+<tr class="separator:a698f18b4a96859c42973ff6e7199a0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Getters</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Functions to retrieve the feauture of the parameterisation </p>
 </div></td></tr>
@@ -119,6 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2ae7e1580c8eaf915143c31dbd516c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32017cc14920bb6e4dfd353095e31f44"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a32017cc14920bb6e4dfd353095e31f44">GetParameters</a> () const</td></tr>
 <tr class="separator:a32017cc14920bb6e4dfd353095e31f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8e4ccac1d0b59f8458d075392b5b1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a9d8e4ccac1d0b59f8458d075392b5b1a">HasGradient</a> () const</td></tr>
+<tr class="separator:a9d8e4ccac1d0b59f8458d075392b5b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -131,12 +142,15 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6193444ebb514b37dbaf61cea145cc91"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91">_pars</a></td></tr>
 <tr class="memdesc:a6193444ebb514b37dbaf61cea145cc91"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vector of free parameters.  <a href="#a6193444ebb514b37dbaf61cea145cc91">More...</a><br /></td></tr>
 <tr class="separator:a6193444ebb514b37dbaf61cea145cc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4dd803c6fca21273599fb52df23245f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#af4dd803c6fca21273599fb52df23245f">_anders</a></td></tr>
+<tr class="memdesc:af4dd803c6fca21273599fb52df23245f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the parametersation provides analytic derivatives.  <a href="#af4dd803c6fca21273599fb52df23245f">More...</a><br /></td></tr>
+<tr class="separator:af4dd803c6fca21273599fb52df23245f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Mother class that implements the main feautures of a functional parameterisation of non-perturbative functions. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aef7e0ff7abff2d38f562c44eaccfdc9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef7e0ff7abff2d38f562c44eaccfdc9c">&#9670;&nbsp;</a></span>Parameterisation()</h2>
+<a id="a95be9c1573e016b68c7f6a400ee50b06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95be9c1573e016b68c7f6a400ee50b06">&#9670;&nbsp;</a></span>Parameterisation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +171,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
-          <td class="paramname"><em>pars</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>pars</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool const &amp;&#160;</td>
+          <td class="paramname"><em>anders</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -199,6 +219,25 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af45d8475b351a4c54bf46028cf0a3916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af45d8475b351a4c54bf46028cf0a3916">&#9670;&nbsp;</a></span>Derivative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;double(double const&amp;, double const&amp;, double const&amp;, int const&amp;, int const&amp;)&gt; NangaParbat::Parameterisation::Derivative </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that returns the derivative of the parametrisation in the form of a std::function. </p>
+
+</div>
+</div>
 <a id="ac3469fb8e0a3ec388bdfe0e05959350a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3469fb8e0a3ec388bdfe0e05959350a">&#9670;&nbsp;</a></span>Derive()</h2>
 
@@ -264,6 +303,8 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>it returns the value of the derivative w.r.t. the ipar-th parameter of the ifunc-th function at (x, b, &zeta;) </dd></dl>
 
+<p>Reimplemented in <a class="el" href="classNangaParbat_1_1DWS.html#a8ac50ad6fa564b41550fa8933fd13d9a">NangaParbat::DWS</a>.</p>
+
 </div>
 </div>
 <a id="a730656b1a224b1f28e7220ba33e70acf"></a>
@@ -324,7 +365,26 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>it returns the value of the ifunc-th function at (x, b, &zeta;) </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a335730bffaa8b4fc05c5109ce2541353">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1DWS.html#a2a7a61b4931aac7f1396d6444a3bf22b">NangaParbat::DWS</a>, and <a class="el" href="classNangaParbat_1_1PV17.html#a4386aa3047b64b38196d73b68b78e001">NangaParbat::PV17</a>.</p>
+<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a335730bffaa8b4fc05c5109ce2541353">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1DWS.html#a267d0bc775f60670ac1c7dc37ad57a30">NangaParbat::DWS</a>, and <a class="el" href="classNangaParbat_1_1PV17.html#a4386aa3047b64b38196d73b68b78e001">NangaParbat::PV17</a>.</p>
+
+</div>
+</div>
+<a id="a015d347223374dced3702f0ac3669925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a015d347223374dced3702f0ac3669925">&#9670;&nbsp;</a></span>Function()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;double(double const&amp;, double const&amp;, double const&amp;, int const&amp;)&gt; NangaParbat::Parameterisation::Function </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that returns the parametrisation in the form of a std::function. </p>
 
 </div>
 </div>
@@ -403,6 +463,60 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d8e4ccac1d0b59f8458d075392b5b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8e4ccac1d0b59f8458d075392b5b1a">&#9670;&nbsp;</a></span>HasGradient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NangaParbat::Parameterisation::HasGradient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a698f18b4a96859c42973ff6e7199a0d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698f18b4a96859c42973ff6e7199a0d7">&#9670;&nbsp;</a></span>LatexFormula()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string NangaParbat::Parameterisation::LatexFormula </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Virtual function that returns a string with the formula of the non-perturbative function(s) in LaTex format. </p>
+
+<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a513ca0ac3ae144a8fad2844c89bc9fc9">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1DWS.html#a8cab43420ccdace5f9508dc7ad9692cc">NangaParbat::DWS</a>, and <a class="el" href="classNangaParbat_1_1PV17.html#af29e571ff6319aea151506974ac75242">NangaParbat::PV17</a>.</p>
+
+</div>
+</div>
 <a id="a99ca4a5fdbad38d23457c75ed434d7f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99ca4a5fdbad38d23457c75ed434d7f9">&#9670;&nbsp;</a></span>SetParameters()</h2>
 
@@ -438,6 +552,30 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af4dd803c6fca21273599fb52df23245f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4dd803c6fca21273599fb52df23245f">&#9670;&nbsp;</a></span>_anders</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NangaParbat::Parameterisation::_anders</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the parametersation provides analytic derivatives. </p>
+
+</div>
+</div>
 <a id="a519dbcb842f54b6a6ca1d5c89994f88b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a519dbcb842f54b6a6ca1d5c89994f88b">&#9670;&nbsp;</a></span>_name</h2>
 
@@ -516,7 +654,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 19 2019 22:42:39 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jul 27 2019 14:21:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

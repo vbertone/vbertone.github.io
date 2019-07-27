@@ -70,11 +70,15 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classNangaParbat_1_1DWS-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">NangaParbat::DWS Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Davies-Webber-Stirling parameterisation derived from the "Parameterisation" mother class.  
+ <a href="classNangaParbat_1_1DWS.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="DWS_8h_source.html">DWS.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -91,28 +95,44 @@ Inheritance diagram for NangaParbat::DWS:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3b24e0e269c2cafc9a04c121869622f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DWS.html#ab3b24e0e269c2cafc9a04c121869622f">DWS</a> ()</td></tr>
 <tr class="separator:ab3b24e0e269c2cafc9a04c121869622f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a7a61b4931aac7f1396d6444a3bf22b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DWS.html#a2a7a61b4931aac7f1396d6444a3bf22b">Evaluate</a> (double const &amp;x, double const &amp;b, double const &amp;zeta, int const &amp;ifunc) const</td></tr>
-<tr class="memdesc:a2a7a61b4931aac7f1396d6444a3bf22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns the value of one of the functions.  <a href="#a2a7a61b4931aac7f1396d6444a3bf22b">More...</a><br /></td></tr>
-<tr class="separator:a2a7a61b4931aac7f1396d6444a3bf22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a267d0bc775f60670ac1c7dc37ad57a30"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DWS.html#a267d0bc775f60670ac1c7dc37ad57a30">Evaluate</a> (double const &amp;, double const &amp;b, double const &amp;zeta, int const &amp;ifunc) const</td></tr>
+<tr class="memdesc:a267d0bc775f60670ac1c7dc37ad57a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns the value of one of the functions.  <a href="#a267d0bc775f60670ac1c7dc37ad57a30">More...</a><br /></td></tr>
+<tr class="separator:a267d0bc775f60670ac1c7dc37ad57a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac50ad6fa564b41550fa8933fd13d9a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DWS.html#a8ac50ad6fa564b41550fa8933fd13d9a">Derive</a> (double const &amp;, double const &amp;b, double const &amp;zeta, int const &amp;ifunc, int const &amp;ipar) const</td></tr>
+<tr class="memdesc:a8ac50ad6fa564b41550fa8933fd13d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns the value of the derivative of one of the functions.  <a href="#a8ac50ad6fa564b41550fa8933fd13d9a">More...</a><br /></td></tr>
+<tr class="separator:a8ac50ad6fa564b41550fa8933fd13d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cab43420ccdace5f9508dc7ad9692cc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DWS.html#a8cab43420ccdace5f9508dc7ad9692cc">LatexFormula</a> () const</td></tr>
+<tr class="memdesc:a8cab43420ccdace5f9508dc7ad9692cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns a string with the formula of the non-perturbative function(s) in LaTex format.  <a href="#a8cab43420ccdace5f9508dc7ad9692cc">More...</a><br /></td></tr>
+<tr class="separator:a8cab43420ccdace5f9508dc7ad9692cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classNangaParbat_1_1Parameterisation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classNangaParbat_1_1Parameterisation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classNangaParbat_1_1Parameterisation.html">NangaParbat::Parameterisation</a></td></tr>
-<tr class="memitem:aef7e0ff7abff2d38f562c44eaccfdc9c inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#aef7e0ff7abff2d38f562c44eaccfdc9c">Parameterisation</a> (std::string const &amp;name, int const &amp;nfuncs=0, std::vector&lt; double &gt; pars={})</td></tr>
-<tr class="memdesc:aef7e0ff7abff2d38f562c44eaccfdc9c inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="classNangaParbat_1_1Parameterisation.html#aef7e0ff7abff2d38f562c44eaccfdc9c">More...</a><br /></td></tr>
-<tr class="separator:aef7e0ff7abff2d38f562c44eaccfdc9c inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95be9c1573e016b68c7f6a400ee50b06 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a95be9c1573e016b68c7f6a400ee50b06">Parameterisation</a> (std::string const &amp;name, int const &amp;nfuncs=0, std::vector&lt; double &gt; pars={}, bool const &amp;anders=false)</td></tr>
+<tr class="memdesc:a95be9c1573e016b68c7f6a400ee50b06 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="classNangaParbat_1_1Parameterisation.html#a95be9c1573e016b68c7f6a400ee50b06">More...</a><br /></td></tr>
+<tr class="separator:a95be9c1573e016b68c7f6a400ee50b06 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c742bfdee93832a246cfdd4f307203e inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a4c742bfdee93832a246cfdd4f307203e">~Parameterisation</a> ()</td></tr>
 <tr class="memdesc:a4c742bfdee93832a246cfdd4f307203e inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" destructor.  <a href="classNangaParbat_1_1Parameterisation.html#a4c742bfdee93832a246cfdd4f307203e">More...</a><br /></td></tr>
 <tr class="separator:a4c742bfdee93832a246cfdd4f307203e inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ca4a5fdbad38d23457c75ed434d7f9 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a99ca4a5fdbad38d23457c75ed434d7f9">SetParameters</a> (std::vector&lt; double &gt; const &amp;pars)</td></tr>
 <tr class="memdesc:a99ca4a5fdbad38d23457c75ed434d7f9 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that sets the free parameters of the parameterisation.  <a href="classNangaParbat_1_1Parameterisation.html#a99ca4a5fdbad38d23457c75ed434d7f9">More...</a><br /></td></tr>
 <tr class="separator:a99ca4a5fdbad38d23457c75ed434d7f9 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3469fb8e0a3ec388bdfe0e05959350a inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a">Derive</a> (double const &amp;x, double const &amp;b, double const &amp;zeta, int const &amp;ifunc, int const &amp;ipar) const</td></tr>
-<tr class="memdesc:ac3469fb8e0a3ec388bdfe0e05959350a inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that returns the value of the derivative of one of the functions.  <a href="classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a">More...</a><br /></td></tr>
-<tr class="separator:ac3469fb8e0a3ec388bdfe0e05959350a inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a015d347223374dced3702f0ac3669925 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;, int const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a015d347223374dced3702f0ac3669925">Function</a> () const</td></tr>
+<tr class="memdesc:a015d347223374dced3702f0ac3669925 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the parametrisation in the form of a std::function.  <a href="classNangaParbat_1_1Parameterisation.html#a015d347223374dced3702f0ac3669925">More...</a><br /></td></tr>
+<tr class="separator:a015d347223374dced3702f0ac3669925 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af45d8475b351a4c54bf46028cf0a3916 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;, double const  &amp;, int const  &amp;, int const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#af45d8475b351a4c54bf46028cf0a3916">Derivative</a> () const</td></tr>
+<tr class="memdesc:af45d8475b351a4c54bf46028cf0a3916 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the derivative of the parametrisation in the form of a std::function.  <a href="classNangaParbat_1_1Parameterisation.html#af45d8475b351a4c54bf46028cf0a3916">More...</a><br /></td></tr>
+<tr class="separator:af45d8475b351a4c54bf46028cf0a3916 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a935081bd7c9e97da63b7af8a092f4784 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a935081bd7c9e97da63b7af8a092f4784">GetName</a> () const</td></tr>
 <tr class="separator:a935081bd7c9e97da63b7af8a092f4784 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ae7e1580c8eaf915143c31dbd516c5e inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a2ae7e1580c8eaf915143c31dbd516c5e">GetNumberOfFunctions</a> () const</td></tr>
 <tr class="separator:a2ae7e1580c8eaf915143c31dbd516c5e inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32017cc14920bb6e4dfd353095e31f44 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a32017cc14920bb6e4dfd353095e31f44">GetParameters</a> () const</td></tr>
 <tr class="separator:a32017cc14920bb6e4dfd353095e31f44 inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8e4ccac1d0b59f8458d075392b5b1a inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a9d8e4ccac1d0b59f8458d075392b5b1a">HasGradient</a> () const</td></tr>
+<tr class="separator:a9d8e4ccac1d0b59f8458d075392b5b1a inherit pub_methods_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac0b59e33dda94f042a04fc8261d3be75"><td class="memItemLeft" align="right" valign="top">double const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DWS.html#ac0b59e33dda94f042a04fc8261d3be75">_Q02</a></td></tr>
+<tr class="separator:ac0b59e33dda94f042a04fc8261d3be75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -126,8 +146,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6193444ebb514b37dbaf61cea145cc91 inherit pro_attribs_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91">_pars</a></td></tr>
 <tr class="memdesc:a6193444ebb514b37dbaf61cea145cc91 inherit pro_attribs_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vector of free parameters.  <a href="classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91">More...</a><br /></td></tr>
 <tr class="separator:a6193444ebb514b37dbaf61cea145cc91 inherit pro_attribs_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4dd803c6fca21273599fb52df23245f inherit pro_attribs_classNangaParbat_1_1Parameterisation"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1Parameterisation.html#af4dd803c6fca21273599fb52df23245f">_anders</a></td></tr>
+<tr class="memdesc:af4dd803c6fca21273599fb52df23245f inherit pro_attribs_classNangaParbat_1_1Parameterisation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the parametersation provides analytic derivatives.  <a href="classNangaParbat_1_1Parameterisation.html#af4dd803c6fca21273599fb52df23245f">More...</a><br /></td></tr>
+<tr class="separator:af4dd803c6fca21273599fb52df23245f inherit pro_attribs_classNangaParbat_1_1Parameterisation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Davies-Webber-Stirling parameterisation derived from the "Parameterisation" mother class. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab3b24e0e269c2cafc9a04c121869622f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3b24e0e269c2cafc9a04c121869622f">&#9670;&nbsp;</a></span>DWS()</h2>
 
@@ -154,8 +179,77 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2a7a61b4931aac7f1396d6444a3bf22b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a7a61b4931aac7f1396d6444a3bf22b">&#9670;&nbsp;</a></span>Evaluate()</h2>
+<a id="a8ac50ad6fa564b41550fa8933fd13d9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac50ad6fa564b41550fa8933fd13d9a">&#9670;&nbsp;</a></span>Derive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NangaParbat::DWS::Derive </td>
+          <td>(</td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>zeta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ifunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ipar</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Virtual function that returns the value of the derivative of one of the functions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>momentum fraction </td></tr>
+    <tr><td class="paramname">b</td><td>impact parameter </td></tr>
+    <tr><td class="paramname">zeta</td><td>rapidity scale </td></tr>
+    <tr><td class="paramname">ifunc</td><td>index of the function; </td></tr>
+    <tr><td class="paramname">ipar</td><td>index of the parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>it returns the value of the derivative w.r.t. the ipar-th parameter of the ifunc-th function at (x, b, &zeta;) </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classNangaParbat_1_1Parameterisation.html#ac3469fb8e0a3ec388bdfe0e05959350a">NangaParbat::Parameterisation</a>.</p>
+
+</div>
+</div>
+<a id="a267d0bc775f60670ac1c7dc37ad57a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267d0bc775f60670ac1c7dc37ad57a30">&#9670;&nbsp;</a></span>Evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,13 +310,65 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a8cab43420ccdace5f9508dc7ad9692cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cab43420ccdace5f9508dc7ad9692cc">&#9670;&nbsp;</a></span>LatexFormula()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string NangaParbat::DWS::LatexFormula </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Virtual function that returns a string with the formula of the non-perturbative function(s) in LaTex format. </p>
+
+<p>Reimplemented from <a class="el" href="classNangaParbat_1_1Parameterisation.html#a698f18b4a96859c42973ff6e7199a0d7">NangaParbat::Parameterisation</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac0b59e33dda94f042a04fc8261d3be75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0b59e33dda94f042a04fc8261d3be75">&#9670;&nbsp;</a></span>_Q02</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double const NangaParbat::DWS::_Q02</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/Users/vbertone/Codes/NangaParbat/inc/NangaParbat/<a class="el" href="DWS_8h_source.html">DWS.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 19 2019 22:42:39 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jul 27 2019 14:21:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

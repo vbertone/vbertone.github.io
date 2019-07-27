@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['var1b',['var1b',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a5fb1c5038e33fa6fa6b1d9eaa7ff4ae8',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['var2b',['var2b',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a39b2910fc66d97996ceaf9528878eee3',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['version',['VERSION',['../version_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf',1,'version.h']]],
-  ['version_2eh',['version.h',['../version_8h.html',1,'']]],
-  ['vs',['Vs',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a03c41a298ec7444d4ccb57d180420167',1,'NangaParbat::DataHandler::Kinematics']]]
+  ['unknownprocess',['UnknownProcess',['../classNangaParbat_1_1DataHandler.html#adb1898207ec84c569d2fabef5f20dd86aaa9312a5ac732bedb9160a88c0c7aea3',1,'NangaParbat::DataHandler']]],
+  ['up',['Up',['../classNangaParbat_1_1FcnMinuit.html#aa447fb742f0369b80ecf1402ea83adc4',1,'NangaParbat::FcnMinuit::Up()'],['../classNangaParbat_1_1FcnMinuitGrad.html#ab7606f3954e48209f5e5d96afc7835d2',1,'NangaParbat::FcnMinuitGrad::Up()']]],
+  ['utilities_2eh',['utilities.h',['../utilities_8h.html',1,'']]]
 ];

@@ -95,13 +95,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add ("DataHandler","ConvolutionTable") pair block to the "DSVect" vector.  <a href="#a0040adcfa695c35c4b895dcd96cf0d5a">More...</a><br /></td></tr>
 <tr class="separator:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd1175db6a95d82001ec9bf33e5a343f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#abd1175db6a95d82001ec9bf33e5a343f">GetResiduals</a> (int const &amp;ids) const</td></tr>
-<tr class="memdesc:abd1175db6a95d82001ec9bf33e5a343f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the residuals of the chi2 deriving from the Cholesky decomposition of the covariance matrix.  <a href="#abd1175db6a95d82001ec9bf33e5a343f">More...</a><br /></td></tr>
+<tr class="memdesc:abd1175db6a95d82001ec9bf33e5a343f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the residuals of the &chi;<sup>2</sup> deriving from the Cholesky decomposition of the covariance matrix.  <a href="#abd1175db6a95d82001ec9bf33e5a343f">More...</a><br /></td></tr>
 <tr class="separator:abd1175db6a95d82001ec9bf33e5a343f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd2c8d9ac38332f80fe02c1d5fe0496"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a3cd2c8d9ac38332f80fe02c1d5fe0496">GetResidualDerivatives</a> (int const &amp;ids, int const &amp;ipar) const</td></tr>
+<tr class="memdesc:a3cd2c8d9ac38332f80fe02c1d5fe0496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the derivative of the residuals of the &chi;<sup>2</sup> deriving from the Cholesky decomposition of the covariance matrix w.r.t. the "ipar"-th parameter.  <a href="#a3cd2c8d9ac38332f80fe02c1d5fe0496">More...</a><br /></td></tr>
+<tr class="separator:a3cd2c8d9ac38332f80fe02c1d5fe0496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e2e6bba4fef685405a7362754dc168"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a09e2e6bba4fef685405a7362754dc168">Evaluate</a> (int const &amp;ids=-1) const</td></tr>
 <tr class="memdesc:a09e2e6bba4fef685405a7362754dc168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the &chi;<sup>2</sup>'s.  <a href="#a09e2e6bba4fef685405a7362754dc168">More...</a><br /></td></tr>
 <tr class="separator:a09e2e6bba4fef685405a7362754dc168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05266d24f06c2713e286beb6903cdea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#ab05266d24f06c2713e286beb6903cdea">Derive</a> () const</td></tr>
+<tr class="memdesc:ab05266d24f06c2713e286beb6903cdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the (analytic) derivative of the &chi;<sup>2</sup>'s w.r.t. the "ipar"-th parameter.  <a href="#ab05266d24f06c2713e286beb6903cdea">More...</a><br /></td></tr>
+<tr class="separator:ab05266d24f06c2713e286beb6903cdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d5a9a39f940ec1570185557716a40aa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a3d5a9a39f940ec1570185557716a40aa">operator()</a> (int const &amp;ids=-1)</td></tr>
-<tr class="memdesc:a3d5a9a39f940ec1570185557716a40aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility operator that replaces the Evaluate method above.  <a href="#a3d5a9a39f940ec1570185557716a40aa">More...</a><br /></td></tr>
+<tr class="memdesc:a3d5a9a39f940ec1570185557716a40aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility operator that shortcuts the Evaluate method.  <a href="#a3d5a9a39f940ec1570185557716a40aa">More...</a><br /></td></tr>
 <tr class="separator:a3d5a9a39f940ec1570185557716a40aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0765583bbe91ba79d3668a22bfb4020c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a0765583bbe91ba79d3668a22bfb4020c">SetParameters</a> (std::vector&lt; double &gt; const &amp;pars)</td></tr>
 <tr class="memdesc:a0765583bbe91ba79d3668a22bfb4020c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that sets the free parameters of the parameterisation.  <a href="#a0765583bbe91ba79d3668a22bfb4020c">More...</a><br /></td></tr>
@@ -137,7 +143,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:acb825dc6acf224c3dcc503ccf9d13865"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">Parameterisation</a> of the non-perturbative component.  <a href="#acb825dc6acf224c3dcc503ccf9d13865">More...</a><br /></td></tr>
 <tr class="separator:acb825dc6acf224c3dcc503ccf9d13865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6259b874dea47818bcfca27ca04a8192"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a6259b874dea47818bcfca27ca04a8192">_qToQMax</a></td></tr>
-<tr class="memdesc:a6259b874dea47818bcfca27ca04a8192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of the ratio qT / Q allowed in the computation of the chi2.  <a href="#a6259b874dea47818bcfca27ca04a8192">More...</a><br /></td></tr>
+<tr class="memdesc:a6259b874dea47818bcfca27ca04a8192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of the ratio qT / Q allowed in the computation of the &chi;<sup>2</sup>  <a href="#a6259b874dea47818bcfca27ca04a8192">More...</a><br /></td></tr>
 <tr class="separator:a6259b874dea47818bcfca27ca04a8192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84755705f813e563c381726dd6ac6b1d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a84755705f813e563c381726dd6ac6b1d">_ndata</a></td></tr>
 <tr class="memdesc:a84755705f813e563c381726dd6ac6b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector constaining the number of data points per dataset that pass the qT/Q cut.  <a href="#a84755705f813e563c381726dd6ac6b1d">More...</a><br /></td></tr>
@@ -255,6 +261,27 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ab05266d24f06c2713e286beb6903cdea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05266d24f06c2713e286beb6903cdea">&#9670;&nbsp;</a></span>Derive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ChiSquare::Derive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that evaluates the (analytic) derivative of the &chi;<sup>2</sup>'s w.r.t. the "ipar"-th parameter. </p>
+<dl class="section return"><dt>Returns</dt><dd>a vector containing the value of the derivatives w.r.t. the parameters of global &chi;<sup>2</sup> normalised to the number of data points. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>As opposed to the Evaluate function, there seems to be no need to allow for the computation of the derivarive of the &chi;<sup>2</sup> of the single dataset. </dd></dl>
 
 </div>
 </div>
@@ -481,6 +508,44 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a3cd2c8d9ac38332f80fe02c1d5fe0496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd2c8d9ac38332f80fe02c1d5fe0496">&#9670;&nbsp;</a></span>GetResidualDerivatives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ChiSquare::GetResidualDerivatives </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ipar</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that returns the derivative of the residuals of the &chi;<sup>2</sup> deriving from the Cholesky decomposition of the covariance matrix w.r.t. the "ipar"-th parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ids</td><td>the dataset index </td></tr>
+    <tr><td class="paramname">ipar</td><td>the parameter index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the vector of derivatives of the residuals </dd></dl>
+
+</div>
+</div>
 <a id="abd1175db6a95d82001ec9bf33e5a343f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd1175db6a95d82001ec9bf33e5a343f">&#9670;&nbsp;</a></span>GetResiduals()</h2>
 
@@ -497,7 +562,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Function that returns the residuals of the chi2 deriving from the Cholesky decomposition of the covariance matrix. </p>
+<p>Function that returns the residuals of the &chi;<sup>2</sup> deriving from the Cholesky decomposition of the covariance matrix. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ids</td><td>the dataset index </td></tr>
@@ -532,7 +597,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Utility operator that replaces the Evaluate method above. </p>
+<p>Utility operator that shortcuts the Evaluate method. </p>
 
 </div>
 </div>
@@ -702,7 +767,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Max value of the ratio qT / Q allowed in the computation of the chi2. </p>
+<p>Max value of the ratio qT / Q allowed in the computation of the &chi;<sup>2</sup> </p>
 
 </div>
 </div>
@@ -712,7 +777,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 19 2019 22:42:39 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jul 27 2019 14:21:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

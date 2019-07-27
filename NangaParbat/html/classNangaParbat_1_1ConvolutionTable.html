@@ -77,6 +77,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Class that implements the methods fot the numerical convolution of the interpolation tables with user-given non-perturbative functions.  
+ <a href="classNangaParbat_1_1ConvolutionTable.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="convolutiontable_8h_source.html">convolutiontable.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -94,14 +97,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1065721d888fd1b87dd2c0ade057d4c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function convolutes the input convolution table with a user-given non-perturbative function assuming that first and second functions are equal.  <a href="#a1065721d888fd1b87dd2c0ade057d4c9">More...</a><br /></td></tr>
 <tr class="separator:a1065721d888fd1b87dd2c0ade057d4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0edd9a4328dc2ec3959a5640e4d21384"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a0edd9a4328dc2ec3959a5640e4d21384">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2) const</td></tr>
-<tr class="memdesc:a0edd9a4328dc2ec3959a5640e4d21384"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions with a two user-given non-perturbative functions.  <a href="#a0edd9a4328dc2ec3959a5640e4d21384">More...</a><br /></td></tr>
+<tr class="memdesc:a0edd9a4328dc2ec3959a5640e4d21384"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions given two user-given non-perturbative functions.  <a href="#a0edd9a4328dc2ec3959a5640e4d21384">More...</a><br /></td></tr>
 <tr class="separator:a0edd9a4328dc2ec3959a5640e4d21384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12acf591fb13ebaec4f29ba6e51b689e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a12acf591fb13ebaec4f29ba6e51b689e">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;fNP) const</td></tr>
-<tr class="memdesc:a12acf591fb13ebaec4f29ba6e51b689e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions with a two user-given non-perturbative functions.  <a href="#a12acf591fb13ebaec4f29ba6e51b689e">More...</a><br /></td></tr>
-<tr class="separator:a12acf591fb13ebaec4f29ba6e51b689e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a0c298f22892447123a10f7b5dd1f86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a4a0c298f22892447123a10f7b5dd1f86">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP) const</td></tr>
-<tr class="memdesc:a4a0c298f22892447123a10f7b5dd1f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions with a a user-given non-perturbative function assuming that first and second functions are equal.  <a href="#a4a0c298f22892447123a10f7b5dd1f86">More...</a><br /></td></tr>
+<tr class="memdesc:a4a0c298f22892447123a10f7b5dd1f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions given a single user-given non-perturbative function.  <a href="#a4a0c298f22892447123a10f7b5dd1f86">More...</a><br /></td></tr>
 <tr class="separator:a4a0c298f22892447123a10f7b5dd1f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12acf591fb13ebaec4f29ba6e51b689e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a12acf591fb13ebaec4f29ba6e51b689e">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;fNP) const</td></tr>
+<tr class="memdesc:a12acf591fb13ebaec4f29ba6e51b689e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions with a single user-given non-perturbative function.  <a href="#a12acf591fb13ebaec4f29ba6e51b689e">More...</a><br /></td></tr>
+<tr class="separator:a12acf591fb13ebaec4f29ba6e51b689e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5eea335959234dc72b93ccbf1a195b0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ac5eea335959234dc72b93ccbf1a195b0">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;fNP, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;dNP) const</td></tr>
+<tr class="memdesc:ac5eea335959234dc72b93ccbf1a195b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions given two user-given non-perturbative function.  <a href="#ac5eea335959234dc72b93ccbf1a195b0">More...</a><br /></td></tr>
+<tr class="separator:ac5eea335959234dc72b93ccbf1a195b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Getters</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Functions to retrieve the feauture of the convolution table </p>
 </div></td></tr>
@@ -160,7 +166,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aaf3fe31d76eacc304d08792023edad29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#_a3">IntegrationTest.cc</a>.</dd>
+<div class="textblock"><p>Class that implements the methods fot the numerical convolution of the interpolation tables with user-given non-perturbative functions. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#_a3">IntegrationTest.cc</a>.</dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8922444aa9727e818207d9882c7b97a5"></a>
@@ -332,7 +339,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0edd9a4328dc2ec3959a5640e4d21384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0edd9a4328dc2ec3959a5640e4d21384">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0edd9a4328dc2ec3959a5640e4d21384">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +364,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function returns a vector of predictions with a two user-given non-perturbative functions. </p>
+<p>This function returns a vector of predictions given two user-given non-perturbative functions. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fNP1</td><td>the first non-perturbative input function </td></tr>
@@ -371,35 +378,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a12acf591fb13ebaec4f29ba6e51b689e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12acf591fb13ebaec4f29ba6e51b689e">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::GetPredictions </td>
-          <td>(</td>
-          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>fNP</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This function returns a vector of predictions with a two user-given non-perturbative functions. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fNP</td><td>the (indexed) non-perturbative input function </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a vector of predictions. </dd></dl>
-
-</div>
-</div>
 <a id="a4a0c298f22892447123a10f7b5dd1f86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a0c298f22892447123a10f7b5dd1f86">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0c298f22892447123a10f7b5dd1f86">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,15 +394,81 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function returns a vector of predictions with a a user-given non-perturbative function assuming that first and second functions are equal. </p>
+<p>This function returns a vector of predictions given a single user-given non-perturbative function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fNP</td><td>the first non-perturbative input function </td></tr>
+    <tr><td class="paramname">fNP</td><td>the non-perturbative input functions parameterised by an index </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a vector of predictions. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>WARNING: This function is meant to be used for internal purposes because it "decides" how to use the function "fNP" and may behave in an unexpected way. </dd></dl>
+
+</div>
+</div>
+<a id="a12acf591fb13ebaec4f29ba6e51b689e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12acf591fb13ebaec4f29ba6e51b689e">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::GetPredictions </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function returns a vector of predictions with a single user-given non-perturbative function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fNP</td><td>the (indexed) non-perturbative input function </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a vector of predictions. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>WARNING: This function is meant to be used for internal purposes because it "decides" internally how to use the function "fNP" and may behave unexpectedly. </dd></dl>
+
+</div>
+</div>
+<a id="ac5eea335959234dc72b93ccbf1a195b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5eea335959234dc72b93ccbf1a195b0">&#9670;&nbsp;</a></span>GetPredictions() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::GetPredictions </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>fNP</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>dNP</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function returns a vector of predictions given two user-given non-perturbative function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fNP</td><td>the non-perturbative input functions parameterised by an index </td></tr>
+    <tr><td class="paramname">dNP</td><td>a second non-perturbative input function parameterised by an index that is meant to return the derivarive of the first function w.r.t. to some parameter of "fNP" </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a vector of predictions. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>WARNING: This function is meant to be used for internal purposes because it "decides" internally how to use the function "fNP" and may behave unexpectedly. Specifically, this is used to compute the anaylitic derivative of the chi2 used duering the minimisation. </dd></dl>
 
 </div>
 </div>
@@ -819,7 +865,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 19 2019 22:42:39 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jul 27 2019 14:21:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

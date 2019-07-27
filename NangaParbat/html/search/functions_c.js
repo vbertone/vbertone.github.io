@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['setparameters',['SetParameters',['../classNangaParbat_1_1ChiSquare.html#a0765583bbe91ba79d3668a22bfb4020c',1,'NangaParbat::ChiSquare::SetParameters()'],['../classNangaParbat_1_1FcnMinuit.html#aad79a5fce6c69b073046296f691efcdb',1,'NangaParbat::FcnMinuit::SetParameters()'],['../classNangaParbat_1_1Parameterisation.html#a99ca4a5fdbad38d23457c75ed434d7f9',1,'NangaParbat::Parameterisation::SetParameters()']]],
-  ['solvelowersystem',['SolveLowerSystem',['../namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86',1,'NangaParbat']]],
-  ['solvesymmetricsystem',['SolveSymmetricSystem',['../namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07',1,'NangaParbat']]],
-  ['solveuppersystem',['SolveUpperSystem',['../namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c',1,'NangaParbat']]]
+  ['operator_28_29',['operator()',['../classNangaParbat_1_1ChiSquare.html#a3d5a9a39f940ec1570185557716a40aa',1,'NangaParbat::ChiSquare::operator()()'],['../classNangaParbat_1_1FcnCeres.html#a782116a8d467300553b0c23e62675d11',1,'NangaParbat::FcnCeres::operator()()'],['../classNangaParbat_1_1FcnMinuit.html#aeff17193dbc0cd16dd02d20235afa0f3',1,'NangaParbat::FcnMinuit::operator()()'],['../classNangaParbat_1_1FcnMinuitGrad.html#a4a623685319e0b8972e6d1814cb88280',1,'NangaParbat::FcnMinuitGrad::operator()()']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../namespaceNangaParbat.html#aeef9685762d57f0bb3f66373811993c8',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, ChiSquare const &amp;chi2)'],['../namespaceNangaParbat.html#a1128faa5f002bc0052e1d94cfd8d54cc',1,'NangaParbat::operator&lt;&lt;(std::ostream &amp;os, DataHandler const &amp;DH)']]]
 ];

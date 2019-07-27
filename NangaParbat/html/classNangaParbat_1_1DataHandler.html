@@ -102,9 +102,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a40225256c62abb7809cc5d33c91c4f60"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a40225256c62abb7809cc5d33c91c4f60">DataHandler</a> (std::string const &amp;name, YAML::Node const &amp;datafile)</td></tr>
-<tr class="memdesc:a40225256c62abb7809cc5d33c91c4f60"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "DataHandler" constructor.  <a href="#a40225256c62abb7809cc5d33c91c4f60">More...</a><br /></td></tr>
-<tr class="separator:a40225256c62abb7809cc5d33c91c4f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcbe1e1a4ff145313c12463c86007bc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#afcbe1e1a4ff145313c12463c86007bc8">DataHandler</a> (std::string const &amp;name, YAML::Node const &amp;datafile, gsl_rng *rng=NULL, int const &amp;fluctuation=0, std::vector&lt; double &gt; const &amp;t0={})</td></tr>
+<tr class="memdesc:afcbe1e1a4ff145313c12463c86007bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "DataHandler" constructor.  <a href="#afcbe1e1a4ff145313c12463c86007bc8">More...</a><br /></td></tr>
+<tr class="separator:afcbe1e1a4ff145313c12463c86007bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f4979e8b9b38c8719a612755366616"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a40f4979e8b9b38c8719a612755366616">GetName</a> () const</td></tr>
 <tr class="memdesc:a40f4979e8b9b38c8719a612755366616"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the name of the dataset.  <a href="#a40f4979e8b9b38c8719a612755366616">More...</a><br /></td></tr>
 <tr class="separator:a40f4979e8b9b38c8719a612755366616"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc1287523dc18554fdd983b924bbc07a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#afc1287523dc18554fdd983b924bbc07a">GetMeanValues</a> () const</td></tr>
 <tr class="memdesc:afc1287523dc18554fdd983b924bbc07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the mean values.  <a href="#afc1287523dc18554fdd983b924bbc07a">More...</a><br /></td></tr>
 <tr class="separator:afc1287523dc18554fdd983b924bbc07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e065a9e71e2fc896d554c1843c500d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#aa1e065a9e71e2fc896d554c1843c500d">GetFluctutatedData</a> () const</td></tr>
+<tr class="memdesc:aa1e065a9e71e2fc896d554c1843c500d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the fluctuated data.  <a href="#aa1e065a9e71e2fc896d554c1843c500d">More...</a><br /></td></tr>
+<tr class="separator:aa1e065a9e71e2fc896d554c1843c500d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b51c0075183497e39b14b442a7f2da8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a4b51c0075183497e39b14b442a7f2da8">GetUncorrelatedUnc</a> () const</td></tr>
 <tr class="memdesc:a4b51c0075183497e39b14b442a7f2da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the sum in quadrature of the uncorrelated uncertainties.  <a href="#a4b51c0075183497e39b14b442a7f2da8">More...</a><br /></td></tr>
 <tr class="separator:a4b51c0075183497e39b14b442a7f2da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4942bd403c8068d66633315f8e3deb9e"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a4942bd403c8068d66633315f8e3deb9e">GetCholeskyDecomposition</a> () const</td></tr>
 <tr class="memdesc:a4942bd403c8068d66633315f8e3deb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the Cholesky decomposition of the covariance matrix.  <a href="#a4942bd403c8068d66633315f8e3deb9e">More...</a><br /></td></tr>
 <tr class="separator:a4942bd403c8068d66633315f8e3deb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb5d8cf9127f624c06693829aa27c06"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a5bb5d8cf9127f624c06693829aa27c06">GetT0</a> () const</td></tr>
+<tr class="memdesc:a5bb5d8cf9127f624c06693829aa27c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the set of t0 predictions.  <a href="#a5bb5d8cf9127f624c06693829aa27c06">More...</a><br /></td></tr>
+<tr class="separator:a5bb5d8cf9127f624c06693829aa27c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66b6d5612666201ba661c3525f7cf38d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a66b6d5612666201ba661c3525f7cf38d">GetLabels</a> () const</td></tr>
 <tr class="memdesc:a66b6d5612666201ba661c3525f7cf38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the plotting labels.  <a href="#a66b6d5612666201ba661c3525f7cf38d">More...</a><br /></td></tr>
 <tr class="separator:a66b6d5612666201ba661c3525f7cf38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,9 +168,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a7d600de06f7cb1e49b9eb152ab8f43d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html">Kinematics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a7d600de06f7cb1e49b9eb152ab8f43d7">_kin</a></td></tr>
 <tr class="memdesc:a7d600de06f7cb1e49b9eb152ab8f43d7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structNangaParbat_1_1DataHandler_1_1Kinematics.html" title="Structure containing the kinematic information of one single data set.">Kinematics</a> block.  <a href="#a7d600de06f7cb1e49b9eb152ab8f43d7">More...</a><br /></td></tr>
 <tr class="separator:a7d600de06f7cb1e49b9eb152ab8f43d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a037a1181df5d5f74328a325e04a012a1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a037a1181df5d5f74328a325e04a012a1">_mean</a></td></tr>
-<tr class="memdesc:a037a1181df5d5f74328a325e04a012a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of central values.  <a href="#a037a1181df5d5f74328a325e04a012a1">More...</a><br /></td></tr>
-<tr class="separator:a037a1181df5d5f74328a325e04a012a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f7997a07191ffac683a7975e0b054e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a43f7997a07191ffac683a7975e0b054e">_means</a></td></tr>
+<tr class="memdesc:a43f7997a07191ffac683a7975e0b054e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of central values.  <a href="#a43f7997a07191ffac683a7975e0b054e">More...</a><br /></td></tr>
+<tr class="separator:a43f7997a07191ffac683a7975e0b054e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af849f05b6e68fa3746c03929482222d7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#af849f05b6e68fa3746c03929482222d7">_uncor</a></td></tr>
 <tr class="memdesc:af849f05b6e68fa3746c03929482222d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of uncorrelated uncertainties.  <a href="#af849f05b6e68fa3746c03929482222d7">More...</a><br /></td></tr>
 <tr class="separator:af849f05b6e68fa3746c03929482222d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +192,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a7bac590ff89444ecceac80890bddd6dc"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a7bac590ff89444ecceac80890bddd6dc">_labels</a></td></tr>
 <tr class="memdesc:a7bac590ff89444ecceac80890bddd6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Labels used for plotting.  <a href="#a7bac590ff89444ecceac80890bddd6dc">More...</a><br /></td></tr>
 <tr class="separator:a7bac590ff89444ecceac80890bddd6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae580ab93a0b6838df4d43abf0bed09b6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#ae580ab93a0b6838df4d43abf0bed09b6">_fluctuations</a></td></tr>
+<tr class="memdesc:ae580ab93a0b6838df4d43abf0bed09b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of fluctuated data.  <a href="#ae580ab93a0b6838df4d43abf0bed09b6">More...</a><br /></td></tr>
+<tr class="separator:ae580ab93a0b6838df4d43abf0bed09b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b59b5052a9bf239208f6c3c013757f0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1DataHandler.html#a2b59b5052a9bf239208f6c3c013757f0">_t0</a></td></tr>
+<tr class="memdesc:a2b59b5052a9bf239208f6c3c013757f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of t0-predictions.  <a href="#a2b59b5052a9bf239208f6c3c013757f0">More...</a><br /></td></tr>
+<tr class="separator:a2b59b5052a9bf239208f6c3c013757f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -219,8 +231,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a40225256c62abb7809cc5d33c91c4f60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40225256c62abb7809cc5d33c91c4f60">&#9670;&nbsp;</a></span>DataHandler()</h2>
+<a id="afcbe1e1a4ff145313c12463c86007bc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcbe1e1a4ff145313c12463c86007bc8">&#9670;&nbsp;</a></span>DataHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +247,25 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">YAML::Node const &amp;&#160;</td>
-          <td class="paramname"><em>datafile</em>&#160;</td>
+          <td class="paramname"><em>datafile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gsl_rng *&#160;</td>
+          <td class="paramname"><em>rng</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>fluctuation</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>t0</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -250,6 +280,9 @@ Friends</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">name</td><td>the name associated to the data set </td></tr>
     <tr><td class="paramname">datafile</td><td>the YAML:Node with the interpolation table </td></tr>
+    <tr><td class="paramname">rng</td><td>GSL random number object </td></tr>
+    <tr><td class="paramname">fluctuation</td><td>ID of the fluctuation (i.e. Monte-Carlo replica ID) (default: 0, i.e. no fluctuations) </td></tr>
+    <tr><td class="paramname">t0</td><td>vector of predictions to be used for the t0-prescription </td></tr>
   </table>
   </dd>
 </dl>
@@ -362,6 +395,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function that returns the covariance matrix of the correlated uncertainties. </p>
+
+</div>
+</div>
+<a id="aa1e065a9e71e2fc896d554c1843c500d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1e065a9e71e2fc896d554c1843c500d">&#9670;&nbsp;</a></span>GetFluctutatedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::DataHandler::GetFluctutatedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the fluctuated data. </p>
 
 </div>
 </div>
@@ -551,6 +611,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function that returns the process code. </p>
+
+</div>
+</div>
+<a id="a5bb5d8cf9127f624c06693829aa27c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bb5d8cf9127f624c06693829aa27c06">&#9670;&nbsp;</a></span>GetT0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::DataHandler::GetT0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function that returns the set of t0 predictions. </p>
 
 </div>
 </div>
@@ -767,6 +854,30 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ae580ab93a0b6838df4d43abf0bed09b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae580ab93a0b6838df4d43abf0bed09b6">&#9670;&nbsp;</a></span>_fluctuations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::DataHandler::_fluctuations</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector of fluctuated data. </p>
+
+</div>
+</div>
 <a id="a7d600de06f7cb1e49b9eb152ab8f43d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d600de06f7cb1e49b9eb152ab8f43d7">&#9670;&nbsp;</a></span>_kin</h2>
 
@@ -815,8 +926,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a037a1181df5d5f74328a325e04a012a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a037a1181df5d5f74328a325e04a012a1">&#9670;&nbsp;</a></span>_mean</h2>
+<a id="a43f7997a07191ffac683a7975e0b054e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43f7997a07191ffac683a7975e0b054e">&#9670;&nbsp;</a></span>_means</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -825,7 +936,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; NangaParbat::DataHandler::_mean</td>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::DataHandler::_means</td>
         </tr>
       </table>
   </td>
@@ -911,6 +1022,30 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a2b59b5052a9bf239208f6c3c013757f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b59b5052a9bf239208f6c3c013757f0">&#9670;&nbsp;</a></span>_t0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; NangaParbat::DataHandler::_t0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector of t0-predictions. </p>
+
+</div>
+</div>
 <a id="acc33d7bd395ab88a554f1f7261143a4a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc33d7bd395ab88a554f1f7261143a4a">&#9670;&nbsp;</a></span>_targetiso</h2>
 
@@ -965,7 +1100,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 19 2019 22:42:39 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jul 27 2019 14:21:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
