@@ -94,15 +94,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a0040adcfa695c35c4b895dcd96cf0d5a">AddBlock</a> (std::pair&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a>, <a class="el" href="classNangaParbat_1_1ConvolutionTable.html">ConvolutionTable</a> &gt; const &amp;DSBlock)</td></tr>
 <tr class="memdesc:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add ("DataHandler","ConvolutionTable") pair block to the "DSVect" vector.  <a href="#a0040adcfa695c35c4b895dcd96cf0d5a">More...</a><br /></td></tr>
 <tr class="separator:a0040adcfa695c35c4b895dcd96cf0d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd1175db6a95d82001ec9bf33e5a343f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#abd1175db6a95d82001ec9bf33e5a343f">GetResiduals</a> (int const &amp;ids) const</td></tr>
-<tr class="memdesc:abd1175db6a95d82001ec9bf33e5a343f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the residuals of the &chi;<sup>2</sup> deriving from the Cholesky decomposition of the covariance matrix.  <a href="#abd1175db6a95d82001ec9bf33e5a343f">More...</a><br /></td></tr>
-<tr class="separator:abd1175db6a95d82001ec9bf33e5a343f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b8db0e0b5ea114df0fcf049807a860"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a58b8db0e0b5ea114df0fcf049807a860">GetResiduals</a> (int const &amp;ids, bool const &amp;central=false) const</td></tr>
+<tr class="memdesc:a58b8db0e0b5ea114df0fcf049807a860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the residuals of the &chi;<sup>2</sup> deriving from the Cholesky decomposition of the covariance matrix.  <a href="#a58b8db0e0b5ea114df0fcf049807a860">More...</a><br /></td></tr>
+<tr class="separator:a58b8db0e0b5ea114df0fcf049807a860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cd2c8d9ac38332f80fe02c1d5fe0496"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a3cd2c8d9ac38332f80fe02c1d5fe0496">GetResidualDerivatives</a> (int const &amp;ids, int const &amp;ipar) const</td></tr>
 <tr class="memdesc:a3cd2c8d9ac38332f80fe02c1d5fe0496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the derivative of the residuals of the &chi;<sup>2</sup> deriving from the Cholesky decomposition of the covariance matrix w.r.t. the "ipar"-th parameter.  <a href="#a3cd2c8d9ac38332f80fe02c1d5fe0496">More...</a><br /></td></tr>
 <tr class="separator:a3cd2c8d9ac38332f80fe02c1d5fe0496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09e2e6bba4fef685405a7362754dc168"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a09e2e6bba4fef685405a7362754dc168">Evaluate</a> (int const &amp;ids=-1) const</td></tr>
-<tr class="memdesc:a09e2e6bba4fef685405a7362754dc168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the &chi;<sup>2</sup>'s.  <a href="#a09e2e6bba4fef685405a7362754dc168">More...</a><br /></td></tr>
-<tr class="separator:a09e2e6bba4fef685405a7362754dc168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d8b3bbac61780ec9137c14ef965860"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; double &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#ae0d8b3bbac61780ec9137c14ef965860">GetSystematicShifts</a> (int const &amp;ids) const</td></tr>
+<tr class="memdesc:ae0d8b3bbac61780ec9137c14ef965860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the systematic shifts and the associated penalty term of the &chi;<sup>2</sup>.  <a href="#ae0d8b3bbac61780ec9137c14ef965860">More...</a><br /></td></tr>
+<tr class="separator:ae0d8b3bbac61780ec9137c14ef965860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4c11ffa425cb315ff627afd1134e27"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a7a4c11ffa425cb315ff627afd1134e27">Evaluate</a> (int const &amp;ids=-1, bool const &amp;central=false) const</td></tr>
+<tr class="memdesc:a7a4c11ffa425cb315ff627afd1134e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the &chi;<sup>2</sup>'s.  <a href="#a7a4c11ffa425cb315ff627afd1134e27">More...</a><br /></td></tr>
+<tr class="separator:a7a4c11ffa425cb315ff627afd1134e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab05266d24f06c2713e286beb6903cdea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#ab05266d24f06c2713e286beb6903cdea">Derive</a> () const</td></tr>
 <tr class="memdesc:ab05266d24f06c2713e286beb6903cdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the (analytic) derivative of the &chi;<sup>2</sup>'s w.r.t. the "ipar"-th parameter.  <a href="#ab05266d24f06c2713e286beb6903cdea">More...</a><br /></td></tr>
 <tr class="separator:ab05266d24f06c2713e286beb6903cdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8614ecef31a294777ebd11f3dabd7483"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a8614ecef31a294777ebd11f3dabd7483">GetParameters</a> () const</td></tr>
 <tr class="memdesc:a8614ecef31a294777ebd11f3dabd7483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the parameters of the parameterisation objects.  <a href="#a8614ecef31a294777ebd11f3dabd7483">More...</a><br /></td></tr>
 <tr class="separator:a8614ecef31a294777ebd11f3dabd7483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc4967a1dc833c7d6161f825f77e079"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a7dc4967a1dc833c7d6161f825f77e079">MakePlots</a> (std::string const &amp;path) const</td></tr>
+<tr class="memdesc:a7dc4967a1dc833c7d6161f825f77e079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that produces data-theory comparison plots using ROOT.  <a href="#a7dc4967a1dc833c7d6161f825f77e079">More...</a><br /></td></tr>
+<tr class="separator:a7dc4967a1dc833c7d6161f825f77e079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -151,9 +157,9 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a597b9078d0086fca47ce87cb603cc045"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a597b9078d0086fca47ce87cb603cc045">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2)</td></tr>
-<tr class="memdesc:a597b9078d0086fca47ce87cb603cc045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method which prints <a class="el" href="classNangaParbat_1_1ChiSquare.html" title="The &quot;ChiSquare&quot; class computes the χ2&#39;s given a set of &quot;DataHandler&quot; objects and the corresponding &quot;C...">ChiSquare</a> feautures with cout &lt;&lt;.  <a href="#a597b9078d0086fca47ce87cb603cc045">More...</a><br /></td></tr>
-<tr class="separator:a597b9078d0086fca47ce87cb603cc045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86f1fe4165ed06015e0907949f37ce07"><td class="memItemLeft" align="right" valign="top">YAML::Emitter &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ChiSquare.html#a86f1fe4165ed06015e0907949f37ce07">operator&lt;&lt;</a> (YAML::Emitter &amp;os, <a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2)</td></tr>
+<tr class="memdesc:a86f1fe4165ed06015e0907949f37ce07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method which prints <a class="el" href="classNangaParbat_1_1ChiSquare.html" title="The &quot;ChiSquare&quot; class computes the χ2&#39;s given a set of &quot;DataHandler&quot; objects and the corresponding &quot;C...">ChiSquare</a> feautures with cout &lt;&lt;.  <a href="#a86f1fe4165ed06015e0907949f37ce07">More...</a><br /></td></tr>
+<tr class="separator:a86f1fe4165ed06015e0907949f37ce07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The "ChiSquare" class computes the &chi;<sup>2</sup>'s given a set of "DataHandler" objects and the corresponding "ConvolutionTable" objects. The computation depends of the non-perturbative functions given as input. </p>
@@ -285,8 +291,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a09e2e6bba4fef685405a7362754dc168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09e2e6bba4fef685405a7362754dc168">&#9670;&nbsp;</a></span>Evaluate()</h2>
+<a id="a7a4c11ffa425cb315ff627afd1134e27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a4c11ffa425cb315ff627afd1134e27">&#9670;&nbsp;</a></span>Evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,8 +301,18 @@ Friends</h2></td></tr>
           <td class="memname">double NangaParbat::ChiSquare::Evaluate </td>
           <td>(</td>
           <td class="paramtype">int const &amp;&#160;</td>
-          <td class="paramname"><em>ids</em> = <code>-1</code></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>ids</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool const &amp;&#160;</td>
+          <td class="paramname"><em>central</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -305,6 +321,7 @@ Friends</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ids</td><td>the dataset index (default: -1, the global &chi;<sup>2</sup> is computed) </td></tr>
+    <tr><td class="paramname">central</td><td>if true, the &chi;<sup>2</sup> is computed using the experimental central values rather than the fluctuated data (default: false) </td></tr>
   </table>
   </dd>
 </dl>
@@ -546,8 +563,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="abd1175db6a95d82001ec9bf33e5a343f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd1175db6a95d82001ec9bf33e5a343f">&#9670;&nbsp;</a></span>GetResiduals()</h2>
+<a id="a58b8db0e0b5ea114df0fcf049807a860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b8db0e0b5ea114df0fcf049807a860">&#9670;&nbsp;</a></span>GetResiduals()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -556,8 +573,18 @@ Friends</h2></td></tr>
           <td class="memname">std::vector&lt;double&gt; NangaParbat::ChiSquare::GetResiduals </td>
           <td>(</td>
           <td class="paramtype">int const &amp;&#160;</td>
-          <td class="paramname"><em>ids</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool const &amp;&#160;</td>
+          <td class="paramname"><em>central</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -566,10 +593,65 @@ Friends</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ids</td><td>the dataset index </td></tr>
+    <tr><td class="paramname">central</td><td>if true, the residuals are computed using the experimental central values rather than the fluctuated data (default: false) </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the vector of residuals </dd></dl>
+
+</div>
+</div>
+<a id="ae0d8b3bbac61780ec9137c14ef965860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d8b3bbac61780ec9137c14ef965860">&#9670;&nbsp;</a></span>GetSystematicShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;std::vector&lt;double&gt;, double&gt; NangaParbat::ChiSquare::GetSystematicShifts </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ids</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that returns the systematic shifts and the associated penalty term of the &chi;<sup>2</sup>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ids</td><td>the dataset index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a pair with the vector of nuisance parameters as a first entry and the penalty as a second. </dd></dl>
+
+</div>
+</div>
+<a id="a7dc4967a1dc833c7d6161f825f77e079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dc4967a1dc833c7d6161f825f77e079">&#9670;&nbsp;</a></span>MakePlots()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NangaParbat::ChiSquare::MakePlots </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that produces data-theory comparison plots using ROOT. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>path to where the "plots" folder will be placed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This function is parlticularly lengthy and relies on ROOT and is not particularly useful. It may be convenient to remove it. </dd></dl>
 
 </div>
 </div>
@@ -636,8 +718,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a597b9078d0086fca47ce87cb603cc045"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a597b9078d0086fca47ce87cb603cc045">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
+<a id="a86f1fe4165ed06015e0907949f37ce07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86f1fe4165ed06015e0907949f37ce07">&#9670;&nbsp;</a></span>operator&lt;&lt;</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -646,9 +728,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td class="memname">YAML::Emitter&amp; operator&lt;&lt; </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramtype">YAML::Emitter &amp;&#160;</td>
           <td class="paramname"><em>os</em>, </td>
         </tr>
         <tr>
@@ -777,7 +859,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jul 27 2019 14:21:57 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Aug 4 2019 13:46:15 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
