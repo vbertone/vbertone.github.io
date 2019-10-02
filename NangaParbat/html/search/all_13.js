@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['twobodyphasespace',['TwoBodyPhaseSpace',['../classNangaParbat_1_1TwoBodyPhaseSpace.html',1,'NangaParbat::TwoBodyPhaseSpace'],['../classNangaParbat_1_1TwoBodyPhaseSpace.html#a077abbc585ea2e957a1c71f7dde6b912',1,'NangaParbat::TwoBodyPhaseSpace::TwoBodyPhaseSpace()']]],
-  ['twobodyphasespace_2eh',['twobodyphasespace.h',['../twobodyphasespace_8h.html',1,'']]]
+  ['twobodyphasespace_168',['TwoBodyPhaseSpace',['../classNangaParbat_1_1TwoBodyPhaseSpace.html',1,'NangaParbat::TwoBodyPhaseSpace'],['../classNangaParbat_1_1TwoBodyPhaseSpace.html#a077abbc585ea2e957a1c71f7dde6b912',1,'NangaParbat::TwoBodyPhaseSpace::TwoBodyPhaseSpace()']]],
+  ['twobodyphasespace_2eh_169',['twobodyphasespace.h',['../twobodyphasespace_8h.html',1,'']]]
 ];

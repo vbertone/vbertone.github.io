@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['makeplots',['MakePlots',['../classNangaParbat_1_1ChiSquare.html#a7dc4967a1dc833c7d6161f825f77e079',1,'NangaParbat::ChiSquare']]],
-  ['minuitminimiser',['MinuitMinimiser',['../namespaceNangaParbat.html#a330496dec681a55dbfe041d75b2e630f',1,'NangaParbat']]]
+  ['makeplots_270',['MakePlots',['../classNangaParbat_1_1ChiSquare.html#a7dc4967a1dc833c7d6161f825f77e079',1,'NangaParbat::ChiSquare']]],
+  ['minuitminimiser_271',['MinuitMinimiser',['../namespaceNangaParbat.html#a769e5fd04e3ac43dad78c33d720f51d0',1,'NangaParbat']]]
 ];
