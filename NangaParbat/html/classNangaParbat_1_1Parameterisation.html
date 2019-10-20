@@ -88,8 +88,11 @@ Inheritance diagram for NangaParbat::Parameterisation:</div>
   <img src="classNangaParbat_1_1Parameterisation.png" usemap="#NangaParbat::Parameterisation_map" alt=""/>
   <map id="NangaParbat::Parameterisation_map" name="NangaParbat::Parameterisation_map">
 <area href="classNangaParbat_1_1DWS.html" title="Davies-Webber-Stirling parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::DWS" shape="rect" coords="0,56,186,80"/>
-<area href="classNangaParbat_1_1PV17.html" title="Pavia 20117 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::PV17" shape="rect" coords="196,56,382,80"/>
-<area href="classNangaParbat_1_1PV19.html" title="Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::PV19" shape="rect" coords="392,56,578,80"/>
+<area href="classNangaParbat_1_1MeanReplica.html" title="Parameterisation derived from the &quot;Parameterisation&quot; mother class to compute the mean replica of a Mo..." alt="NangaParbat::MeanReplica" shape="rect" coords="196,56,382,80"/>
+<area href="classNangaParbat_1_1PV17.html" title="Pavia 2017 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::PV17" shape="rect" coords="392,56,578,80"/>
+<area href="classNangaParbat_1_1PV19.html" title="Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::PV19" shape="rect" coords="588,56,774,80"/>
+<area href="classNangaParbat_1_1QGG12.html" title="Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::QGG12" shape="rect" coords="784,56,970,80"/>
+<area href="classNangaParbat_1_1QGG6.html" title="Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class." alt="NangaParbat::QGG6" shape="rect" coords="980,56,1166,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -191,6 +194,15 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The "Parameterisation" constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>name of the parameterisation object </td></tr>
+    <tr><td class="paramname">nfuncs</td><td>number of parametric functions </td></tr>
+    <tr><td class="paramname">pars</td><td>vector of parameters (default: empty vector) </td></tr>
+    <tr><td class="paramname">anders</td><td>whether analytic derivatives are provided </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -361,14 +373,14 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">x</td><td>momentum fraction </td></tr>
     <tr><td class="paramname">b</td><td>impact parameter </td></tr>
-    <tr><td class="paramname">zeta</td><td>rapidity scale &amp;zeta </td></tr>
-    <tr><td class="paramname">ifunc</td><td>index of the function; </td></tr>
+    <tr><td class="paramname">zeta</td><td>rapidity scale &zeta; </td></tr>
+    <tr><td class="paramname">ifunc</td><td>index of the function </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>it returns the value of the ifunc-th function at (x, b, &zeta;) </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a335730bffaa8b4fc05c5109ce2541353">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1PV17.html#a4386aa3047b64b38196d73b68b78e001">NangaParbat::PV17</a>, and <a class="el" href="classNangaParbat_1_1DWS.html#a267d0bc775f60670ac1c7dc37ad57a30">NangaParbat::DWS</a>.</p>
+<p>Reimplemented in <a class="el" href="classNangaParbat_1_1MeanReplica.html#a0893a990e234ec20b9298ae59a217f3d">NangaParbat::MeanReplica</a>, <a class="el" href="classNangaParbat_1_1QGG12.html#a8cbccf7f2dcc4849c51aad23c61225bf">NangaParbat::QGG12</a>, <a class="el" href="classNangaParbat_1_1QGG6.html#a0ced4cc2978d3b69b3a4dfc159784c9b">NangaParbat::QGG6</a>, <a class="el" href="classNangaParbat_1_1PV17.html#a4386aa3047b64b38196d73b68b78e001">NangaParbat::PV17</a>, <a class="el" href="classNangaParbat_1_1PV19.html#a335730bffaa8b4fc05c5109ce2541353">NangaParbat::PV19</a>, and <a class="el" href="classNangaParbat_1_1DWS.html#a267d0bc775f60670ac1c7dc37ad57a30">NangaParbat::DWS</a>.</p>
 
 </div>
 </div>
@@ -466,7 +478,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Virtual function that returns a vector of strings containing the names of the parameters in LaTex format. </p>
 
-<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a1e9c279a929c30081437fadcf43b5d5e">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1DWS.html#aa251b6afccf0f36c3d483ced08542048">NangaParbat::DWS</a>, and <a class="el" href="classNangaParbat_1_1PV17.html#aef19da59918785d3d6ecad0a099a82fc">NangaParbat::PV17</a>.</p>
+<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a1e9c279a929c30081437fadcf43b5d5e">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1QGG12.html#aac34f6a30d99e1f402b293cf7c76522a">NangaParbat::QGG12</a>, <a class="el" href="classNangaParbat_1_1QGG6.html#ae19fde537da221be859bd92038066080">NangaParbat::QGG6</a>, <a class="el" href="classNangaParbat_1_1DWS.html#aa251b6afccf0f36c3d483ced08542048">NangaParbat::DWS</a>, <a class="el" href="classNangaParbat_1_1PV17.html#aef19da59918785d3d6ecad0a099a82fc">NangaParbat::PV17</a>, and <a class="el" href="classNangaParbat_1_1MeanReplica.html#acb5919e70be4405f3c6d4847acf84255">NangaParbat::MeanReplica</a>.</p>
 
 </div>
 </div>
@@ -545,7 +557,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Virtual function that returns a string with the formula of the non-perturbative function(s) in LaTex format. </p>
 
-<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a513ca0ac3ae144a8fad2844c89bc9fc9">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1DWS.html#a8cab43420ccdace5f9508dc7ad9692cc">NangaParbat::DWS</a>, and <a class="el" href="classNangaParbat_1_1PV17.html#af29e571ff6319aea151506974ac75242">NangaParbat::PV17</a>.</p>
+<p>Reimplemented in <a class="el" href="classNangaParbat_1_1PV19.html#a513ca0ac3ae144a8fad2844c89bc9fc9">NangaParbat::PV19</a>, <a class="el" href="classNangaParbat_1_1QGG12.html#a50c49a8800b6b7a0365f2a04be84d651">NangaParbat::QGG12</a>, <a class="el" href="classNangaParbat_1_1DWS.html#a8cab43420ccdace5f9508dc7ad9692cc">NangaParbat::DWS</a>, <a class="el" href="classNangaParbat_1_1QGG6.html#a3a35da699e30dd0afe490dc4732c8849">NangaParbat::QGG6</a>, <a class="el" href="classNangaParbat_1_1MeanReplica.html#af862a31d3479074cf90d3be967a1d1b0">NangaParbat::MeanReplica</a>, and <a class="el" href="classNangaParbat_1_1PV17.html#af29e571ff6319aea151506974ac75242">NangaParbat::PV17</a>.</p>
 
 </div>
 </div>
@@ -686,7 +698,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 2 2019 22:45:19 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Oct 20 2019 21:38:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>

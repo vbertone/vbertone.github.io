@@ -108,6 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac5eea335959234dc72b93ccbf1a195b0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ac5eea335959234dc72b93ccbf1a195b0">GetPredictions</a> (std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;fNP, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;, int const &amp;)&gt; const &amp;dNP) const</td></tr>
 <tr class="memdesc:ac5eea335959234dc72b93ccbf1a195b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a vector of predictions given two user-given non-perturbative function.  <a href="classNangaParbat_1_1ConvolutionTable.html#ac5eea335959234dc72b93ccbf1a195b0">More...</a><br /></td></tr>
 <tr class="separator:ac5eea335959234dc72b93ccbf1a195b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a543f74ec3570a0cced4499c282acfbfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a543f74ec3570a0cced4499c282acfbfb">PlotWeights</a> () const</td></tr>
+<tr class="memdesc:a543f74ec3570a0cced4499c282acfbfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that makes a 3D histogram of the weights as a function of b<sub>T</sub> and x<sub>1,2</sub>. See: <a href="https://root.cern/doc/v610/classTHistPainter.html">https://root.cern/doc/v610/classTHistPainter.html</a> for details.  <a href="classNangaParbat_1_1ConvolutionTable.html#a543f74ec3570a0cced4499c282acfbfb">More...</a><br /></td></tr>
+<tr class="separator:a543f74ec3570a0cced4499c282acfbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Getters</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Functions to retrieve the feauture of the convolution table </p>
 </div></td></tr>
@@ -122,39 +125,39 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a57917cd26ad8eabb72d92fe817d21197"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a57917cd26ad8eabb72d92fe817d21197">_name</a></td></tr>
-<tr class="memdesc:a57917cd26ad8eabb72d92fe817d21197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the table.  <a href="classNangaParbat_1_1ConvolutionTable.html#a57917cd26ad8eabb72d92fe817d21197">More...</a><br /></td></tr>
-<tr class="separator:a57917cd26ad8eabb72d92fe817d21197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a098a53327fb936df037ae78f6682f949"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a098a53327fb936df037ae78f6682f949">_proc</a></td></tr>
-<tr class="memdesc:a098a53327fb936df037ae78f6682f949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the process (0: DY, 1: SIDIS)  <a href="classNangaParbat_1_1ConvolutionTable.html#a098a53327fb936df037ae78f6682f949">More...</a><br /></td></tr>
-<tr class="separator:a098a53327fb936df037ae78f6682f949"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac74302a35b3c6013aa67bba8044fa43a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ac74302a35b3c6013aa67bba8044fa43a">_Vs</a></td></tr>
-<tr class="memdesc:ac74302a35b3c6013aa67bba8044fa43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center of mass energy.  <a href="classNangaParbat_1_1ConvolutionTable.html#ac74302a35b3c6013aa67bba8044fa43a">More...</a><br /></td></tr>
-<tr class="separator:ac74302a35b3c6013aa67bba8044fa43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae08fe53ee3eb93f0c0087e2a5cb9ac79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ae08fe53ee3eb93f0c0087e2a5cb9ac79">_IntqT</a></td></tr>
-<tr class="memdesc:ae08fe53ee3eb93f0c0087e2a5cb9ac79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the bin are integrated in qT or not.  <a href="classNangaParbat_1_1ConvolutionTable.html#ae08fe53ee3eb93f0c0087e2a5cb9ac79">More...</a><br /></td></tr>
-<tr class="separator:ae08fe53ee3eb93f0c0087e2a5cb9ac79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4be771e1b4bfbaf73c3c8556e537445"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#af4be771e1b4bfbaf73c3c8556e537445">_qTv</a></td></tr>
-<tr class="memdesc:af4be771e1b4bfbaf73c3c8556e537445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of qT bin-bounds.  <a href="classNangaParbat_1_1ConvolutionTable.html#af4be771e1b4bfbaf73c3c8556e537445">More...</a><br /></td></tr>
-<tr class="separator:af4be771e1b4bfbaf73c3c8556e537445"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a702713e700d113a5c2ee9b177606cad2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a702713e700d113a5c2ee9b177606cad2">_qTmap</a></td></tr>
-<tr class="memdesc:a702713e700d113a5c2ee9b177606cad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of bounds for each qT bin.  <a href="classNangaParbat_1_1ConvolutionTable.html#a702713e700d113a5c2ee9b177606cad2">More...</a><br /></td></tr>
-<tr class="separator:a702713e700d113a5c2ee9b177606cad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a993cafb129b18ed9b63d782f03d533e7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a993cafb129b18ed9b63d782f03d533e7">_qTfact</a></td></tr>
-<tr class="memdesc:a993cafb129b18ed9b63d782f03d533e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin-by-bin factors.  <a href="classNangaParbat_1_1ConvolutionTable.html#a993cafb129b18ed9b63d782f03d533e7">More...</a><br /></td></tr>
-<tr class="separator:a993cafb129b18ed9b63d782f03d533e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06d2af6dbcffb1b0e02cd7c737f3835"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aa06d2af6dbcffb1b0e02cd7c737f3835">_prefact</a></td></tr>
-<tr class="memdesc:aa06d2af6dbcffb1b0e02cd7c737f3835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overall prefactor.  <a href="classNangaParbat_1_1ConvolutionTable.html#aa06d2af6dbcffb1b0e02cd7c737f3835">More...</a><br /></td></tr>
-<tr class="separator:aa06d2af6dbcffb1b0e02cd7c737f3835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e73b8deb97a0c9bcaf9b1754cb8dbd3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a1e73b8deb97a0c9bcaf9b1754cb8dbd3">_z</a></td></tr>
-<tr class="memdesc:a1e73b8deb97a0c9bcaf9b1754cb8dbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unscaled Ogata coordinate.  <a href="classNangaParbat_1_1ConvolutionTable.html#a1e73b8deb97a0c9bcaf9b1754cb8dbd3">More...</a><br /></td></tr>
-<tr class="separator:a1e73b8deb97a0c9bcaf9b1754cb8dbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa509c07b8ad51a6e16efea4c78f89410"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aa509c07b8ad51a6e16efea4c78f89410">_Qg</a></td></tr>
-<tr class="memdesc:aa509c07b8ad51a6e16efea4c78f89410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid in Q.  <a href="classNangaParbat_1_1ConvolutionTable.html#aa509c07b8ad51a6e16efea4c78f89410">More...</a><br /></td></tr>
-<tr class="separator:aa509c07b8ad51a6e16efea4c78f89410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a012a406400f933a9b3ae72535b120bdc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a012a406400f933a9b3ae72535b120bdc">_xig</a></td></tr>
-<tr class="memdesc:a012a406400f933a9b3ae72535b120bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid in xi.  <a href="classNangaParbat_1_1ConvolutionTable.html#a012a406400f933a9b3ae72535b120bdc">More...</a><br /></td></tr>
-<tr class="separator:a012a406400f933a9b3ae72535b120bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fba55f55015bd13b1d18574746b3a50"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a9fba55f55015bd13b1d18574746b3a50">_name</a></td></tr>
+<tr class="memdesc:a9fba55f55015bd13b1d18574746b3a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the table.  <a href="classNangaParbat_1_1ConvolutionTable.html#a9fba55f55015bd13b1d18574746b3a50">More...</a><br /></td></tr>
+<tr class="separator:a9fba55f55015bd13b1d18574746b3a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98b33b0d480539bbc61fd144bc15701"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#ab98b33b0d480539bbc61fd144bc15701">_proc</a></td></tr>
+<tr class="memdesc:ab98b33b0d480539bbc61fd144bc15701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the process (0: DY, 1: SIDIS)  <a href="classNangaParbat_1_1ConvolutionTable.html#ab98b33b0d480539bbc61fd144bc15701">More...</a><br /></td></tr>
+<tr class="separator:ab98b33b0d480539bbc61fd144bc15701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28212cd8cbb7f6ecba39e099a6f6e58e"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a28212cd8cbb7f6ecba39e099a6f6e58e">_Vs</a></td></tr>
+<tr class="memdesc:a28212cd8cbb7f6ecba39e099a6f6e58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center of mass energy.  <a href="classNangaParbat_1_1ConvolutionTable.html#a28212cd8cbb7f6ecba39e099a6f6e58e">More...</a><br /></td></tr>
+<tr class="separator:a28212cd8cbb7f6ecba39e099a6f6e58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55734003a7b152f6dc506915234cdd35"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a55734003a7b152f6dc506915234cdd35">_IntqT</a></td></tr>
+<tr class="memdesc:a55734003a7b152f6dc506915234cdd35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the bin are integrated in qT or not.  <a href="classNangaParbat_1_1ConvolutionTable.html#a55734003a7b152f6dc506915234cdd35">More...</a><br /></td></tr>
+<tr class="separator:a55734003a7b152f6dc506915234cdd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcfdfb20a800c8009dcc9e7706406023"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#abcfdfb20a800c8009dcc9e7706406023">_qTv</a></td></tr>
+<tr class="memdesc:abcfdfb20a800c8009dcc9e7706406023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of qT bin-bounds.  <a href="classNangaParbat_1_1ConvolutionTable.html#abcfdfb20a800c8009dcc9e7706406023">More...</a><br /></td></tr>
+<tr class="separator:abcfdfb20a800c8009dcc9e7706406023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0bfb2a84d3fc8387c7b82655f1e3a8e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#af0bfb2a84d3fc8387c7b82655f1e3a8e">_qTmap</a></td></tr>
+<tr class="memdesc:af0bfb2a84d3fc8387c7b82655f1e3a8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of bounds for each qT bin.  <a href="classNangaParbat_1_1ConvolutionTable.html#af0bfb2a84d3fc8387c7b82655f1e3a8e">More...</a><br /></td></tr>
+<tr class="separator:af0bfb2a84d3fc8387c7b82655f1e3a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bfb457d4d50465fb99b1edb665f1ad5"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a8bfb457d4d50465fb99b1edb665f1ad5">_qTfact</a></td></tr>
+<tr class="memdesc:a8bfb457d4d50465fb99b1edb665f1ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bin-by-bin factors.  <a href="classNangaParbat_1_1ConvolutionTable.html#a8bfb457d4d50465fb99b1edb665f1ad5">More...</a><br /></td></tr>
+<tr class="separator:a8bfb457d4d50465fb99b1edb665f1ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a586024f8b5eb3d60f45584cb211ffc"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a2a586024f8b5eb3d60f45584cb211ffc">_prefact</a></td></tr>
+<tr class="memdesc:a2a586024f8b5eb3d60f45584cb211ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overall prefactor.  <a href="classNangaParbat_1_1ConvolutionTable.html#a2a586024f8b5eb3d60f45584cb211ffc">More...</a><br /></td></tr>
+<tr class="separator:a2a586024f8b5eb3d60f45584cb211ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb427974195e00cea9a9407add47391"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a6bb427974195e00cea9a9407add47391">_z</a></td></tr>
+<tr class="memdesc:a6bb427974195e00cea9a9407add47391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unscaled Ogata coordinate.  <a href="classNangaParbat_1_1ConvolutionTable.html#a6bb427974195e00cea9a9407add47391">More...</a><br /></td></tr>
+<tr class="separator:a6bb427974195e00cea9a9407add47391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb8b83fd3c47f142f141bd9d8725842"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#a1fb8b83fd3c47f142f141bd9d8725842">_Qg</a></td></tr>
+<tr class="memdesc:a1fb8b83fd3c47f142f141bd9d8725842"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid in Q.  <a href="classNangaParbat_1_1ConvolutionTable.html#a1fb8b83fd3c47f142f141bd9d8725842">More...</a><br /></td></tr>
+<tr class="separator:a1fb8b83fd3c47f142f141bd9d8725842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3725110d678524ea240528b8ba86edf"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aa3725110d678524ea240528b8ba86edf">_xig</a></td></tr>
+<tr class="memdesc:aa3725110d678524ea240528b8ba86edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid in &xi;.  <a href="classNangaParbat_1_1ConvolutionTable.html#aa3725110d678524ea240528b8ba86edf">More...</a><br /></td></tr>
+<tr class="separator:aa3725110d678524ea240528b8ba86edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb272432de65a68c697c1afb66e1c751"><td class="memItemLeft" align="right" valign="top">std::map&lt; double, std::vector&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1ConvolutionTable.html#aeb272432de65a68c697c1afb66e1c751">_PSRed</a></td></tr>
 <tr class="memdesc:aeb272432de65a68c697c1afb66e1c751"><td class="mdescLeft">&#160;</td><td class="mdescRight">The phase-space reduction factors.  <a href="classNangaParbat_1_1ConvolutionTable.html#aeb272432de65a68c697c1afb66e1c751">More...</a><br /></td></tr>
 <tr class="separator:aeb272432de65a68c697c1afb66e1c751"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -522,6 +525,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a543f74ec3570a0cced4499c282acfbfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a543f74ec3570a0cced4499c282acfbfb">&#9670;&nbsp;</a></span>PlotWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NangaParbat::ConvolutionTable::PlotWeights </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>function that makes a 3D histogram of the weights as a function of b<sub>T</sub> and x<sub>1,2</sub>. See: <a href="https://root.cern/doc/v610/classTHistPainter.html">https://root.cern/doc/v610/classTHistPainter.html</a> for details. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a5ad93c5cdda1ef9c749a55804be5debf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ad93c5cdda1ef9c749a55804be5debf">&#9670;&nbsp;</a></span>_dPSRed</h2>
@@ -547,8 +569,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae08fe53ee3eb93f0c0087e2a5cb9ac79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae08fe53ee3eb93f0c0087e2a5cb9ac79">&#9670;&nbsp;</a></span>_IntqT</h2>
+<a id="a55734003a7b152f6dc506915234cdd35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55734003a7b152f6dc506915234cdd35">&#9670;&nbsp;</a></span>_IntqT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -557,7 +579,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool NangaParbat::ConvolutionTable::_IntqT</td>
+          <td class="memname">const bool NangaParbat::ConvolutionTable::_IntqT</td>
         </tr>
       </table>
   </td>
@@ -571,8 +593,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a57917cd26ad8eabb72d92fe817d21197"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57917cd26ad8eabb72d92fe817d21197">&#9670;&nbsp;</a></span>_name</h2>
+<a id="a9fba55f55015bd13b1d18574746b3a50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fba55f55015bd13b1d18574746b3a50">&#9670;&nbsp;</a></span>_name</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -581,7 +603,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string NangaParbat::ConvolutionTable::_name</td>
+          <td class="memname">const std::string NangaParbat::ConvolutionTable::_name</td>
         </tr>
       </table>
   </td>
@@ -595,8 +617,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa06d2af6dbcffb1b0e02cd7c737f3835"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa06d2af6dbcffb1b0e02cd7c737f3835">&#9670;&nbsp;</a></span>_prefact</h2>
+<a id="a2a586024f8b5eb3d60f45584cb211ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a586024f8b5eb3d60f45584cb211ffc">&#9670;&nbsp;</a></span>_prefact</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -605,7 +627,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double NangaParbat::ConvolutionTable::_prefact</td>
+          <td class="memname">const double NangaParbat::ConvolutionTable::_prefact</td>
         </tr>
       </table>
   </td>
@@ -619,8 +641,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a098a53327fb936df037ae78f6682f949"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a098a53327fb936df037ae78f6682f949">&#9670;&nbsp;</a></span>_proc</h2>
+<a id="ab98b33b0d480539bbc61fd144bc15701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98b33b0d480539bbc61fd144bc15701">&#9670;&nbsp;</a></span>_proc</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -629,7 +651,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int NangaParbat::ConvolutionTable::_proc</td>
+          <td class="memname">const int NangaParbat::ConvolutionTable::_proc</td>
         </tr>
       </table>
   </td>
@@ -667,8 +689,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa509c07b8ad51a6e16efea4c78f89410"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa509c07b8ad51a6e16efea4c78f89410">&#9670;&nbsp;</a></span>_Qg</h2>
+<a id="a1fb8b83fd3c47f142f141bd9d8725842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb8b83fd3c47f142f141bd9d8725842">&#9670;&nbsp;</a></span>_Qg</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -677,7 +699,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_Qg</td>
+          <td class="memname">const std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_Qg</td>
         </tr>
       </table>
   </td>
@@ -691,8 +713,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a993cafb129b18ed9b63d782f03d533e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a993cafb129b18ed9b63d782f03d533e7">&#9670;&nbsp;</a></span>_qTfact</h2>
+<a id="a8bfb457d4d50465fb99b1edb665f1ad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bfb457d4d50465fb99b1edb665f1ad5">&#9670;&nbsp;</a></span>_qTfact</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -701,7 +723,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_qTfact</td>
+          <td class="memname">const std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_qTfact</td>
         </tr>
       </table>
   </td>
@@ -715,8 +737,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a702713e700d113a5c2ee9b177606cad2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a702713e700d113a5c2ee9b177606cad2">&#9670;&nbsp;</a></span>_qTmap</h2>
+<a id="af0bfb2a84d3fc8387c7b82655f1e3a8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0bfb2a84d3fc8387c7b82655f1e3a8e">&#9670;&nbsp;</a></span>_qTmap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -725,7 +747,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; NangaParbat::ConvolutionTable::_qTmap</td>
+          <td class="memname">const std::vector&lt;std::vector&lt;double&gt; &gt; NangaParbat::ConvolutionTable::_qTmap</td>
         </tr>
       </table>
   </td>
@@ -739,8 +761,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af4be771e1b4bfbaf73c3c8556e537445"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4be771e1b4bfbaf73c3c8556e537445">&#9670;&nbsp;</a></span>_qTv</h2>
+<a id="abcfdfb20a800c8009dcc9e7706406023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcfdfb20a800c8009dcc9e7706406023">&#9670;&nbsp;</a></span>_qTv</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -749,7 +771,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_qTv</td>
+          <td class="memname">const std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_qTv</td>
         </tr>
       </table>
   </td>
@@ -763,8 +785,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac74302a35b3c6013aa67bba8044fa43a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac74302a35b3c6013aa67bba8044fa43a">&#9670;&nbsp;</a></span>_Vs</h2>
+<a id="a28212cd8cbb7f6ecba39e099a6f6e58e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28212cd8cbb7f6ecba39e099a6f6e58e">&#9670;&nbsp;</a></span>_Vs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -773,7 +795,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double NangaParbat::ConvolutionTable::_Vs</td>
+          <td class="memname">const double NangaParbat::ConvolutionTable::_Vs</td>
         </tr>
       </table>
   </td>
@@ -811,8 +833,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a012a406400f933a9b3ae72535b120bdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a012a406400f933a9b3ae72535b120bdc">&#9670;&nbsp;</a></span>_xig</h2>
+<a id="aa3725110d678524ea240528b8ba86edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3725110d678524ea240528b8ba86edf">&#9670;&nbsp;</a></span>_xig</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -821,7 +843,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_xig</td>
+          <td class="memname">const std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_xig</td>
         </tr>
       </table>
   </td>
@@ -831,12 +853,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Grid in xi. </p>
+<p>Grid in &xi;. </p>
 
 </div>
 </div>
-<a id="a1e73b8deb97a0c9bcaf9b1754cb8dbd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e73b8deb97a0c9bcaf9b1754cb8dbd3">&#9670;&nbsp;</a></span>_z</h2>
+<a id="a6bb427974195e00cea9a9407add47391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb427974195e00cea9a9407add47391">&#9670;&nbsp;</a></span>_z</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -845,7 +867,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_z</td>
+          <td class="memname">const std::vector&lt;double&gt; NangaParbat::ConvolutionTable::_z</td>
         </tr>
       </table>
   </td>
@@ -865,7 +887,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 2 2019 22:45:19 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Oct 20 2019 21:38:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>
