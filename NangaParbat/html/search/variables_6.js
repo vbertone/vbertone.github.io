@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['var1b_404',['var1b',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a5fb1c5038e33fa6fa6b1d9eaa7ff4ae8',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['var2b_405',['var2b',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a39b2910fc66d97996ceaf9528878eee3',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['vs_406',['Vs',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a03c41a298ec7444d4ccb57d180420167',1,'NangaParbat::DataHandler::Kinematics']]]
+  ['qtfact_405',['qTfact',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#abe059e74fb5e3fb8b20d9d28a24a43e4',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['qtmap_406',['qTmap',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a1845d984c1aa6741e815dea768add12f',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['qtv_407',['qTv',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a48a34a8e0e1e368035c08d79bda27f4e',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

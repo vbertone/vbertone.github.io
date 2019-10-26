@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['intqt_395',['IntqT',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#aad2cdd170b032dce16fc12c648025de8',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['intv1_396',['Intv1',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a4392b5e78950f61ded7c20194f6fc295',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['intv2_397',['Intv2',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a7a32958838ecdde2bd528e20fd0a7fab',1,'NangaParbat::DataHandler::Kinematics']]]
+  ['etarange_398',['etaRange',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a096083a0388693e9687c13abfdfa5c59',1,'NangaParbat::DataHandler::Kinematics']]]
 ];

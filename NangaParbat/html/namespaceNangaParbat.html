@@ -66,7 +66,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">NangaParbat Namespace Reference</div>  </div>
 </div><!--header-->
@@ -142,6 +143,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1a87cec6296e98a25f8a79d5d78e5487"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "NoMinimiser" function simply returns predictions.  <a href="namespaceNangaParbat.html#a1a87cec6296e98a25f8a79d5d78e5487">More...</a><br /></td></tr>
 <tr class="separator:a1a87cec6296e98a25f8a79d5d78e5487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a442f25c624ea3f524c6c03cf362f9c43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a442f25c624ea3f524c6c03cf362f9c43">GetParametersation</a> (std::string const &amp;name)</td></tr>
+<tr class="memdesc:a442f25c624ea3f524c6c03cf362f9c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function that returns a pointer to a <a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">NangaParbat::Parameterisation</a> object pointing to a specific parameterisation.  <a href="namespaceNangaParbat.html#a442f25c624ea3f524c6c03cf362f9c43">More...</a><br /></td></tr>
 <tr class="separator:a442f25c624ea3f524c6c03cf362f9c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf8cb49a5576c5c3cc1270cce64cdb11"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#aaf8cb49a5576c5c3cc1270cce64cdb11">PreprocessE288</a> (std::string const &amp;RawDataPath, std::string const &amp;ProcessedDataPath, bool const &amp;PDFError=true)</td></tr>
 <tr class="memdesc:aaf8cb49a5576c5c3cc1270cce64cdb11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing of the E288 datasets.  <a href="namespaceNangaParbat.html#aaf8cb49a5576c5c3cc1270cce64cdb11">More...</a><br /></td></tr>
@@ -215,6 +217,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a4a7151aa2841b06764f2ee0df3f2acf6">list_dir</a> (std::string const &amp;path)</td></tr>
 <tr class="memdesc:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that lists elements in a directory.  <a href="namespaceNangaParbat.html#a4a7151aa2841b06764f2ee0df3f2acf6">More...</a><br /></td></tr>
 <tr class="separator:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab76d2b5b0d256e7d11f6806d966fcd3d"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, <a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#ab76d2b5b0d256e7d11f6806d966fcd3d">AvPars</a></td></tr>
+<tr class="memdesc:ab76d2b5b0d256e7d11f6806d966fcd3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of currently available parameterisations. Each of them must correspond to a header file containing a class deriving from the <a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">NangaParbat::Parameterisation</a> mother class.  <a href="namespaceNangaParbat.html#ab76d2b5b0d256e7d11f6806d966fcd3d">More...</a><br /></td></tr>
+<tr class="separator:ab76d2b5b0d256e7d11f6806d966fcd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a84c8d8d140f03fe5a2a5c3c3f4ce3f30"></a>
@@ -440,6 +448,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Utility function that returns a pointer to a <a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">NangaParbat::Parameterisation</a> object pointing to a specific parameterisation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>name of the parameterisation </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1443,10 +1459,39 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ab76d2b5b0d256e7d11f6806d966fcd3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76d2b5b0d256e7d11f6806d966fcd3d">&#9670;&nbsp;</a></span>AvPars</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt;std::string, <a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a>*&gt; NangaParbat::AvPars</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    {<span class="stringliteral">&quot;DWS&quot;</span>, <span class="keyword">new</span> <a class="code" href="classNangaParbat_1_1DWS.html">NangaParbat::DWS</a>{}},</div>
+<div class="line">    {<span class="stringliteral">&quot;PV17&quot;</span>, <span class="keyword">new</span> <a class="code" href="classNangaParbat_1_1PV17.html">NangaParbat::PV17</a>{}},</div>
+<div class="line">    {<span class="stringliteral">&quot;PV19&quot;</span>, <span class="keyword">new</span> <a class="code" href="classNangaParbat_1_1PV19.html">NangaParbat::PV19</a>{}},</div>
+<div class="line">    {<span class="stringliteral">&quot;QGG6&quot;</span>, <span class="keyword">new</span> <a class="code" href="classNangaParbat_1_1QGG6.html">NangaParbat::QGG6</a>{}},</div>
+<div class="line">    {<span class="stringliteral">&quot;QGG12&quot;</span>, <span class="keyword">new</span> <a class="code" href="classNangaParbat_1_1QGG12.html">NangaParbat::QGG12</a>{}}</div>
+<div class="line">  }</div>
+</div><!-- fragment -->
+<p>Map of currently available parameterisations. Each of them must correspond to a header file containing a class deriving from the <a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">NangaParbat::Parameterisation</a> mother class. </p>
+
+</div>
+</div>
 </div><!-- contents -->
+<div class="ttc" id="aclassNangaParbat_1_1PV19_html"><div class="ttname"><a href="classNangaParbat_1_1PV19.html">NangaParbat::PV19</a></div><div class="ttdoc">Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> PV19.h:17</div></div>
+<div class="ttc" id="aclassNangaParbat_1_1QGG6_html"><div class="ttname"><a href="classNangaParbat_1_1QGG6.html">NangaParbat::QGG6</a></div><div class="ttdoc">Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> QGG6.h:18</div></div>
+<div class="ttc" id="aclassNangaParbat_1_1DWS_html"><div class="ttname"><a href="classNangaParbat_1_1DWS.html">NangaParbat::DWS</a></div><div class="ttdoc">Davies-Webber-Stirling parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> DWS.h:17</div></div>
+<div class="ttc" id="aclassNangaParbat_1_1QGG12_html"><div class="ttname"><a href="classNangaParbat_1_1QGG12.html">NangaParbat::QGG12</a></div><div class="ttdoc">Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> QGG12.h:18</div></div>
+<div class="ttc" id="aclassNangaParbat_1_1PV17_html"><div class="ttname"><a href="classNangaParbat_1_1PV17.html">NangaParbat::PV17</a></div><div class="ttdoc">Pavia 2017 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> PV17.h:17</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 20 2019 21:38:07 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 26 2019 20:55:21 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>

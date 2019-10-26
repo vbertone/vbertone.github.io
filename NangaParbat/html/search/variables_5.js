@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['qtfact_401',['qTfact',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#abe059e74fb5e3fb8b20d9d28a24a43e4',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['qtmap_402',['qTmap',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a1845d984c1aa6741e815dea768add12f',1,'NangaParbat::DataHandler::Kinematics']]],
-  ['qtv_403',['qTv',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a48a34a8e0e1e368035c08d79bda27f4e',1,'NangaParbat::DataHandler::Kinematics']]]
+  ['psred_403',['PSRed',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a52a0d86829660726ec5c3f26c3e663f9',1,'NangaParbat::DataHandler::Kinematics']]],
+  ['ptmin_404',['pTMin',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a19bd3421a91dbd3c7032697bed859f2f',1,'NangaParbat::DataHandler::Kinematics']]]
 ];
