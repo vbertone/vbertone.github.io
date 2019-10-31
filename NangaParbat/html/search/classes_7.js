@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['twobodyphasespace_215',['TwoBodyPhaseSpace',['../classNangaParbat_1_1TwoBodyPhaseSpace.html',1,'NangaParbat']]]
+  ['twobodyphasespace_222',['TwoBodyPhaseSpace',['../classNangaParbat_1_1TwoBodyPhaseSpace.html',1,'NangaParbat']]]
 ];

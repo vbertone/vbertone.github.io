@@ -91,9 +91,12 @@ $(function() {
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="namespaceNangaParbat.html#a7647cc1fbf619df18896f184544f2996">CeresMinimiser</a>(ChiSquare <span class="keyword">const</span>&amp; chi2, YAML::Node <span class="keyword">const</span>&amp; parameters, gsl_rng* rng = NULL);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="namespaceNangaParbat.html#a1a87cec6296e98a25f8a79d5d78e5487">NoMinimiser</a>(ChiSquare <span class="keyword">const</span>&amp; chi2, YAML::Node <span class="keyword">const</span>&amp; parameters);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="namespaceNangaParbat.html#aa8cb1091aff3b555f9f529f058e9d290">MinuitScan</a>(ChiSquare <span class="keyword">const</span>&amp; chi2, YAML::Node <span class="keyword">const</span>&amp; parameters, std::string <span class="keyword">const</span>&amp; outfolder);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="achisquare_8h_html"><div class="ttname"><a href="chisquare_8h.html">chisquare.h</a></div></div>
+<div class="ttc" id="anamespaceNangaParbat_html_aa8cb1091aff3b555f9f529f058e9d290"><div class="ttname"><a href="namespaceNangaParbat.html#aa8cb1091aff3b555f9f529f058e9d290">NangaParbat::MinuitScan</a></div><div class="ttdeci">bool MinuitScan(ChiSquare const &amp;chi2, YAML::Node const &amp;parameters, std::string const &amp;outfolder)</div><div class="ttdoc">The &quot;MinuitScan&quot; function performs a scan around the parameters using Minuit2.</div></div>
 <div class="ttc" id="anamespaceNangaParbat_html_a1a87cec6296e98a25f8a79d5d78e5487"><div class="ttname"><a href="namespaceNangaParbat.html#a1a87cec6296e98a25f8a79d5d78e5487">NangaParbat::NoMinimiser</a></div><div class="ttdeci">bool NoMinimiser(ChiSquare const &amp;chi2, YAML::Node const &amp;parameters)</div><div class="ttdoc">The &quot;NoMinimiser&quot; function simply returns predictions.</div></div>
 <div class="ttc" id="aparameterisation_8h_html"><div class="ttname"><a href="parameterisation_8h.html">parameterisation.h</a></div></div>
 <div class="ttc" id="anamespaceNangaParbat_html_a7647cc1fbf619df18896f184544f2996"><div class="ttname"><a href="namespaceNangaParbat.html#a7647cc1fbf619df18896f184544f2996">NangaParbat::CeresMinimiser</a></div><div class="ttdeci">bool CeresMinimiser(ChiSquare const &amp;chi2, YAML::Node const &amp;parameters, gsl_rng *rng=NULL)</div><div class="ttdoc">The &quot;CeresMinimiser&quot; function using ceres-solver.</div></div>
@@ -101,7 +104,7 @@ $(function() {
 <div class="ttc" id="anamespaceNangaParbat_html"><div class="ttname"><a href="namespaceNangaParbat.html">NangaParbat</a></div><div class="ttdef"><b>Definition:</b> chisquare.h:13</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 26 2019 20:55:21 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 31 2019 18:41:38 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>

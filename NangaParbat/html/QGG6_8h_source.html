@@ -122,9 +122,9 @@ $(function() {
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classNangaParbat_1_1QGG6.html#a3a35da699e30dd0afe490dc4732c8849">   52</a></span>&#160;    std::string <a class="code" href="classNangaParbat_1_1QGG6.html#a3a35da699e30dd0afe490dc4732c8849">LatexFormula</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">    </span>{</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      std::string formula;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      formula  = R<span class="stringliteral">&quot;delimiter($$f_{\rm NP}(x,\zeta, b_T)=\left[\frac{1-\lambda^2}{\left(1 + \left(\frac{g_1}{4}\right)b_T^2\right)}+\lambda^2e^{-\delta\frac{b_T^2}{2}}\right]e^{- g_2 \log\left(\frac{\zeta}{Q_0^2}\right)\frac{b_T^2}{4}}$$\\)delimiter&quot;;</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$g_1(x) = N_1 \frac{x^{\sigma}(1-x)^{\alpha}}{\hat{x}^{\sigma}(1-\hat{x})^{\alpha}}$$\\)delimiter&quot;;</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$Q_0^2 = 1\;{\rm GeV}^2$$\\)delimiter&quot;;</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      formula  = R<span class="stringliteral">&quot;delimiter($$f_{\rm NP}(x,\zeta, b_T)=\left[\frac{1-\lambda^2}{\left(1 + \left(\frac{g_1}{4}\right)b_T^2\right)}+\lambda^2e^{-\delta\frac{b_T^2}{2}}\right]e^{- g_2 \log\left(\frac{\zeta}{Q_0^2}\right)\frac{b_T^2}{4}}$$)delimiter&quot;;</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$g_1(x) = N_1 \frac{x^{\sigma}(1-x)^{\alpha}}{\hat{x}^{\sigma}(1-\hat{x})^{\alpha}}$$)delimiter&quot;;</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$Q_0^2 = 1\;{\rm GeV}^2$$)delimiter&quot;;</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$\hat{x} = 0.1$$)delimiter&quot;;</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="stringliteral">      </span><span class="keywordflow">return</span> formula;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    };</div>
@@ -136,19 +136,15 @@ $(function() {
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\alpha$)delimiter&quot;,</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\sigma$)delimiter&quot;,</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\lambda$)delimiter&quot;,</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\delta$)delimiter&quot;,</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\lambdaB$)delimiter&quot;,</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($g1B$)delimiter&quot;,</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($g1C$)delimiter&quot;,</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($qq$)delimiter&quot;};</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="stringliteral">    };</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="stringliteral"></span> </div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classNangaParbat_1_1QGG6.html#a5e7ef27d40226eac645b9ed7dade397f">   76</a></span>&#160;<span class="stringliteral">    std::string <a class="code" href="classNangaParbat_1_1QGG6.html#a5e7ef27d40226eac645b9ed7dade397f">GetDescription</a>()</span><span class="keyword"> const</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Parameterisation with a q-Guaussian and a Gaussion and 6 free parameters.&quot;</span>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    };</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  };</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\delta$)delimiter&quot;};</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="stringliteral">    };</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="stringliteral"></span> </div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classNangaParbat_1_1QGG6.html#a5e7ef27d40226eac645b9ed7dade397f">   72</a></span>&#160;<span class="stringliteral">    std::string <a class="code" href="classNangaParbat_1_1QGG6.html#a5e7ef27d40226eac645b9ed7dade397f">GetDescription</a>()</span><span class="keyword"> const</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Parameterisation with a q-Gaussian and a Gaussian and 6 free parameters.&quot;</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    };</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  };</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassNangaParbat_1_1Parameterisation_html_a6e2bb7717a1c006d0c2d5a00bd4578a2"><div class="ttname"><a href="classNangaParbat_1_1Parameterisation.html#a6e2bb7717a1c006d0c2d5a00bd4578a2">NangaParbat::Parameterisation::_nfuncs</a></div><div class="ttdeci">int _nfuncs</div><div class="ttdoc">Number of output functions.</div><div class="ttdef"><b>Definition:</b> parameterisation.h:108</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1QGG6_html_a0ced4cc2978d3b69b3a4dfc159784c9b"><div class="ttname"><a href="classNangaParbat_1_1QGG6.html#a0ced4cc2978d3b69b3a4dfc159784c9b">NangaParbat::QGG6::Evaluate</a></div><div class="ttdeci">double Evaluate(double const &amp;x, double const &amp;b, double const &amp;zeta, int const &amp;ifunc) const</div><div class="ttdoc">Virtual function that returns the value of one of the functions.</div><div class="ttdef"><b>Definition:</b> QGG6.h:24</div></div>
@@ -158,12 +154,12 @@ $(function() {
 <div class="ttc" id="aclassNangaParbat_1_1QGG6_html_ae19fde537da221be859bd92038066080"><div class="ttname"><a href="classNangaParbat_1_1QGG6.html#ae19fde537da221be859bd92038066080">NangaParbat::QGG6::GetParameterNames</a></div><div class="ttdeci">std::vector&lt; std::string &gt; GetParameterNames() const</div><div class="ttdoc">Virtual function that returns a vector of strings containing the names of the parameters in LaTex for...</div><div class="ttdef"><b>Definition:</b> QGG6.h:62</div></div>
 <div class="ttc" id="aparameterisation_8h_html"><div class="ttname"><a href="parameterisation_8h.html">parameterisation.h</a></div></div>
 <div class="ttc" id="aclassNangaParbat_1_1QGG6_html"><div class="ttname"><a href="classNangaParbat_1_1QGG6.html">NangaParbat::QGG6</a></div><div class="ttdoc">Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> QGG6.h:18</div></div>
-<div class="ttc" id="aclassNangaParbat_1_1QGG6_html_a5e7ef27d40226eac645b9ed7dade397f"><div class="ttname"><a href="classNangaParbat_1_1QGG6.html#a5e7ef27d40226eac645b9ed7dade397f">NangaParbat::QGG6::GetDescription</a></div><div class="ttdeci">std::string GetDescription() const</div><div class="ttdoc">Virtual function that returns a short description of the parametrisation.</div><div class="ttdef"><b>Definition:</b> QGG6.h:76</div></div>
+<div class="ttc" id="aclassNangaParbat_1_1QGG6_html_a5e7ef27d40226eac645b9ed7dade397f"><div class="ttname"><a href="classNangaParbat_1_1QGG6.html#a5e7ef27d40226eac645b9ed7dade397f">NangaParbat::QGG6::GetDescription</a></div><div class="ttdeci">std::string GetDescription() const</div><div class="ttdoc">Virtual function that returns a short description of the parametrisation.</div><div class="ttdef"><b>Definition:</b> QGG6.h:72</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1Parameterisation_html"><div class="ttname"><a href="classNangaParbat_1_1Parameterisation.html">NangaParbat::Parameterisation</a></div><div class="ttdoc">Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...</div><div class="ttdef"><b>Definition:</b> parameterisation.h:17</div></div>
 <div class="ttc" id="anamespaceNangaParbat_html"><div class="ttname"><a href="namespaceNangaParbat.html">NangaParbat</a></div><div class="ttdef"><b>Definition:</b> chisquare.h:13</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 26 2019 20:55:21 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 31 2019 18:41:38 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>
