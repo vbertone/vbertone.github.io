@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['etarange_411',['etaRange',['../structNangaParbat_1_1DataHandler_1_1Kinematics.html#a096083a0388693e9687c13abfdfa5c59',1,'NangaParbat::DataHandler::Kinematics']]]
+  ['bstarmap_421',['bstarMap',['../namespaceNangaParbat.html#a0c3b3dd634e6ea718432415db6643434',1,'NangaParbat']]]
 ];

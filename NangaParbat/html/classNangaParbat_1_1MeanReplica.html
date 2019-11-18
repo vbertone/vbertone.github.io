@@ -93,9 +93,9 @@ Inheritance diagram for NangaParbat::MeanReplica:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aef2bd98d2e6970d053ab1f3e04265e90"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1MeanReplica.html#aef2bd98d2e6970d053ab1f3e04265e90">MeanReplica</a> (std::string const &amp;InputFolder, std::string const &amp;FitConfigFile)</td></tr>
-<tr class="memdesc:aef2bd98d2e6970d053ab1f3e04265e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="classNangaParbat_1_1MeanReplica.html#aef2bd98d2e6970d053ab1f3e04265e90">More...</a><br /></td></tr>
-<tr class="separator:aef2bd98d2e6970d053ab1f3e04265e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea31df3d513688c8e762eff7195fb6dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1MeanReplica.html#aea31df3d513688c8e762eff7195fb6dd">MeanReplica</a> (std::string const &amp;InputFolder, std::string const &amp;FitConfigFile, std::vector&lt; int &gt; const &amp;discard={})</td></tr>
+<tr class="memdesc:aea31df3d513688c8e762eff7195fb6dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "Parameterisation" constructor.  <a href="classNangaParbat_1_1MeanReplica.html#aea31df3d513688c8e762eff7195fb6dd">More...</a><br /></td></tr>
+<tr class="separator:aea31df3d513688c8e762eff7195fb6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92a0952369c78e7315979cb78e73e698"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1MeanReplica.html#a92a0952369c78e7315979cb78e73e698">~MeanReplica</a> ()</td></tr>
 <tr class="memdesc:a92a0952369c78e7315979cb78e73e698"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "MeanReplica" destructor.  <a href="classNangaParbat_1_1MeanReplica.html#a92a0952369c78e7315979cb78e73e698">More...</a><br /></td></tr>
 <tr class="separator:a92a0952369c78e7315979cb78e73e698"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,8 +175,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">Parameterisation</a> derived from the "Parameterisation" mother class to compute the mean replica of a Monte Carlo set. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aef2bd98d2e6970d053ab1f3e04265e90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef2bd98d2e6970d053ab1f3e04265e90">&#9670;&nbsp;</a></span>MeanReplica()</h2>
+<a id="aea31df3d513688c8e762eff7195fb6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea31df3d513688c8e762eff7195fb6dd">&#9670;&nbsp;</a></span>MeanReplica()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,7 +191,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>FitConfigFile</em>&#160;</td>
+          <td class="paramname"><em>FitConfigFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>discard</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -206,6 +212,7 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">InputFolder</td><td>path to the folder where the replicas are </td></tr>
     <tr><td class="paramname">FitConfigFile</td><td>configuration file in YAML format </td></tr>
+    <tr><td class="paramname">discard</td><td>vector of replicas to be discarded </td></tr>
   </table>
   </dd>
 </dl>
@@ -513,7 +520,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 31 2019 18:41:38 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 18 2019 21:27:08 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>

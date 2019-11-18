@@ -93,12 +93,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2b979141209edd7d3ab240276ad4db4"><td class="memItemLeft" align="right" valign="top">apfel::DoubleObject&lt; apfel::Distribution &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#ac2b979141209edd7d3ab240276ad4db4">LuminositySIDIS</a> (double const &amp;b, double const &amp;Q, double const &amp;targetiso) const</td></tr>
 <tr class="memdesc:ac2b979141209edd7d3ab240276ad4db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function returns the luminosity for the SIDIS process as a "DoubleObject" for a fixed values of "b" and "Q".  <a href="classNangaParbat_1_1FastInterface.html#ac2b979141209edd7d3ab240276ad4db4">More...</a><br /></td></tr>
 <tr class="separator:ac2b979141209edd7d3ab240276ad4db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83a34b3881ace113da406c18f6b88bd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#ad83a34b3881ace113da406c18f6b88bd">ComputeTables</a> (std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect, std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;<a class="el" href="namespaceNangaParbat.html#a84c8d8d140f03fe5a2a5c3c3f4ce3f30">bstar</a>) const</td></tr>
-<tr class="memdesc:ad83a34b3881ace113da406c18f6b88bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that computes the interpolation tables given as an input vector of "DataHandler" objects.  <a href="classNangaParbat_1_1FastInterface.html#ad83a34b3881ace113da406c18f6b88bd">More...</a><br /></td></tr>
-<tr class="separator:ad83a34b3881ace113da406c18f6b88bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b6716866478c3b5a78421567f0fc38c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#a4b6716866478c3b5a78421567f0fc38c">DirectComputation</a> (std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect, std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;<a class="el" href="namespaceNangaParbat.html#a84c8d8d140f03fe5a2a5c3c3f4ce3f30">bstar</a>, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2, double const &amp;epsQ=1e-7, double const &amp;epsxi=1e-7, bool const &amp;sameOgata=true) const</td></tr>
-<tr class="memdesc:a4b6716866478c3b5a78421567f0fc38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that computes the predictions corresponding to a set of "DataHandler" objects as direct integration.  <a href="classNangaParbat_1_1FastInterface.html#a4b6716866478c3b5a78421567f0fc38c">More...</a><br /></td></tr>
-<tr class="separator:a4b6716866478c3b5a78421567f0fc38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382a2ec10184a0bec609464ee3f9c43c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#a382a2ec10184a0bec609464ee3f9c43c">ComputeTables</a> (std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect) const</td></tr>
+<tr class="memdesc:a382a2ec10184a0bec609464ee3f9c43c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that computes the interpolation tables given as an input vector of "DataHandler" objects.  <a href="classNangaParbat_1_1FastInterface.html#a382a2ec10184a0bec609464ee3f9c43c">More...</a><br /></td></tr>
+<tr class="separator:a382a2ec10184a0bec609464ee3f9c43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d901af4b3cb4826a8d1954d4f79aca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#a74d901af4b3cb4826a8d1954d4f79aca">DirectComputation</a> (std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;DHVect, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP1, std::function&lt; double(double const &amp;, double const &amp;, double const &amp;)&gt; const &amp;fNP2, double const &amp;epsQ=1e-7, double const &amp;epsxi=1e-7, bool const &amp;sameOgata=true) const</td></tr>
+<tr class="memdesc:a74d901af4b3cb4826a8d1954d4f79aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that computes the predictions corresponding to a set of "DataHandler" objects as direct integration.  <a href="classNangaParbat_1_1FastInterface.html#a74d901af4b3cb4826a8d1954d4f79aca">More...</a><br /></td></tr>
+<tr class="separator:a74d901af4b3cb4826a8d1954d4f79aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -138,6 +138,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa87d81a976068ac3eaa9c50c45fa8a52"><td class="memItemLeft" align="right" valign="top">std::function&lt; apfel::Set&lt; apfel::Distribution &gt;double const  &amp;, double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#aa87d81a976068ac3eaa9c50c45fa8a52">_EvTMDFFs</a></td></tr>
 <tr class="memdesc:aa87d81a976068ac3eaa9c50c45fa8a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">TMD FFs.  <a href="classNangaParbat_1_1FastInterface.html#aa87d81a976068ac3eaa9c50c45fa8a52">More...</a><br /></td></tr>
 <tr class="separator:aa87d81a976068ac3eaa9c50c45fa8a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea849e77f3e194ee5fa56906fac9a596"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;, double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1FastInterface.html#aea849e77f3e194ee5fa56906fac9a596">_bstar</a></td></tr>
+<tr class="memdesc:aea849e77f3e194ee5fa56906fac9a596"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription  <a href="classNangaParbat_1_1FastInterface.html#aea849e77f3e194ee5fa56906fac9a596">More...</a><br /></td></tr>
+<tr class="separator:aea849e77f3e194ee5fa56906fac9a596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class that implements the methods of the computation of the interpolation tables. This also provides method for the direct calculation of the observables. </p>
@@ -171,8 +174,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad83a34b3881ace113da406c18f6b88bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad83a34b3881ace113da406c18f6b88bd">&#9670;&nbsp;</a></span>ComputeTables()</h2>
+<a id="a382a2ec10184a0bec609464ee3f9c43c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a382a2ec10184a0bec609464ee3f9c43c">&#9670;&nbsp;</a></span>ComputeTables()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,18 +184,8 @@ Private Attributes</h2></td></tr>
           <td class="memname">std::vector&lt;YAML::Emitter&gt; NangaParbat::FastInterface::ComputeTables </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>DHVect</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>bstar</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramname"><em>DHVect</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -201,7 +194,6 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">DHVect</td><td>vector of "DataHandler" objects. </td></tr>
-    <tr><td class="paramname">bstar</td><td>function that returns b*. </td></tr>
   </table>
   </dd>
 </dl>
@@ -209,8 +201,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b6716866478c3b5a78421567f0fc38c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b6716866478c3b5a78421567f0fc38c">&#9670;&nbsp;</a></span>DirectComputation()</h2>
+<a id="a74d901af4b3cb4826a8d1954d4f79aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d901af4b3cb4826a8d1954d4f79aca">&#9670;&nbsp;</a></span>DirectComputation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,12 +212,6 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> &gt; const &amp;&#160;</td>
           <td class="paramname"><em>DHVect</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; double(double const &amp;, double const &amp;)&gt; const &amp;&#160;</td>
-          <td class="paramname"><em>bstar</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -269,7 +255,6 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">DHVect</td><td>vector of "DataHandler" objects. </td></tr>
-    <tr><td class="paramname">bstar</td><td>function that returns b*. </td></tr>
     <tr><td class="paramname">fNP1</td><td>the first non-perturbative input function </td></tr>
     <tr><td class="paramname">fNP2</td><td>the second non-perturbative input function </td></tr>
     <tr><td class="paramname">epsQ</td><td>the integration accuracy in Q </td></tr>
@@ -371,6 +356,30 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aea849e77f3e194ee5fa56906fac9a596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea849e77f3e194ee5fa56906fac9a596">&#9670;&nbsp;</a></span>_bstar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;double(double const&amp;, double const&amp;)&gt; NangaParbat::FastInterface::_bstar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>b* prescription </p>
+
+</div>
+</div>
 <a id="a3a753c2583c7440d75d10d23516157cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a753c2583c7440d75d10d23516157cc">&#9670;&nbsp;</a></span>_config</h2>
 
@@ -665,7 +674,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 31 2019 18:41:38 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 18 2019 21:27:08 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>

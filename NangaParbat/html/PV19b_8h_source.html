@@ -99,7 +99,7 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keywordflow">if</span> (x &gt;= 1)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="comment">// Free paraMeters</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="comment">// Free parameters</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> g2     = this-&gt;<a class="code" href="classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91">_pars</a>[0];</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> N1     = this-&gt;<a class="code" href="classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91">_pars</a>[1];</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> alpha  = this-&gt;<a class="code" href="classNangaParbat_1_1Parameterisation.html#a6193444ebb514b37dbaf61cea145cc91">_pars</a>[2];</div>
@@ -119,14 +119,14 @@ $(function() {
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> b2 = b * b;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <span class="comment">// different contributions</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> term1 = 1 / ( 1 + g1 * b2 / 4 ) + N1;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> term1 = 1 / ( 1 + g1 * b2 / 4 );</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> term2 = exp( - g1B * b2 / 4 );</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      <span class="comment">// zeta-dependent bit (i.e. non perturbative evolution)</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> lnz    = log(zeta / <a class="code" href="classNangaParbat_1_1PV19b.html#a1b51744f5a9ed249a2a033f4165a58d8">_Q02</a>);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> NPevol = exp( - ( g2 + g2B * b2 ) * b2 * lnz / 4 );</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="keywordflow">return</span> ( ( 1 - lambda ) * term1 + lambda * term2 ) * NPevol;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="keywordflow">return</span> ( ( 1 - lambda ) * term1 + lambda * term2 - N1 ) * NPevol;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    };</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classNangaParbat_1_1PV19b.html#a3f8fcb12c87ed86951531afe75dcae6e">   62</a></span>&#160;    std::string <a class="code" href="classNangaParbat_1_1PV19b.html#a3f8fcb12c87ed86951531afe75dcae6e">LatexFormula</a>()<span class="keyword"> const</span></div>
@@ -135,7 +135,7 @@ $(function() {
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      formula  = R<span class="stringliteral">&quot;delimiter($$f_{\rm NP}(x,\zeta, b_T)= \Biggl((1-\lambda)</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="stringliteral">\left(\frac{1}{1 + g_1(x) b_T^2/4}+N_1\right) + \lambda \exp \left(-g_{1B}(x) b_T^2 /4 \right)\Biggr) \exp\left[- g_2 \log\left(\frac{\zeta}{Q_0^2}\right) b_T^2/4 - g_{2B} \log\left(\frac{\zeta}{Q_0^2}\right) b_T^4/4 \right]$$)delimiter&quot;;</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$g_1(x) = \exp\left[\sigma\left(\frac{x}{\alpha}-1\right)\right]$$)delimiter&quot;;</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$g_{1B}(x) = N_{1B} exp\left(-\frac{(x-\alpha_B)^2}{2\sigma_B^2}\right)$$)delimiter&quot;;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$g_{1B}(x) = N_{1B} \exp\left(-\frac{(x-\alpha_B)^2}{2\sigma_B^2}\right)$$)delimiter&quot;;</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="stringliteral">      formula += R</span><span class="stringliteral">&quot;delimiter($$Q_0^2 = 1\;{\rm GeV}^2$$)delimiter&quot;;</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="stringliteral">      </span><span class="keywordflow">return</span> formula;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    };</div>
@@ -145,8 +145,8 @@ $(function() {
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      <span class="keywordflow">return</span> {R<span class="stringliteral">&quot;delimiter($g_2$)delimiter&quot;,</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($N_1$)delimiter&quot;,</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\alpha$)delimiter&quot;,</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\sigma)delimiter&quot;,</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\lambda_B$)delimiter&quot;,</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\sigma$)delimiter&quot;,</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\lambda$)delimiter&quot;,</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($N_{1B}$)delimiter&quot;,</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\alpha_B$)delimiter&quot;,</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="stringliteral">              R</span><span class="stringliteral">&quot;delimiter($\sigma_B$)delimiter&quot;,</span></div>
@@ -174,10 +174,10 @@ $(function() {
 <div class="ttc" id="aclassNangaParbat_1_1PV19b_html_af058c4e30ee7acca1345450f1631bf96"><div class="ttname"><a href="classNangaParbat_1_1PV19b.html#af058c4e30ee7acca1345450f1631bf96">NangaParbat::PV19b::Evaluate</a></div><div class="ttdeci">double Evaluate(double const &amp;x, double const &amp;b, double const &amp;zeta, int const &amp;ifunc) const</div><div class="ttdoc">Virtual function that returns the value of one of the functions.</div><div class="ttdef"><b>Definition:</b> PV19b.h:23</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1Parameterisation_html"><div class="ttname"><a href="classNangaParbat_1_1Parameterisation.html">NangaParbat::Parameterisation</a></div><div class="ttdoc">Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...</div><div class="ttdef"><b>Definition:</b> parameterisation.h:17</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1PV19b_html"><div class="ttname"><a href="classNangaParbat_1_1PV19b.html">NangaParbat::PV19b</a></div><div class="ttdoc">Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> PV19b.h:17</div></div>
-<div class="ttc" id="anamespaceNangaParbat_html"><div class="ttname"><a href="namespaceNangaParbat.html">NangaParbat</a></div><div class="ttdef"><b>Definition:</b> chisquare.h:13</div></div>
+<div class="ttc" id="anamespaceNangaParbat_html"><div class="ttname"><a href="namespaceNangaParbat.html">NangaParbat</a></div><div class="ttdef"><b>Definition:</b> bstar.h:11</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 31 2019 18:41:38 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 18 2019 21:27:08 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>
