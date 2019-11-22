@@ -24,7 +24,7 @@
    <div id="projectname">ePDF
    &#160;<span id="projectnumber">1.1.0</span>
    </div>
-   <div id="projectbrief">A TMD fitting framework</div>
+   <div id="projectbrief">A QED evolution library</div>
   </td>
  </tr>
  </tbody>
@@ -246,116 +246,117 @@ $(function() {
 <div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="classePDF_1_1Matrix.html#a4d535be3c59f8ad43e4089ce35dc82fd">  177</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classePDF_1_1Matrix.html#a4d535be3c59f8ad43e4089ce35dc82fd">_Columns</a>;</div>
 <div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="classePDF_1_1Matrix.html#a1ed20de66b7e5303f0ae472a6bb5cb7c">  178</a></span>&#160;    std::vector&lt;T&gt; <a class="code" href="classePDF_1_1Matrix.html#a1ed20de66b7e5303f0ae472a6bb5cb7c">_Matrix</a>;</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">friend</span> std::ostream&amp; <a class="code" href="classePDF_1_1Matrix.html#a72357e201ee63cf1b57d88be77b2b846">operator &lt;&lt; </a>(std::ostream&amp; os, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <span class="keyword">const</span>&amp; sg);</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  };</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <span class="comment">//_________________________________________________________________________________</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  std::ostream&amp; <a class="code" href="namespaceePDF.html#acb611a336069d10e3aa1323e03727722">operator &lt;&lt; </a>(std::ostream&amp; os, <a class="code" href="classePDF_1_1Matrix.html">Matrix</a>&lt;std::complex&lt;double&gt;&gt; <span class="keyword">const</span>&amp; m);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00188"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a71e143fa9b441d4908ffcc16dc876d30">  188</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a71e143fa9b441d4908ffcc16dc876d30">operator + </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <span class="keyword">const</span>&amp; rhs)</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">return</span> lhs += rhs;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  }</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00195"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ac77cb7644a05eb93f2e9e48524c109b7">  195</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#ac77cb7644a05eb93f2e9e48524c109b7">operator - </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <span class="keyword">const</span>&amp; rhs)</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  {</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">return</span> lhs -= rhs;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  }</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">  202</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <span class="keyword">const</span>&amp; rhs)</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  {</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">return</span> lhs *= rhs;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  }</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160; </div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00209"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a6edd1a173ce1384515869621b148877d">  209</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, T <span class="keyword">const</span>&amp; rhs)</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  {</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">return</span> lhs *= rhs;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  }</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00216"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a3d54ecdf99b189b7ecb07b4507e6b048">  216</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(T <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  {</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">return</span> rhs *= lhs;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  }</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00223"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">  223</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, T <span class="keyword">const</span>&amp; rhs)</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;  {</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordflow">return</span> lhs /= rhs;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  }</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160; </div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ae7e19ca69349525cdf86559f8eb4612a">  230</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(T <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  {</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">return</span> rhs /= lhs;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  }</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a9e3d557cd168c4f01d4bbd45e9cf051b">  237</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; rhs)</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  {</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">return</span> lhs *= rhs;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  }</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ac0ac8aa64e0cd031b170aeb3cfa0ff43">  244</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  {</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">return</span> rhs *= lhs;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  }</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00251"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ab8ce250e2d4246271256dff768cab8d7">  251</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; rhs)</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;  {</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">return</span> lhs /= rhs;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  }</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a4592f0fa1891b9ed1e311c763404c44b">  258</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">return</span> rhs /= lhs;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  }</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;}</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">class</span> Y&gt;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keyword">friend</span> std::ostream&amp; <a class="code" href="classePDF_1_1Matrix.html#a5855ef731ee5287fab067be531028c82">operator &lt;&lt; </a>(std::ostream&amp; os, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;Y&gt;</a> <span class="keyword">const</span>&amp; sg);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  };</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="comment">//_________________________________________________________________________________</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  std::ostream&amp; <a class="code" href="namespaceePDF.html#acb611a336069d10e3aa1323e03727722">operator &lt;&lt; </a>(std::ostream&amp; os, <a class="code" href="classePDF_1_1Matrix.html">Matrix</a>&lt;std::complex&lt;double&gt;&gt; <span class="keyword">const</span>&amp; m);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a71e143fa9b441d4908ffcc16dc876d30">  189</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a71e143fa9b441d4908ffcc16dc876d30">operator + </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">return</span> lhs += rhs;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00196"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ac77cb7644a05eb93f2e9e48524c109b7">  196</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#ac77cb7644a05eb93f2e9e48524c109b7">operator - </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">return</span> lhs -= rhs;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00203"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">  203</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">return</span> lhs *= rhs;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a6edd1a173ce1384515869621b148877d">  210</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, T <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">return</span> lhs *= rhs;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  }</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00217"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a3d54ecdf99b189b7ecb07b4507e6b048">  217</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(T <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordflow">return</span> rhs *= lhs;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">  224</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, T <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">return</span> lhs /= rhs;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00231"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ae7e19ca69349525cdf86559f8eb4612a">  231</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(T <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordflow">return</span> rhs /= lhs;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a9e3d557cd168c4f01d4bbd45e9cf051b">  238</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">return</span> lhs *= rhs;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ac0ac8aa64e0cd031b170aeb3cfa0ff43">  245</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">operator * </a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordflow">return</span> rhs *= lhs;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00252"></a><span class="lineno"><a class="line" href="namespaceePDF.html#ab8ce250e2d4246271256dff768cab8d7">  252</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(<a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> lhs, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">return</span> lhs /= rhs;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <span class="comment">//_________________________________________________________________________</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00259"></a><span class="lineno"><a class="line" href="namespaceePDF.html#a4592f0fa1891b9ed1e311c763404c44b">  259</a></span>&#160;  <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> <a class="code" href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">operator / </a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; lhs, <a class="code" href="classePDF_1_1Matrix.html">Matrix&lt;T&gt;</a> rhs)</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">return</span> rhs /= lhs;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclassePDF_1_1Matrix_html_a72357e201ee63cf1b57d88be77b2b846"><div class="ttname"><a href="classePDF_1_1Matrix.html#a72357e201ee63cf1b57d88be77b2b846">ePDF::Matrix::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, Matrix&lt; T &gt; const &amp;sg)</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a1ed20de66b7e5303f0ae472a6bb5cb7c"><div class="ttname"><a href="classePDF_1_1Matrix.html#a1ed20de66b7e5303f0ae472a6bb5cb7c">ePDF::Matrix::_Matrix</a></div><div class="ttdeci">std::vector&lt; T &gt; _Matrix</div><div class="ttdef"><b>Definition:</b> matrix.h:178</div></div>
-<div class="ttc" id="anamespaceePDF_html_ac77cb7644a05eb93f2e9e48524c109b7"><div class="ttname"><a href="namespaceePDF.html#ac77cb7644a05eb93f2e9e48524c109b7">ePDF::operator-</a></div><div class="ttdeci">Matrix&lt; T &gt; operator-(Matrix&lt; T &gt; lhs, Matrix&lt; T &gt; const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:195</div></div>
+<div class="ttc" id="anamespaceePDF_html_ac77cb7644a05eb93f2e9e48524c109b7"><div class="ttname"><a href="namespaceePDF.html#ac77cb7644a05eb93f2e9e48524c109b7">ePDF::operator-</a></div><div class="ttdeci">Matrix&lt; T &gt; operator-(Matrix&lt; T &gt; lhs, Matrix&lt; T &gt; const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:196</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a7668a50112644f134494c05e01505cc9"><div class="ttname"><a href="classePDF_1_1Matrix.html#a7668a50112644f134494c05e01505cc9">ePDF::Matrix::Matrix</a></div><div class="ttdeci">Matrix(int const &amp;Lines=0, int const &amp;Columns=0, std::vector&lt; T &gt; const &amp;Entries={})</div><div class="ttdef"><b>Definition:</b> matrix.h:23</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_aca3e80e66be02f8a4ceeb93b0b2a5a52"><div class="ttname"><a href="classePDF_1_1Matrix.html#aca3e80e66be02f8a4ceeb93b0b2a5a52">ePDF::Matrix::GetElement</a></div><div class="ttdeci">T GetElement(int const &amp;i, int const &amp;j) const</div><div class="ttdef"><b>Definition:</b> matrix.h:46</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a6f5c9b6f3795aec27f6bc663db642518"><div class="ttname"><a href="classePDF_1_1Matrix.html#a6f5c9b6f3795aec27f6bc663db642518">ePDF::Matrix::operator/=</a></div><div class="ttdeci">Matrix&lt; T &gt; operator/=(T const &amp;coef)</div><div class="ttdef"><b>Definition:</b> matrix.h:149</div></div>
-<div class="ttc" id="anamespaceePDF_html_a7f9fadef8e13835f1b97fd95fb82377a"><div class="ttname"><a href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">ePDF::operator/</a></div><div class="ttdeci">Matrix&lt; T &gt; operator/(Matrix&lt; T &gt; lhs, T const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:223</div></div>
+<div class="ttc" id="anamespaceePDF_html_a7f9fadef8e13835f1b97fd95fb82377a"><div class="ttname"><a href="namespaceePDF.html#a7f9fadef8e13835f1b97fd95fb82377a">ePDF::operator/</a></div><div class="ttdeci">Matrix&lt; T &gt; operator/(Matrix&lt; T &gt; lhs, T const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:224</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a0df0d8006a9ae350bacd59e60cd6a541"><div class="ttname"><a href="classePDF_1_1Matrix.html#a0df0d8006a9ae350bacd59e60cd6a541">ePDF::Matrix::GetColumns</a></div><div class="ttdeci">int GetColumns() const</div><div class="ttdef"><b>Definition:</b> matrix.h:70</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a832f3788ceda920c56c9e9ad991ff052"><div class="ttname"><a href="classePDF_1_1Matrix.html#a832f3788ceda920c56c9e9ad991ff052">ePDF::Matrix::GetLines</a></div><div class="ttdeci">int GetLines() const</div><div class="ttdef"><b>Definition:</b> matrix.h:64</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a9cac929702e936734b430b3fbbe0f515"><div class="ttname"><a href="classePDF_1_1Matrix.html#a9cac929702e936734b430b3fbbe0f515">ePDF::Matrix::operator*=</a></div><div class="ttdeci">Matrix&lt; T &gt; operator*=(Matrix&lt; T &gt; const &amp;term)</div><div class="ttdef"><b>Definition:</b> matrix.h:117</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a870f74a50b74d78ac27896c300a9146b"><div class="ttname"><a href="classePDF_1_1Matrix.html#a870f74a50b74d78ac27896c300a9146b">ePDF::Matrix::_Lines</a></div><div class="ttdeci">int _Lines</div><div class="ttdef"><b>Definition:</b> matrix.h:176</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a8bd17f051553e77f330415206a84cee2"><div class="ttname"><a href="classePDF_1_1Matrix.html#a8bd17f051553e77f330415206a84cee2">ePDF::Matrix::GetVector</a></div><div class="ttdeci">std::vector&lt; T &gt; GetVector() const</div><div class="ttdef"><b>Definition:</b> matrix.h:76</div></div>
-<div class="ttc" id="anamespaceePDF_html_a2573a24dfe9655c8b43561e95078d08a"><div class="ttname"><a href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">ePDF::operator*</a></div><div class="ttdeci">Matrix&lt; T &gt; operator*(Matrix&lt; T &gt; lhs, Matrix&lt; T &gt; const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:202</div></div>
+<div class="ttc" id="anamespaceePDF_html_a2573a24dfe9655c8b43561e95078d08a"><div class="ttname"><a href="namespaceePDF.html#a2573a24dfe9655c8b43561e95078d08a">ePDF::operator*</a></div><div class="ttdeci">Matrix&lt; T &gt; operator*(Matrix&lt; T &gt; lhs, Matrix&lt; T &gt; const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:203</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a3a5c47ec126bc1b79503ddf795c30b17"><div class="ttname"><a href="classePDF_1_1Matrix.html#a3a5c47ec126bc1b79503ddf795c30b17">ePDF::Matrix::SetElement</a></div><div class="ttdeci">void SetElement(int const &amp;i, int const &amp;j, T const &amp;value)</div><div class="ttdef"><b>Definition:</b> matrix.h:34</div></div>
+<div class="ttc" id="aclassePDF_1_1Matrix_html_a5855ef731ee5287fab067be531028c82"><div class="ttname"><a href="classePDF_1_1Matrix.html#a5855ef731ee5287fab067be531028c82">ePDF::Matrix::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, Matrix&lt; Y &gt; const &amp;sg)</div></div>
 <div class="ttc" id="anamespaceePDF_html_acb611a336069d10e3aa1323e03727722"><div class="ttname"><a href="namespaceePDF.html#acb611a336069d10e3aa1323e03727722">ePDF::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, Matrix&lt; std::complex&lt; double &gt;&gt; const &amp;m)</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_af4f47018f6ca02ffe1cb5b8ac56dc200"><div class="ttname"><a href="classePDF_1_1Matrix.html#af4f47018f6ca02ffe1cb5b8ac56dc200">ePDF::Matrix::operator-=</a></div><div class="ttdeci">Matrix&lt; T &gt; operator-=(Matrix&lt; T &gt; const &amp;term)</div><div class="ttdef"><b>Definition:</b> matrix.h:104</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a4d535be3c59f8ad43e4089ce35dc82fd"><div class="ttname"><a href="classePDF_1_1Matrix.html#a4d535be3c59f8ad43e4089ce35dc82fd">ePDF::Matrix::_Columns</a></div><div class="ttdeci">int _Columns</div><div class="ttdef"><b>Definition:</b> matrix.h:177</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a8872162c1eb3b3e5a2cb5f171fd57eaf"><div class="ttname"><a href="classePDF_1_1Matrix.html#a8872162c1eb3b3e5a2cb5f171fd57eaf">ePDF::Matrix::operator()</a></div><div class="ttdeci">T operator()(int const &amp;i, int const &amp;j) const</div><div class="ttdef"><b>Definition:</b> matrix.h:58</div></div>
-<div class="ttc" id="anamespaceePDF_html_a71e143fa9b441d4908ffcc16dc876d30"><div class="ttname"><a href="namespaceePDF.html#a71e143fa9b441d4908ffcc16dc876d30">ePDF::operator+</a></div><div class="ttdeci">Matrix&lt; T &gt; operator+(Matrix&lt; T &gt; lhs, Matrix&lt; T &gt; const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:188</div></div>
+<div class="ttc" id="anamespaceePDF_html_a71e143fa9b441d4908ffcc16dc876d30"><div class="ttname"><a href="namespaceePDF.html#a71e143fa9b441d4908ffcc16dc876d30">ePDF::operator+</a></div><div class="ttdeci">Matrix&lt; T &gt; operator+(Matrix&lt; T &gt; lhs, Matrix&lt; T &gt; const &amp;rhs)</div><div class="ttdef"><b>Definition:</b> matrix.h:189</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_ab25bb8fa454c868a103cf4279912252f"><div class="ttname"><a href="classePDF_1_1Matrix.html#ab25bb8fa454c868a103cf4279912252f">ePDF::Matrix::operator=</a></div><div class="ttdeci">Matrix&lt; T &gt; operator=(Matrix&lt; T &gt; const &amp;term)</div><div class="ttdef"><b>Definition:</b> matrix.h:82</div></div>
 <div class="ttc" id="anamespaceePDF_html"><div class="ttname"><a href="namespaceePDF.html">ePDF</a></div><div class="ttdef"><b>Definition:</b> alphaem.h:12</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html_a6869dd7151559d81edd71e10d3de0982"><div class="ttname"><a href="classePDF_1_1Matrix.html#a6869dd7151559d81edd71e10d3de0982">ePDF::Matrix::operator+=</a></div><div class="ttdeci">Matrix&lt; T &gt; operator+=(Matrix&lt; T &gt; const &amp;term)</div><div class="ttdef"><b>Definition:</b> matrix.h:91</div></div>
 <div class="ttc" id="aclassePDF_1_1Matrix_html"><div class="ttname"><a href="classePDF_1_1Matrix.html">ePDF::Matrix</a></div><div class="ttdef"><b>Definition:</b> matrix.h:19</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 22 2019 16:48:15 for ePDF by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 22 2019 18:28:01 for ePDF by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>
