@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['twobodyphasespace_356',['TwoBodyPhaseSpace',['../classNangaParbat_1_1TwoBodyPhaseSpace.html#a077abbc585ea2e957a1c71f7dde6b912',1,'NangaParbat::TwoBodyPhaseSpace']]]
+  ['tmdgrid_373',['TMDGrid',['../classNangaParbat_1_1TMDGrid.html#a106b06d6aa4029f01133310da875854f',1,'NangaParbat::TMDGrid']]]
 ];

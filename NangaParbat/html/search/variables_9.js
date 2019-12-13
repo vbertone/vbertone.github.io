@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['snu',['Snu',['../group__DerVar.html#ga7105925bcda483a4847c4df502b0c41d',1,'NangaParbat::TwoParticlePhaseSpace']]]
+  ['xg_454',['xg',['../structNangaParbat_1_1TDGrid.html#a4e3e3ebdf624ac4aef8e1652e3d23818',1,'NangaParbat::TDGrid']]]
 ];

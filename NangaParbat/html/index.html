@@ -71,7 +71,7 @@ $(function() {
 <div class="textblock"><p><img src="https://github.com/vbertone/NangaParbat/raw/master/doc/NangaParbatPanoramic.png" alt="alt text" title="Nanga Parbat" class="inline"/></p>
 <h1><a class="anchor" id="autotoc_md0"></a>
 Nanga Parbat: a TMD fitting framework</h1>
-<p>Nanga Parbat is a fitting framework aimed at the determination of the non-perturbative component of the TMD distributions.</p>
+<p>Nanga Parbat is a fitting framework aimed at the determination of the non-perturbative component of TMD distributions.</p>
 <h2><a class="anchor" id="autotoc_md1"></a>
 Download</h2>
 <p>You can obtain <a class="el" href="namespaceNangaParbat.html">NangaParbat</a> directly from the github repository:</p>
@@ -107,28 +107,39 @@ Running the code</h2>
 </div><!-- fragment --><p> and following the instructions. Any such fits relie on the dataset, the interpolation tables, and the TMD parameterisations currently present in the code. It is however possible to generate new interpolation tables using the <code>cli/tables.py</code> utility that gives the possibility change the theory settings (perturbative order, collinear PDF set, etc.). Including more parameterisations and new experimental datasets is also possible but requires some additional work on the core of the code. Feel free to contact us should you want to extend the code in this respect.</p>
 <p>Once the fit is complete (including a number of Monte Carlo replicas), it is possible to create a summary report of the fit by running <code>cli/report.py</code>. This will create a document (in markdown and html format) that collects the main statistical features of the fit, histograms, data-theory comparison plots, and TMD plots.</p>
 <h2><a class="anchor" id="autotoc_md5"></a>
-Documetation</h2>
-<p>Some general documentation can be found at the following links:</p>
+Documentation</h2>
+<p>Some further general documentation can be found at the following links:</p>
 <ul>
 <li>command line interface</li>
+<li><a href="run/">utilities</a></li>
 <li><a href="rawdata/">raw data files</a></li>
 <li><a href="data/">preprocessed data files</a></li>
-<li><a href="run/">utilities</a></li>
 <li>convolution prefactors</li>
 </ul>
 <p>Code documentation generated with Doxygen can be found <a href="https://vbertone.github.io/NangaParbat/html/index.html">here</a>.</p>
 <h2><a class="anchor" id="autotoc_md6"></a>
-Relevant references</h2>
-<h2><a class="anchor" id="autotoc_md7"></a>
-Contact Information</h2>
+Public results</h2>
+<p>The results obtained with <a class="el" href="namespaceNangaParbat.html">NangaParbat</a> for the fit of TMD PDFs to Drell-Yan data can be found at the following links:</p>
 <ul>
-<li>Valerio Bertone: <a href="#" onclick="location.href='mai'+'lto:'+'val'+'er'+'io.'+'be'+'rto'+'ne'+'@ce'+'rn'+'.ch'; return false;">valer<span style="display: none;">.nosp@m.</span>io.b<span style="display: none;">.nosp@m.</span>erton<span style="display: none;">.nosp@m.</span>e@ce<span style="display: none;">.nosp@m.</span>rn.ch</a> </li>
+<li>fit at <a href="https://vbertone.github.io/NangaParbat/results/PV19/N3LL/index.html">N3LL</a>,</li>
+<li>fit at <a href="https://vbertone.github.io/NangaParbat/results/PV19/NNLLp/index.html">NNLL'</a>,</li>
+<li>fit at <a href="https://vbertone.github.io/NangaParbat/results/PV19/NNLL/index.html">NNLL</a>,</li>
+<li>fit at <a href="https://vbertone.github.io/NangaParbat/results/PV19/NLLp/index.html">NLL'</a>.</li>
+</ul>
+<p>The reports above have been generated using the CLI <code>cli/report.py</code>.</p>
+<h2><a class="anchor" id="autotoc_md7"></a>
+References</h2>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Contacts</h2>
+<ul>
+<li>Valerio Bertone: <a href="#" onclick="location.href='mai'+'lto:'+'val'+'er'+'io.'+'be'+'rto'+'ne'+'@ce'+'rn'+'.ch'; return false;">valer<span style="display: none;">.nosp@m.</span>io.b<span style="display: none;">.nosp@m.</span>erton<span style="display: none;">.nosp@m.</span>e@ce<span style="display: none;">.nosp@m.</span>rn.ch</a></li>
+<li>Chiara Bissolotti: <a href="#" onclick="location.href='mai'+'lto:'+'chi'+'ar'+'a.b'+'is'+'sol'+'ot'+'ti0'+'1@'+'uni'+'ve'+'rsi'+'ta'+'dip'+'av'+'ia.'+'it'; return false;">chiar<span style="display: none;">.nosp@m.</span>a.bi<span style="display: none;">.nosp@m.</span>ssolo<span style="display: none;">.nosp@m.</span>tti0<span style="display: none;">.nosp@m.</span>1@uni<span style="display: none;">.nosp@m.</span>vers<span style="display: none;">.nosp@m.</span>itadi<span style="display: none;">.nosp@m.</span>pavi<span style="display: none;">.nosp@m.</span>a.it</a> </li>
 </ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 18 2019 21:27:08 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 13 2019 18:01:21 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>

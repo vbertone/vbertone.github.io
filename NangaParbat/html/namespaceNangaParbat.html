@@ -123,19 +123,17 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1QGG6.html">QGG6</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pavia 2019 parameterisation derived from the "Parameterisation" mother class.  <a href="classNangaParbat_1_1QGG6.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TwoBodyPhaseSpace.html">TwoBodyPhaseSpace</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for the calculation of the phase-space reduction factor due to cuts on the single outgoing lepton in Drell-Yan production. The relevant process is:<br  />
- &gamma;(q) &rarr; l<sup>+</sup>(k<sub>1</sub>) + l<sup>-</sup>(k<sub>2</sub>) <br  />
- with:<br  />
- k<sub>T,1(2)</sub> &gt; p<sub>T,min</sub><br  />
- |&eta;<sub>1(2)</sub>| &lt; &eta;<sub>max</sub><br  />
-  <a href="classNangaParbat_1_1TwoBodyPhaseSpace.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structNangaParbat_1_1TDGrid.html">TDGrid</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that contains the 3D grid in Q,x, and qT.  <a href="structNangaParbat_1_1TDGrid.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNangaParbat_1_1TMDGrid.html">TMDGrid</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for the interpolation of a single TMD grid.  <a href="classNangaParbat_1_1TMDGrid.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a46e1afd6f7e2931441afa258bc793271"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a46e1afd6f7e2931441afa258bc793271">bstarCSS</a> (double const &amp;b, double const &amp;Q)</td></tr>
-<tr class="memdesc:a46e1afd6f7e2931441afa258bc793271"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription a la Collins  <a href="namespaceNangaParbat.html#a46e1afd6f7e2931441afa258bc793271">More...</a><br /></td></tr>
+<tr class="memdesc:a46e1afd6f7e2931441afa258bc793271"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription a la Collins-Soper-Sterman  <a href="namespaceNangaParbat.html#a46e1afd6f7e2931441afa258bc793271">More...</a><br /></td></tr>
 <tr class="separator:a46e1afd6f7e2931441afa258bc793271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3043c8aa5446a9280268a908c18a01be"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a3043c8aa5446a9280268a908c18a01be">bstarmin</a> (double const &amp;b, double const &amp;Q)</td></tr>
 <tr class="memdesc:a3043c8aa5446a9280268a908c18a01be"><td class="mdescLeft">&#160;</td><td class="mdescRight">b* prescription with bmin  <a href="namespaceNangaParbat.html#a3043c8aa5446a9280268a908c18a01be">More...</a><br /></td></tr>
@@ -143,8 +141,38 @@ Functions</h2></td></tr>
 <tr class="memitem:aaaeec4bf04a9d83fee462a7c102a1a99"><td class="memItemLeft" align="right" valign="top">YAML::Emitter &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#aaaeec4bf04a9d83fee462a7c102a1a99">operator&lt;&lt;</a> (YAML::Emitter &amp;os, <a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2)</td></tr>
 <tr class="memdesc:aaaeec4bf04a9d83fee462a7c102a1a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method which prints <a class="el" href="classNangaParbat_1_1ChiSquare.html" title="The &quot;ChiSquare&quot; class computes the χ2&#39;s given a set of &quot;DataHandler&quot; objects and the corresponding &quot;C...">ChiSquare</a> feautures with cout &lt;&lt;.  <a href="namespaceNangaParbat.html#aaaeec4bf04a9d83fee462a7c102a1a99">More...</a><br /></td></tr>
 <tr class="separator:aaaeec4bf04a9d83fee462a7c102a1a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c396e4b189e3a74843e3b036458e1b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a62c396e4b189e3a74843e3b036458e1b">EmitTMDGrid</a> (YAML::Node const &amp;config, std::string const &amp;parameterisation, std::vector&lt; double &gt; const &amp;params, std::string const &amp;pf, <a class="el" href="structNangaParbat_1_1TDGrid.html">TDGrid</a> const &amp;tdg=<a class="el" href="structNangaParbat_1_1TDGrid.html">TDGrid</a>{})</td></tr>
+<tr class="memdesc:a62c396e4b189e3a74843e3b036458e1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that produces the TMD interpolation grid in momentum space. This is suppose to resamble an LHAPDF grid for the TMDs. We use plain YAML format.  <a href="namespaceNangaParbat.html#a62c396e4b189e3a74843e3b036458e1b">More...</a><br /></td></tr>
+<tr class="separator:a62c396e4b189e3a74843e3b036458e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dd26d75ef8ecdf1c420d6396a6471a0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; YAML::Emitter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a7dd26d75ef8ecdf1c420d6396a6471a0">EmitTMDInfo</a> (YAML::Node const &amp;config, int const &amp;NumMembers, std::string const &amp;pf, std::string const &amp;SetDesc=&quot;Set produced with NangaParbat + APFEL++&quot;, std::string const &amp;Authors=&quot;A. Bacchetta, V. Bertone, C. Bissolotti, G. Bozzi, F. Delcarro, F. Piacenza, M. Radici&quot;, std::string const &amp;Reference=&quot;arXiv:xxxx.xxxxx&quot;, std::string const &amp;SetIndex=&quot;000000&quot;, std::string const &amp;Format=&quot;TMDlib1&quot;, std::string const &amp;DataVersion=&quot;1&quot;, std::string const &amp;ErrorType=&quot;Monte Carlo&quot;)</td></tr>
+<tr class="memdesc:a7dd26d75ef8ecdf1c420d6396a6471a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that produces the info file of the TMD set. This is suppose to resamble an LHAPDF info file for the TMDs. We use plain YAML format.  <a href="namespaceNangaParbat.html#a7dd26d75ef8ecdf1c420d6396a6471a0">More...</a><br /></td></tr>
+<tr class="separator:a7dd26d75ef8ecdf1c420d6396a6471a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1128faa5f002bc0052e1d94cfd8d54cc"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a1128faa5f002bc0052e1d94cfd8d54cc">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="classNangaParbat_1_1DataHandler.html">DataHandler</a> const &amp;DH)</td></tr>
 <tr class="separator:a1128faa5f002bc0052e1d94cfd8d54cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e410d69158271010fb23f730b07a1e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNangaParbat_1_1TMDGrid.html">TMDGrid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a9e410d69158271010fb23f730b07a1e8">mkTMD</a> (std::string const &amp;name, int const &amp;mem=0)</td></tr>
+<tr class="memdesc:a9e410d69158271010fb23f730b07a1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory that returns a "TMDGrid" object.  <a href="namespaceNangaParbat.html#a9e410d69158271010fb23f730b07a1e8">More...</a><br /></td></tr>
+<tr class="separator:a9e410d69158271010fb23f730b07a1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8309a3d066e7d8ce3939d2f4c078393"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classNangaParbat_1_1TMDGrid.html">TMDGrid</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#ab8309a3d066e7d8ce3939d2f4c078393">mkTMDs</a> (std::string const &amp;name)</td></tr>
+<tr class="memdesc:ab8309a3d066e7d8ce3939d2f4c078393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory that returns a vector of "TMDGrid" objects.  <a href="namespaceNangaParbat.html#ab8309a3d066e7d8ce3939d2f4c078393">More...</a><br /></td></tr>
+<tr class="separator:ab8309a3d066e7d8ce3939d2f4c078393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32f0748d67389ceabe1663571b35f244"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a32f0748d67389ceabe1663571b35f244">GenerateGrid</a> (int const &amp;n, double const &amp;min, double const &amp;max, int const &amp;ext=0, bool const &amp;lgt=false)</td></tr>
+<tr class="memdesc:a32f0748d67389ceabe1663571b35f244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to generate an interpolation grid.  <a href="namespaceNangaParbat.html#a32f0748d67389ceabe1663571b35f244">More...</a><br /></td></tr>
+<tr class="separator:a32f0748d67389ceabe1663571b35f244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48cab3d6c952e89f365ce6d3d5379101"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">CholeskyDecomposition</a> (apfel::matrix&lt; double &gt; const V)</td></tr>
+<tr class="memdesc:a48cab3d6c952e89f365ce6d3d5379101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition of the covariance matrix.  <a href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">More...</a><br /></td></tr>
+<tr class="separator:a48cab3d6c952e89f365ce6d3d5379101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f20573b47444b73bfb8dad711c98d86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86">SolveLowerSystem</a> (apfel::matrix&lt; double &gt; L, std::vector&lt; double &gt; y)</td></tr>
+<tr class="memdesc:a8f20573b47444b73bfb8dad711c98d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve lower-diagonal system of equations by forward substitution.  <a href="namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86">More...</a><br /></td></tr>
+<tr class="separator:a8f20573b47444b73bfb8dad711c98d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f58dd5df005599b122829e38bf9129c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c">SolveUpperSystem</a> (apfel::matrix&lt; double &gt; U, std::vector&lt; double &gt; y)</td></tr>
+<tr class="memdesc:a5f58dd5df005599b122829e38bf9129c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve upper-diagonal system of equations by backward substitution.  <a href="namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c">More...</a><br /></td></tr>
+<tr class="separator:a5f58dd5df005599b122829e38bf9129c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027d18a91af358aae7e96e01a4a0ee07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">SolveSymmetricSystem</a> (apfel::matrix&lt; double &gt; A, std::vector&lt; double &gt; rho)</td></tr>
+<tr class="memdesc:a027d18a91af358aae7e96e01a4a0ee07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve symmetric system of equations.  <a href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">More...</a><br /></td></tr>
+<tr class="separator:a027d18a91af358aae7e96e01a4a0ee07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a4a7151aa2841b06764f2ee0df3f2acf6">list_dir</a> (std::string const &amp;path)</td></tr>
+<tr class="memdesc:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that lists elements in a directory.  <a href="namespaceNangaParbat.html#a4a7151aa2841b06764f2ee0df3f2acf6">More...</a><br /></td></tr>
+<tr class="separator:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a769e5fd04e3ac43dad78c33d720f51d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a769e5fd04e3ac43dad78c33d720f51d0">MinuitMinimiser</a> (<a class="el" href="classNangaParbat_1_1ChiSquare.html">ChiSquare</a> const &amp;chi2, YAML::Node const &amp;parameters, gsl_rng *rng=NULL)</td></tr>
 <tr class="memdesc:a769e5fd04e3ac43dad78c33d720f51d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The "MinuitMinimiser" function using Minuit2 as implemented in ROOT.  <a href="namespaceNangaParbat.html#a769e5fd04e3ac43dad78c33d720f51d0">More...</a><br /></td></tr>
 <tr class="separator:a769e5fd04e3ac43dad78c33d720f51d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,30 +236,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ac019164a525a3e2867c7a883603230dd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#ac019164a525a3e2867c7a883603230dd">PreprocessATLAS8TeV</a> (std::string const &amp;RawDataPath, std::string const &amp;ProcessedDataPath, bool const &amp;PDFError=true)</td></tr>
 <tr class="memdesc:ac019164a525a3e2867c7a883603230dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing of the ATLAS dataset at 8 TeV.  <a href="namespaceNangaParbat.html#ac019164a525a3e2867c7a883603230dd">More...</a><br /></td></tr>
 <tr class="separator:ac019164a525a3e2867c7a883603230dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32f0748d67389ceabe1663571b35f244"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a32f0748d67389ceabe1663571b35f244">GenerateGrid</a> (int const &amp;n, double const &amp;min, double const &amp;max, int const &amp;ext=0, bool const &amp;lgt=false)</td></tr>
-<tr class="memdesc:a32f0748d67389ceabe1663571b35f244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to generate an interpolation grid.  <a href="namespaceNangaParbat.html#a32f0748d67389ceabe1663571b35f244">More...</a><br /></td></tr>
-<tr class="separator:a32f0748d67389ceabe1663571b35f244"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48cab3d6c952e89f365ce6d3d5379101"><td class="memItemLeft" align="right" valign="top">apfel::matrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">CholeskyDecomposition</a> (apfel::matrix&lt; double &gt; const V)</td></tr>
-<tr class="memdesc:a48cab3d6c952e89f365ce6d3d5379101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition of the covariance matrix.  <a href="namespaceNangaParbat.html#a48cab3d6c952e89f365ce6d3d5379101">More...</a><br /></td></tr>
-<tr class="separator:a48cab3d6c952e89f365ce6d3d5379101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f20573b47444b73bfb8dad711c98d86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86">SolveLowerSystem</a> (apfel::matrix&lt; double &gt; L, std::vector&lt; double &gt; y)</td></tr>
-<tr class="memdesc:a8f20573b47444b73bfb8dad711c98d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve lower-diagonal system of equations by forward substitution.  <a href="namespaceNangaParbat.html#a8f20573b47444b73bfb8dad711c98d86">More...</a><br /></td></tr>
-<tr class="separator:a8f20573b47444b73bfb8dad711c98d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f58dd5df005599b122829e38bf9129c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c">SolveUpperSystem</a> (apfel::matrix&lt; double &gt; U, std::vector&lt; double &gt; y)</td></tr>
-<tr class="memdesc:a5f58dd5df005599b122829e38bf9129c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve upper-diagonal system of equations by backward substitution.  <a href="namespaceNangaParbat.html#a5f58dd5df005599b122829e38bf9129c">More...</a><br /></td></tr>
-<tr class="separator:a5f58dd5df005599b122829e38bf9129c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a027d18a91af358aae7e96e01a4a0ee07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">SolveSymmetricSystem</a> (apfel::matrix&lt; double &gt; A, std::vector&lt; double &gt; rho)</td></tr>
-<tr class="memdesc:a027d18a91af358aae7e96e01a4a0ee07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve symmetric system of equations.  <a href="namespaceNangaParbat.html#a027d18a91af358aae7e96e01a4a0ee07">More...</a><br /></td></tr>
-<tr class="separator:a027d18a91af358aae7e96e01a4a0ee07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a4a7151aa2841b06764f2ee0df3f2acf6">list_dir</a> (std::string const &amp;path)</td></tr>
-<tr class="memdesc:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that lists elements in a directory.  <a href="namespaceNangaParbat.html#a4a7151aa2841b06764f2ee0df3f2acf6">More...</a><br /></td></tr>
-<tr class="separator:a4a7151aa2841b06764f2ee0df3f2acf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a0c3b3dd634e6ea718432415db6643434"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::function&lt; double(double const  &amp;, double const  &amp;)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a0c3b3dd634e6ea718432415db6643434">bstarMap</a></td></tr>
 <tr class="memdesc:a0c3b3dd634e6ea718432415db6643434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of available b* star functions.  <a href="namespaceNangaParbat.html#a0c3b3dd634e6ea718432415db6643434">More...</a><br /></td></tr>
 <tr class="separator:a0c3b3dd634e6ea718432415db6643434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c0806df3b10600ceb12cc3b2fdd08ec"><td class="memItemLeft" align="right" valign="top">const std::map&lt; int, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#a0c0806df3b10600ceb12cc3b2fdd08ec">PtOrderMap</a> {{0, &quot;LL&quot;}, {1, &quot;NLL&quot;}, {-1, &quot;NLL'&quot;}, {2, &quot;NNLL&quot;}, {-2, &quot;NNLL'&quot;}, {3, &quot;NNNLL&quot;}}</td></tr>
+<tr class="memdesc:a0c0806df3b10600ceb12cc3b2fdd08ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of perturbative orders.  <a href="namespaceNangaParbat.html#a0c0806df3b10600ceb12cc3b2fdd08ec">More...</a><br /></td></tr>
+<tr class="separator:a0c0806df3b10600ceb12cc3b2fdd08ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab76d2b5b0d256e7d11f6806d966fcd3d"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, <a class="el" href="classNangaParbat_1_1Parameterisation.html">Parameterisation</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceNangaParbat.html#ab76d2b5b0d256e7d11f6806d966fcd3d">AvPars</a></td></tr>
 <tr class="memdesc:ab76d2b5b0d256e7d11f6806d966fcd3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of currently available parameterisations. Each of them must correspond to a header file containing a class deriving from the <a class="el" href="classNangaParbat_1_1Parameterisation.html" title="Mother class that implements the main feautures of a functional parameterisation of non-perturbative ...">NangaParbat::Parameterisation</a> mother class.  <a href="namespaceNangaParbat.html#ab76d2b5b0d256e7d11f6806d966fcd3d">More...</a><br /></td></tr>
 <tr class="separator:ab76d2b5b0d256e7d11f6806d966fcd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,7 +276,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>b* prescription a la Collins </p>
+<p>b* prescription a la Collins-Soper-Sterman </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">b</td><td>the impact parameter </td></tr>
@@ -272,7 +285,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>b* </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a12">IntegrationTest.cc</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="IntegrationTest_8cc-example.html#a11">IntegrationTest.cc</a>.</dd>
 </dl>
 
 </div>
@@ -383,6 +396,150 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The Cholesky decomposition matrix L such that L<sup>T</sup>L = V </dd></dl>
+
+</div>
+</div>
+<a id="a62c396e4b189e3a74843e3b036458e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c396e4b189e3a74843e3b036458e1b">&#9670;&nbsp;</a></span>EmitTMDGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;YAML::Emitter&gt; NangaParbat::EmitTMDGrid </td>
+          <td>(</td>
+          <td class="paramtype">YAML::Node const &amp;&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>parameterisation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>params</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>pf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structNangaParbat_1_1TDGrid.html">TDGrid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>tdg</em> = <code><a class="el" href="structNangaParbat_1_1TDGrid.html">TDGrid</a>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that produces the TMD interpolation grid in momentum space. This is suppose to resamble an LHAPDF grid for the TMDs. We use plain YAML format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>the YAML not with the theory settings </td></tr>
+    <tr><td class="paramname">parameterisation</td><td>the parameterisation type </td></tr>
+    <tr><td class="paramname">params</td><td>the vector of parameters to be used for the tabulation </td></tr>
+    <tr><td class="paramname">pf</td><td>whether PDFs ("pdf") of FFs ("ff") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a YAML emitter </dd></dl>
+
+</div>
+</div>
+<a id="a7dd26d75ef8ecdf1c420d6396a6471a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dd26d75ef8ecdf1c420d6396a6471a0">&#9670;&nbsp;</a></span>EmitTMDInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;YAML::Emitter&gt; NangaParbat::EmitTMDInfo </td>
+          <td>(</td>
+          <td class="paramtype">YAML::Node const &amp;&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>NumMembers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>pf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>SetDesc</em> = <code>&quot;Set&#160;produced&#160;with&#160;NangaParbat&#160;+&#160;APFEL++&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>Authors</em> = <code>&quot;A.&#160;Bacchetta,&#160;V.&#160;Bertone,&#160;C.&#160;Bissolotti,&#160;G.&#160;Bozzi,&#160;F.&#160;Delcarro,&#160;F.&#160;Piacenza,&#160;M.&#160;Radici&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>Reference</em> = <code>&quot;arXiv:xxxx.xxxxx&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>SetIndex</em> = <code>&quot;000000&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>Format</em> = <code>&quot;TMDlib1&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>DataVersion</em> = <code>&quot;1&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>ErrorType</em> = <code>&quot;Monte&#160;Carlo&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that produces the info file of the TMD set. This is suppose to resamble an LHAPDF info file for the TMDs. We use plain YAML format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td>the YAML not with the theory settings </td></tr>
+    <tr><td class="paramname">pf</td><td>whether PDFs ("pdf") of FFs ("ff") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a YAML emitter </dd></dl>
 
 </div>
 </div>
@@ -580,6 +737,69 @@ Variables</h2></td></tr>
     <tr><td class="paramname">chi2</td><td>the "ChiSquare" object that returns the values of all chi2's </td></tr>
     <tr><td class="paramname">parameters</td><td>the "YAML::Node" object that contains the parameters </td></tr>
     <tr><td class="paramname">outfolder</td><td>folder for the output </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9e410d69158271010fb23f730b07a1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e410d69158271010fb23f730b07a1e8">&#9670;&nbsp;</a></span>mkTMD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classNangaParbat_1_1TMDGrid.html">TMDGrid</a>* NangaParbat::mkTMD </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>mem</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Factory that returns a "TMDGrid" object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>name of the TMD set (assumed to be in the current folder for now) </td></tr>
+    <tr><td class="paramname">mem</td><td>member to be read (defaul: 0, i.e. central member) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab8309a3d066e7d8ce3939d2f4c078393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8309a3d066e7d8ce3939d2f4c078393">&#9670;&nbsp;</a></span>mkTMDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classNangaParbat_1_1TMDGrid.html">TMDGrid</a>*&gt; NangaParbat::mkTMDs </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Factory that returns a vector of "TMDGrid" objects. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>name of the TMD set (assumed to be in the current folder for now) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1561,16 +1781,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0c0806df3b10600ceb12cc3b2fdd08ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c0806df3b10600ceb12cc3b2fdd08ec">&#9670;&nbsp;</a></span>PtOrderMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt;int, std::string&gt; NangaParbat::PtOrderMap {{0, &quot;LL&quot;}, {1, &quot;NLL&quot;}, {-1, &quot;NLL'&quot;}, {2, &quot;NNLL&quot;}, {-2, &quot;NNLL'&quot;}, {3, &quot;NNNLL&quot;}}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Map of perturbative orders. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <div class="ttc" id="anamespaceNangaParbat_html_a3043c8aa5446a9280268a908c18a01be"><div class="ttname"><a href="namespaceNangaParbat.html#a3043c8aa5446a9280268a908c18a01be">NangaParbat::bstarmin</a></div><div class="ttdeci">double bstarmin(double const &amp;b, double const &amp;Q)</div><div class="ttdoc">b* prescription with bmin</div></div>
-<div class="ttc" id="anamespaceNangaParbat_html_a46e1afd6f7e2931441afa258bc793271"><div class="ttname"><a href="namespaceNangaParbat.html#a46e1afd6f7e2931441afa258bc793271">NangaParbat::bstarCSS</a></div><div class="ttdeci">double bstarCSS(double const &amp;b, double const &amp;Q)</div><div class="ttdoc">b* prescription a la Collins</div></div>
+<div class="ttc" id="anamespaceNangaParbat_html_a46e1afd6f7e2931441afa258bc793271"><div class="ttname"><a href="namespaceNangaParbat.html#a46e1afd6f7e2931441afa258bc793271">NangaParbat::bstarCSS</a></div><div class="ttdeci">double bstarCSS(double const &amp;b, double const &amp;Q)</div><div class="ttdoc">b* prescription a la Collins-Soper-Sterman</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1PV19x_html"><div class="ttname"><a href="classNangaParbat_1_1PV19x.html">NangaParbat::PV19x</a></div><div class="ttdoc">Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> PV19x.h:17</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1PV19b_html"><div class="ttname"><a href="classNangaParbat_1_1PV19b.html">NangaParbat::PV19b</a></div><div class="ttdoc">Pavia 2019 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> PV19b.h:17</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1DWS_html"><div class="ttname"><a href="classNangaParbat_1_1DWS.html">NangaParbat::DWS</a></div><div class="ttdoc">Davies-Webber-Stirling parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> DWS.h:17</div></div>
 <div class="ttc" id="aclassNangaParbat_1_1PV17_html"><div class="ttname"><a href="classNangaParbat_1_1PV17.html">NangaParbat::PV17</a></div><div class="ttdoc">Pavia 2017 parameterisation derived from the &quot;Parameterisation&quot; mother class.</div><div class="ttdef"><b>Definition:</b> PV17.h:17</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 18 2019 21:27:08 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 13 2019 18:01:20 for Nanga Parbat by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>
