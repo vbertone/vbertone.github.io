@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['xmax_1223',['xMax',['../classapfel_1_1SubGrid.html#a6af420df896db5753024435df1af48ba',1,'apfel::SubGrid']]],
-  ['xmin_1224',['xMin',['../classapfel_1_1SubGrid.html#a706414872d99bf4b1cc846df7b1edbeb',1,'apfel::SubGrid']]]
+  ['_7einterpolator_1263',['~Interpolator',['../classapfel_1_1Interpolator.html#abcf14478694c9385f568a4fd69a0fe67',1,'apfel::Interpolator']]],
+  ['_7ematchedevolution_1264',['~MatchedEvolution',['../classapfel_1_1MatchedEvolution.html#a0934c99a428f260789e7b78d4f784a80',1,'apfel::MatchedEvolution']]]
 ];
