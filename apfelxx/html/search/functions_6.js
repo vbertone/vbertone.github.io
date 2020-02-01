@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['hardfactordy_1134',['HardFactorDY',['../namespaceapfel.html#abb62dde36bf4a2ba35bf7dead959b504',1,'apfel']]],
-  ['hardfactorgghiggs_1135',['HardFactorggHiggs',['../namespaceapfel.html#a3876869ab246dbc1203c653d575aae78',1,'apfel']]],
-  ['hardfactorsidis_1136',['HardFactorSIDIS',['../namespaceapfel.html#a6c0872ebe133d97d5e2e4f1e4e7f23b1',1,'apfel']]]
+  ['hardfactordy_1128',['HardFactorDY',['../namespaceapfel.html#abb62dde36bf4a2ba35bf7dead959b504',1,'apfel']]],
+  ['hardfactorgghiggs_1129',['HardFactorggHiggs',['../namespaceapfel.html#a3876869ab246dbc1203c653d575aae78',1,'apfel']]],
+  ['hardfactorsidis_1130',['HardFactorSIDIS',['../namespaceapfel.html#a6c0872ebe133d97d5e2e4f1e4e7f23b1',1,'apfel']]],
+  ['hplog_5f_1131',['hplog_',['../namespaceapfel.html#a37d3cab413f09355b54d58a31137a272',1,'apfel']]]
 ];

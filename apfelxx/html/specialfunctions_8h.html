@@ -86,6 +86,25 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Fortran harmonic polylogarithms</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Harmonic polylogarithms up to weight four</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>real input argument </td></tr>
+    <tr><td class="paramname">nw</td><td>maximum number of weights requested </td></tr>
+    <tr><td class="paramname">Hr1</td><td>weight 1 harmonic polylogs (1D array) </td></tr>
+    <tr><td class="paramname">Hr2</td><td>weight 2 harmonic polylogs (2D array) </td></tr>
+    <tr><td class="paramname">Hr3</td><td>weight 3 harmonic polylogs (3D array) </td></tr>
+    <tr><td class="paramname">Hr4</td><td>weight 4 harmonic polylogs (4D array) </td></tr>
+    <tr><td class="paramname">n1</td><td>lower bound of the weight index requested </td></tr>
+    <tr><td class="paramname">n2</td><td>upper bound of the weight index requested </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This is just a suitably formatted wrapper of the original fortran function (see src/kernel/hplog.f) to facilitate the call of the harmonic logarithms from a C++ code. </dd></dl>
+</div></td></tr>
+<tr class="memitem:a37d3cab413f09355b54d58a31137a272"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a37d3cab413f09355b54d58a31137a272">apfel::hplog_</a> (double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, int *wn1, int *wn2)</td></tr>
+<tr class="separator:a37d3cab413f09355b54d58a31137a272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Special functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of special functions needed in the evaluation of some expressions. </p>
 </div></td></tr>
@@ -95,6 +114,25 @@ Functions</h2></td></tr>
 <tr class="memitem:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">apfel::wgplg</a> (int const &amp;n, int const &amp;p, double const &amp;x)</td></tr>
 <tr class="memdesc:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for the computation of the Nielsen's generalized dilogs.  <a href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">More...</a><br /></td></tr>
 <tr class="separator:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Fortran harmonic polylogarithms</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Harmonic polylogarithms up to weight four</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>real input argument </td></tr>
+    <tr><td class="paramname">nw</td><td>maximum number of weights requested </td></tr>
+    <tr><td class="paramname">Hr1</td><td>weight 1 harmonic polylogs (1D array) </td></tr>
+    <tr><td class="paramname">Hr2</td><td>weight 2 harmonic polylogs (2D array) </td></tr>
+    <tr><td class="paramname">Hr3</td><td>weight 3 harmonic polylogs (3D array) </td></tr>
+    <tr><td class="paramname">Hr4</td><td>weight 4 harmonic polylogs (4D array) </td></tr>
+    <tr><td class="paramname">n1</td><td>lower bound of the weight index requested </td></tr>
+    <tr><td class="paramname">n2</td><td>upper bound of the weight index requested </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This is just a suitably formatted wrapper of the original fortran function (see src/kernel/hplog.f) to facilitate the call of the harmonic logarithms from a C++ code. </dd></dl>
+</div></td></tr>
+<tr class="memitem:a37d3cab413f09355b54d58a31137a272"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a37d3cab413f09355b54d58a31137a272">apfel::hplog_</a> (double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, int *wn1, int *wn2)</td></tr>
+<tr class="separator:a37d3cab413f09355b54d58a31137a272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Special functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of special functions needed in the evaluation of some expressions. </p>
 </div></td></tr>
@@ -108,7 +146,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 29 2020 15:26:32 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Feb 2 2020 00:27:28 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
