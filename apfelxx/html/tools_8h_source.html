@@ -77,28 +77,27 @@ $(function() {
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// APFEL++ 2017</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Authors: Valerio Bertone: valerio.bertone@cern.ch</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//          Stefano Carrazza: stefano.carrazza@cern.ch</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceapfel.html">apfel</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="namespaceapfel.html#a5ae0b26dd9a59ac71e0c8820ada8c433">NF</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; Q, std::vector&lt;double&gt; <span class="keyword">const</span>&amp; Thresholds);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#a60e7f076062aec09d1944e468f292571">DeltaFun</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; a, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; b, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; c);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  std::vector&lt;double&gt; <a class="code" href="namespaceapfel.html#aace39cb513591802093ec5e05d1e8202">ElectroWeakCharges</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; Q, <span class="keywordtype">bool</span> <span class="keyword">const</span>&amp; virt, <span class="keywordtype">int</span> <span class="keyword">const</span>&amp; sel = -1);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  std::vector&lt;double&gt; <a class="code" href="namespaceapfel.html#a3092c2f6ab9d47c5ffe964f2e124c2e8">ElectroWeakChargesNWA</a>();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  std::vector&lt;double&gt; <a class="code" href="namespaceapfel.html#aee89f2fd03ee7b3c45e39162322a2850">ConcatenateAndSortVectors</a>(std::vector&lt;double&gt; <span class="keyword">const</span>&amp; v1, std::vector&lt;double&gt; <span class="keyword">const</span>&amp; v2);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceapfel.html">apfel</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="namespaceapfel.html#a5ae0b26dd9a59ac71e0c8820ada8c433">NF</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; Q, std::vector&lt;double&gt; <span class="keyword">const</span>&amp; Thresholds);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#a60e7f076062aec09d1944e468f292571">DeltaFun</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; a, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; b, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; c);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  std::vector&lt;double&gt; <a class="code" href="namespaceapfel.html#aace39cb513591802093ec5e05d1e8202">ElectroWeakCharges</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; Q, <span class="keywordtype">bool</span> <span class="keyword">const</span>&amp; virt, <span class="keywordtype">int</span> <span class="keyword">const</span>&amp; sel = -1);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  std::vector&lt;double&gt; <a class="code" href="namespaceapfel.html#a3092c2f6ab9d47c5ffe964f2e124c2e8">ElectroWeakChargesNWA</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  std::vector&lt;double&gt; <a class="code" href="namespaceapfel.html#aee89f2fd03ee7b3c45e39162322a2850">ConcatenateAndSortVectors</a>(std::vector&lt;double&gt; <span class="keyword">const</span>&amp; v1, std::vector&lt;double&gt; <span class="keyword">const</span>&amp; v2);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="anamespaceapfel_html"><div class="ttname"><a href="namespaceapfel.html">apfel</a></div><div class="ttdoc">Namespace for all APFEL++ functions and classes.</div><div class="ttdef"><b>Definition:</b> alphaqcd.h:14</div></div>
+<div class="ttc" id="anamespaceapfel_html"><div class="ttname"><a href="namespaceapfel.html">apfel</a></div><div class="ttdoc">Namespace for all APFEL++ functions and classes.</div><div class="ttdef"><b>Definition:</b> alphaqcd.h:13</div></div>
 <div class="ttc" id="anamespaceapfel_html_aee89f2fd03ee7b3c45e39162322a2850"><div class="ttname"><a href="namespaceapfel.html#aee89f2fd03ee7b3c45e39162322a2850">apfel::ConcatenateAndSortVectors</a></div><div class="ttdeci">std::vector&lt; double &gt; ConcatenateAndSortVectors(std::vector&lt; double &gt; const &amp;v1, std::vector&lt; double &gt; const &amp;v2)</div><div class="ttdoc">Utility function that concatenates and sort the input vectors.</div></div>
 <div class="ttc" id="anamespaceapfel_html_a3092c2f6ab9d47c5ffe964f2e124c2e8"><div class="ttname"><a href="namespaceapfel.html#a3092c2f6ab9d47c5ffe964f2e124c2e8">apfel::ElectroWeakChargesNWA</a></div><div class="ttdeci">std::vector&lt; double &gt; ElectroWeakChargesNWA()</div><div class="ttdoc">Utility function for the computation of the electroweak charges for Drell-Yan in narrow-width apprixi...</div></div>
 <div class="ttc" id="anamespaceapfel_html_a60e7f076062aec09d1944e468f292571"><div class="ttname"><a href="namespaceapfel.html#a60e7f076062aec09d1944e468f292571">apfel::DeltaFun</a></div><div class="ttdeci">double DeltaFun(double const &amp;a, double const &amp;b, double const &amp;c)</div><div class="ttdoc">Utility function used by the heavy-quark initiated massive coefficient functions.</div></div>
@@ -106,7 +105,7 @@ $(function() {
 <div class="ttc" id="anamespaceapfel_html_a5ae0b26dd9a59ac71e0c8820ada8c433"><div class="ttname"><a href="namespaceapfel.html#a5ae0b26dd9a59ac71e0c8820ada8c433">apfel::NF</a></div><div class="ttdeci">int NF(double const &amp;Q, std::vector&lt; double &gt; const &amp;Thresholds)</div><div class="ttdoc">Return the number of active flavours at the scale Q given the (ordered) vector of thresholds.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 2 2020 00:27:28 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 13 2020 14:42:39 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

@@ -1209,7 +1209,7 @@ TMD builders</h2></td></tr>
 </div>
 </div>
 <a id="a1e1510acd898fb0addc171926e1e1216"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e1510acd898fb0addc171926e1e1216">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1510acd898fb0addc171926e1e1216">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1252,7 +1252,7 @@ TMD builders</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The StructureFunctionBuildNC class constructs a map of "Observable" objects. </p>
+<p>The BuildStructureFunctions function constructs a map of "Observable" objects. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">FObj</td><td>the StructureFunctionObjects-valued for the structure function objects </td></tr>
@@ -1268,7 +1268,7 @@ TMD builders</h2></td></tr>
 </div>
 </div>
 <a id="a24c05f97ee84da413e8dc66e9f4e7493"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24c05f97ee84da413e8dc66e9f4e7493">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c05f97ee84da413e8dc66e9f4e7493">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1311,7 +1311,7 @@ TMD builders</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The StructureFunctionBuildNC class constructs a map of "Observable" objects. </p>
+<p>The BuildStructureFunctions function constructs a map of "Observable" objects. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">FObj</td><td>the StructureFunctionObjects-valued for the structure function objects </td></tr>
@@ -1325,6 +1325,117 @@ TMD builders</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A map of "Observable" objects, one for number of active flavours </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="structurefunction_test_8cc-example.html#a13">structurefunction_test.cc</a>.</dd>
 </dl>
+
+</div>
+</div>
+<a id="adb470bd25f7b5d0a3ca6e369e7ee2534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb470bd25f7b5d0a3ca6e369e7ee2534">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;int,<a class="el" href="classapfel_1_1Distribution.html">Distribution</a>&gt; apfel::BuildStructureFunctions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a> const &amp;&#160;</td>
+          <td class="paramname"><em>FObjQ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; int, <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>InDistFuncQ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>PerturbativeOrder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>AlphasQ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The BuildStructureFunctions function constructs a map of "Observable" objects. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">FObjQ</td><td>the <a class="el" href="structapfel_1_1StructureFunctionObjects.html" title="Structure that contains all the precomputed quantities needed to compute the DIS structure functions,...">StructureFunctionObjects</a> at the scale Q </td></tr>
+    <tr><td class="paramname">InDistFuncQ</td><td>the distribution to be convoluted with at the scale Q as a map&lt;int,Distribution&gt; </td></tr>
+    <tr><td class="paramname">PerturbativeOrder</td><td>the perturbative order </td></tr>
+    <tr><td class="paramname">AlphasQ</td><td>the strong coupling at the scale Q </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A map of "Distribution" objects, one for number of active flavours </dd></dl>
+
+</div>
+</div>
+<a id="a4c9df05ce2e5d1d735ea049ee6a9b86e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c9df05ce2e5d1d735ea049ee6a9b86e">&#9670;&nbsp;</a></span>BuildStructureFunctions() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classapfel_1_1Distribution.html">Distribution</a> apfel::BuildStructureFunctions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structapfel_1_1StructureFunctionObjects.html">StructureFunctionObjects</a> const &amp;&#160;</td>
+          <td class="paramname"><em>FObjQ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; int, <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>InDistFuncQ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>PerturbativeOrder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>AlphasQ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The BuildStructureFunctions function constructs an "Observable" object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">FObjQ</td><td>the <a class="el" href="structapfel_1_1StructureFunctionObjects.html" title="Structure that contains all the precomputed quantities needed to compute the DIS structure functions,...">StructureFunctionObjects</a> at the scale Q </td></tr>
+    <tr><td class="paramname">InDistFuncQ</td><td>the distribution to be convoluted with at the scale Q as a map&lt;int,Distribution&gt; </td></tr>
+    <tr><td class="paramname">PerturbativeOrder</td><td>the perturbative order </td></tr>
+    <tr><td class="paramname">AlphasQ</td><td>the strong coupling at the scale Q </td></tr>
+    <tr><td class="paramname">k</td><td>the observable index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A "Distribution" object </dd></dl>
 
 </div>
 </div>
@@ -5094,7 +5205,7 @@ template&lt;class U &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 2 2020 00:27:29 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 13 2020 14:42:39 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
