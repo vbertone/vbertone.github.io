@@ -233,12 +233,9 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Constructors</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>List of constructors. </p>
 </div></td></tr>
-<tr class="memitem:af9d3ce036a592d210f32f3f7185b3445"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Expression.html#af9d3ce036a592d210f32f3f7185b3445">Expression</a> ()</td></tr>
-<tr class="memdesc:af9d3ce036a592d210f32f3f7185b3445"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default constructor.  <a href="classapfel_1_1Expression.html#af9d3ce036a592d210f32f3f7185b3445">More...</a><br /></td></tr>
-<tr class="separator:af9d3ce036a592d210f32f3f7185b3445"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c3d51e332f6d0904e1351c790deaa30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Expression.html#a3c3d51e332f6d0904e1351c790deaa30">Expression</a> (double const &amp;<a class="el" href="classapfel_1_1Expression.html#a8f6586afbb64fa96a47fdadf29daf994">eta</a>)</td></tr>
-<tr class="memdesc:a3c3d51e332f6d0904e1351c790deaa30"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor in the presence of a phase-space reduction given by eta &lt; 1.  <a href="classapfel_1_1Expression.html#a3c3d51e332f6d0904e1351c790deaa30">More...</a><br /></td></tr>
-<tr class="separator:a3c3d51e332f6d0904e1351c790deaa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49727bdb8ac6d6d68854e61a9a262e3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Expression.html#a49727bdb8ac6d6d68854e61a9a262e3d">Expression</a> (double const &amp;<a class="el" href="classapfel_1_1Expression.html#a8f6586afbb64fa96a47fdadf29daf994">eta</a>=1)</td></tr>
+<tr class="memdesc:a49727bdb8ac6d6d68854e61a9a262e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor in the presence of a phase-space reduction given by eta.  <a href="classapfel_1_1Expression.html#a49727bdb8ac6d6d68854e61a9a262e3d">More...</a><br /></td></tr>
+<tr class="separator:a49727bdb8ac6d6d68854e61a9a262e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Expression components</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>The three different possible components of an expression: regular, singular, and local. </p>
 </div></td></tr>
@@ -262,29 +259,8 @@ Protected Attributes</h2></td></tr>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="distribution_test_8cc-example.html#_a0">distribution_test.cc</a>, and <a class="el" href="operator_test_8cc-example.html#_a0">operator_test.cc</a>.</dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af9d3ce036a592d210f32f3f7185b3445"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9d3ce036a592d210f32f3f7185b3445">&#9670;&nbsp;</a></span>Expression() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">apfel::Expression::Expression </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The default constructor. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="distribution_test_8cc-example.html#a1">distribution_test.cc</a>, and <a class="el" href="operator_test_8cc-example.html#a1">operator_test.cc</a>.</dd>
-</dl>
-
-</div>
-</div>
-<a id="a3c3d51e332f6d0904e1351c790deaa30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c3d51e332f6d0904e1351c790deaa30">&#9670;&nbsp;</a></span>Expression() <span class="overload">[2/2]</span></h2>
+<a id="a49727bdb8ac6d6d68854e61a9a262e3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49727bdb8ac6d6d68854e61a9a262e3d">&#9670;&nbsp;</a></span>Expression()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,18 +269,20 @@ Protected Attributes</h2></td></tr>
           <td class="memname">apfel::Expression::Expression </td>
           <td>(</td>
           <td class="paramtype">double const &amp;&#160;</td>
-          <td class="paramname"><em>eta</em></td><td>)</td>
+          <td class="paramname"><em>eta</em> = <code>1</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The constructor in the presence of a phase-space reduction given by eta &lt; 1. </p>
+<p>The constructor in the presence of a phase-space reduction given by eta. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">eta</td><td>upper limit of the convolution integral </td></tr>
+    <tr><td class="paramname">eta</td><td>upper limit of the convolution integral (default: 1) </td></tr>
   </table>
   </dd>
+</dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="distribution_test_8cc-example.html#a1">distribution_test.cc</a>, and <a class="el" href="operator_test_8cc-example.html#a1">operator_test.cc</a>.</dd>
 </dl>
 
 </div>
@@ -483,7 +461,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 13 2020 14:42:39 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 4 2020 14:12:04 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

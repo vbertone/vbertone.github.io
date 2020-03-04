@@ -82,15 +82,6 @@ $(function() {
  <a href="classapfel_1_1Integrator.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="integrator_8h_source.html">integrator.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for apfel::Integrator:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classapfel_1_1Integrator.png" usemap="#apfel::Integrator_map" alt=""/>
-  <map id="apfel::Integrator_map" name="apfel::Integrator_map">
-<area href="classapfel_1_1Operator.html" title="The Operator class defines the basic object &quot;Operator&quot; which is essentially the convolution on the gr..." alt="apfel::Operator" shape="rect" coords="0,56,100,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -103,15 +94,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf8c7312b39b8625cbd20ca7bf04240e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Integrator.html#adf8c7312b39b8625cbd20ca7bf04240e">integrate</a> (double const &amp;xmin, double const &amp;xmax, int const &amp;m) const</td></tr>
 <tr class="memdesc:adf8c7312b39b8625cbd20ca7bf04240e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that integrates the integrand using a given number of point for the gauss quadrature.  <a href="classapfel_1_1Integrator.html#adf8c7312b39b8625cbd20ca7bf04240e">More...</a><br /></td></tr>
 <tr class="separator:adf8c7312b39b8625cbd20ca7bf04240e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd3957918349efb4c7c8e8780aa3a4e9"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Integrator.html#acd3957918349efb4c7c8e8780aa3a4e9">integrand</a> (double const &amp;x) const</td></tr>
-<tr class="memdesc:acd3957918349efb4c7c8e8780aa3a4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function for the integrand.  <a href="classapfel_1_1Integrator.html#acd3957918349efb4c7c8e8780aa3a4e9">More...</a><br /></td></tr>
-<tr class="separator:acd3957918349efb4c7c8e8780aa3a4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8eb6c449fca9e2891295277fae8b12"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Integrator.html#a3f8eb6c449fca9e2891295277fae8b12">integrand</a> (double const &amp;x) const</td></tr>
+<tr class="memdesc:a3f8eb6c449fca9e2891295277fae8b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for the integrand.  <a href="classapfel_1_1Integrator.html#a3f8eb6c449fca9e2891295277fae8b12">More...</a><br /></td></tr>
+<tr class="separator:a3f8eb6c449fca9e2891295277fae8b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Constructors</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>List of constructors. </p>
 </div></td></tr>
-<tr class="memitem:aa50832d6a1cac189ad2f13b61d3eb5d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Integrator.html#aa50832d6a1cac189ad2f13b61d3eb5d7">Integrator</a> ()</td></tr>
-<tr class="memdesc:aa50832d6a1cac189ad2f13b61d3eb5d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default constructor.  <a href="classapfel_1_1Integrator.html#aa50832d6a1cac189ad2f13b61d3eb5d7">More...</a><br /></td></tr>
-<tr class="separator:aa50832d6a1cac189ad2f13b61d3eb5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a664f8704c32d7b50b3f85afbfd3c3533"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Integrator.html#a664f8704c32d7b50b3f85afbfd3c3533">Integrator</a> (std::function&lt; double(double const &amp;)&gt; const &amp;func)</td></tr>
 <tr class="memdesc:a664f8704c32d7b50b3f85afbfd3c3533"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Integrator.html" title="The Integrator class perform unidimensional numerical integration using the Guassian quadrature.">Integrator</a> constructor.  <a href="classapfel_1_1Integrator.html#a664f8704c32d7b50b3f85afbfd3c3533">More...</a><br /></td></tr>
 <tr class="separator:a664f8704c32d7b50b3f85afbfd3c3533"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,36 +112,17 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a155dc87904d2035723fa06d80670a5f8"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Integrator.html#a155dc87904d2035723fa06d80670a5f8">_func</a></td></tr>
-<tr class="memdesc:a155dc87904d2035723fa06d80670a5f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The integrand function.  <a href="classapfel_1_1Integrator.html#a155dc87904d2035723fa06d80670a5f8">More...</a><br /></td></tr>
-<tr class="separator:a155dc87904d2035723fa06d80670a5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59a27d9c396adad11cde0eaa061f0e0"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double const  &amp;)&gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Integrator.html#af59a27d9c396adad11cde0eaa061f0e0">_func</a></td></tr>
+<tr class="memdesc:af59a27d9c396adad11cde0eaa061f0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The integrand function.  <a href="classapfel_1_1Integrator.html#af59a27d9c396adad11cde0eaa061f0e0">More...</a><br /></td></tr>
+<tr class="separator:af59a27d9c396adad11cde0eaa061f0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classapfel_1_1Integrator.html" title="The Integrator class perform unidimensional numerical integration using the Guassian quadrature.">Integrator</a> class perform unidimensional numerical integration using the Guassian quadrature. </p>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="integrator_test_8cc-example.html#_a0">integrator_test.cc</a>.</dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa50832d6a1cac189ad2f13b61d3eb5d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa50832d6a1cac189ad2f13b61d3eb5d7">&#9670;&nbsp;</a></span>Integrator() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">apfel::Integrator::Integrator </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The default constructor. </p>
-
-</div>
-</div>
 <a id="a664f8704c32d7b50b3f85afbfd3c3533"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a664f8704c32d7b50b3f85afbfd3c3533">&#9670;&nbsp;</a></span>Integrator() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a664f8704c32d7b50b3f85afbfd3c3533">&#9670;&nbsp;</a></span>Integrator() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +148,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a923664bfb17fb4208482465ff74dfb36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a923664bfb17fb4208482465ff74dfb36">&#9670;&nbsp;</a></span>Integrator() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a923664bfb17fb4208482465ff74dfb36">&#9670;&nbsp;</a></span>Integrator() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +185,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="afa61c8d98d61b769fa8eeaacbb901f7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa61c8d98d61b769fa8eeaacbb901f7d">&#9670;&nbsp;</a></span>Integrator() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afa61c8d98d61b769fa8eeaacbb901f7d">&#9670;&nbsp;</a></span>Integrator() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,8 +229,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acd3957918349efb4c7c8e8780aa3a4e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd3957918349efb4c7c8e8780aa3a4e9">&#9670;&nbsp;</a></span>integrand()</h2>
+<a id="a3f8eb6c449fca9e2891295277fae8b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8eb6c449fca9e2891295277fae8b12">&#9670;&nbsp;</a></span>integrand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +239,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual double apfel::Integrator::integrand </td>
+          <td class="memname">double apfel::Integrator::integrand </td>
           <td>(</td>
           <td class="paramtype">double const &amp;&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -279,12 +248,12 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Virtual function for the integrand. </p>
+<p>Function for the integrand. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>the integration variable </td></tr>
@@ -292,8 +261,6 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the integrand evaluated at x </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classapfel_1_1Operator.html#a9ad456a877ccdb64462bf64074a6a394">apfel::Operator</a>.</p>
 
 </div>
 </div>
@@ -440,8 +407,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a155dc87904d2035723fa06d80670a5f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a155dc87904d2035723fa06d80670a5f8">&#9670;&nbsp;</a></span>_func</h2>
+<a id="af59a27d9c396adad11cde0eaa061f0e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af59a27d9c396adad11cde0eaa061f0e0">&#9670;&nbsp;</a></span>_func</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -450,7 +417,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;double(double const&amp;)&gt; apfel::Integrator::_func</td>
+          <td class="memname">std::function&lt;double(double const&amp;)&gt; const&amp; apfel::Integrator::_func</td>
         </tr>
       </table>
   </td>
@@ -470,7 +437,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 13 2020 14:42:39 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 4 2020 14:12:04 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
