@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['name_1396',['name',['../structapfel_1_1EvolutionSetup.html#ad4d76387104f1d24f4c3f2dfb4054575',1,'apfel::EvolutionSetup']]],
-  ['nf_5fff_1397',['Nf_FF',['../structapfel_1_1EvolutionSetup.html#a9b30d8429e9a3d033202927abf5c8667',1,'apfel::EvolutionSetup']]],
-  ['nqg_1398',['nQg',['../structapfel_1_1EvolutionSetup.html#aab9528d803850444afe8f68ac552338c',1,'apfel::EvolutionSetup']]],
-  ['nx_1399',['nx',['../structapfel_1_1EvolutionSetup_1_1GridParameters.html#ac1ac2d643f29aa6045eb13e32ae0fd3b',1,'apfel::EvolutionSetup::GridParameters']]]
+  ['masses_1435',['Masses',['../structapfel_1_1EvolutionSetup.html#a4020afe682b670da3163f676775a67cb',1,'apfel::EvolutionSetup']]],
+  ['massrenscheme_1436',['MassRenScheme',['../structapfel_1_1EvolutionSetup.html#a88411dbe8022d8cdc9b4bace53949cd9',1,'apfel::EvolutionSetup']]],
+  ['matchingconditions_1437',['MatchingConditions',['../structapfel_1_1DglapObjects.html#a7cdc6caad7aa2128f23bd467f109cb40',1,'apfel::DglapObjects']]],
+  ['matchingfunctionsffs_1438',['MatchingFunctionsFFs',['../structapfel_1_1TmdObjects.html#a5167975f18155c85fe6b2e506e096394',1,'apfel::TmdObjects']]],
+  ['matchingfunctionspdfs_1439',['MatchingFunctionsPDFs',['../structapfel_1_1TmdObjects.html#a8e043aa1d00e699e6ca2e320422b0684',1,'apfel::TmdObjects']]]
 ];

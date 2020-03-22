@@ -71,7 +71,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classapfel_1_1Operator-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">apfel::Operator Class Reference</div>  </div>
@@ -82,11 +82,23 @@ $(function() {
  <a href="classapfel_1_1Operator.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="operator_8h_source.html">operator.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for apfel::Operator:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classapfel_1_1Operator.png" usemap="#apfel::Operator_map" alt=""/>
+  <map id="apfel::Operator_map" name="apfel::Operator_map">
+<area href="classapfel_1_1OperatorERBL.html" title="The class, derived from the Operator class, defines a special kind of Object necessary for the evolut..." alt="apfel::OperatorERBL" shape="rect" coords="0,56,128,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abed3b7be91a5e75cea637a87fb4fa5d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Operator.html#abed3b7be91a5e75cea637a87fb4fa5d0">Operator</a> ()=delete</td></tr>
 <tr class="separator:abed3b7be91a5e75cea637a87fb4fa5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7959f42dce774aa9991c2fe562b9f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Operator.html#a6f7959f42dce774aa9991c2fe562b9f3">Operator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr)</td></tr>
+<tr class="memdesc:a6f7959f42dce774aa9991c2fe562b9f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Operator.html" title="The Operator class defines the basic object &quot;Operator&quot; which is essentially the convolution on the gr...">Operator</a> constructor.  <a href="classapfel_1_1Operator.html#a6f7959f42dce774aa9991c2fe562b9f3">More...</a><br /></td></tr>
+<tr class="separator:a6f7959f42dce774aa9991c2fe562b9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af92165933d07e889f047c69064f70566"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Operator.html#af92165933d07e889f047c69064f70566">Operator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr, <a class="el" href="classapfel_1_1Expression.html">Expression</a> const &amp;expr, double const &amp;eps=1e-5)</td></tr>
 <tr class="memdesc:af92165933d07e889f047c69064f70566"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Operator.html" title="The Operator class defines the basic object &quot;Operator&quot; which is essentially the convolution on the gr...">Operator</a> constructor.  <a href="classapfel_1_1Operator.html#af92165933d07e889f047c69064f70566">More...</a><br /></td></tr>
 <tr class="separator:af92165933d07e889f047c69064f70566"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,8 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a78a08b999e345ec9904591b45d32b793"><td class="mdescLeft">&#160;</td><td class="mdescRight">this -= <a class="el" href="classapfel_1_1Operator.html" title="The Operator class defines the basic object &quot;Operator&quot; which is essentially the convolution on the gr...">Operator</a>  <a href="classapfel_1_1Operator.html#a78a08b999e345ec9904591b45d32b793">More...</a><br /></td></tr>
 <tr class="separator:a78a08b999e345ec9904591b45d32b793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
 <tr class="memitem:a07ea5d7c9382f4566be27fd651bfb600"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1Grid.html">Grid</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Operator.html#a07ea5d7c9382f4566be27fd651bfb600">_grid</a></td></tr>
 <tr class="memdesc:a07ea5d7c9382f4566be27fd651bfb600"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classapfel_1_1Grid.html" title="The Grid class defines ab object that is essentially a collection of &quot;SubGrid&quot; objects plus other glo...">Grid</a> on which to compute the operator.  <a href="classapfel_1_1Operator.html#a07ea5d7c9382f4566be27fd651bfb600">More...</a><br /></td></tr>
 <tr class="separator:a07ea5d7c9382f4566be27fd651bfb600"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,7 +146,7 @@ Private Attributes</h2></td></tr>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abed3b7be91a5e75cea637a87fb4fa5d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abed3b7be91a5e75cea637a87fb4fa5d0">&#9670;&nbsp;</a></span>Operator() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abed3b7be91a5e75cea637a87fb4fa5d0">&#9670;&nbsp;</a></span>Operator() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,8 +170,35 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6f7959f42dce774aa9991c2fe562b9f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f7959f42dce774aa9991c2fe562b9f3">&#9670;&nbsp;</a></span>Operator() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">apfel::Operator::Operator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>gr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="classapfel_1_1Operator.html" title="The Operator class defines the basic object &quot;Operator&quot; which is essentially the convolution on the gr...">Operator</a> constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gr</td><td>the <a class="el" href="classapfel_1_1Grid.html" title="The Grid class defines ab object that is essentially a collection of &quot;SubGrid&quot; objects plus other glo...">Grid</a> object </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This constructor is used when the operator class is inherited (e.g. to compute GPD evolution). </dd></dl>
+
+</div>
+</div>
 <a id="af92165933d07e889f047c69064f70566"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af92165933d07e889f047c69064f70566">&#9670;&nbsp;</a></span>Operator() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af92165933d07e889f047c69064f70566">&#9670;&nbsp;</a></span>Operator() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,7 +445,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -430,7 +469,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -445,7 +484,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 4 2020 14:12:04 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Mar 22 2020 11:24:18 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
