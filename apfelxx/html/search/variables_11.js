@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['taumass_1466',['TauMass',['../structapfel_1_1EvolutionSetup.html#a9cf884af48d1913c168f1488cfa1c898',1,'apfel::EvolutionSetup']]],
-  ['theory_1467',['Theory',['../structapfel_1_1EvolutionSetup.html#a1f5b96a8bab80e64227371a4669d95c5',1,'apfel::EvolutionSetup']]],
-  ['threshold_1468',['Threshold',['../structapfel_1_1DglapObjects.html#a86d077a0480f42088cf0b73a5163fddd',1,'apfel::DglapObjects::Threshold()'],['../structapfel_1_1TmdObjects.html#ae56448881a89de75ba38927a0226291a',1,'apfel::TmdObjects::Threshold()']]],
-  ['thresholds_1469',['Thresholds',['../structapfel_1_1EvolutionSetup.html#a42a4fa2e5320a7878a7fad669fc640be',1,'apfel::EvolutionSetup']]],
-  ['tr_1470',['TR',['../group__MathConstants.html#gaa5cdb3b0774934c96e344d691863282a',1,'apfel']]]
+  ['sin2thetaw_1476',['Sin2ThetaW',['../group__PhysConstants.html#ga9af859b43ff57c36612f5da5d4591bdc',1,'apfel']]],
+  ['skip_1477',['skip',['../structapfel_1_1StructureFunctionObjects.html#a9f1b3557881f7d54fdc30d4aaed976ff',1,'apfel::StructureFunctionObjects']]],
+  ['splittingfunctions_1478',['SplittingFunctions',['../structapfel_1_1DglapObjects.html#a9fd9557aeab57928994f9f53065c266e',1,'apfel::DglapObjects']]],
+  ['starttime_1479',['startTime',['../classapfel_1_1Timer.html#acbe91fe2ef7dc2088413c972c9032440',1,'apfel::Timer']]]
 ];

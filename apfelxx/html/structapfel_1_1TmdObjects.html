@@ -77,7 +77,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Structure that contains all the precomputed quantities needed to perform the TMD evolution and matchinf to the collinear PDFs, i.e. perturbative coefficients of matching functions and and all anomalous dimensions.  
+<p>Structure that contains all the precomputed quantities needed to perform the TMD evolution, matching to the collinear PDFs, and computation of cross sections, i.e. perturbative coefficients of matching functions, all anomalous dimensions, and hard functions.  
  <a href="structapfel_1_1TmdObjects.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="tmdbuilder_8h_source.html">tmdbuilder.h</a>&gt;</code></p>
@@ -100,9 +100,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8e043aa1d00e699e6ca2e320422b0684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5167975f18155c85fe6b2e506e096394"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; <a class="el" href="classapfel_1_1Set.html">Set</a>&lt; <a class="el" href="classapfel_1_1Operator.html">Operator</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structapfel_1_1TmdObjects.html#a5167975f18155c85fe6b2e506e096394">MatchingFunctionsFFs</a></td></tr>
 <tr class="separator:a5167975f18155c85fe6b2e506e096394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab72252afdabbc223c89ba674ffd0e2f9"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::map&lt; int, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structapfel_1_1TmdObjects.html#ab72252afdabbc223c89ba674ffd0e2f9">HardFactors</a></td></tr>
+<tr class="separator:ab72252afdabbc223c89ba674ffd0e2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Structure that contains all the precomputed quantities needed to perform the TMD evolution and matchinf to the collinear PDFs, i.e. perturbative coefficients of matching functions and and all anomalous dimensions. </p>
+<div class="textblock"><p>Structure that contains all the precomputed quantities needed to perform the TMD evolution, matching to the collinear PDFs, and computation of cross sections, i.e. perturbative coefficients of matching functions, all anomalous dimensions, and hard functions. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a08b314c12cc4739a4c2944290e299265"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08b314c12cc4739a4c2944290e299265">&#9670;&nbsp;</a></span>Beta</h2>
@@ -154,6 +156,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::map&lt;int, double&gt; apfel::TmdObjects::GammaK</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab72252afdabbc223c89ba674ffd0e2f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab72252afdabbc223c89ba674ffd0e2f9">&#9670;&nbsp;</a></span>HardFactors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::map&lt;int, double&gt; &gt; apfel::TmdObjects::HardFactors</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -222,7 +238,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 22 2020 11:24:19 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 27 2020 15:48:54 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
