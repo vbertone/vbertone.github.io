@@ -75,7 +75,9 @@ $(function() {
 <div class="title">specialfunctions.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+</div>
 <p><a href="specialfunctions_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -87,7 +89,7 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Fortran harmonic polylogarithms</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Harmonic polylogarithms up to weight four</p>
+<tr><td colspan="2"><div class="groupText"><p>Harmonic polylogarithms up to weight five</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>real input argument </td></tr>
@@ -96,6 +98,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">Hr2</td><td>weight 2 harmonic polylogs (2D array) </td></tr>
     <tr><td class="paramname">Hr3</td><td>weight 3 harmonic polylogs (3D array) </td></tr>
     <tr><td class="paramname">Hr4</td><td>weight 4 harmonic polylogs (4D array) </td></tr>
+    <tr><td class="paramname">Hr5</td><td>weight 5 harmonic polylogs (5D array) </td></tr>
     <tr><td class="paramname">n1</td><td>lower bound of the weight index requested </td></tr>
     <tr><td class="paramname">n2</td><td>upper bound of the weight index requested </td></tr>
   </table>
@@ -103,8 +106,8 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This is just a suitably formatted wrapper of the original fortran function (see src/kernel/hplog.f) to facilitate the call of the harmonic logarithms from a C++ code. </dd></dl>
 </div></td></tr>
-<tr class="memitem:a37d3cab413f09355b54d58a31137a272"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a37d3cab413f09355b54d58a31137a272">apfel::hplog_</a> (double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, int *wn1, int *wn2)</td></tr>
-<tr class="separator:a37d3cab413f09355b54d58a31137a272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395e01116c263600e641d66bf49fe07b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a395e01116c263600e641d66bf49fe07b">apfel::hplog_</a> (double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, double *Hr5, int *wn1, int *wn2)</td></tr>
+<tr class="separator:a395e01116c263600e641d66bf49fe07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Special functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of special functions needed in the evaluation of some expressions. </p>
 </div></td></tr>
@@ -112,10 +115,19 @@ Functions</h2></td></tr>
 <tr class="memdesc:a892a0ab473cc1c2933458ae7b02909f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real dilogarithm <img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_10.png"/>.  <a href="namespaceapfel.html#a892a0ab473cc1c2933458ae7b02909f4">More...</a><br /></td></tr>
 <tr class="separator:a892a0ab473cc1c2933458ae7b02909f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">apfel::wgplg</a> (int const &amp;n, int const &amp;p, double const &amp;x)</td></tr>
-<tr class="memdesc:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for the computation of the Nielsen's generalized dilogs.  <a href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">More...</a><br /></td></tr>
+<tr class="memdesc:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for the computation of the Nielsen's generalized dilogs.  <a href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">More...</a><br /></td></tr>
 <tr class="separator:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde00ad78affecc4bbe4e4e5996b820a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abde00ad78affecc4bbe4e4e5996b820a">apfel::hpoly</a> (std::vector&lt; int &gt; const &amp;w, double const &amp;x)</td></tr>
+<tr class="memdesc:abde00ad78affecc4bbe4e4e5996b820a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for the computation of the Harmonic polylogs up to weight 5.  <a href="namespaceapfel.html#abde00ad78affecc4bbe4e4e5996b820a">More...</a><br /></td></tr>
+<tr class="separator:abde00ad78affecc4bbe4e4e5996b820a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4952d6daa86b59a050d8cdc3b49eb59b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a4952d6daa86b59a050d8cdc3b49eb59b">apfel::HPLogMap</a> (std::vector&lt; int &gt; const &amp;w)</td></tr>
+<tr class="memdesc:a4952d6daa86b59a050d8cdc3b49eb59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the index to be used with unidimensional arrays returned by hplog_.  <a href="namespaceapfel.html#a4952d6daa86b59a050d8cdc3b49eb59b">More...</a><br /></td></tr>
+<tr class="separator:a4952d6daa86b59a050d8cdc3b49eb59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33ee04bf2cf8dd901e69d0a94ab533f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ad33ee04bf2cf8dd901e69d0a94ab533f">apfel::UnpackWeights</a> (std::vector&lt; int &gt; const &amp;w)</td></tr>
+<tr class="memdesc:ad33ee04bf2cf8dd901e69d0a94ab533f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the unpacked weights of the HPL given the input vector.  <a href="namespaceapfel.html#ad33ee04bf2cf8dd901e69d0a94ab533f">More...</a><br /></td></tr>
+<tr class="separator:ad33ee04bf2cf8dd901e69d0a94ab533f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Fortran harmonic polylogarithms</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Harmonic polylogarithms up to weight four</p>
+<tr><td colspan="2"><div class="groupText"><p>Harmonic polylogarithms up to weight five</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>real input argument </td></tr>
@@ -124,6 +136,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">Hr2</td><td>weight 2 harmonic polylogs (2D array) </td></tr>
     <tr><td class="paramname">Hr3</td><td>weight 3 harmonic polylogs (3D array) </td></tr>
     <tr><td class="paramname">Hr4</td><td>weight 4 harmonic polylogs (4D array) </td></tr>
+    <tr><td class="paramname">Hr5</td><td>weight 5 harmonic polylogs (5D array) </td></tr>
     <tr><td class="paramname">n1</td><td>lower bound of the weight index requested </td></tr>
     <tr><td class="paramname">n2</td><td>upper bound of the weight index requested </td></tr>
   </table>
@@ -131,8 +144,8 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This is just a suitably formatted wrapper of the original fortran function (see src/kernel/hplog.f) to facilitate the call of the harmonic logarithms from a C++ code. </dd></dl>
 </div></td></tr>
-<tr class="memitem:a37d3cab413f09355b54d58a31137a272"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a37d3cab413f09355b54d58a31137a272">apfel::hplog_</a> (double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, int *wn1, int *wn2)</td></tr>
-<tr class="separator:a37d3cab413f09355b54d58a31137a272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395e01116c263600e641d66bf49fe07b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a395e01116c263600e641d66bf49fe07b">apfel::hplog_</a> (double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, double *Hr5, int *wn1, int *wn2)</td></tr>
+<tr class="separator:a395e01116c263600e641d66bf49fe07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Special functions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Collection of special functions needed in the evaluation of some expressions. </p>
 </div></td></tr>
@@ -140,13 +153,22 @@ Functions</h2></td></tr>
 <tr class="memdesc:a892a0ab473cc1c2933458ae7b02909f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real dilogarithm <img class="formulaInl" alt="$\mathrm{Li}_2(z)$" src="form_10.png"/>.  <a href="namespaceapfel.html#a892a0ab473cc1c2933458ae7b02909f4">More...</a><br /></td></tr>
 <tr class="separator:a892a0ab473cc1c2933458ae7b02909f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">apfel::wgplg</a> (int const &amp;n, int const &amp;p, double const &amp;x)</td></tr>
-<tr class="memdesc:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for the computation of the Nielsen's generalized dilogs.  <a href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">More...</a><br /></td></tr>
+<tr class="memdesc:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for the computation of the Nielsen's generalized dilogs.  <a href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">More...</a><br /></td></tr>
 <tr class="separator:ae07fc6dc7c2b19aaeae0957f7afa9ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde00ad78affecc4bbe4e4e5996b820a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abde00ad78affecc4bbe4e4e5996b820a">apfel::hpoly</a> (std::vector&lt; int &gt; const &amp;w, double const &amp;x)</td></tr>
+<tr class="memdesc:abde00ad78affecc4bbe4e4e5996b820a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for the computation of the Harmonic polylogs up to weight 5.  <a href="namespaceapfel.html#abde00ad78affecc4bbe4e4e5996b820a">More...</a><br /></td></tr>
+<tr class="separator:abde00ad78affecc4bbe4e4e5996b820a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4952d6daa86b59a050d8cdc3b49eb59b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a4952d6daa86b59a050d8cdc3b49eb59b">apfel::HPLogMap</a> (std::vector&lt; int &gt; const &amp;w)</td></tr>
+<tr class="memdesc:a4952d6daa86b59a050d8cdc3b49eb59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the index to be used with unidimensional arrays returned by hplog_.  <a href="namespaceapfel.html#a4952d6daa86b59a050d8cdc3b49eb59b">More...</a><br /></td></tr>
+<tr class="separator:a4952d6daa86b59a050d8cdc3b49eb59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33ee04bf2cf8dd901e69d0a94ab533f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ad33ee04bf2cf8dd901e69d0a94ab533f">apfel::UnpackWeights</a> (std::vector&lt; int &gt; const &amp;w)</td></tr>
+<tr class="memdesc:ad33ee04bf2cf8dd901e69d0a94ab533f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that returns the unpacked weights of the HPL given the input vector.  <a href="namespaceapfel.html#ad33ee04bf2cf8dd901e69d0a94ab533f">More...</a><br /></td></tr>
+<tr class="separator:ad33ee04bf2cf8dd901e69d0a94ab533f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 27 2020 15:48:53 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Apr 5 2020 15:51:50 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

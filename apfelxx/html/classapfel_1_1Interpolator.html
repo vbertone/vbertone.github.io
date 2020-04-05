@@ -100,6 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a829c8b174a5e9a12b20b927bb46a7279"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a829c8b174a5e9a12b20b927bb46a7279">Interpolator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr)</td></tr>
 <tr class="memdesc:a829c8b174a5e9a12b20b927bb46a7279"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> constructor.  <a href="classapfel_1_1Interpolator.html#a829c8b174a5e9a12b20b927bb46a7279">More...</a><br /></td></tr>
 <tr class="separator:a829c8b174a5e9a12b20b927bb46a7279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fadb1d59ddfd5f4166c0ebde878ae99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a1fadb1d59ddfd5f4166c0ebde878ae99">Interpolator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr, std::vector&lt; std::vector&lt; double &gt;&gt; const &amp;distsubgrid, std::vector&lt; double &gt; const &amp;distjointgrid)</td></tr>
+<tr class="memdesc:a1fadb1d59ddfd5f4166c0ebde878ae99"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> constructor.  <a href="classapfel_1_1Interpolator.html#a1fadb1d59ddfd5f4166c0ebde878ae99">More...</a><br /></td></tr>
+<tr class="separator:a1fadb1d59ddfd5f4166c0ebde878ae99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd3ab683fdb2956354f27a1e7c200939"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#abd3ab683fdb2956354f27a1e7c200939">Interpolant</a> (int const &amp;beta, double const &amp;lnx, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const =0</td></tr>
 <tr class="memdesc:abd3ab683fdb2956354f27a1e7c200939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pure virtual method for the interpolating functions.  <a href="classapfel_1_1Interpolator.html#abd3ab683fdb2956354f27a1e7c200939">More...</a><br /></td></tr>
 <tr class="separator:abd3ab683fdb2956354f27a1e7c200939"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,7 +160,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a829c8b174a5e9a12b20b927bb46a7279"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a829c8b174a5e9a12b20b927bb46a7279">&#9670;&nbsp;</a></span>Interpolator()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a829c8b174a5e9a12b20b927bb46a7279">&#9670;&nbsp;</a></span>Interpolator() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,6 +182,51 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a1fadb1d59ddfd5f4166c0ebde878ae99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fadb1d59ddfd5f4166c0ebde878ae99">&#9670;&nbsp;</a></span>Interpolator() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">apfel::Interpolator::Interpolator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>gr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; double &gt;&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>distsubgrid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>distjointgrid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gr</td><td>the x-space grid object over which interpolation takes place </td></tr>
+    <tr><td class="paramname">distsubgrid</td><td>the vector of subgrids </td></tr>
+    <tr><td class="paramname">distjointgrid</td><td>the joint subgrid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>distjointgrid and distsubgrid are assumed to match the structure of the grid gr. </dd></dl>
 
 </div>
 </div>
@@ -432,7 +480,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 27 2020 15:48:53 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Apr 5 2020 15:51:51 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

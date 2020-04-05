@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['_7einterpolator_1307',['~Interpolator',['../classapfel_1_1Interpolator.html#abcf14478694c9385f568a4fd69a0fe67',1,'apfel::Interpolator']]],
-  ['_7ematchedevolution_1308',['~MatchedEvolution',['../classapfel_1_1MatchedEvolution.html#a0934c99a428f260789e7b78d4f784a80',1,'apfel::MatchedEvolution']]]
+  ['warning_1345',['warning',['../namespaceapfel.html#a8957d7723906083aa7e5a3a3483e443c',1,'apfel']]],
+  ['wgplg_1346',['wgplg',['../namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc',1,'apfel']]],
+  ['writegrid_1347',['WriteGrid',['../classapfel_1_1InitialiseEvolution.html#a17d43a477175f4c4fd84bd659d6b5fa9',1,'apfel::InitialiseEvolution']]],
+  ['writegridinfo_1348',['WriteGridInfo',['../classapfel_1_1InitialiseEvolution.html#ace5cfdb335ee53b22dbdadade1a36bc1',1,'apfel::InitialiseEvolution']]]
 ];

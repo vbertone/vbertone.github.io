@@ -81,26 +81,38 @@ $(function() {
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceapfel.html">apfel</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">extern</span><span class="stringliteral">&quot;C&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#a37d3cab413f09355b54d58a31137a272">hplog_</a>(<span class="keywordtype">double</span> *wx, <span class="keywordtype">int</span> *wnw, <span class="keywordtype">double</span> *Hr1, <span class="keywordtype">double</span> *Hr2, <span class="keywordtype">double</span> *Hr3, <span class="keywordtype">double</span> *Hr4, <span class="keywordtype">int</span> *wn1, <span class="keywordtype">int</span> *wn2);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#a892a0ab473cc1c2933458ae7b02909f4">dilog</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; x);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">wgplg</a>(<span class="keywordtype">int</span> <span class="keyword">const</span>&amp; n, <span class="keywordtype">int</span> <span class="keyword">const</span>&amp; p, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; x);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceapfel.html">apfel</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keyword">extern</span><span class="stringliteral">&quot;C&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#a395e01116c263600e641d66bf49fe07b">hplog_</a>(<span class="keywordtype">double</span> *wx, <span class="keywordtype">int</span> *wnw, <span class="keywordtype">double</span> *Hr1, <span class="keywordtype">double</span> *Hr2, <span class="keywordtype">double</span> *Hr3, <span class="keywordtype">double</span> *Hr4, <span class="keywordtype">double</span> *Hr5, <span class="keywordtype">int</span> *wn1, <span class="keywordtype">int</span> *wn2);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#a892a0ab473cc1c2933458ae7b02909f4">dilog</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; x);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">wgplg</a>(<span class="keywordtype">int</span> <span class="keyword">const</span>&amp; n, <span class="keywordtype">int</span> <span class="keyword">const</span>&amp; p, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; x);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="namespaceapfel.html#abde00ad78affecc4bbe4e4e5996b820a">hpoly</a>(std::vector&lt;int&gt; <span class="keyword">const</span>&amp; w, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; x);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="namespaceapfel.html#a4952d6daa86b59a050d8cdc3b49eb59b">HPLogMap</a>(std::vector&lt;int&gt; <span class="keyword">const</span>&amp; w);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  std::vector&lt;int&gt; <a class="code" href="namespaceapfel.html#ad33ee04bf2cf8dd901e69d0a94ab533f">UnpackWeights</a>(std::vector&lt;int&gt; <span class="keyword">const</span>&amp; w);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="anamespaceapfel_html_a395e01116c263600e641d66bf49fe07b"><div class="ttname"><a href="namespaceapfel.html#a395e01116c263600e641d66bf49fe07b">apfel::hplog_</a></div><div class="ttdeci">double hplog_(double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, double *Hr5, int *wn1, int *wn2)</div></div>
+<div class="ttc" id="anamespaceapfel_html_ad33ee04bf2cf8dd901e69d0a94ab533f"><div class="ttname"><a href="namespaceapfel.html#ad33ee04bf2cf8dd901e69d0a94ab533f">apfel::UnpackWeights</a></div><div class="ttdeci">std::vector&lt; int &gt; UnpackWeights(std::vector&lt; int &gt; const &amp;w)</div><div class="ttdoc">Function that returns the unpacked weights of the HPL given the input vector.</div></div>
+<div class="ttc" id="anamespaceapfel_html_a4952d6daa86b59a050d8cdc3b49eb59b"><div class="ttname"><a href="namespaceapfel.html#a4952d6daa86b59a050d8cdc3b49eb59b">apfel::HPLogMap</a></div><div class="ttdeci">int HPLogMap(std::vector&lt; int &gt; const &amp;w)</div><div class="ttdoc">Function that returns the index to be used with unidimensional arrays returned by hplog_.</div></div>
 <div class="ttc" id="anamespaceapfel_html_a892a0ab473cc1c2933458ae7b02909f4"><div class="ttname"><a href="namespaceapfel.html#a892a0ab473cc1c2933458ae7b02909f4">apfel::dilog</a></div><div class="ttdeci">double dilog(double const &amp;x)</div><div class="ttdoc">Real dilogarithm .</div></div>
-<div class="ttc" id="anamespaceapfel_html_a37d3cab413f09355b54d58a31137a272"><div class="ttname"><a href="namespaceapfel.html#a37d3cab413f09355b54d58a31137a272">apfel::hplog_</a></div><div class="ttdeci">double hplog_(double *wx, int *wnw, double *Hr1, double *Hr2, double *Hr3, double *Hr4, int *wn1, int *wn2)</div></div>
 <div class="ttc" id="anamespaceapfel_html"><div class="ttname"><a href="namespaceapfel.html">apfel</a></div><div class="ttdoc">Namespace for all APFEL++ functions and classes.</div><div class="ttdef"><b>Definition:</b> alphaqcd.h:13</div></div>
-<div class="ttc" id="anamespaceapfel_html_ae07fc6dc7c2b19aaeae0957f7afa9ccc"><div class="ttname"><a href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">apfel::wgplg</a></div><div class="ttdeci">double wgplg(int const &amp;n, int const &amp;p, double const &amp;x)</div><div class="ttdoc">function for the computation of the Nielsen's generalized dilogs.</div></div>
+<div class="ttc" id="anamespaceapfel_html_ae07fc6dc7c2b19aaeae0957f7afa9ccc"><div class="ttname"><a href="namespaceapfel.html#ae07fc6dc7c2b19aaeae0957f7afa9ccc">apfel::wgplg</a></div><div class="ttdeci">double wgplg(int const &amp;n, int const &amp;p, double const &amp;x)</div><div class="ttdoc">Function for the computation of the Nielsen's generalized dilogs.</div></div>
+<div class="ttc" id="anamespaceapfel_html_abde00ad78affecc4bbe4e4e5996b820a"><div class="ttname"><a href="namespaceapfel.html#abde00ad78affecc4bbe4e4e5996b820a">apfel::hpoly</a></div><div class="ttdeci">double hpoly(std::vector&lt; int &gt; const &amp;w, double const &amp;x)</div><div class="ttdoc">Function for the computation of the Harmonic polylogs up to weight 5.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 27 2020 15:48:52 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Apr 5 2020 15:51:50 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

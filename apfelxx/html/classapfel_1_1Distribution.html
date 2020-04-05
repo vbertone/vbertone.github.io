@@ -96,12 +96,12 @@ Inheritance diagram for apfel::Distribution:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af477a2ffcc422a241a5860ea2caf3949"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Distribution.html#af477a2ffcc422a241a5860ea2caf3949">Distribution</a> ()=delete</td></tr>
 <tr class="separator:af477a2ffcc422a241a5860ea2caf3949"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d8de8b55329951c570809553986fdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Distribution.html#a71d8de8b55329951c570809553986fdc">PushJointGrid</a> (double const &amp;xi)</td></tr>
-<tr class="memdesc:a71d8de8b55329951c570809553986fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to push back the values of the joint grid.  <a href="classapfel_1_1Distribution.html#a71d8de8b55329951c570809553986fdc">More...</a><br /></td></tr>
-<tr class="separator:a71d8de8b55329951c570809553986fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c190d6526fcf44587b3027d43544880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Distribution.html#a5c190d6526fcf44587b3027d43544880">PushSubGrid</a> (double const &amp;xi, bool const &amp;next)</td></tr>
-<tr class="memdesc:a5c190d6526fcf44587b3027d43544880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to push back the values of the subgrid.  <a href="classapfel_1_1Distribution.html#a5c190d6526fcf44587b3027d43544880">More...</a><br /></td></tr>
-<tr class="separator:a5c190d6526fcf44587b3027d43544880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c033d0c916523ea0f75f16c09985f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Distribution.html#a66c033d0c916523ea0f75f16c09985f8">SetJointGrid</a> (int const &amp;ix, double const &amp;x)</td></tr>
+<tr class="memdesc:a66c033d0c916523ea0f75f16c09985f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to set the values of the joint grid.  <a href="classapfel_1_1Distribution.html#a66c033d0c916523ea0f75f16c09985f8">More...</a><br /></td></tr>
+<tr class="separator:a66c033d0c916523ea0f75f16c09985f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3069e9152cabf4d463773b698fd8d323"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Distribution.html#a3069e9152cabf4d463773b698fd8d323">SetSubGrid</a> (int const &amp;ig, int const &amp;ix, double const &amp;x)</td></tr>
+<tr class="memdesc:a3069e9152cabf4d463773b698fd8d323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to push back the values of the subgrid.  <a href="classapfel_1_1Distribution.html#a3069e9152cabf4d463773b698fd8d323">More...</a><br /></td></tr>
+<tr class="separator:a3069e9152cabf4d463773b698fd8d323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Constructors</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>List of constructors. </p>
 </div></td></tr>
@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a76db9cfe06212cbd316b42f8d9091e inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1LagrangeInterpolator.html#a4a76db9cfe06212cbd316b42f8d9091e">LagrangeInterpolator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr)</td></tr>
 <tr class="memdesc:a4a76db9cfe06212cbd316b42f8d9091e inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1LagrangeInterpolator.html" title="The LagrangeInterpolator class is a specialization of the Interpolator class using the lagrange inter...">LagrangeInterpolator</a> constructor.  <a href="classapfel_1_1LagrangeInterpolator.html#a4a76db9cfe06212cbd316b42f8d9091e">More...</a><br /></td></tr>
 <tr class="separator:a4a76db9cfe06212cbd316b42f8d9091e inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf969215fdb539554f677a92e83519db inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1LagrangeInterpolator.html#adf969215fdb539554f677a92e83519db">LagrangeInterpolator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr, std::vector&lt; std::vector&lt; double &gt;&gt; const &amp;distsubgrid, std::vector&lt; double &gt; const &amp;distjointgrid)</td></tr>
+<tr class="memdesc:adf969215fdb539554f677a92e83519db inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1LagrangeInterpolator.html" title="The LagrangeInterpolator class is a specialization of the Interpolator class using the lagrange inter...">LagrangeInterpolator</a> constructor.  <a href="classapfel_1_1LagrangeInterpolator.html#adf969215fdb539554f677a92e83519db">More...</a><br /></td></tr>
+<tr class="separator:adf969215fdb539554f677a92e83519db inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2300ff3772b3913a845a4541fc86e2c3 inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1LagrangeInterpolator.html#a2300ff3772b3913a845a4541fc86e2c3">Interpolant</a> (int const &amp;beta, double const &amp;lnx, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const</td></tr>
 <tr class="memdesc:a2300ff3772b3913a845a4541fc86e2c3 inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function defines the interpolating function used by the mothe class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation.  <a href="classapfel_1_1LagrangeInterpolator.html#a2300ff3772b3913a845a4541fc86e2c3">More...</a><br /></td></tr>
 <tr class="separator:a2300ff3772b3913a845a4541fc86e2c3 inherit pub_methods_classapfel_1_1LagrangeInterpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,6 +167,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a829c8b174a5e9a12b20b927bb46a7279 inherit pub_methods_classapfel_1_1Interpolator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a829c8b174a5e9a12b20b927bb46a7279">Interpolator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr)</td></tr>
 <tr class="memdesc:a829c8b174a5e9a12b20b927bb46a7279 inherit pub_methods_classapfel_1_1Interpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> constructor.  <a href="classapfel_1_1Interpolator.html#a829c8b174a5e9a12b20b927bb46a7279">More...</a><br /></td></tr>
 <tr class="separator:a829c8b174a5e9a12b20b927bb46a7279 inherit pub_methods_classapfel_1_1Interpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fadb1d59ddfd5f4166c0ebde878ae99 inherit pub_methods_classapfel_1_1Interpolator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a1fadb1d59ddfd5f4166c0ebde878ae99">Interpolator</a> (<a class="el" href="classapfel_1_1Grid.html">Grid</a> const &amp;gr, std::vector&lt; std::vector&lt; double &gt;&gt; const &amp;distsubgrid, std::vector&lt; double &gt; const &amp;distjointgrid)</td></tr>
+<tr class="memdesc:a1fadb1d59ddfd5f4166c0ebde878ae99 inherit pub_methods_classapfel_1_1Interpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> constructor.  <a href="classapfel_1_1Interpolator.html#a1fadb1d59ddfd5f4166c0ebde878ae99">More...</a><br /></td></tr>
+<tr class="separator:a1fadb1d59ddfd5f4166c0ebde878ae99 inherit pub_methods_classapfel_1_1Interpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa04fd13b61de9eca4bce12c4afd8e97 inherit pub_methods_classapfel_1_1Interpolator"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#aaa04fd13b61de9eca4bce12c4afd8e97">Evaluate</a> (double const &amp;x) const</td></tr>
 <tr class="memdesc:aaa04fd13b61de9eca4bce12c4afd8e97 inherit pub_methods_classapfel_1_1Interpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the interpolated function on the joint grid.  <a href="classapfel_1_1Interpolator.html#aaa04fd13b61de9eca4bce12c4afd8e97">More...</a><br /></td></tr>
 <tr class="separator:aaa04fd13b61de9eca4bce12c4afd8e97 inherit pub_methods_classapfel_1_1Interpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -645,49 +651,66 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a71d8de8b55329951c570809553986fdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71d8de8b55329951c570809553986fdc">&#9670;&nbsp;</a></span>PushJointGrid()</h2>
+<a id="a66c033d0c916523ea0f75f16c09985f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66c033d0c916523ea0f75f16c09985f8">&#9670;&nbsp;</a></span>SetJointGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void apfel::Distribution::PushJointGrid </td>
+          <td class="memname">void apfel::Distribution::SetJointGrid </td>
           <td>(</td>
-          <td class="paramtype">double const &amp;&#160;</td>
-          <td class="paramname"><em>xi</em></td><td>)</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Function to push back the values of the joint grid. </p>
+<p>Function to set the values of the joint grid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xi</td><td>value of of the distribution to be appended to the distribution vector on the joint grid </td></tr>
+    <tr><td class="paramname">ix</td><td>the vector index </td></tr>
+    <tr><td class="paramname">x</td><td>value of of the distribution to set in the distribution vector on the joint grid </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a5c190d6526fcf44587b3027d43544880"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c190d6526fcf44587b3027d43544880">&#9670;&nbsp;</a></span>PushSubGrid()</h2>
+<a id="a3069e9152cabf4d463773b698fd8d323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3069e9152cabf4d463773b698fd8d323">&#9670;&nbsp;</a></span>SetSubGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void apfel::Distribution::PushSubGrid </td>
+          <td class="memname">void apfel::Distribution::SetSubGrid </td>
           <td>(</td>
-          <td class="paramtype">double const &amp;&#160;</td>
-          <td class="paramname"><em>xi</em>, </td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ig</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool const &amp;&#160;</td>
-          <td class="paramname"><em>next</em>&#160;</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>ix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -700,8 +723,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Function to push back the values of the subgrid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xi</td><td>value of of the distribution to be appended to the distribution vector on one of the subgrids </td></tr>
-    <tr><td class="paramname">next</td><td>switch to tell the function whether it should start filling in the next subgrid </td></tr>
+    <tr><td class="paramname">ig</td><td>the subgrid index </td></tr>
+    <tr><td class="paramname">ix</td><td>the vector index </td></tr>
+    <tr><td class="paramname">x</td><td>value of of the distribution to set in the distribution vector on the joint grid </td></tr>
   </table>
   </dd>
 </dl>
@@ -714,7 +738,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 27 2020 15:48:53 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Apr 5 2020 15:51:51 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
