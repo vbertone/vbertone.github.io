@@ -2056,6 +2056,32 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a0fe368880404ba6484e6af19d23695ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe368880404ba6484e6af19d23695ae">&#9670;&nbsp;</a></span>factorial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int apfel::factorial </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Factorial of an integer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>input integer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a98d13eb1ba7bdb98857f4080621cbc2d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98d13eb1ba7bdb98857f4080621cbc2d">&#9670;&nbsp;</a></span>gammaFg0()</h2>
 
@@ -2584,6 +2610,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="polylog_test_8cc-example.html#a0">polylog_test.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -2609,6 +2637,8 @@ template&lt;typename T &gt; </div>
     <tr><td class="paramname">w</td><td>the packed vector of weights </td></tr>
   </table>
   </dd>
+</dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="polylog_test_8cc-example.html#a2">polylog_test.cc</a>.</dd>
 </dl>
 
 </div>
@@ -2649,6 +2679,8 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><img class="formulaInl" alt="$\mathrm{H}(\{w\},x)$" src="form_12.png"/> </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>C++ adaptation of the FORTRAN implementation discussed in <a href="https://arxiv.org/pdf/1809.07084.pdf">https://arxiv.org/pdf/1809.07084.pdf</a>. The argument x is limited to the interval [0, sqrt(2)-1]. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="polylog_test_8cc-example.html#a1">polylog_test.cc</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -4828,6 +4860,34 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a6de7bb0661f079c85b439a896151dc6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6de7bb0661f079c85b439a896151dc6f">&#9670;&nbsp;</a></span>ProductExpansion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; apfel::ProductExpansion </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that computes the coefficients of the expansion of a product of n binomials with zero's in r. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>input vector of zero's </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="expansion_test_8cc-example.html#a0">expansion_test.cc</a>.</dd>
+</dl>
+
+</div>
+</div>
 <a id="a5994d25259a42b0eac53c4785602a7ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5994d25259a42b0eac53c4785602a7ce">&#9670;&nbsp;</a></span>QCDEvToPhys() <span class="overload">[1/2]</span></h2>
 
@@ -5614,7 +5674,7 @@ template&lt;class U &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 5 2020 15:51:51 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 11 2020 12:49:54 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

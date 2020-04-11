@@ -101,8 +101,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adf969215fdb539554f677a92e83519db"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1LagrangeInterpolator.html" title="The LagrangeInterpolator class is a specialization of the Interpolator class using the lagrange inter...">LagrangeInterpolator</a> constructor.  <a href="classapfel_1_1LagrangeInterpolator.html#adf969215fdb539554f677a92e83519db">More...</a><br /></td></tr>
 <tr class="separator:adf969215fdb539554f677a92e83519db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2300ff3772b3913a845a4541fc86e2c3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1LagrangeInterpolator.html#a2300ff3772b3913a845a4541fc86e2c3">Interpolant</a> (int const &amp;beta, double const &amp;lnx, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const</td></tr>
-<tr class="memdesc:a2300ff3772b3913a845a4541fc86e2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function defines the interpolating function used by the mothe class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation.  <a href="classapfel_1_1LagrangeInterpolator.html#a2300ff3772b3913a845a4541fc86e2c3">More...</a><br /></td></tr>
+<tr class="memdesc:a2300ff3772b3913a845a4541fc86e2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function defines the interpolating function used by the mother class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation.  <a href="classapfel_1_1LagrangeInterpolator.html#a2300ff3772b3913a845a4541fc86e2c3">More...</a><br /></td></tr>
 <tr class="separator:a2300ff3772b3913a845a4541fc86e2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b63323b6d3dc402ce6ded1bca55996"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1LagrangeInterpolator.html#a41b63323b6d3dc402ce6ded1bca55996">DerInterpolant</a> (int const &amp;beta, double const &amp;lnx, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const</td></tr>
+<tr class="memdesc:a41b63323b6d3dc402ce6ded1bca55996"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function defines the derivative of the interpolating function used by the mother class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation.  <a href="classapfel_1_1LagrangeInterpolator.html#a41b63323b6d3dc402ce6ded1bca55996">More...</a><br /></td></tr>
+<tr class="separator:a41b63323b6d3dc402ce6ded1bca55996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac685eca21fc99696b8fb8dee1f5248c5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1LagrangeInterpolator.html#ac685eca21fc99696b8fb8dee1f5248c5">IntInterpolant</a> (int const &amp;beta, double const &amp;a, double const &amp;b, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const</td></tr>
+<tr class="memdesc:ac685eca21fc99696b8fb8dee1f5248c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function defines the integral of the interpolating function used by the mother class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation.  <a href="classapfel_1_1LagrangeInterpolator.html#ac685eca21fc99696b8fb8dee1f5248c5">More...</a><br /></td></tr>
+<tr class="separator:ac685eca21fc99696b8fb8dee1f5248c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1937891f73add6ac97b543c4e291308d"><td class="memItemLeft" align="right" valign="top">std::array&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1LagrangeInterpolator.html#a1937891f73add6ac97b543c4e291308d">SumBounds</a> (double const &amp;x, <a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;sg) const</td></tr>
 <tr class="memdesc:a1937891f73add6ac97b543c4e291308d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function computes the lower and upper bounds on which the the sum over interpolants is limited.  <a href="classapfel_1_1LagrangeInterpolator.html#a1937891f73add6ac97b543c4e291308d">More...</a><br /></td></tr>
 <tr class="separator:a1937891f73add6ac97b543c4e291308d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,6 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a02b02f3a9b75647af7b64da7057c4a inherit pub_methods_classapfel_1_1Interpolator"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a0a02b02f3a9b75647af7b64da7057c4a">Evaluate</a> (double const &amp;x, int const &amp;ig) const</td></tr>
 <tr class="memdesc:a0a02b02f3a9b75647af7b64da7057c4a inherit pub_methods_classapfel_1_1Interpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the interpolated function on a given subgrid.  <a href="classapfel_1_1Interpolator.html#a0a02b02f3a9b75647af7b64da7057c4a">More...</a><br /></td></tr>
 <tr class="separator:a0a02b02f3a9b75647af7b64da7057c4a inherit pub_methods_classapfel_1_1Interpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4089ff67183effbcecf877e898dde0bd inherit pub_methods_classapfel_1_1Interpolator"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#a4089ff67183effbcecf877e898dde0bd">Derive</a> (double const &amp;x) const</td></tr>
+<tr class="memdesc:a4089ff67183effbcecf877e898dde0bd inherit pub_methods_classapfel_1_1Interpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the derivative of the interpolated function on the joint grid.  <a href="classapfel_1_1Interpolator.html#a4089ff67183effbcecf877e898dde0bd">More...</a><br /></td></tr>
+<tr class="separator:a4089ff67183effbcecf877e898dde0bd inherit pub_methods_classapfel_1_1Interpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabd876ece0e971616bbc0f950419156 inherit pub_methods_classapfel_1_1Interpolator"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1Interpolator.html#afabd876ece0e971616bbc0f950419156">Integrate</a> (double const &amp;a, double const &amp;b) const</td></tr>
+<tr class="memdesc:afabd876ece0e971616bbc0f950419156 inherit pub_methods_classapfel_1_1Interpolator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that evaluates the integral of the interpolated function in the interval [a,b] on the joint grid.  <a href="classapfel_1_1Interpolator.html#afabd876ece0e971616bbc0f950419156">More...</a><br /></td></tr>
+<tr class="separator:afabd876ece0e971616bbc0f950419156 inherit pub_methods_classapfel_1_1Interpolator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -212,6 +224,62 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a41b63323b6d3dc402ce6ded1bca55996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b63323b6d3dc402ce6ded1bca55996">&#9670;&nbsp;</a></span>DerInterpolant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double apfel::LagrangeInterpolator::DerInterpolant </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>lnx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>sg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function defines the derivative of the interpolating function used by the mother class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">beta</td><td>the x-space grid index </td></tr>
+    <tr><td class="paramname">lnx</td><td>the value (of the log) of the interpolation point </td></tr>
+    <tr><td class="paramname">sg</td><td>the <a class="el" href="classapfel_1_1SubGrid.html" title="Class for the x-space interpolation SubGrids.">SubGrid</a> over which the interpolant is defined </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the derivative of the interpolation weights </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classapfel_1_1Interpolator.html#af14311bdfd1757d16844ae4e39d54240" title="Virtual method for the derivative of the interpolating functions.">Interpolator::DerInterpolant</a> </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classapfel_1_1Interpolator.html#af14311bdfd1757d16844ae4e39d54240">apfel::Interpolator</a>.</p>
+
+</div>
+</div>
 <a id="a2300ff3772b3913a845a4541fc86e2c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2300ff3772b3913a845a4541fc86e2c3">&#9670;&nbsp;</a></span>Interpolant()</h2>
 
@@ -252,7 +320,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This function defines the interpolating function used by the mothe class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation. </p>
+<p>This function defines the interpolating function used by the mother class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">beta</td><td>the x-space grid index </td></tr>
@@ -265,6 +333,70 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapfel_1_1Interpolator.html#abd3ab683fdb2956354f27a1e7c200939" title="Pure virtual method for the interpolating functions.">Interpolator::Interpolant</a> </dd></dl>
 
 <p>Implements <a class="el" href="classapfel_1_1Interpolator.html#abd3ab683fdb2956354f27a1e7c200939">apfel::Interpolator</a>.</p>
+
+</div>
+</div>
+<a id="ac685eca21fc99696b8fb8dee1f5248c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac685eca21fc99696b8fb8dee1f5248c5">&#9670;&nbsp;</a></span>IntInterpolant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double apfel::LagrangeInterpolator::IntInterpolant </td>
+          <td>(</td>
+          <td class="paramtype">int const &amp;&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1SubGrid.html">SubGrid</a> const &amp;&#160;</td>
+          <td class="paramname"><em>sg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function defines the integral of the interpolating function used by the mother class <a class="el" href="classapfel_1_1Interpolator.html" title="The Interpolator class is a mother class for the x-space interpolationand requires the implementation...">Interpolator</a> to perform the actual interpolation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">beta</td><td>the x-space grid index </td></tr>
+    <tr><td class="paramname">a</td><td>the value of the lower integration bound </td></tr>
+    <tr><td class="paramname">b</td><td>the value of the upper integration bound </td></tr>
+    <tr><td class="paramname">sg</td><td>the <a class="el" href="classapfel_1_1SubGrid.html" title="Class for the x-space interpolation SubGrids.">SubGrid</a> over which the interpolant is defined </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the integral of the interpolation weights </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classapfel_1_1Interpolator.html#a3d294de2c1bd8df09e3420a529a0beb9" title="Virtual method for the integral of the interpolating functions.">Interpolator::IntInterpolant</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Contrary to the other interpolants, here polynomials in 'x' rather than in 'log(x)' are used. This seems to be faster and more accurate. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classapfel_1_1Interpolator.html#a3d294de2c1bd8df09e3420a529a0beb9">apfel::Interpolator</a>.</p>
 
 </div>
 </div>
@@ -323,7 +455,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 5 2020 15:51:51 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 11 2020 12:49:55 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
