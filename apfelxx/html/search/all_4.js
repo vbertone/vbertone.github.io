@@ -2,7 +2,7 @@ var searchData=
 [
   ['dabs_218',['dabs',['../namespaceapfel.html#a36d6703cec0e54d3abeed1f96adb0c27',1,'apfel']]],
   ['deltafun_219',['DeltaFun',['../namespaceapfel.html#a60e7f076062aec09d1944e468f292571',1,'apfel']]],
-  ['derinterpolant_220',['DerInterpolant',['../classapfel_1_1Interpolator.html#af14311bdfd1757d16844ae4e39d54240',1,'apfel::Interpolator::DerInterpolant()'],['../classapfel_1_1LagrangeInterpolator.html#a41b63323b6d3dc402ce6ded1bca55996',1,'apfel::LagrangeInterpolator::DerInterpolant()']]],
+  ['derinterpolant_220',['DerInterpolant',['../classapfel_1_1Interpolator.html#af14311bdfd1757d16844ae4e39d54240',1,'apfel::Interpolator::DerInterpolant()'],['../classapfel_1_1LagrangeInterpolator.html#ad829c2abc855b9dc2b72f7ceaf5cf564',1,'apfel::LagrangeInterpolator::DerInterpolant()']]],
   ['derivative_221',['Derivative',['../classapfel_1_1AlphaQCD.html#a5a56117bc1bab61551e3c827aeb97ae6',1,'apfel::AlphaQCD::Derivative()'],['../classapfel_1_1AlphaQED.html#a39e338c0f98a592016d166e04784ffe8',1,'apfel::AlphaQED::Derivative()'],['../classapfel_1_1Dglap.html#a46be4761a1ba49003c8e93b32a842231',1,'apfel::Dglap::Derivative()'],['../classapfel_1_1MatchedEvolution.html#ae71ea51bdbbad54dad165eec66d4c49a',1,'apfel::MatchedEvolution::Derivative()']]],
   ['derive_222',['Derive',['../classapfel_1_1Interpolator.html#a4089ff67183effbcecf877e898dde0bd',1,'apfel::Interpolator']]],
   ['derivephasespacereduction_223',['DerivePhaseSpaceReduction',['../classapfel_1_1TwoBodyPhaseSpace.html#a9757c946c2c9889e078dc0372edc4c2b',1,'apfel::TwoBodyPhaseSpace']]],

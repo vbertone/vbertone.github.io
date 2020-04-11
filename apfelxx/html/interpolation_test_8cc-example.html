@@ -94,14 +94,13 @@ $(function() {
 <div class="line">  <span class="keyword">const</span> <span class="keyword">auto</span> ixg = [&amp;] (<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; x) -&gt; <span class="keywordtype">double</span>{ <span class="keywordflow">return</span> x * x * ( 1. / 2 - x / 3 ); };</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// Grid</span></div>
-<div class="line">  <span class="keyword">const</span> <a name="_a0"></a><a class="code" href="classapfel_1_1Grid.html">apfel::Grid</a> g{{{100, 9.9e-6, 5}, {100, 1e-1, 5}, {40, 8e-1, 5}}};</div>
+<div class="line">  <span class="keyword">const</span> <a name="_a0"></a><a class="code" href="classapfel_1_1Grid.html">apfel::Grid</a> g{{{100, 9.9e-6, 3}, {100, 1e-1, 5}, {40, 8e-1, 5}}};</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// Interpolated distribution</span></div>
 <div class="line">  <span class="keyword">const</span> <a name="_a1"></a><a class="code" href="classapfel_1_1Distribution.html">apfel::Distribution</a> xgluon{g, xg};</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// Test values</span></div>
 <div class="line">  std::vector&lt;double&gt; x = {1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 0.2, 0.3, 0.4, 0.51, 0.6, 0.7, 0.8, 0.9};</div>
-<div class="line">  <span class="comment">//std::vector&lt;double&gt; x = {1e-4};</span></div>
 <div class="line"> </div>
 <div class="line">  std::cout &lt;&lt; <span class="stringliteral">&quot;\n        x       &quot;</span></div>
 <div class="line">            &lt;&lt; <span class="stringliteral">&quot;  an. func.     &quot;</span></div>
@@ -166,7 +165,7 @@ $(function() {
 <div class="ttc" id="aclassapfel_1_1Grid_html"><div class="ttname"><a href="classapfel_1_1Grid.html">apfel::Grid</a></div><div class="ttdoc">The Grid class defines ab object that is essentially a collection of &quot;SubGrid&quot; objects plus other glo...</div><div class="ttdef"><b>Definition:</b> grid.h:19</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 11 2020 12:49:54 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 11 2020 15:15:33 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
