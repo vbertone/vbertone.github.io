@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">APFEL
-   &#160;<span id="projectnumber">4.2.0</span>
+   &#160;<span id="projectnumber">4.3.0</span>
    </div>
    <div id="projectbrief">A PDF evolution library in C++</div>
   </td>
@@ -394,6 +394,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structapfel_1_1DglapObjects.html">DglapObjects</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that contains all the precomputed quantities needed to perform the DGLAP evolution, i.e. perturbative coefficients of splitting functions and matching conditions, and the heavy quark thresholds.  <a href="structapfel_1_1DglapObjects.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1DiagonalBasis.html">DiagonalBasis</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1DiagonalBasis.html" title="The DiagonalBasis class is the simplest derivation of ConvolutionMap meant to essentially perform a s...">DiagonalBasis</a> class is the simplest derivation of <a class="el" href="classapfel_1_1ConvolutionMap.html" title="The ConvolutionMap class encapsulates the set of rules to multiply a sets of operators with a set of ...">ConvolutionMap</a> meant to essentially perform a scalar product of two sets of objects.  <a href="classapfel_1_1DiagonalBasis.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1DISCCBasis.html">DISCCBasis</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1DISCCBasis.html" title="The DISCCBasis class is a derived of ConvolutionMap specialised for the computation of the CC DIS str...">DISCCBasis</a> class is a derived of <a class="el" href="classapfel_1_1ConvolutionMap.html" title="The ConvolutionMap class encapsulates the set of rules to multiply a sets of operators with a set of ...">ConvolutionMap</a> specialised for the computation of the CC DIS structure functions.  <a href="classapfel_1_1DISCCBasis.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -716,27 +719,27 @@ Ternary operators</h2></td></tr>
 <tr class="memitem:a931a7b06b66dd3eb35b9adb2bf6f19dd"><td class="memTemplParams" colspan="2">template&lt;class A , class B &gt; </td></tr>
 <tr class="memitem:a931a7b06b66dd3eb35b9adb2bf6f19dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; B &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a931a7b06b66dd3eb35b9adb2bf6f19dd">operator*</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; A &gt; lhs, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; B &gt; const &amp;rhs)</td></tr>
 <tr class="separator:a931a7b06b66dd3eb35b9adb2bf6f19dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabc186cbe4e9575db4a26ca4b8faf714"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aabc186cbe4e9575db4a26ca4b8faf714"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aabc186cbe4e9575db4a26ca4b8faf714">operator*</a> (double const &amp;s, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; rhs)</td></tr>
-<tr class="separator:aabc186cbe4e9575db4a26ca4b8faf714"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a612e473112e3681d3261344bfa365138"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a612e473112e3681d3261344bfa365138"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a612e473112e3681d3261344bfa365138">operator*</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; lhs, double const &amp;s)</td></tr>
-<tr class="separator:a612e473112e3681d3261344bfa365138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab833e2944129d820a139e4f11c352145"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ab833e2944129d820a139e4f11c352145"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ab833e2944129d820a139e4f11c352145">operator/</a> (double const &amp;s, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; rhs)</td></tr>
-<tr class="separator:ab833e2944129d820a139e4f11c352145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab756dd5fc6d336040850e0019c2c3532"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ab756dd5fc6d336040850e0019c2c3532"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ab756dd5fc6d336040850e0019c2c3532">operator/</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; lhs, double const &amp;s)</td></tr>
-<tr class="separator:ab756dd5fc6d336040850e0019c2c3532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae94fe28d7f2d977403357d6274ee53d9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ae94fe28d7f2d977403357d6274ee53d9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae94fe28d7f2d977403357d6274ee53d9">operator*</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; lhs, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;rhs)</td></tr>
-<tr class="separator:ae94fe28d7f2d977403357d6274ee53d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8dce29f87ae5ec52d5d85aca6fe3b8b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa8dce29f87ae5ec52d5d85aca6fe3b8b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aa8dce29f87ae5ec52d5d85aca6fe3b8b">operator+</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; lhs, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;rhs)</td></tr>
-<tr class="separator:aa8dce29f87ae5ec52d5d85aca6fe3b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a408513b2815a47e6c2d30bc75daf4386"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a408513b2815a47e6c2d30bc75daf4386"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a408513b2815a47e6c2d30bc75daf4386">operator-</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; lhs, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;rhs)</td></tr>
-<tr class="separator:a408513b2815a47e6c2d30bc75daf4386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72528179cc378499781ad08e2f41c54b"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a72528179cc378499781ad08e2f41c54b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a72528179cc378499781ad08e2f41c54b">operator*</a> (double const &amp;s, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; rhs)</td></tr>
+<tr class="separator:a72528179cc378499781ad08e2f41c54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7372c6adb5b9a4a057114b255d79b6"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a6d7372c6adb5b9a4a057114b255d79b6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a6d7372c6adb5b9a4a057114b255d79b6">operator*</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; lhs, double const &amp;s)</td></tr>
+<tr class="separator:a6d7372c6adb5b9a4a057114b255d79b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea32789bbe340a77e4460e3b125d005c"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:aea32789bbe340a77e4460e3b125d005c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aea32789bbe340a77e4460e3b125d005c">operator/</a> (double const &amp;s, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; rhs)</td></tr>
+<tr class="separator:aea32789bbe340a77e4460e3b125d005c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8fe1803b1d37ae4868cdf6f48044a55"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:aa8fe1803b1d37ae4868cdf6f48044a55"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aa8fe1803b1d37ae4868cdf6f48044a55">operator/</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; lhs, double const &amp;s)</td></tr>
+<tr class="separator:aa8fe1803b1d37ae4868cdf6f48044a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf22ee199cb9b4e9546230c294dad09c"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:abf22ee199cb9b4e9546230c294dad09c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abf22ee199cb9b4e9546230c294dad09c">operator*</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; lhs, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; const &amp;rhs)</td></tr>
+<tr class="separator:abf22ee199cb9b4e9546230c294dad09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d25b4da3db7ec3b1d0ec41b4acc2e9"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:aa8d25b4da3db7ec3b1d0ec41b4acc2e9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aa8d25b4da3db7ec3b1d0ec41b4acc2e9">operator+</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; lhs, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; const &amp;rhs)</td></tr>
+<tr class="separator:aa8d25b4da3db7ec3b1d0ec41b4acc2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c28dc83bab70838e12f9eff8d67fe62"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a7c28dc83bab70838e12f9eff8d67fe62"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a7c28dc83bab70838e12f9eff8d67fe62">operator-</a> (<a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; lhs, <a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a7c28dc83bab70838e12f9eff8d67fe62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa133b64918aa6b61b5ca8ae3ee9342d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1Distribution.html">Distribution</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aaa133b64918aa6b61b5ca8ae3ee9342d">operator*</a> (<a class="el" href="classapfel_1_1Operator.html">Operator</a> lhs, <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> const &amp;rhs)</td></tr>
 <tr class="memdesc:aaa133b64918aa6b61b5ca8ae3ee9342d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator*Distribution.  <a href="namespaceapfel.html#aaa133b64918aa6b61b5ca8ae3ee9342d">More...</a><br /></td></tr>
 <tr class="separator:aaa133b64918aa6b61b5ca8ae3ee9342d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -833,6 +836,29 @@ Hard factors</h2></td></tr>
 <tr class="memitem:abb62dde36bf4a2ba35bf7dead959b504"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abb62dde36bf4a2ba35bf7dead959b504">HardFactorDY</a> (int const &amp;PerturbativeOrder, double const &amp;Alphas, int const &amp;nf, double const &amp;kappa)</td></tr>
 <tr class="memdesc:abb62dde36bf4a2ba35bf7dead959b504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perturbative hard factor for Drell-Yan.  <a href="namespaceapfel.html#abb62dde36bf4a2ba35bf7dead959b504">More...</a><br /></td></tr>
 <tr class="separator:abb62dde36bf4a2ba35bf7dead959b504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Basis rotations</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpe6bb67c8532dfc4c555d2bc762dd9fe5"></a>Collection of functions to rotate distributions from the QCD evolution basis to the phsycal basis and back. Specifically, the QCD evolution basis is:</p>
+<p>{g, &Sigma;, V, T<sub>3</sub>, V<sub>3</sub>, T<sub>8</sub>, V<sub>8</sub>, T<sub>15</sub>, V<sub>15</sub>, T<sub>24</sub>, V<sub>24</sub>, T<sub>35</sub>, T<sub>34</sub>}</p>
+<p>while the physical basis is:</p>
+<p>{ <span style="text-decoration: overline">t</span>, <span style="text-decoration: overline">b</span>, <span style="text-decoration: overline">c</span>, <span style="text-decoration: overline">s</span>, <span style="text-decoration: overline">u</span>, <span style="text-decoration: overline">d</span>, g, d, u, s, c, b, t} </p>
+</td></tr>
+<tr class="memitem:ac8d9079ba80f60896850b527fee1c74b"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ac8d9079ba80f60896850b527fee1c74b">RotQCDEvToPhys</a> [6][6]</td></tr>
+<tr class="memdesc:ac8d9079ba80f60896850b527fee1c74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation matrix from the QCD evolution to the physical basis.  <a href="namespaceapfel.html#ac8d9079ba80f60896850b527fee1c74b">More...</a><br /></td></tr>
+<tr class="separator:ac8d9079ba80f60896850b527fee1c74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cbdcadbb5a4c8c58f99aa17c7f2b3a6"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a9cbdcadbb5a4c8c58f99aa17c7f2b3a6">PhysToQCDEv</a> (std::map&lt; int, double &gt; const &amp;InPhysMap)</td></tr>
+<tr class="memdesc:a9cbdcadbb5a4c8c58f99aa17c7f2b3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation from the physical to the QCD evolution basis.  <a href="namespaceapfel.html#a9cbdcadbb5a4c8c58f99aa17c7f2b3a6">More...</a><br /></td></tr>
+<tr class="separator:a9cbdcadbb5a4c8c58f99aa17c7f2b3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76927a1e32317b53521d5a23396954d"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ad76927a1e32317b53521d5a23396954d">QCDEvToPhys</a> (std::map&lt; int, double &gt; const &amp;QCDEvMap)</td></tr>
+<tr class="memdesc:ad76927a1e32317b53521d5a23396954d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation from the QCD evolution to the physical basis.  <a href="namespaceapfel.html#ad76927a1e32317b53521d5a23396954d">More...</a><br /></td></tr>
+<tr class="separator:ad76927a1e32317b53521d5a23396954d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5994d25259a42b0eac53c4785602a7ce"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a5994d25259a42b0eac53c4785602a7ce">QCDEvToPhys</a> (std::map&lt; int, <a class="el" href="classapfel_1_1Distribution.html">Distribution</a> &gt; const &amp;QCDEvMap)</td></tr>
+<tr class="memdesc:a5994d25259a42b0eac53c4785602a7ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation from the QCD evolution to the physical basis of a map of distributions.  <a href="namespaceapfel.html#a5994d25259a42b0eac53c4785602a7ce">More...</a><br /></td></tr>
+<tr class="separator:a5994d25259a42b0eac53c4785602a7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae880a5fcf92d056c294f003accfb08ef"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="classapfel_1_1Operator.html">Operator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae880a5fcf92d056c294f003accfb08ef">QCDEvToPhys</a> (std::map&lt; int, <a class="el" href="classapfel_1_1Operator.html">Operator</a> &gt; const &amp;QCDEvMap)</td></tr>
+<tr class="memdesc:ae880a5fcf92d056c294f003accfb08ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation from the QCD evolution to the physical basis of a map of operators.  <a href="namespaceapfel.html#ae880a5fcf92d056c294f003accfb08ef">More...</a><br /></td></tr>
+<tr class="separator:ae880a5fcf92d056c294f003accfb08ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for all APFEL++ functions and classes. </p>
@@ -4732,16 +4758,16 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aabc186cbe4e9575db4a26ca4b8faf714"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabc186cbe4e9575db4a26ca4b8faf714">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/23]</span></h2>
+<a id="a72528179cc378499781ad08e2f41c54b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72528179cc378499781ad08e2f41c54b">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator* </td>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T, U&gt; apfel::operator* </td>
           <td>(</td>
           <td class="paramtype">double const &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -4749,7 +4775,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td>
           <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
@@ -4852,18 +4878,18 @@ template&lt;class A , class B &gt; </div>
 
 </div>
 </div>
-<a id="a612e473112e3681d3261344bfa365138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a612e473112e3681d3261344bfa365138">&#9670;&nbsp;</a></span>operator*() <span class="overload">[9/23]</span></h2>
+<a id="a6d7372c6adb5b9a4a057114b255d79b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d7372c6adb5b9a4a057114b255d79b6">&#9670;&nbsp;</a></span>operator*() <span class="overload">[9/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator* </td>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T, U&gt; apfel::operator* </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td>
           <td class="paramname"><em>lhs</em>, </td>
         </tr>
         <tr>
@@ -4882,24 +4908,24 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="ae94fe28d7f2d977403357d6274ee53d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae94fe28d7f2d977403357d6274ee53d9">&#9670;&nbsp;</a></span>operator*() <span class="overload">[10/23]</span></h2>
+<a id="abf22ee199cb9b4e9546230c294dad09c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf22ee199cb9b4e9546230c294dad09c">&#9670;&nbsp;</a></span>operator*() <span class="overload">[10/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator* </td>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T, U&gt; apfel::operator* </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td>
           <td class="paramname"><em>lhs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; const &amp;&#160;</td>
           <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
@@ -5332,24 +5358,24 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="aa8dce29f87ae5ec52d5d85aca6fe3b8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8dce29f87ae5ec52d5d85aca6fe3b8b">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/4]</span></h2>
+<a id="aa8d25b4da3db7ec3b1d0ec41b4acc2e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d25b4da3db7ec3b1d0ec41b4acc2e9">&#9670;&nbsp;</a></span>operator+() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator+ </td>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T, U&gt; apfel::operator+ </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td>
           <td class="paramname"><em>lhs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; const &amp;&#160;</td>
           <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
@@ -5452,24 +5478,24 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a408513b2815a47e6c2d30bc75daf4386"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a408513b2815a47e6c2d30bc75daf4386">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/4]</span></h2>
+<a id="a7c28dc83bab70838e12f9eff8d67fe62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c28dc83bab70838e12f9eff8d67fe62">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator- </td>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T, U&gt; apfel::operator- </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td>
           <td class="paramname"><em>lhs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt; const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt; const &amp;&#160;</td>
           <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
@@ -5572,16 +5598,16 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="ab833e2944129d820a139e4f11c352145"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab833e2944129d820a139e4f11c352145">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/6]</span></h2>
+<a id="aea32789bbe340a77e4460e3b125d005c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea32789bbe340a77e4460e3b125d005c">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator/ </td>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T, U&gt; apfel::operator/ </td>
           <td>(</td>
           <td class="paramtype">double const &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -5589,7 +5615,7 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td>
           <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
@@ -5602,18 +5628,18 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="ab756dd5fc6d336040850e0019c2c3532"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab756dd5fc6d336040850e0019c2c3532">&#9670;&nbsp;</a></span>operator/() <span class="overload">[3/6]</span></h2>
+<a id="aa8fe1803b1d37ae4868cdf6f48044a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8fe1803b1d37ae4868cdf6f48044a55">&#9670;&nbsp;</a></span>operator/() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T&gt; apfel::operator/ </td>
+          <td class="memname"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt;T, U&gt; apfel::operator/ </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classapfel_1_1DoubleObject.html">DoubleObject</a>&lt; T, U &gt;&#160;</td>
           <td class="paramname"><em>lhs</em>, </td>
         </tr>
         <tr>
@@ -5878,7 +5904,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="a5994d25259a42b0eac53c4785602a7ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5994d25259a42b0eac53c4785602a7ce">&#9670;&nbsp;</a></span>QCDEvToPhys() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5994d25259a42b0eac53c4785602a7ce">&#9670;&nbsp;</a></span>QCDEvToPhys() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5905,7 +5931,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="ad76927a1e32317b53521d5a23396954d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad76927a1e32317b53521d5a23396954d">&#9670;&nbsp;</a></span>QCDEvToPhys() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76927a1e32317b53521d5a23396954d">&#9670;&nbsp;</a></span>QCDEvToPhys() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5930,6 +5956,33 @@ template&lt;class T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>the map in the physical basis </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="dglap_test_8cc-example.html#a8">dglap_test.cc</a>, and <a class="el" href="gpd_test_8cc-example.html#a8">gpd_test.cc</a>.</dd>
 </dl>
+
+</div>
+</div>
+<a id="ae880a5fcf92d056c294f003accfb08ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae880a5fcf92d056c294f003accfb08ef">&#9670;&nbsp;</a></span>QCDEvToPhys() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;int, <a class="el" href="classapfel_1_1Operator.html">Operator</a>&gt; apfel::QCDEvToPhys </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; int, <a class="el" href="classapfel_1_1Operator.html">Operator</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>QCDEvMap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotation from the QCD evolution to the physical basis of a map of operators. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">QCDEvMap</td><td>The map of operatoirs in the QCD evolution basis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the map of operators in the physical basis </dd></dl>
 
 </div>
 </div>
@@ -6211,10 +6264,36 @@ template&lt;class U &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ac8d9079ba80f60896850b527fee1c74b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d9079ba80f60896850b527fee1c74b">&#9670;&nbsp;</a></span>RotQCDEvToPhys</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double apfel::RotQCDEvToPhys[6][6]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">  {</div>
+<div class="line">    {1./12., -1./4., 1./12., 1./24.,  1./40.,  1./60.},    </div>
+<div class="line">    {1./12.,  1./4., 1./12., 1./24.,  1./40.,  1./60.},    </div>
+<div class="line">    {1./12.,     0., -1./6., 1./24.,  1./40.,  1./60.},    </div>
+<div class="line">    {1./12.,     0.,     0., -1./8.,  1./40.,  1./60.},    </div>
+<div class="line">    {1./12.,     0.,     0.,     0., -1./10.,  1./60.},    </div>
+<div class="line">    {1./12.,     0.,     0.,     0.,      0., -1./12.}     </div>
+<div class="line">  }</div>
+</div><!-- fragment -->
+<p>Rotation matrix from the QCD evolution to the physical basis. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 28 2020 14:32:55 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 13 2020 22:36:58 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.18
 </small></address>

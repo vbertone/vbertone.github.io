@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addterm_71',['AddTerm',['../classapfel_1_1DoubleObject.html#a9dd974f7a08d15718383008a44c49b96',1,'apfel::DoubleObject']]],
+  ['addterm_71',['AddTerm',['../classapfel_1_1DoubleObject.html#a2ac7b068262482662cde7df4f622be1c',1,'apfel::DoubleObject']]],
   ['alphaqcd_72',['AlphaQCD',['../classapfel_1_1AlphaQCD.html',1,'apfel::AlphaQCD'],['../classapfel_1_1AlphaQCD.html#a0f889c48832a95ae7d4ab2ccd9ebf5fc',1,'apfel::AlphaQCD::AlphaQCD()=delete'],['../classapfel_1_1AlphaQCD.html#ab4184fa76e9c671154c15cceddfe7723',1,'apfel::AlphaQCD::AlphaQCD(double const &amp;AlphaRef, double const &amp;MuRef, std::vector&lt; double &gt; const &amp;Masses, std::vector&lt; double &gt; const &amp;Thresholds, int const &amp;pt, int const &amp;nstep=10)'],['../classapfel_1_1AlphaQCD.html#a738cc34c5e18055999b8062807a3df61',1,'apfel::AlphaQCD::AlphaQCD(double const &amp;AlphaRef, double const &amp;MuRef, std::vector&lt; double &gt; const &amp;Masses, int const &amp;pt, int const &amp;nsteps=10)']]],
   ['alphaqcd_2eh_73',['alphaqcd.h',['../alphaqcd_8h.html',1,'']]],
   ['alphaqcdref_74',['AlphaQCDRef',['../structapfel_1_1EvolutionSetup.html#a3a404166e6945e59a218908e780382ea',1,'apfel::EvolutionSetup']]],

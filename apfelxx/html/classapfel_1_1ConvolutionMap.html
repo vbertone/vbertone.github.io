@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">APFEL
-   &#160;<span id="projectnumber">4.2.0</span>
+   &#160;<span id="projectnumber">4.3.0</span>
    </div>
    <div id="projectbrief">A PDF evolution library in C++</div>
   </td>
@@ -89,13 +89,14 @@ Inheritance diagram for apfel::ConvolutionMap:</div>
  <div class="center">
   <img src="classapfel_1_1ConvolutionMap.png" usemap="#apfel::ConvolutionMap_map" alt=""/>
   <map id="apfel::ConvolutionMap_map" name="apfel::ConvolutionMap_map">
-<area href="classapfel_1_1DISCCBasis.html" title="The DISCCBasis class is a derived of ConvolutionMap specialised for the computation of the CC DIS str..." alt="apfel::DISCCBasis" shape="rect" coords="0,56,215,80"/>
-<area href="classapfel_1_1DISNCBasis.html" title="The DISNCBasis class is a derived of ConvolutionMap specialised for the computation of the NC DIS str..." alt="apfel::DISNCBasis" shape="rect" coords="225,56,440,80"/>
-<area href="classapfel_1_1EvolutionBasisQCD.html" title="The EvolutionBasisQCD class is a derived of ConvolutionMap specialised for the DGLAP evolution of dis..." alt="apfel::EvolutionBasisQCD" shape="rect" coords="450,56,665,80"/>
-<area href="classapfel_1_1EvolutionOperatorBasisQCD.html" title="The EvolutionOperatorBasisQCD class is a derived of ConvolutionMap specialised for the DGLAP evolutio..." alt="apfel::EvolutionOperatorBasisQCD" shape="rect" coords="675,56,890,80"/>
-<area href="classapfel_1_1MatchEvolOperatorBasisQCD.html" title="The MatchEvolOperatorBasisQCD class is a derived of ConvolutionMap specialised for the matching of op..." alt="apfel::MatchEvolOperatorBasisQCD" shape="rect" coords="900,56,1115,80"/>
-<area href="classapfel_1_1MatchingBasisQCD.html" title="The MatchingBasisQCD class is a derived of ConvolutionMap specialised for the matching of distributio..." alt="apfel::MatchingBasisQCD" shape="rect" coords="1125,56,1340,80"/>
-<area href="classapfel_1_1MatchingOperatorBasisQCD.html" title="The MatchingOperatorBasisQCD class is a derived of ConvolutionMap specialised for the matching of ope..." alt="apfel::MatchingOperatorBasisQCD" shape="rect" coords="1350,56,1565,80"/>
+<area href="classapfel_1_1DiagonalBasis.html" title="The DiagonalBasis class is the simplest derivation of ConvolutionMap meant to essentially perform a s..." alt="apfel::DiagonalBasis" shape="rect" coords="225,56,440,80"/>
+<area href="classapfel_1_1DISCCBasis.html" title="The DISCCBasis class is a derived of ConvolutionMap specialised for the computation of the CC DIS str..." alt="apfel::DISCCBasis" shape="rect" coords="225,112,440,136"/>
+<area href="classapfel_1_1DISNCBasis.html" title="The DISNCBasis class is a derived of ConvolutionMap specialised for the computation of the NC DIS str..." alt="apfel::DISNCBasis" shape="rect" coords="225,168,440,192"/>
+<area href="classapfel_1_1EvolutionBasisQCD.html" title="The EvolutionBasisQCD class is a derived of ConvolutionMap specialised for the DGLAP evolution of dis..." alt="apfel::EvolutionBasisQCD" shape="rect" coords="225,224,440,248"/>
+<area href="classapfel_1_1EvolutionOperatorBasisQCD.html" title="The EvolutionOperatorBasisQCD class is a derived of ConvolutionMap specialised for the DGLAP evolutio..." alt="apfel::EvolutionOperatorBasisQCD" shape="rect" coords="225,280,440,304"/>
+<area href="classapfel_1_1MatchEvolOperatorBasisQCD.html" title="The MatchEvolOperatorBasisQCD class is a derived of ConvolutionMap specialised for the matching of op..." alt="apfel::MatchEvolOperatorBasisQCD" shape="rect" coords="225,336,440,360"/>
+<area href="classapfel_1_1MatchingBasisQCD.html" title="The MatchingBasisQCD class is a derived of ConvolutionMap specialised for the matching of distributio..." alt="apfel::MatchingBasisQCD" shape="rect" coords="225,392,440,416"/>
+<area href="classapfel_1_1MatchingOperatorBasisQCD.html" title="The MatchingOperatorBasisQCD class is a derived of ConvolutionMap specialised for the matching of ope..." alt="apfel::MatchingOperatorBasisQCD" shape="rect" coords="225,448,440,472"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -117,6 +118,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a023650eaa280db45c1ee746565085ffe"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; <a class="el" href="structapfel_1_1ConvolutionMap_1_1rule.html">rule</a> &gt; &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1ConvolutionMap.html#a023650eaa280db45c1ee746565085ffe">GetRules</a> () const</td></tr>
 <tr class="memdesc:a023650eaa280db45c1ee746565085ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the full set of rules for the multiplications.  <a href="classapfel_1_1ConvolutionMap.html#a023650eaa280db45c1ee746565085ffe">More...</a><br /></td></tr>
 <tr class="separator:a023650eaa280db45c1ee746565085ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4c07c829adae8b4d32d86673fdc78f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1matrix.html">matrix</a>&lt; double &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1ConvolutionMap.html#aeb4c07c829adae8b4d32d86673fdc78f">GetRuleMatrix</a> () const</td></tr>
+<tr class="memdesc:aeb4c07c829adae8b4d32d86673fdc78f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the full set of rules for the multiplications in the form of a matrix.  <a href="classapfel_1_1ConvolutionMap.html#aeb4c07c829adae8b4d32d86673fdc78f">More...</a><br /></td></tr>
+<tr class="separator:aeb4c07c829adae8b4d32d86673fdc78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662a47dfbd07372ff7d4b0e4bb0bb362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classapfel_1_1matrix.html">matrix</a>&lt; int &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1ConvolutionMap.html#a662a47dfbd07372ff7d4b0e4bb0bb362">GetRuleIndices</a> () const</td></tr>
+<tr class="memdesc:a662a47dfbd07372ff7d4b0e4bb0bb362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the operand indices of the full set of rules for the multiplications in the form of a matrix. Elements set to -1 correspond to empty slots.  <a href="classapfel_1_1ConvolutionMap.html#a662a47dfbd07372ff7d4b0e4bb0bb362">More...</a><br /></td></tr>
+<tr class="separator:a662a47dfbd07372ff7d4b0e4bb0bb362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -182,6 +189,60 @@ Protected Attributes</h2></td></tr>
 
 <p>Retrieve the name of the map. </p>
 <dl class="section return"><dt>Returns</dt><dd>The name of the map </dd></dl>
+
+</div>
+</div>
+<a id="a662a47dfbd07372ff7d4b0e4bb0bb362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a662a47dfbd07372ff7d4b0e4bb0bb362">&#9670;&nbsp;</a></span>GetRuleIndices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classapfel_1_1matrix.html">matrix</a>&lt;int&gt; const apfel::ConvolutionMap::GetRuleIndices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieve the operand indices of the full set of rules for the multiplications in the form of a matrix. Elements set to -1 correspond to empty slots. </p>
+
+</div>
+</div>
+<a id="aeb4c07c829adae8b4d32d86673fdc78f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4c07c829adae8b4d32d86673fdc78f">&#9670;&nbsp;</a></span>GetRuleMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classapfel_1_1matrix.html">matrix</a>&lt;double&gt; const apfel::ConvolutionMap::GetRuleMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieve the full set of rules for the multiplications in the form of a matrix. </p>
 
 </div>
 </div>
@@ -268,7 +329,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 28 2020 14:32:56 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 13 2020 22:36:58 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.18
 </small></address>

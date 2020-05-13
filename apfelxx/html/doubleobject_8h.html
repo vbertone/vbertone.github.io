@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">APFEL
-   &#160;<span id="projectnumber">4.2.0</span>
+   &#160;<span id="projectnumber">4.3.0</span>
    </div>
    <div id="projectbrief">A PDF evolution library in C++</div>
   </td>
@@ -83,10 +83,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structapfel_1_1term.html">apfel::term&lt; V &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structapfel_1_1term.html">apfel::term&lt; V, U &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The term structure that contains all the objects of a single term of a double object.  <a href="structapfel_1_1term.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1DoubleObject.html">apfel::DoubleObject&lt; T &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapfel_1_1DoubleObject.html">apfel::DoubleObject&lt; T, U &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classapfel_1_1DoubleObject.html" title="The DoubleObject class is a collection of pairs of single objects (Distributions or Operators) accomp...">DoubleObject</a> class is a collection of pairs of single objects (Distributions or Operators) accompained by a multiplicative constant. This mother class provides the basic ingredients for the computation double convolutions required in SIDIS and DY.  <a href="classapfel_1_1DoubleObject.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -102,32 +102,32 @@ Functions</h2></td></tr>
 <tr class="memitem:a931a7b06b66dd3eb35b9adb2bf6f19dd"><td class="memTemplParams" colspan="2">template&lt;class A , class B &gt; </td></tr>
 <tr class="memitem:a931a7b06b66dd3eb35b9adb2bf6f19dd"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; B &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a931a7b06b66dd3eb35b9adb2bf6f19dd">apfel::operator*</a> (DoubleObject&lt; A &gt; lhs, DoubleObject&lt; B &gt; const &amp;rhs)</td></tr>
 <tr class="separator:a931a7b06b66dd3eb35b9adb2bf6f19dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabc186cbe4e9575db4a26ca4b8faf714"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aabc186cbe4e9575db4a26ca4b8faf714"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aabc186cbe4e9575db4a26ca4b8faf714">apfel::operator*</a> (double const &amp;s, DoubleObject&lt; T &gt; rhs)</td></tr>
-<tr class="separator:aabc186cbe4e9575db4a26ca4b8faf714"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a612e473112e3681d3261344bfa365138"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a612e473112e3681d3261344bfa365138"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a612e473112e3681d3261344bfa365138">apfel::operator*</a> (DoubleObject&lt; T &gt; lhs, double const &amp;s)</td></tr>
-<tr class="separator:a612e473112e3681d3261344bfa365138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab833e2944129d820a139e4f11c352145"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ab833e2944129d820a139e4f11c352145"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ab833e2944129d820a139e4f11c352145">apfel::operator/</a> (double const &amp;s, DoubleObject&lt; T &gt; rhs)</td></tr>
-<tr class="separator:ab833e2944129d820a139e4f11c352145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab756dd5fc6d336040850e0019c2c3532"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ab756dd5fc6d336040850e0019c2c3532"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ab756dd5fc6d336040850e0019c2c3532">apfel::operator/</a> (DoubleObject&lt; T &gt; lhs, double const &amp;s)</td></tr>
-<tr class="separator:ab756dd5fc6d336040850e0019c2c3532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae94fe28d7f2d977403357d6274ee53d9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ae94fe28d7f2d977403357d6274ee53d9"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#ae94fe28d7f2d977403357d6274ee53d9">apfel::operator*</a> (DoubleObject&lt; T &gt; lhs, DoubleObject&lt; T &gt; const &amp;rhs)</td></tr>
-<tr class="separator:ae94fe28d7f2d977403357d6274ee53d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8dce29f87ae5ec52d5d85aca6fe3b8b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa8dce29f87ae5ec52d5d85aca6fe3b8b"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aa8dce29f87ae5ec52d5d85aca6fe3b8b">apfel::operator+</a> (DoubleObject&lt; T &gt; lhs, DoubleObject&lt; T &gt; const &amp;rhs)</td></tr>
-<tr class="separator:aa8dce29f87ae5ec52d5d85aca6fe3b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a408513b2815a47e6c2d30bc75daf4386"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a408513b2815a47e6c2d30bc75daf4386"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a408513b2815a47e6c2d30bc75daf4386">apfel::operator-</a> (DoubleObject&lt; T &gt; lhs, DoubleObject&lt; T &gt; const &amp;rhs)</td></tr>
-<tr class="separator:a408513b2815a47e6c2d30bc75daf4386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72528179cc378499781ad08e2f41c54b"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a72528179cc378499781ad08e2f41c54b"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a72528179cc378499781ad08e2f41c54b">apfel::operator*</a> (double const &amp;s, DoubleObject&lt; T, U &gt; rhs)</td></tr>
+<tr class="separator:a72528179cc378499781ad08e2f41c54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7372c6adb5b9a4a057114b255d79b6"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a6d7372c6adb5b9a4a057114b255d79b6"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a6d7372c6adb5b9a4a057114b255d79b6">apfel::operator*</a> (DoubleObject&lt; T, U &gt; lhs, double const &amp;s)</td></tr>
+<tr class="separator:a6d7372c6adb5b9a4a057114b255d79b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea32789bbe340a77e4460e3b125d005c"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:aea32789bbe340a77e4460e3b125d005c"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aea32789bbe340a77e4460e3b125d005c">apfel::operator/</a> (double const &amp;s, DoubleObject&lt; T, U &gt; rhs)</td></tr>
+<tr class="separator:aea32789bbe340a77e4460e3b125d005c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8fe1803b1d37ae4868cdf6f48044a55"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:aa8fe1803b1d37ae4868cdf6f48044a55"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aa8fe1803b1d37ae4868cdf6f48044a55">apfel::operator/</a> (DoubleObject&lt; T, U &gt; lhs, double const &amp;s)</td></tr>
+<tr class="separator:aa8fe1803b1d37ae4868cdf6f48044a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf22ee199cb9b4e9546230c294dad09c"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:abf22ee199cb9b4e9546230c294dad09c"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#abf22ee199cb9b4e9546230c294dad09c">apfel::operator*</a> (DoubleObject&lt; T, U &gt; lhs, DoubleObject&lt; T, U &gt; const &amp;rhs)</td></tr>
+<tr class="separator:abf22ee199cb9b4e9546230c294dad09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d25b4da3db7ec3b1d0ec41b4acc2e9"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:aa8d25b4da3db7ec3b1d0ec41b4acc2e9"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#aa8d25b4da3db7ec3b1d0ec41b4acc2e9">apfel::operator+</a> (DoubleObject&lt; T, U &gt; lhs, DoubleObject&lt; T, U &gt; const &amp;rhs)</td></tr>
+<tr class="separator:aa8d25b4da3db7ec3b1d0ec41b4acc2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c28dc83bab70838e12f9eff8d67fe62"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a7c28dc83bab70838e12f9eff8d67fe62"><td class="memTemplItemLeft" align="right" valign="top">DoubleObject&lt; T, U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceapfel.html#a7c28dc83bab70838e12f9eff8d67fe62">apfel::operator-</a> (DoubleObject&lt; T, U &gt; lhs, DoubleObject&lt; T, U &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a7c28dc83bab70838e12f9eff8d67fe62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 28 2020 14:32:55 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 13 2020 22:36:58 for APFEL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.18
 </small></address>

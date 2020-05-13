@@ -90,7 +90,7 @@ var searchData=
   ['cm0l2psnc_5fl_205',['Cm0L2psNC_l',['../classapfel_1_1Cm0L2psNC__l.html',1,'apfel::Cm0L2psNC_l'],['../classapfel_1_1Cm0L2psNC__l.html#a97214a0402d8f04d25d6b7aa6f46cc22',1,'apfel::Cm0L2psNC_l::Cm0L2psNC_l()']]],
   ['cmk_206',['CMK',['../group__PhysConstants.html#ga3e0c3b2732a9cca26b9e8d4d39a80708',1,'apfel']]],
   ['cns_207',['CNS',['../classapfel_1_1DISNCBasis.html#a4ab558bc993eb6f6b5c6a9f15eb53d60a865e4ec076559d4ab36f0f9b8c110b83',1,'apfel::DISNCBasis::CNS()'],['../classapfel_1_1DISCCBasis.html#a56bdaa6315470fe02451ec5c940fcc2fa403b083fd6ed38621d003339b13fd05b',1,'apfel::DISCCBasis::CNS()']]],
-  ['coefficient_208',['coefficient',['../structapfel_1_1ConvolutionMap_1_1rule.html#a4bf45b4c287915ad713e8367aea136ea',1,'apfel::ConvolutionMap::rule::coefficient()'],['../structapfel_1_1term.html#ab24e571b871595a33fbdb59d5dd67fa2',1,'apfel::term::coefficient()']]],
+  ['coefficient_208',['coefficient',['../structapfel_1_1ConvolutionMap_1_1rule.html#a4bf45b4c287915ad713e8367aea136ea',1,'apfel::ConvolutionMap::rule::coefficient()'],['../structapfel_1_1term.html#ac2ed928338c39a18b9995db6c407efd3',1,'apfel::term::coefficient()']]],
   ['combine_209',['Combine',['../classapfel_1_1Set.html#a7065697bdd240416184fee23592c77fa',1,'apfel::Set']]],
   ['concatenateandsortvectors_210',['ConcatenateAndSortVectors',['../namespaceapfel.html#aee89f2fd03ee7b3c45e39162322a2850',1,'apfel']]],
   ['constants_2eh_211',['constants.h',['../constants_8h.html',1,'']]],
