@@ -1,5 +1,12 @@
 var searchData=
 [
-  ['sigma_1679',['SIGMA',['../classapfel_1_1DISNCBasis.html#adb9d33d6b7cd7bafd381c214e83bd64da45c131a31d2d2000bc2d809a6ad0d416',1,'apfel::DISNCBasis::SIGMA()'],['../classapfel_1_1DISCCBasis.html#a71d34c94c9d06fe8418da8d5ee37f501a3c1dac35b4f55c6edeaf09481a1e3318',1,'apfel::DISCCBasis::SIGMA()'],['../classapfel_1_1EvolutionBasisQCD.html#a0e3bb51b09bf1cfae51916729c1c8169abad7ee5de0d480ed79d1248f879deb9c',1,'apfel::EvolutionBasisQCD::SIGMA()'],['../classapfel_1_1MatchEvolOperatorBasisQCD.html#a12e0b1f723c3914f63255149d4ed3399a64c9122b8aecadfea27d9fb2dc816ecd',1,'apfel::MatchEvolOperatorBasisQCD::SIGMA()'],['../classapfel_1_1MatchingBasisQCD.html#a662d45066a92fc8f8c6deda77b429831aed23e22ca1d4730590230ec71cec699f',1,'apfel::MatchingBasisQCD::SIGMA()']]],
-  ['space_1680',['SPACE',['../structapfel_1_1EvolutionSetup.html#a4188fd899c89d904b14feea52c039af7ac759fa97a9cb29a84f162fb085281510',1,'apfel::EvolutionSetup']]]
+  ['pgg_1723',['PGG',['../classapfel_1_1EvolutionBasisQCD.html#afb35598009d55d438109390cd26796b8a92a85eba6acccd6cf23b5059be4a7946',1,'apfel::EvolutionBasisQCD']]],
+  ['pgq_1724',['PGQ',['../classapfel_1_1EvolutionBasisQCD.html#afb35598009d55d438109390cd26796b8a50e295396071e5f694cb5f4c77c330b6',1,'apfel::EvolutionBasisQCD']]],
+  ['pnsm_1725',['PNSM',['../classapfel_1_1EvolutionBasisQCD.html#afb35598009d55d438109390cd26796b8a10c9ad40a7680ef8811a66a0b27553ac',1,'apfel::EvolutionBasisQCD']]],
+  ['pnsp_1726',['PNSP',['../classapfel_1_1EvolutionBasisQCD.html#afb35598009d55d438109390cd26796b8a780c887bda77b31b4230e9bfe5fbc231',1,'apfel::EvolutionBasisQCD']]],
+  ['pnsv_1727',['PNSV',['../classapfel_1_1EvolutionBasisQCD.html#afb35598009d55d438109390cd26796b8ace59a3576047e627dddbd8a6b5c663c5',1,'apfel::EvolutionBasisQCD']]],
+  ['pol_1728',['POL',['../structapfel_1_1EvolutionSetup.html#a2231cecea101e46d2b8b5b1652e26792a7b42cb47c3de86051d84bb53cd1b3c9b',1,'apfel::EvolutionSetup']]],
+  ['pole_1729',['POLE',['../structapfel_1_1EvolutionSetup.html#adbf330a722f8daccfa1c3343204e8b0bad3c4deba2bbb616bebc23a675d828e19',1,'apfel::EvolutionSetup']]],
+  ['pqg_1730',['PQG',['../classapfel_1_1EvolutionBasisQCD.html#afb35598009d55d438109390cd26796b8a3dd95b1224451bf978ce364aae5a2a20',1,'apfel::EvolutionBasisQCD']]],
+  ['pqq_1731',['PQQ',['../classapfel_1_1EvolutionBasisQCD.html#afb35598009d55d438109390cd26796b8a55f1f6a7011dc376312e91d67b11224d',1,'apfel::EvolutionBasisQCD']]]
 ];

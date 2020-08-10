@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['recurrent_20expressions_1747',['Recurrent expressions',['../group__RecExprs.html',1,'']]]
+  ['physical_20constants_1793',['Physical constants',['../group__PhysConstants.html',1,'']]]
 ];

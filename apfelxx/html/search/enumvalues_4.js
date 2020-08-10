@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ll_1647',['LL',['../namespaceapfel.html#a8c509ac51bd27e1f97b8e5cb520df446ad653300441796ddfb2fd7d2bcfef1118',1,'apfel']]]
+  ['ffns_1705',['FFNS',['../structapfel_1_1EvolutionSetup.html#a39af57a0c4a879ae43fbd94b11d758e1a1b5dab1764442671e812a7382eb038b4',1,'apfel::EvolutionSetup']]]
 ];
