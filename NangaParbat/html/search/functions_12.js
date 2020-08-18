@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_7emeanreplica_375',['~MeanReplica',['../classNangaParbat_1_1MeanReplica.html#a92a0952369c78e7315979cb78e73e698',1,'NangaParbat::MeanReplica']]],
-  ['_7eparameterisation_376',['~Parameterisation',['../classNangaParbat_1_1Parameterisation.html#a4c742bfdee93832a246cfdd4f307203e',1,'NangaParbat::Parameterisation']]]
+  ['up_426',['Up',['../classNangaParbat_1_1FcnMinuit.html#aa447fb742f0369b80ecf1402ea83adc4',1,'NangaParbat::FcnMinuit::Up()'],['../classNangaParbat_1_1FcnMinuitGrad.html#ab7606f3954e48209f5e5d96afc7835d2',1,'NangaParbat::FcnMinuitGrad::Up()']]],
+  ['updatecovariancematrix_427',['UpdateCovarianceMatrix',['../classNangaParbat_1_1DataHandler.html#a946df38390840be4ce0fa810b1fb194d',1,'NangaParbat::DataHandler']]]
 ];

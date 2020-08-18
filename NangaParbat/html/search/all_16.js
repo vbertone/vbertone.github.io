@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xg_218',['xg',['../structNangaParbat_1_1TDGrid.html#a4e3e3ebdf624ac4aef8e1652e3d23818',1,'NangaParbat::TDGrid']]]
+  ['xg_246',['xg',['../structNangaParbat_1_1FourDGrid.html#aa1cc18247d842f864489642356143f91',1,'NangaParbat::FourDGrid::xg()'],['../structNangaParbat_1_1ThreeDGrid.html#a8e1871941f4256652fe79eec85137537',1,'NangaParbat::ThreeDGrid::xg()']]]
 ];
