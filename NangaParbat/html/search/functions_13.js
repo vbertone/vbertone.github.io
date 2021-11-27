@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_7emeanreplica_428',['~MeanReplica',['../classNangaParbat_1_1MeanReplica.html#a92a0952369c78e7315979cb78e73e698',1,'NangaParbat::MeanReplica']]],
-  ['_7eparameterisation_429',['~Parameterisation',['../classNangaParbat_1_1Parameterisation.html#a4c742bfdee93832a246cfdd4f307203e',1,'NangaParbat::Parameterisation']]]
+  ['zcut_0',['ZCut',['../classNangaParbat_1_1ZCut.html#a84665a612daf44a3eabc05a95d47d71e',1,'NangaParbat::ZCut']]]
 ];
