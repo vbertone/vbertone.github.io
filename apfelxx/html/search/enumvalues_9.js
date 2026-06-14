@@ -11,5 +11,6 @@ var searchData=
   ['nnlo_8',['NNLO',['../group__PertOrds.html#gga5f7af6d2b3a540791b164f3964cd4251a6f61ba750855162297e510cb74d14e87',1,'apfel']]],
   ['nnnll_9',['NNNLL',['../group__PertOrds.html#gga8c509ac51bd27e1f97b8e5cb520df446a949a7f277ba11f30498415ab0951e8cc',1,'apfel']]],
   ['nnnllp_10',['NNNLLp',['../group__PertOrds.html#gga8c509ac51bd27e1f97b8e5cb520df446a81f679d71cd354cff5ab9304c9ddf9cb',1,'apfel']]],
-  ['nnnlo_11',['NNNLO',['../group__PertOrds.html#gga5f7af6d2b3a540791b164f3964cd4251af6f8fb391cad61948ba9f44340161a97',1,'apfel']]]
+  ['nnnlo_11',['NNNLO',['../group__PertOrds.html#gga5f7af6d2b3a540791b164f3964cd4251af6f8fb391cad61948ba9f44340161a97',1,'apfel']]],
+  ['normal_12',['normal',['../namespaceapfel.html#a5abc361a0b89cb5f37460089e23b3a1dadce97be285c4428fbb37ca5872f69074',1,'apfel']]]
 ];
